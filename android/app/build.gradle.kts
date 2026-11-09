@@ -22,8 +22,9 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.skylog.skylog"
+        // Идентификатор приложения в Google Play. Namespace и пакет MainActivity
+        // остаются com.skylog.skylog — они на публикацию не влияют.
+        applicationId = "com.Pinchukov.skylog"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
