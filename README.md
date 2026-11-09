@@ -1,17 +1,24 @@
-# skylog
+# SkyLog
 
-SkyLog — трекер прохождения Skyrim
+SkyLog — трекер прохождения Skyrim на Flutter (Android).
 
-## Getting Started
+- **Квесты** — основной сюжет, гильдии, Гражданская война, даэдрические задания, Dawnguard, Dragonborn и 200+ побочных; развилки с последствиями и раздел «Не упусти».
+- **Справочники** — секреты, навыки, зачарования и спутники.
+- **Персонажи** — у каждого свои отметки и выборы.
+- **Импорт сохранения** — `.ess` с ПК отмечает пройденные квесты и изученные зачарования.
+- Русский и английский язык, работает офлайн.
 
-This project is a starting point for a Flutter application.
+Контент лежит в `assets/data/*.json` (формат — [assets/data/SCHEMA.md](assets/data/SCHEMA.md)), прогресс хранится локально в SharedPreferences; приложение ничего не собирает и не ходит в сеть.
 
-A few resources to get you started if this is your first Flutter project:
+Политика конфиденциальности: [PRIVACY.md](PRIVACY.md), опубликованная версия — https://pinchukovartur.github.io/SkyLog/privacy-policy.html (GitHub Pages из папки `docs/`).
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Материалы для Google Play — в [store/](store/texts.md).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Сборка
+
+```
+flutter build appbundle --release   # для Google Play
+flutter build apk --release         # для установки на телефон
+```
+
+Release подписывается ключом из `android/key.properties` (в git не попадает); без него — debug-ключом.

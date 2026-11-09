@@ -49,3 +49,4 @@ app.*.map.json
 
 # Готовые APK для раздачи
 /dist/
+/android/build/
