@@ -1,0 +1,325 @@
+{
+  "id": "college",
+  "title": "College of Winterhold",
+  "icon": "magic",
+  "description": "Skyrim's mages' guild: the Saarthal excavation, the Eye of Magnus and the road to Arch-Mage.",
+  "groups": [
+    {
+      "title": "Main Questline",
+      "items": [
+        {
+          "id": "college_objective",
+          "title": "Visit the College of Winterhold",
+          "en": "Посетить Коллегию Винтерхолда",
+          "type": "quest",
+          "location": "Winterhold",
+          "giver": "Innkeepers, court wizards",
+          "description": "Travel to the College in Winterhold and pass Faralda's entrance test on the bridge.",
+          "tips": [
+            "The test is to cast a particular spell; Faralda can sell it to you on the spot. Nords can talk their way in instead."
+          ],
+          "map": "Winterhold"
+        },
+        {
+          "id": "college_first_lessons",
+          "title": "First Lessons",
+          "en": "Первые уроки",
+          "type": "quest",
+          "location": "College of Winterhold",
+          "giver": "Faralda",
+          "description": "A tour of the College with Mirabelle Ervine and Tolfdir's first lesson on wards.",
+          "map": "College of Winterhold"
+        },
+        {
+          "id": "college_under_saarthal",
+          "title": "Under Saarthal",
+          "en": "В глубинах Саартала",
+          "type": "quest",
+          "location": "Saarthal",
+          "giver": "Tolfdir",
+          "description": "Excavate the ancient city of Saarthal: find the Saarthal Amulet, meet the Psijic Nerien and discover the mysterious Eye of Magnus.",
+          "tips": [
+            "You keep the Saarthal Amulet, and it gives useful magic bonuses."
+          ],
+          "map": "Saarthal"
+        },
+        {
+          "id": "college_hitting_the_books",
+          "title": "Hitting the Books",
+          "en": "Библиотечные книги",
+          "type": "quest",
+          "location": "Fellglow Keep",
+          "giver": "Savos Aren",
+          "description": "Urag gro-Shub needs books about the Eye, but former student Orthorn stole them. Recover the books from Fellglow Keep.",
+          "tips": [
+            "You can save Orthorn or leave him — it doesn't affect the reward."
+          ],
+          "map": "Fellglow Keep"
+        },
+        {
+          "id": "college_good_intentions",
+          "title": "Good Intentions",
+          "en": "Благие намерения",
+          "type": "quest",
+          "location": "College of Winterhold",
+          "giver": "Quaranir",
+          "description": "The Psijic Quaranir warns you about the danger of the Eye and advises you to speak with the Augur of Dunlain deep beneath the College.",
+          "map": "College of Winterhold"
+        },
+        {
+          "id": "college_revealing_the_unseen",
+          "title": "Revealing the Unseen",
+          "en": "Открытие невидимого",
+          "type": "quest",
+          "location": "Mzulft",
+          "giver": "Mirabelle Ervine",
+          "description": "Find Paratus Decimius in the Dwemer ruin of Mzulft and use the Focusing Crystal to activate the Oculory and learn about the Staff of Magnus.",
+          "map": "Mzulft"
+        },
+        {
+          "id": "college_containment",
+          "title": "Containment",
+          "en": "Ликвидация последствий",
+          "type": "quest",
+          "location": "College of Winterhold",
+          "giver": "Mirabelle Ervine",
+          "description": "Ancano seals himself in the Hall of the Elements with the Eye, and magical anomalies roam the town. Deal with them and find out where to look for the Staff.",
+          "missable": "Savos Aren dies during this quest — his tasks and dialogue are gone for good.",
+          "map": "College of Winterhold"
+        },
+        {
+          "id": "college_the_staff_of_magnus",
+          "title": "The Staff of Magnus",
+          "en": "Посох Магнуса",
+          "type": "quest",
+          "location": "Labyrinthian",
+          "giver": "Mirabelle Ervine",
+          "description": "Make your way through Labyrinthian and take the Staff of Magnus from the dragon priest Morokei.",
+          "tips": [
+            "Morokei drains magicka — rely on potions and weapons, not spells.",
+            "Morokei drops his dragon priest mask."
+          ],
+          "map": "Labyrinthian"
+        },
+        {
+          "id": "college_the_eye_of_magnus",
+          "title": "The Eye of Magnus",
+          "en": "Око Магнуса",
+          "type": "quest",
+          "location": "Hall of the Elements",
+          "giver": "Tolfdir",
+          "description": "Stop Ancano with the Staff of Magnus and save the College. Afterwards you become Arch-Mage.",
+          "tips": [
+            "The Archmage's Robes are in the Arch-Mage's Quarters, along with an alchemy lab and an arcane enchanter."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "College Side Quests",
+      "items": [
+        {
+          "id": "college_brelynas_practice",
+          "title": "Brelyna's Practice",
+          "en": "Домашняя работа Брелины",
+          "type": "quest",
+          "giver": "Brelyna Maryon",
+          "description": "Help Brelyna Maryon practice her spells — you're the test subject, with funny results.",
+          "tips": [
+            "Afterwards Brelyna can become a follower."
+          ]
+        },
+        {
+          "id": "college_onmunds_request",
+          "title": "Onmund's Request",
+          "en": "Просьба Онмунда",
+          "type": "quest",
+          "giver": "Onmund",
+          "description": "Get back the family amulet Onmund gave to Enthir.",
+          "tips": [
+            "Afterwards Onmund can become a follower."
+          ]
+        },
+        {
+          "id": "college_jzargos_experiment",
+          "title": "J'zargo's Experiment",
+          "en": "Эксперимент Дж'зарго",
+          "type": "quest",
+          "giver": "J'zargo",
+          "description": "Test J'zargo's Flame Cloak scrolls in combat against the undead.",
+          "tips": [
+            "Afterwards J'zargo can become a follower."
+          ]
+        },
+        {
+          "id": "college_arniels_endeavor",
+          "title": "Arniel's Endeavor",
+          "en": "Проект Арнела",
+          "type": "quest",
+          "giver": "Arniel Gane",
+          "description": "A four-part chain: help Arniel Gane research the disappearance of the Dwemer.",
+          "missable": "At the end Arniel vanishes for good — sharing the fate of the Dwemer."
+        },
+        {
+          "id": "college_rejoining",
+          "title": "Rejoining the College",
+          "en": "Восстановление в Коллегии",
+          "type": "quest",
+          "description": "If you're expelled from the College (for example, for attacking its members), pay a fine to get back in."
+        }
+      ]
+    },
+    {
+      "title": "Repeatable Jobs",
+      "items": [
+        {
+          "type": "quest",
+          "id": "college_out_of_balance",
+          "title": "Out of Balance",
+          "en": "Балансировка",
+          "location": "College of Winterhold, dormitories",
+          "giver": "Drevis Neloren",
+          "description": "Cleanse the magical focal points around the College. Reward: soul gems and a temporary boost to magicka regeneration.",
+          "repeatable": true,
+          "map": "College of Winterhold"
+        },
+        {
+          "type": "quest",
+          "id": "college_enchanting_pick_up",
+          "title": "Enchanting Pick-Up",
+          "en": "На побегушках у зачарователя",
+          "location": "Various; given at the College",
+          "giver": "Sergius Turrianus",
+          "description": "Collect an item from one of Sergius's clients that needs enchanting.",
+          "repeatable": true
+        },
+        {
+          "type": "quest",
+          "id": "college_restocking_soul_gems",
+          "title": "Restocking Soul Gems",
+          "en": "Запасы камней душ",
+          "location": "College of Winterhold",
+          "giver": "Sergius Turrianus",
+          "description": "Help Sergius restock his soul gems. Reward: gold.",
+          "repeatable": true,
+          "map": "College of Winterhold"
+        },
+        {
+          "type": "quest",
+          "id": "college_aftershock",
+          "title": "Aftershock",
+          "en": "Отголоски",
+          "location": "College of Winterhold, random location",
+          "giver": "Tolfdir",
+          "description": "Close a rift left behind by the Eye of Magnus.",
+          "repeatable": true,
+          "map": "College of Winterhold"
+        },
+        {
+          "type": "quest",
+          "id": "college_tolfdir_the_absent_minded",
+          "title": "Tolfdir the Absent-Minded",
+          "en": "Толфдир Рассеянный",
+          "location": "College of Winterhold, Hall of Countenance",
+          "giver": "Tolfdir",
+          "description": "Tolfdir has lost something again — find it. Reward: 30 septims and an empty soul gem.",
+          "repeatable": true,
+          "map": "College of Winterhold"
+        },
+        {
+          "type": "quest",
+          "id": "college_fetch_me_that_book",
+          "title": "Fetch me that Book!",
+          "en": "Принеси мне эту книгу!",
+          "location": "The Arcanaeum",
+          "giver": "Urag gro-Shub",
+          "description": "Find a book in a dungeon for Urag. Reward: a little gold.",
+          "repeatable": true
+        },
+        {
+          "type": "quest",
+          "id": "college_shalidors_insights",
+          "title": "Shalidor's Insights",
+          "en": "Работы Шалидора",
+          "location": "The Arcanaeum, various dungeons",
+          "giver": "Urag gro-Shub",
+          "description": "Find Shalidor's writings for Urag. Reward: three \"Shalidor's Insights\" scrolls or a magic skill boost.",
+          "tips": [
+            "A scroll makes spells of one school cheaper for a while — handy before a tough fight."
+          ],
+          "repeatable": true
+        }
+      ]
+    },
+    {
+      "title": "Master Rituals",
+      "items": [
+        {
+          "type": "quest",
+          "id": "college_ritual_alteration",
+          "title": "Alteration Ritual Spell",
+          "en": "Ритуальное заклинание Изменения",
+          "location": "College of Winterhold",
+          "giver": "Tolfdir",
+          "description": "The master ritual of the Alteration school. Reward: the Dragonhide spell.",
+          "tips": [
+            "Unlocks at Alteration 90+."
+          ],
+          "map": "College of Winterhold"
+        },
+        {
+          "type": "quest",
+          "id": "college_ritual_conjuration",
+          "title": "Conjuration Ritual Spell",
+          "en": "Ритуальное заклинание Колдовства",
+          "location": "College of Winterhold",
+          "giver": "Phinis Gestor",
+          "description": "The master ritual of the Conjuration school. Reward: Thrall summoning spells.",
+          "tips": [
+            "Unlocks at Conjuration 90+."
+          ],
+          "map": "College of Winterhold"
+        },
+        {
+          "type": "quest",
+          "id": "college_ritual_destruction",
+          "title": "Destruction Ritual Spell",
+          "en": "Ритуальное заклинание Разрушения",
+          "location": "College of Winterhold",
+          "giver": "Faralda",
+          "description": "The master ritual of the Destruction school. Reward: access to master spell tomes.",
+          "tips": [
+            "Unlocks at Destruction 90+."
+          ],
+          "map": "College of Winterhold"
+        },
+        {
+          "type": "quest",
+          "id": "college_ritual_illusion",
+          "title": "Illusion Ritual Spell",
+          "en": "Ритуальное заклинание Иллюзии",
+          "location": "College of Winterhold: the Arcanaeum, Hall of Countenance, Hall of Attainment, the Midden",
+          "giver": "Drevis Neloren",
+          "description": "The master ritual of the Illusion school: move through the College unseen under the effects of spells. Reward: master Illusion spells.",
+          "tips": [
+            "Unlocks at Illusion 90+."
+          ],
+          "map": "College of Winterhold"
+        },
+        {
+          "type": "quest",
+          "id": "college_ritual_restoration",
+          "title": "Restoration Ritual Spell",
+          "en": "Ритуальное заклинание Восстановления",
+          "location": "College of Winterhold, the Midden",
+          "giver": "Colette Marence",
+          "description": "The master ritual of the Restoration school. Reward: master Restoration spells.",
+          "tips": [
+            "Unlocks at Restoration 90+."
+          ],
+          "map": "College of Winterhold"
+        }
+      ]
+    }
+  ]
+}

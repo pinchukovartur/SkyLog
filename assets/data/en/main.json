@@ -1,0 +1,372 @@
+{
+  "id": "main",
+  "title": "Main Quest",
+  "icon": "dragon",
+  "description": "The Dragonborn's story: from the execution at Helgen to the battle with Alduin in Sovngarde.",
+  "groups": [
+    {
+      "title": "Act I",
+      "items": [
+        {
+          "id": "main_unbound",
+          "title": "Unbound",
+          "en": "На свободу!",
+          "type": "quest",
+          "location": "Helgen",
+          "giver": "Ralof or Hadvar",
+          "description": "A dragon attack interrupts your execution at Helgen. Escape the burning keep with one of two companions.",
+          "tips": [
+            "Your choice of companion doesn't commit you to his side in the Civil War.",
+            "Grab the spell tomes and lockpicks in the torture room — they help early on."
+          ],
+          "choices": [
+            {
+              "id": "main_unbound_side",
+              "question": "Who do you follow out of Helgen?",
+              "options": [
+                {
+                  "id": "ralof",
+                  "label": "Ralof (Stormcloaks)",
+                  "result": "Ralof takes you to his sister Gerdur in Riverwood and invites you to join the Stormcloaks in Windhelm."
+                },
+                {
+                  "id": "hadvar",
+                  "label": "Hadvar (Imperial Legion)",
+                  "result": "Hadvar takes you to his uncle Alvor, the Riverwood blacksmith, and invites you to join the Legion in Solitude."
+                }
+              ]
+            }
+          ],
+          "map": "Helgen"
+        },
+        {
+          "id": "main_before_the_storm",
+          "title": "Before the Storm",
+          "en": "Перед бурей",
+          "type": "quest",
+          "location": "Riverwood, Whiterun",
+          "giver": "Ralof or Hadvar",
+          "description": "Warn Jarl Balgruuf of Whiterun about the dragon that attacked Helgen.",
+          "tips": [
+            "Near Riverwood you can take one of the Guardian Stones: the Warrior, the Mage or the Thief."
+          ],
+          "map": "Riverwood"
+        },
+        {
+          "id": "main_bleak_falls_barrow",
+          "title": "Bleak Falls Barrow",
+          "en": "Ветреный пик",
+          "type": "quest",
+          "location": "Bleak Falls Barrow",
+          "giver": "Farengar Secret-Fire",
+          "description": "Retrieve the Dragonstone from an ancient barrow for the court wizard Farengar.",
+          "tips": [
+            "Arvel the Swift carries the Golden Claw, which opens the ring-puzzle door (the answer is on the claw's palm).",
+            "At the end of the barrow is your first Word Wall (a word of Unrelenting Force)."
+          ],
+          "map": "Bleak Falls Barrow"
+        },
+        {
+          "id": "main_dragon_rising",
+          "title": "Dragon Rising",
+          "en": "Дракон в небе",
+          "type": "quest",
+          "location": "Western Watchtower",
+          "giver": "Balgruuf the Greater",
+          "description": "Fight off the dragon Mirmulnir at the watchtower. Absorbing his soul reveals that you are Dragonborn.",
+          "tips": [
+            "Afterwards the Jarl names you Thane of Whiterun, assigns Lydia as your housecarl and lets you buy Breezehome."
+          ],
+          "map": "Western Watchtower"
+        },
+        {
+          "id": "main_the_way_of_the_voice",
+          "title": "The Way of the Voice",
+          "en": "Путь Голоса",
+          "type": "quest",
+          "location": "High Hrothgar",
+          "giver": "Balgruuf the Greater",
+          "description": "Climb the 7,000 Steps to the Greybeards at High Hrothgar and pass their trials of the Voice.",
+          "tips": [
+            "The Greybeards teach you words of Unrelenting Force and Whirlwind Sprint."
+          ],
+          "map": "High Hrothgar"
+        },
+        {
+          "id": "main_the_horn_of_jurgen_windcaller",
+          "title": "The Horn of Jurgen Windcaller",
+          "en": "Рог Юргена",
+          "type": "quest",
+          "location": "Ustengrav",
+          "giver": "Arngeir",
+          "description": "Retrieve the Horn of Jurgen Windcaller from Ustengrav. In its place you find a note: someone took it and wants to meet you in Riverwood.",
+          "tips": [
+            "The note leads to the Sleeping Giant Inn — rent the attic room there."
+          ],
+          "map": "Ustengrav"
+        }
+      ]
+    },
+    {
+      "title": "Act II",
+      "items": [
+        {
+          "id": "main_a_blade_in_the_dark",
+          "title": "A Blade in the Dark",
+          "en": "Клинок во тьме",
+          "type": "quest",
+          "location": "Kynesgrove",
+          "giver": "Delphine",
+          "description": "Delphine of the Blades tests you: together you must stop the dragon Sahloknir from rising at Kynesgrove.",
+          "tips": [
+            "This is where you first see Alduin raising dragons from their burial mounds."
+          ],
+          "map": "Kynesgrove"
+        },
+        {
+          "id": "main_diplomatic_immunity",
+          "title": "Diplomatic Immunity",
+          "en": "Дипломатическая неприкосновенность",
+          "type": "quest",
+          "location": "Thalmor Embassy",
+          "giver": "Delphine",
+          "description": "Sneak into the reception at the Thalmor Embassy near Solitude and find out what the Thalmor know about the dragons' return.",
+          "tips": [
+            "Malborn can smuggle in a few items for you; the rest of your gear stays in Delphine's chest.",
+            "The embassy holds Thalmor dossiers, including ones on Ulfric and Delphine."
+          ],
+          "map": "Thalmor Embassy"
+        },
+        {
+          "id": "main_a_cornered_rat",
+          "title": "A Cornered Rat",
+          "en": "Крыса, загнанная в угол",
+          "type": "quest",
+          "location": "Riften, the Ratway",
+          "giver": "Delphine",
+          "description": "Find Esbern, an old Blade hiding from the Thalmor in the Ratway beneath Riften.",
+          "tips": [
+            "Ask Brynjolf or Keerava at the Bee and Barb, then Vekel the Man at the Ragged Flagon in the Ratway."
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "main_alduins_wall",
+          "title": "Alduin's Wall",
+          "en": "Стена Алдуина",
+          "type": "quest",
+          "location": "Sky Haven Temple",
+          "giver": "Esbern",
+          "description": "Travel with Esbern and Delphine to Sky Haven Temple in the Reach and study Alduin's Wall.",
+          "tips": [
+            "Afterwards the temple becomes the Blades' base, where you can recruit new members."
+          ],
+          "map": "Sky Haven Temple"
+        },
+        {
+          "id": "main_the_throat_of_the_world",
+          "title": "The Throat of the World",
+          "en": "Глотка Мира",
+          "type": "quest",
+          "location": "Throat of the World",
+          "giver": "Arngeir",
+          "description": "Arngeir teaches you the Clear Skies shout so you can pass through the storm to the dragon Paarthurnax at the summit.",
+          "tips": [
+            "Paarthurnax teaches you a word of Fire Breath."
+          ],
+          "map": "Throat of the World"
+        },
+        {
+          "id": "main_elder_knowledge",
+          "title": "Elder Knowledge",
+          "en": "Древнее знание",
+          "type": "quest",
+          "location": "Alftand, Blackreach",
+          "giver": "Paarthurnax",
+          "description": "Find the Elder Scroll (Dragon). Septimus Signus points the way through Alftand and Blackreach to the Tower of Mzark.",
+          "tips": [
+            "Septimus Signus gives you the Attunement Sphere needed to get in.",
+            "Blackreach is huge and full of Falmer and Dwarven automatons — stock up on potions."
+          ],
+          "map": "Alftand"
+        },
+        {
+          "id": "main_alduins_bane",
+          "title": "Alduin's Bane",
+          "en": "Проклятие Алдуина",
+          "type": "quest",
+          "location": "Throat of the World",
+          "giver": "Paarthurnax",
+          "description": "Read the Elder Scroll at the summit, learn the Dragonrend shout and face Alduin for the first time.",
+          "tips": [
+            "After the quest you can sell the Elder Scroll to Urag gro-Shub at the College of Winterhold."
+          ],
+          "map": "Throat of the World"
+        }
+      ]
+    },
+    {
+      "title": "Act III",
+      "items": [
+        {
+          "id": "main_season_unending",
+          "title": "Season Unending",
+          "en": "Бесконечная пора",
+          "type": "quest",
+          "location": "High Hrothgar",
+          "giver": "Arngeir",
+          "description": "Optional: if the Civil War isn't over, Jarl Balgruuf refuses to help trap a dragon until there's a truce. The peace talks take place at High Hrothgar.",
+          "tips": [
+            "If the Civil War is already over, this quest is skipped automatically.",
+            "A truce is signed whatever you choose — your choices only decide who gets which holds."
+          ],
+          "missable": "Holds handed over in the treaty change jarls immediately; some jarls and their quests may become unavailable.",
+          "choices": [
+            {
+              "id": "main_season_unending_terms",
+              "question": "How do you split the holds at the negotiations?",
+              "options": [
+                {
+                  "id": "favor_empire",
+                  "label": "Favor the Empire",
+                  "result": "Markarth always goes to the Stormcloaks, while the Empire gets Riften and/or Dawnstar and Winterhold; Ulfric pays compensation for Karthwasten."
+                },
+                {
+                  "id": "favor_stormcloaks",
+                  "label": "Favor the Stormcloaks",
+                  "result": "The Stormcloaks get Markarth, Morthal and/or Falkreath; the Empire gets minimal concessions."
+                },
+                {
+                  "id": "balanced",
+                  "label": "Balanced",
+                  "result": "Each side gets roughly equal concessions; both complain but sign the treaty."
+                }
+              ]
+            }
+          ],
+          "map": "High Hrothgar"
+        },
+        {
+          "id": "main_the_fallen",
+          "title": "The Fallen",
+          "en": "Падший",
+          "type": "quest",
+          "location": "Dragonsreach, Whiterun",
+          "giver": "Paarthurnax",
+          "description": "Use the dragon Odahviing's name to lure him into the trap at Dragonsreach and learn where Alduin is hiding.",
+          "tips": [
+            "After the quest you can use the Call Dragon shout to summon Odahviing."
+          ],
+          "map": "Dragonsreach"
+        },
+        {
+          "id": "main_the_world_eaters_eyrie",
+          "title": "The World-Eater's Eyrie",
+          "en": "Дом Пожирателя Мира",
+          "type": "quest",
+          "location": "Skuldafn",
+          "giver": "Odahviing",
+          "description": "Odahviing flies you to the temple of Skuldafn. Fight your way to the portal to Sovngarde, where Alduin has fled.",
+          "tips": [
+            "You can't leave Skuldafn until the quest is done — prepare beforehand.",
+            "The portal opens with the staff of the dragon priest Nahkriin."
+          ]
+        },
+        {
+          "id": "main_sovngarde",
+          "title": "Sovngarde",
+          "en": "Совнгард",
+          "type": "quest",
+          "location": "Sovngarde",
+          "description": "Pass through Alduin's mist to the Hall of Valor and gain the help of Tsun and three ancient heroes.",
+          "tips": [
+            "You can meet the souls of fallen heroes here — for example Kodlak, if you cleansed his soul in the Companions' \"Glory of the Dead\"."
+          ],
+          "missable": "You can't return to Sovngarde after finishing the main quest."
+        },
+        {
+          "id": "main_dragonslayer",
+          "title": "Dragonslayer",
+          "en": "Драконоборец",
+          "type": "quest",
+          "location": "Sovngarde, Throat of the World",
+          "description": "The final battle with Alduin alongside Gormlaith, Felldir and Hakon. After the victory you return to the Throat of the World.",
+          "tips": [
+            "Use Dragonrend to bring Alduin down and clear the mist."
+          ],
+          "map": "Throat of the World"
+        }
+      ]
+    },
+    {
+      "title": "The Blades and Paarthurnax",
+      "items": [
+        {
+          "id": "main_paarthurnax",
+          "title": "Paarthurnax",
+          "en": "Партурнакс",
+          "type": "quest",
+          "location": "Throat of the World",
+          "giver": "Delphine, Esbern",
+          "description": "The Blades demand you kill Paarthurnax for his past crimes and refuse to help while he lives. You can leave this quest unfinished.",
+          "tips": [
+            "You can put off the decision as long as you like, even after the ending."
+          ],
+          "missable": "Killing Paarthurnax is permanent: the Greybeards will stop talking to you.",
+          "choices": [
+            {
+              "id": "main_paarthurnax_fate",
+              "question": "Kill Paarthurnax or spare him?",
+              "options": [
+                {
+                  "id": "kill",
+                  "label": "Kill",
+                  "result": "The Blades work with you again, but the Greybeards turn their backs on you.",
+                  "locks": [
+                    "main_greybeards_favor"
+                  ]
+                },
+                {
+                  "id": "spare",
+                  "label": "Spare",
+                  "result": "Paarthurnax stays on the Throat of the World; Delphine and Esbern refuse any further help or Blades quests.",
+                  "locks": [
+                    "main_rebuilding_the_blades"
+                  ]
+                }
+              ]
+            }
+          ],
+          "map": "Throat of the World"
+        },
+        {
+          "id": "main_rebuilding_the_blades",
+          "title": "Rebuilding the Blades",
+          "en": "Возрождение Клинков",
+          "type": "quest",
+          "location": "Sky Haven Temple",
+          "giver": "Delphine",
+          "description": "Recruit up to three new Blades and bring them to Sky Haven Temple.",
+          "tips": [
+            "Followers you've already hired qualify (except special ones)."
+          ],
+          "missable": "Unavailable if you spared Paarthurnax.",
+          "map": "Sky Haven Temple"
+        },
+        {
+          "id": "main_greybeards_favor",
+          "title": "Greybeards' Favor",
+          "en": "Расположение Седобородых",
+          "type": "missable",
+          "location": "High Hrothgar",
+          "description": "As long as Paarthurnax lives, the Greybeards keep talking to you and Paarthurnax stays at the summit of the Throat of the World.",
+          "tips": [
+            "If you plan to kill Paarthurnax, learn everything you need from the Greybeards first."
+          ],
+          "missable": "Lost forever if you kill Paarthurnax.",
+          "map": "High Hrothgar"
+        }
+      ]
+    }
+  ]
+}

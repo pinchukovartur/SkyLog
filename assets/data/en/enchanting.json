@@ -1,0 +1,1846 @@
+{
+  "id": "enchanting",
+  "section": "enchanting",
+  "title": "Enchanting",
+  "icon": "magic",
+  "description": "Every effect you can learn by disenchanting, plus unique artifact enchantments: where to get them and whether they work on followers.",
+  "groups": [
+    {
+      "title": "Weapon",
+      "items": [
+        {
+          "id": "enchanting_absorb_health",
+          "title": "Absorb Health",
+          "en": "Absorb Health",
+          "type": "enchantment",
+          "description": "Drains the target's Health and gives it to you.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Blade of Woe — Astrid's dagger: pickpocket it, take it if you kill her, or receive it at the end of Death Incarnate (Dark Brotherhood)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ],
+          "related": [
+            "dark_brotherhood_with_friends_like_these",
+            "dark_brotherhood_death_incarnate"
+          ]
+        },
+        {
+          "id": "enchanting_absorb_magicka",
+          "title": "Absorb Magicka",
+          "en": "Absorb Magicka",
+          "type": "enchantment",
+          "description": "Drains the target's Magicka and gives it to you.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted weapon with this effect — common loot and blacksmith stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ],
+          "tips": [
+            "The Drainspell Bow from Labyrinthian has a separate version of the effect: learn both to apply Absorb Magicka twice."
+          ]
+        },
+        {
+          "id": "enchanting_absorb_stamina",
+          "title": "Absorb Stamina",
+          "en": "Absorb Stamina",
+          "type": "enchantment",
+          "description": "Drains the target's Stamina and gives it to you.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted weapon with this effect — common loot and blacksmith stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ],
+          "tips": [
+            "The Drainheart Sword from Labyrinthian has a separate version of the effect (without the Unofficial Patch it can be learned and stacked with the normal one)."
+          ]
+        },
+        {
+          "id": "enchanting_chaos_damage",
+          "title": "Chaos Damage",
+          "en": "Chaos Damage",
+          "type": "enchantment",
+          "description": "A 50% chance for each of fire, frost and shock to deal damage.",
+          "tags": [
+            "weapon",
+            "followers_yes",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Champion's Cudgel — wielded by General Falx Carius in Fort Frostmoth on Solstheim; also weapons \"of Chaos\", common loot on Solstheim."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            },
+            {
+              "label": "Add-on",
+              "value": "Dragonborn"
+            }
+          ],
+          "tips": [
+            "Boosted by all three Augmented Destruction perks; 25% stronger on stalhrim weapons."
+          ],
+          "map": "Fort Frostmoth",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "enchanting_fire_damage",
+          "title": "Fire Damage",
+          "en": "Fire Damage",
+          "type": "enchantment",
+          "description": "Deals fire damage; burning targets take extra damage.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted weapon with this effect — common loot and blacksmith stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_frost_damage",
+          "title": "Frost Damage",
+          "en": "Frost Damage",
+          "type": "enchantment",
+          "description": "Deals frost damage to Health and Stamina and slows the target.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Okin and Eduj — the weapons of the ancient hero Kvenel the Tongue in his tomb, Volunruud; also ordinary weapons with this effect."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ],
+          "map": "Volunruud"
+        },
+        {
+          "id": "enchanting_magicka_damage",
+          "title": "Magicka Damage",
+          "en": "Magicka Damage",
+          "type": "enchantment",
+          "description": "Damages the target's Magicka.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted weapon with this effect — common loot and blacksmith stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_shock_damage",
+          "title": "Shock Damage",
+          "en": "Shock Damage",
+          "type": "enchantment",
+          "description": "Deals shock damage to Health and half as much to Magicka.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted weapon with this effect — common loot and blacksmith stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_stamina_damage",
+          "title": "Stamina Damage",
+          "en": "Stamina Damage",
+          "type": "enchantment",
+          "description": "Damages the target's Stamina.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Froki's Bow — in Graywinter Watch (Whiterun Hold), where Froki sends you during Kyne's Sacred Trials; also ordinary weapons."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ],
+          "map": "Graywinter Watch"
+        },
+        {
+          "id": "enchanting_banish",
+          "title": "Banish",
+          "en": "Banish",
+          "type": "enchantment",
+          "description": "Sends summoned Daedra back to Oblivion.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted weapon with this effect — common loot and blacksmith stock (appears in loot from about level 22)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ],
+          "tips": [
+            "The most valuable weapon enchantment — best for selling."
+          ]
+        },
+        {
+          "id": "enchanting_fear",
+          "title": "Fear",
+          "en": "Fear",
+          "type": "enchantment",
+          "description": "Targets up to a certain level flee in fear.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted weapon with this effect — common loot and blacksmith stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_turn_undead",
+          "title": "Turn Undead",
+          "en": "Turn Undead",
+          "type": "enchantment",
+          "description": "Undead up to a certain level flee.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted weapon with this effect — common loot and blacksmith stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_paralyze",
+          "title": "Paralyze",
+          "en": "Paralyze",
+          "type": "enchantment",
+          "description": "Has a chance to paralyze the target for a few seconds.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted weapon with this effect — common loot and blacksmith stock (appears in loot from about level 22)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_soul_trap",
+          "title": "Soul Trap",
+          "en": "Soul Trap",
+          "type": "enchantment",
+          "description": "If the target dies within the duration, its soul fills a soul gem.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted weapon with this effect — common loot and blacksmith stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ],
+          "tips": [
+            "Set the duration to 1–2 seconds: you hit often, and the charges last much longer."
+          ]
+        },
+        {
+          "id": "enchanting_fiery_soul_trap",
+          "title": "Fiery Soul Trap",
+          "en": "Fiery Soul Trap",
+          "type": "enchantment",
+          "description": "Soul traps the target and burns it at the same time.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Steel Battleaxe of Fiery Souls — the only source: behind the warlord's throne in Ironbind Barrow (Winterhold Hold)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers. Per UESP, one trapped soul may fill all of the follower's gems of that type."
+            }
+          ],
+          "tips": [
+            "The fire damage is fixed; use the minimum trap duration for a huge number of charges."
+          ],
+          "map": "Ironbind Barrow"
+        },
+        {
+          "id": "enchanting_huntsmans_prowess",
+          "title": "Huntsman's Prowess",
+          "en": "Huntsman's Prowess",
+          "type": "enchantment",
+          "description": "Deals extra damage to animals.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Poacher's Axe — the only source: in Halted Stream Camp (Whiterun Hold)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ],
+          "map": "Halted Stream Camp"
+        },
+        {
+          "id": "enchanting_silent_moons_enchant",
+          "title": "Silent Moons Enchant",
+          "en": "Silent Moons Enchant",
+          "type": "enchantment",
+          "description": "Burns the target with moonlight at night.",
+          "tags": [
+            "weapon",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Lunar swords, maces and war axes — in Silent Moons Camp (by the Lunar Forge)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers."
+            }
+          ],
+          "tips": [
+            "Bug: on items you enchant yourself the effect works at any time of day."
+          ],
+          "map": "Silent Moons Camp"
+        },
+        {
+          "id": "enchanting_smithing_expertise",
+          "title": "Smithing Expertise",
+          "en": "Smithing Expertise",
+          "type": "enchantment",
+          "description": "Raises Smithing while wielded and deals shock damage on hit.",
+          "tags": [
+            "weapon"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Weapons (swords, axes, bows, etc.; not staves)"
+            },
+            {
+              "label": "How to learn",
+              "value": "Notched Pickaxe — the only source: stuck in the summit of the Throat of the World. With the Unofficial Patch (USKP) it cannot be disenchanted."
+            },
+            {
+              "label": "On a follower",
+              "value": "Partly: the shock damage works like any weapon enchantment, but the Smithing bonus is useless to a follower. UESP has no specific test."
+            }
+          ],
+          "related": [
+            "main_the_throat_of_the_world"
+          ],
+          "map": "Throat of the World"
+        }
+      ]
+    },
+    {
+      "title": "Armor and Jewelry",
+      "items": [
+        {
+          "id": "enchanting_fortify_alchemy",
+          "title": "Fortify Alchemy",
+          "en": "Fortify Alchemy",
+          "type": "enchantment",
+          "description": "Potions and poisons you brew are stronger.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Head, hands, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Muiri's Ring — Muiri's reward for Mourning Never Comes (Dark Brotherhood); also helmets, bracers and necklaces of Alchemy sold by merchants."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: not on the UESP list, and all other apparel enchantments have no effect on followers."
+            }
+          ],
+          "tips": [
+            "A four-piece Alchemy set is the basis of the alchemy-enchanting loop for the strongest items."
+          ],
+          "related": [
+            "dark_brotherhood_mourning_never_comes"
+          ]
+        },
+        {
+          "id": "enchanting_fortify_alteration",
+          "title": "Fortify Alteration",
+          "en": "Fortify Alteration",
+          "type": "enchantment",
+          "description": "Alteration spells cost less Magicka.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Head, body, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted armor, bracers and helmets with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: per UESP, spell cost reduction has no effect on followers (a few conflicting reports exist)."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_archery",
+          "title": "Fortify Archery",
+          "en": "Fortify Archery",
+          "type": "enchantment",
+          "description": "Bows do more damage.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Head, hands, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted bracers, circlets, helmets and rings with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: per UESP, combat-skill enchantments do not increase follower damage."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_barter",
+          "title": "Fortify Barter",
+          "en": "Fortify Barter",
+          "type": "enchantment",
+          "description": "Prices at merchants are better.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted necklaces with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: not on the UESP list, and all other apparel enchantments have no effect on followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_block",
+          "title": "Fortify Block",
+          "en": "Fortify Block",
+          "type": "enchantment",
+          "description": "Your shield blocks more damage.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Hands, shield, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted shields with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: per UESP, combat-skill enchantments do not increase follower damage."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_conjuration",
+          "title": "Fortify Conjuration",
+          "en": "Fortify Conjuration",
+          "type": "enchantment",
+          "description": "Conjuration spells cost less Magicka.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Head, body, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted armor, bracers, helmets and circlets with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: per UESP, spell cost reduction has no effect on followers (a few conflicting reports exist)."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_destruction",
+          "title": "Fortify Destruction",
+          "en": "Fortify Destruction",
+          "type": "enchantment",
+          "description": "Destruction spells cost less Magicka.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Head, body, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Thalmor Robes — worn by Thalmor mages (e.g. Thalmor patrols on the roads); also armor, circlets, helmets, necklaces and rings of Destruction from merchants."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: per UESP, spell cost reduction has no effect on followers (a few conflicting reports exist)."
+            }
+          ],
+          "tips": [
+            "Four items at −25% make Destruction spells free."
+          ]
+        },
+        {
+          "id": "enchanting_fortify_heavy_armor",
+          "title": "Fortify Heavy Armor",
+          "en": "Fortify Heavy Armor",
+          "type": "enchantment",
+          "description": "Heavy armor gives more protection.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body, hands, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted armor and necklaces with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_illusion",
+          "title": "Fortify Illusion",
+          "en": "Fortify Illusion",
+          "type": "enchantment",
+          "description": "Illusion spells cost less Magicka.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Head, body, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted armor and helmets with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: per UESP, spell cost reduction has no effect on followers (a few conflicting reports exist)."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_light_armor",
+          "title": "Fortify Light Armor",
+          "en": "Fortify Light Armor",
+          "type": "enchantment",
+          "description": "Light armor gives more protection.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body, hands, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted armor and necklaces with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_lockpicking",
+          "title": "Fortify Lockpicking",
+          "en": "Fortify Lockpicking",
+          "type": "enchantment",
+          "description": "Locks are easier to pick.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Head, hands, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted bracers and necklaces with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: not on the UESP list, and all other apparel enchantments have no effect on followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_one_handed",
+          "title": "Fortify One-Handed",
+          "en": "Fortify One-Handed",
+          "type": "enchantment",
+          "description": "One-handed weapons do more damage.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Hands, feet, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted bracers, necklaces and rings with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: per UESP, combat-skill enchantments do not increase follower damage."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_pickpocket",
+          "title": "Fortify Pickpocket",
+          "en": "Fortify Pickpocket",
+          "type": "enchantment",
+          "description": "Raises your chance to pickpocket successfully.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Hands, feet, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted bracers and rings with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: not on the UESP list, and all other apparel enchantments have no effect on followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_restoration",
+          "title": "Fortify Restoration",
+          "en": "Fortify Restoration",
+          "type": "enchantment",
+          "description": "Restoration spells cost less Magicka.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Head, body, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted armor, circlets, helmets and rings with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: per UESP, spell cost reduction has no effect on followers (a few conflicting reports exist)."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_smithing",
+          "title": "Fortify Smithing",
+          "en": "Fortify Smithing",
+          "type": "enchantment",
+          "description": "Weapons and armor are improved better at the grindstone and workbench.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body, hands, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Silver-Blood Family Ring — Thonar Silver-Blood gives it to you if you kill Madanach while escaping Cidhna Mine; also bracers, necklaces and rings of Smithing from merchants."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: not on the UESP list, and all other apparel enchantments have no effect on followers."
+            }
+          ],
+          "related": [
+            "side_no_one_escapes_cidhna_mine"
+          ]
+        },
+        {
+          "id": "enchanting_fortify_sneak",
+          "title": "Fortify Sneak",
+          "en": "Fortify Sneak",
+          "type": "enchantment",
+          "description": "You are harder to detect.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Hands, feet, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted boots, necklaces and rings with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: not on the UESP list, and all other apparel enchantments have no effect on followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_two_handed",
+          "title": "Fortify Two-Handed",
+          "en": "Fortify Two-Handed",
+          "type": "enchantment",
+          "description": "Two-handed weapons do more damage.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Hands, feet, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Ironhand Gauntlets — worn by bandit chief Hajvarr Iron-Hand at White River Watch (Whiterun Hold)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: per UESP, combat-skill enchantments do not increase follower damage."
+            }
+          ],
+          "map": "White River Watch"
+        },
+        {
+          "id": "enchanting_fortify_healing_rate",
+          "title": "Fortify Healing Rate",
+          "en": "Fortify Healing Rate",
+          "type": "enchantment",
+          "description": "Health regenerates faster.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted armor, necklaces and rings with this effect — common loot and merchant stock (in leveled loot from about level 16)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works, but per UESP only out of combat (during the recovery phase)."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_health",
+          "title": "Fortify Health",
+          "en": "Fortify Health",
+          "type": "enchantment",
+          "description": "Increases your Health.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body, shield, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Enchanted Ring — three copies lie in Saarthal during Under Saarthal (College of Winterhold)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers."
+            }
+          ],
+          "related": [
+            "college_under_saarthal"
+          ],
+          "map": "Saarthal"
+        },
+        {
+          "id": "enchanting_fortify_magicka",
+          "title": "Fortify Magicka",
+          "en": "Fortify Magicka",
+          "type": "enchantment",
+          "description": "Increases your Magicka.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Head, hands, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Mage's Circlet — Savos Aren's reward in Good Intentions; Savos Aren's Amulet — reward for Containment; also mage hoods."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers."
+            }
+          ],
+          "related": [
+            "college_good_intentions",
+            "college_containment"
+          ]
+        },
+        {
+          "id": "enchanting_fortify_magicka_regen",
+          "title": "Fortify Magicka Regen",
+          "en": "Fortify Magicka Regen",
+          "type": "enchantment",
+          "description": "Magicka regenerates faster.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Head, body, ring"
+            },
+            {
+              "label": "How to learn",
+              "value": "Almost any enchanted mage robes (worn by enemy mages and necromancers); also helmets and rings with this effect."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_stamina",
+          "title": "Fortify Stamina",
+          "en": "Fortify Stamina",
+          "type": "enchantment",
+          "description": "Increases your Stamina.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body, feet, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted armor, boots, necklaces and rings with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_stamina_regen",
+          "title": "Fortify Stamina Regen",
+          "en": "Fortify Stamina Regen",
+          "type": "enchantment",
+          "description": "Stamina regenerates faster.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body, feet, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted armor, necklaces and rings with this effect — common loot and merchant stock (from about level 16)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers."
+            }
+          ],
+          "tips": [
+            "You can learn it from rings, but only apply it to amulets, body armor and footwear."
+          ]
+        },
+        {
+          "id": "enchanting_fortify_carry_weight",
+          "title": "Fortify Carry Weight",
+          "en": "Fortify Carry Weight",
+          "type": "enchantment",
+          "description": "You can carry more.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Hands, feet, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Charmed Necklace — given by revelers met randomly on the roads if you share a bottle of Honningbrew Mead (or pickpocket it); also ordinary boots with this effect."
+            },
+            {
+              "label": "On a follower",
+              "value": "Partly works: per UESP the bonus applies when you open the follower inventory and vanishes once you put something in — you have to hand items over one at a time, reopening the menu."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_alteration_magicka_regen",
+          "title": "Fortify Alteration & Magicka Regen",
+          "en": "Fortify Alteration & Magicka Regen",
+          "type": "enchantment",
+          "description": "Alteration spells cost less and Magicka regenerates faster.",
+          "tags": [
+            "armor"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body"
+            },
+            {
+              "label": "How to learn",
+              "value": "Robes of Alteration sold by magic merchants and worn by enemy mages."
+            },
+            {
+              "label": "On a follower",
+              "value": "Partly: the Magicka regen part works, the spell cost part does not (per UESP)."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_conjuration_magicka_regen",
+          "title": "Fortify Conjuration & Magicka Regen",
+          "en": "Fortify Conjuration & Magicka Regen",
+          "type": "enchantment",
+          "description": "Conjuration spells cost less and Magicka regenerates faster.",
+          "tags": [
+            "armor"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body"
+            },
+            {
+              "label": "How to learn",
+              "value": "Robes of Conjuration sold by magic merchants and worn by enemy mages."
+            },
+            {
+              "label": "On a follower",
+              "value": "Partly: the Magicka regen part works, the spell cost part does not (per UESP)."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_destruction_magicka_regen",
+          "title": "Fortify Destruction & Magicka Regen",
+          "en": "Fortify Destruction & Magicka Regen",
+          "type": "enchantment",
+          "description": "Destruction spells cost less and Magicka regenerates faster.",
+          "tags": [
+            "armor"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body"
+            },
+            {
+              "label": "How to learn",
+              "value": "Robes of Destruction sold by magic merchants and worn by enemy mages."
+            },
+            {
+              "label": "On a follower",
+              "value": "Partly: the Magicka regen part works, the spell cost part does not (per UESP)."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_illusion_magicka_regen",
+          "title": "Fortify Illusion & Magicka Regen",
+          "en": "Fortify Illusion & Magicka Regen",
+          "type": "enchantment",
+          "description": "Illusion spells cost less and Magicka regenerates faster.",
+          "tags": [
+            "armor"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body"
+            },
+            {
+              "label": "How to learn",
+              "value": "Robes of Illusion sold by magic merchants and worn by enemy mages."
+            },
+            {
+              "label": "On a follower",
+              "value": "Partly: the Magicka regen part works, the spell cost part does not (per UESP)."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_restoration_magicka_regen",
+          "title": "Fortify Restoration & Magicka Regen",
+          "en": "Fortify Restoration & Magicka Regen",
+          "type": "enchantment",
+          "description": "Restoration spells cost less and Magicka regenerates faster.",
+          "tags": [
+            "armor"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body"
+            },
+            {
+              "label": "How to learn",
+              "value": "Robes of Restoration sold by magic merchants and worn by enemy mages."
+            },
+            {
+              "label": "On a follower",
+              "value": "Partly: the Magicka regen part works, the spell cost part does not (per UESP)."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_fortify_unarmed",
+          "title": "Fortify Unarmed",
+          "en": "Fortify Unarmed",
+          "type": "enchantment",
+          "description": "Unarmed strikes do extra damage.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Hands, ring"
+            },
+            {
+              "label": "How to learn",
+              "value": "Gloves of the Pugilist — worn by Gian the Fist in the Ratway under Riften; the only source of the effect without Creation Club."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers."
+            }
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "enchanting_resist_disease",
+          "title": "Resist Disease",
+          "en": "Resist Disease",
+          "type": "enchantment",
+          "description": "Lowers the chance of catching a disease.",
+          "tags": [
+            "armor",
+            "followers_no"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body, shield, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted necklaces with this effect — common loot and merchant stock (from about level 10)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: not on the UESP list, and all other apparel enchantments have no effect on followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_resist_fire",
+          "title": "Resist Fire",
+          "en": "Resist Fire",
+          "type": "enchantment",
+          "description": "Reduces fire damage.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Feet, shield, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Boots, necklaces and shields with this effect from merchants; the unique Ancient Helmet of the Unburned is behind a locked gate in Labyrinthian."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers. Follower resistances are not capped at 85%."
+            }
+          ],
+          "map": "Labyrinthian"
+        },
+        {
+          "id": "enchanting_resist_frost",
+          "title": "Resist Frost",
+          "en": "Resist Frost",
+          "type": "enchantment",
+          "description": "Reduces frost damage.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Feet, shield, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Helm of Yngol — in Yngol Barrow (Winterhold Hold); also boots, necklaces and shields with this effect."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers. Follower resistances are not capped at 85%."
+            }
+          ],
+          "map": "Yngol Barrow"
+        },
+        {
+          "id": "enchanting_resist_magic",
+          "title": "Resist Magic",
+          "en": "Resist Magic",
+          "type": "enchantment",
+          "description": "Reduces damage and effects of all hostile magic.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Shield, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted necklaces, rings and shields with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works; per UESP follower resistance is not capped at 85%, so they can become fully immune to magic."
+            }
+          ],
+          "tips": [
+            "The best defensive enchantment: covers fire, frost, shock and spells at once."
+          ]
+        },
+        {
+          "id": "enchanting_resist_poison",
+          "title": "Resist Poison",
+          "en": "Resist Poison",
+          "type": "enchantment",
+          "description": "Reduces poison damage.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Body, shield, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted necklaces with this effect — common loot and merchant stock (from about level 5)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_resist_shock",
+          "title": "Resist Shock",
+          "en": "Resist Shock",
+          "type": "enchantment",
+          "description": "Reduces shock damage.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Feet, shield, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted boots, necklaces and shields with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers. Follower resistances are not capped at 85%."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_muffle",
+          "title": "Muffle",
+          "en": "Muffle",
+          "type": "enchantment",
+          "description": "You move silently.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Feet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted boots with this effect — common loot and merchant stock (from about level 11)."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: the effect is on the UESP list of apparel enchantments that affect followers."
+            }
+          ],
+          "tips": [
+            "The effect has no magnitude, so even a petty soul gem is enough."
+          ]
+        },
+        {
+          "id": "enchanting_waterbreathing",
+          "title": "Waterbreathing",
+          "en": "Waterbreathing",
+          "type": "enchantment",
+          "description": "Lets you breathe underwater.",
+          "tags": [
+            "armor",
+            "followers_yes"
+          ],
+          "facts": [
+            {
+              "label": "Can be applied to",
+              "value": "Head, ring, amulet"
+            },
+            {
+              "label": "How to learn",
+              "value": "Any enchanted circlets, helmets and necklaces with this effect — common loot and merchant stock."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works, but is pointless: per UESP followers cannot drown anyway; this only stops them surfacing for air."
+            }
+          ],
+          "tips": [
+            "Like Muffle, it does not depend on soul gem size."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unique (can't be learned)",
+      "items": [
+        {
+          "id": "enchanting_dawnbreaker",
+          "title": "Dawnbreaker",
+          "en": "Dawnbreaker",
+          "type": "enchantment",
+          "description": "Burns the target, and killing undead may trigger a fiery explosion that turns or destroys nearby undead.",
+          "tags": [
+            "weapon",
+            "unique"
+          ],
+          "facts": [
+            {
+              "label": "Item",
+              "value": "The sword Dawnbreaker."
+            },
+            {
+              "label": "How to get",
+              "value": "Meridia's reward for The Break of Dawn."
+            },
+            {
+              "label": "On a follower",
+              "value": "Unknown: the fire damage should work by the general rule, but there is no data on the anti-undead explosion in a follower's hands."
+            }
+          ],
+          "related": [
+            "daedric_the_break_of_dawn"
+          ]
+        },
+        {
+          "id": "enchanting_mehrunes_razor",
+          "title": "Mehrunes' Razor",
+          "en": "Mehrunes' Razor",
+          "type": "enchantment",
+          "description": "Has a small chance (about 2%) to kill the target instantly.",
+          "tags": [
+            "weapon",
+            "unique"
+          ],
+          "facts": [
+            {
+              "label": "Item",
+              "value": "The dagger Mehrunes' Razor."
+            },
+            {
+              "label": "How to get",
+              "value": "Mehrunes Dagon's reward in Pieces of the Past if you kill Silus Vesuius."
+            },
+            {
+              "label": "On a follower",
+              "value": "Unknown: UESP has no data on this effect for followers."
+            }
+          ],
+          "missable": "If you spare Silus Vesuius in Pieces of the Past, the Razor is lost for good.",
+          "related": [
+            "daedric_pieces_of_the_past"
+          ]
+        },
+        {
+          "id": "enchanting_ebony_blade",
+          "title": "Ebony Blade",
+          "en": "Ebony Blade",
+          "type": "enchantment",
+          "description": "Absorbs health, growing stronger for every friend of yours you kill with it.",
+          "tags": [
+            "weapon",
+            "unique"
+          ],
+          "facts": [
+            {
+              "label": "Item",
+              "value": "The greatsword Ebony Blade."
+            },
+            {
+              "label": "How to get",
+              "value": "Mephala's reward for The Whispering Door."
+            },
+            {
+              "label": "On a follower",
+              "value": "Partly: per UESP the boost comes from a perk only the player has, so a follower only gets the blade's base stats."
+            }
+          ],
+          "related": [
+            "daedric_the_whispering_door"
+          ]
+        },
+        {
+          "id": "enchanting_dragonbane",
+          "title": "Dragonbane",
+          "en": "Dragonbane",
+          "type": "enchantment",
+          "description": "Deals heavy extra damage to dragons and shock damage to everything else.",
+          "tags": [
+            "weapon",
+            "followers_yes",
+            "unique"
+          ],
+          "facts": [
+            {
+              "label": "Item",
+              "value": "The katana Dragonbane."
+            },
+            {
+              "label": "How to get",
+              "value": "Found in Sky Haven Temple, reached during Alduin's Wall."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: per UESP, weapon enchantments work normally for followers. UESP has no test for this sword specifically."
+            }
+          ],
+          "related": [
+            "main_alduins_wall"
+          ]
+        },
+        {
+          "id": "enchanting_bloodskal_blade",
+          "title": "Bloodskal Blade",
+          "en": "Bloodskal Blade",
+          "type": "enchantment",
+          "description": "Power attacks release an energy blast that deals 30 damage at range; never needs recharging.",
+          "tags": [
+            "weapon",
+            "unique",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "Item",
+              "value": "The greatsword Bloodskal Blade."
+            },
+            {
+              "label": "How to get",
+              "value": "In Bloodskal Barrow on the remains of Gratian Caerellius, The Final Descent."
+            },
+            {
+              "label": "On a follower",
+              "value": "Unknown: UESP has no data on this effect for followers."
+            },
+            {
+              "label": "Add-on",
+              "value": "Dragonborn"
+            }
+          ],
+          "related": [
+            "dragonborn_the_final_descent"
+          ]
+        },
+        {
+          "id": "enchanting_auriels_bow",
+          "title": "Auriel's Bow",
+          "en": "Auriel's Bow",
+          "type": "enchantment",
+          "description": "Deals sun damage; undead take triple damage.",
+          "tags": [
+            "weapon",
+            "unique",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "Item",
+              "value": "Auriel's Bow."
+            },
+            {
+              "label": "How to get",
+              "value": "Reward in Touching the Sky."
+            },
+            {
+              "label": "On a follower",
+              "value": "Unknown: no data for this bow, and UESP has only conflicting reports about bow enchantments on followers."
+            },
+            {
+              "label": "Add-on",
+              "value": "Dawnguard"
+            }
+          ],
+          "related": [
+            "dawnguard_touching_the_sky"
+          ]
+        },
+        {
+          "id": "enchanting_ebony_mail",
+          "title": "Ebony Mail",
+          "en": "Ebony Mail",
+          "type": "enchantment",
+          "description": "Muffles your steps and surrounds you with a poison cloak that damages nearby enemies.",
+          "tags": [
+            "armor",
+            "unique"
+          ],
+          "facts": [
+            {
+              "label": "Item",
+              "value": "The cuirass Ebony Mail."
+            },
+            {
+              "label": "How to get",
+              "value": "Boethiah's reward for Boethiah's Calling."
+            },
+            {
+              "label": "On a follower",
+              "value": "Partly: Muffle works on followers, but UESP has no clear data on the poison cloak."
+            }
+          ],
+          "related": [
+            "daedric_boethiahs_calling"
+          ]
+        },
+        {
+          "id": "enchanting_ring_of_namira",
+          "title": "Ring of Namira",
+          "en": "Ring of Namira",
+          "type": "enchantment",
+          "description": "Gives +50 Stamina and lets you feed on corpses for bonus Health and Health regen.",
+          "tags": [
+            "armor",
+            "unique"
+          ],
+          "facts": [
+            {
+              "label": "Item",
+              "value": "Ring of Namira."
+            },
+            {
+              "label": "How to get",
+              "value": "Namira's reward for The Taste of Death."
+            },
+            {
+              "label": "On a follower",
+              "value": "Partly: the Stamina bonus works (it is on the UESP list), but feeding on corpses is only available to the player."
+            }
+          ],
+          "related": [
+            "daedric_the_taste_of_death"
+          ]
+        },
+        {
+          "id": "enchanting_spellbreaker",
+          "title": "Spellbreaker",
+          "en": "Spellbreaker",
+          "type": "enchantment",
+          "description": "While blocking, creates a ward that absorbs up to 50 points of spell damage.",
+          "tags": [
+            "armor",
+            "followers_no",
+            "unique"
+          ],
+          "facts": [
+            {
+              "label": "Item",
+              "value": "The shield Spellbreaker."
+            },
+            {
+              "label": "How to get",
+              "value": "Peryite's reward for The Only Cure."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work per the general UESP rule: apparel enchantments not on the list have no effect on followers. No specific test for the shield."
+            }
+          ],
+          "related": [
+            "daedric_the_only_cure"
+          ]
+        },
+        {
+          "id": "enchanting_konahrik",
+          "title": "Konahrik",
+          "en": "Konahrik",
+          "type": "enchantment",
+          "description": "At low health may heal you, knock back and burn nearby enemies, and sometimes summon a spectral dragon priest.",
+          "tags": [
+            "armor",
+            "followers_no",
+            "unique"
+          ],
+          "facts": [
+            {
+              "label": "Item",
+              "value": "The dragon priest mask Konahrik."
+            },
+            {
+              "label": "How to get",
+              "value": "Collect the eight base-game dragon priest masks and place them in Bromjunaar Sanctuary."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work per the general UESP rule: apparel enchantments not on the list have no effect on followers. No specific test for the mask."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_amulet_of_talos",
+          "title": "Amulet of Talos",
+          "en": "Amulet of Talos",
+          "type": "enchantment",
+          "description": "Reduces the time between shouts by 20%.",
+          "tags": [
+            "armor",
+            "followers_no",
+            "unique"
+          ],
+          "facts": [
+            {
+              "label": "Item",
+              "value": "The Amulet of Talos and its named variants; divine amulets cannot be disenchanted."
+            },
+            {
+              "label": "How to get",
+              "value": "Random loot and clothing merchant stock; often carried by guards and Talos worshippers."
+            },
+            {
+              "label": "On a follower",
+              "value": "Does not work: not on the UESP list, and followers do not use shouts."
+            }
+          ]
+        },
+        {
+          "id": "enchanting_ahzidals_boots_of_waterwalking",
+          "title": "Ahzidal's Boots of Waterwalking",
+          "en": "Ahzidal's Boots of Waterwalking",
+          "type": "enchantment",
+          "description": "Let you walk on water; with any four Relics of Ahzidal they give +10 Enchanting.",
+          "tags": [
+            "armor",
+            "followers_yes",
+            "unique",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "Item",
+              "value": "Ahzidal's Boots of Waterwalking — the only item with Waterwalking."
+            },
+            {
+              "label": "How to get",
+              "value": "In Kolbjorn Barrow, during Unearthed."
+            },
+            {
+              "label": "On a follower",
+              "value": "Works: Waterwalking is on the UESP list of effects that work on followers."
+            },
+            {
+              "label": "Add-on",
+              "value": "Dragonborn"
+            }
+          ],
+          "related": [
+            "dragonborn_unearthed"
+          ]
+        }
+      ]
+    }
+  ]
+}

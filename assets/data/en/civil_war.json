@@ -1,0 +1,308 @@
+{
+  "id": "civil_war",
+  "title": "Civil War",
+  "icon": "swords",
+  "description": "The Imperial Legion and the Stormcloaks fight for control of Skyrim.",
+  "groups": [
+    {
+      "title": "Choosing a Side",
+      "items": [
+        {
+          "id": "civil_war_choose_side",
+          "title": "Choosing a Side",
+          "en": "Выбор стороны",
+          "type": "quest",
+          "location": "Solitude or Windhelm",
+          "giver": "General Tullius or Ulfric Stormcloak",
+          "description": "Join the Imperial Legion under General Tullius at Castle Dour (Solitude) or the Stormcloaks under Ulfric at the Palace of the Kings (Windhelm).",
+          "tips": [
+            "If the war gets in the way of the main quest, you can pause it in \"Season Unending\".",
+            "Victory replaces the jarls in many holds — finish their quests first if they matter to you."
+          ],
+          "missable": "Once you swear an oath to one side, the other side's quests are gone for good.",
+          "choices": [
+            {
+              "id": "civil_war_side",
+              "question": "Which side do you fight for?",
+              "options": [
+                {
+                  "id": "legion",
+                  "label": "Imperial Legion",
+                  "result": "You fight for the Empire under General Tullius and Legate Rikke; Ulfric dies in the finale.",
+                  "locks": [
+                    "civil_war_joining_the_stormcloaks",
+                    "civil_war_rescue_from_fort_neugrad",
+                    "civil_war_compelling_tribute_storm",
+                    "civil_war_battle_for_fort_sungard_storm",
+                    "civil_war_false_front_storm",
+                    "civil_war_battle_for_fort_snowhawk_storm",
+                    "civil_war_battle_for_fort_hraggstad",
+                    "civil_war_battle_for_solitude",
+                    "civil_war_post_truce_forts_storm"
+                  ]
+                },
+                {
+                  "id": "stormcloaks",
+                  "label": "Stormcloaks",
+                  "result": "You fight for Skyrim's independence under Ulfric and Galmar Stone-Fist; Tullius dies in the finale.",
+                  "locks": [
+                    "civil_war_joining_the_legion",
+                    "civil_war_get_outfitted",
+                    "civil_war_false_front_legion",
+                    "civil_war_battle_for_fort_dunstad_legion",
+                    "civil_war_compelling_tribute_legion",
+                    "civil_war_battle_for_fort_greenwall_legion",
+                    "civil_war_rescue_from_fort_kastav",
+                    "civil_war_battle_for_fort_amol",
+                    "civil_war_battle_for_windhelm",
+                    "civil_war_post_truce_forts_legion"
+                  ]
+                }
+              ]
+            }
+          ],
+          "map": "Solitude"
+        }
+      ]
+    },
+    {
+      "title": "Shared Stages",
+      "items": [
+        {
+          "id": "civil_war_the_jagged_crown",
+          "title": "The Jagged Crown",
+          "en": "Зубчатая корона",
+          "type": "quest",
+          "location": "Korvanjund",
+          "giver": "Legate Rikke or Galmar Stone-Fist",
+          "description": "Beat the enemy to the ancient barrow of Korvanjund and claim the Jagged Crown, the symbol of Skyrim's High King.",
+          "tips": [
+            "Enemy soldiers guard the barrow entrance — be ready for a fight outside."
+          ],
+          "map": "Korvanjund"
+        },
+        {
+          "id": "civil_war_message_to_whiterun",
+          "title": "Message to Whiterun",
+          "en": "Сообщение для Вайтрана",
+          "type": "quest",
+          "location": "Whiterun",
+          "giver": "General Tullius or Ulfric Stormcloak",
+          "description": "Deliver your side's message to Jarl Balgruuf. His answer leads to the battle for Whiterun.",
+          "tips": [
+            "If the main quest hasn't reached \"The Fallen\" yet, this quest may stall — Balgruuf is stalling."
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "civil_war_battle_for_whiterun",
+          "title": "Battle for Whiterun",
+          "en": "Битва при Вайтране",
+          "type": "quest",
+          "location": "Whiterun",
+          "giver": "Legate Rikke or Ulfric Stormcloak",
+          "description": "For the Legion (\"Defense of Whiterun\"), hold Whiterun against the Stormcloaks; for the Stormcloaks, storm the city and overthrow Balgruuf.",
+          "missable": "If the Stormcloaks win, Balgruuf and Proventus go into exile and Vignar Gray-Mane becomes jarl — the old court's quests and services change.",
+          "map": "Whiterun"
+        }
+      ]
+    },
+    {
+      "title": "Imperial Legion",
+      "items": [
+        {
+          "id": "civil_war_joining_the_legion",
+          "title": "Joining the Legion",
+          "en": "Вступление в Легион",
+          "type": "quest",
+          "location": "Solitude",
+          "giver": "Legate Rikke",
+          "description": "Pass Rikke's test — clear Fort Hraggstad of bandits — and swear your oath to the Empire.",
+          "map": "Solitude"
+        },
+        {
+          "id": "civil_war_get_outfitted",
+          "title": "Get Outfitted",
+          "en": "Обмундирование",
+          "type": "quest",
+          "location": "Castle Dour, Solitude",
+          "giver": "General Tullius",
+          "description": "Collect your Imperial armor from the Legion quartermaster.",
+          "map": "Solitude"
+        },
+        {
+          "id": "civil_war_false_front_legion",
+          "title": "A False Front",
+          "en": "Дезинформация",
+          "type": "quest",
+          "giver": "Legate Rikke",
+          "description": "Intercept a Stormcloak courier and swap his orders for forged ones to weaken the enemy before the assault."
+        },
+        {
+          "id": "civil_war_battle_for_fort_dunstad_legion",
+          "title": "The Battle for Fort Dunstad",
+          "en": "Битва за форт Дунстад",
+          "type": "quest",
+          "location": "Fort Dunstad, the Pale",
+          "giver": "Legate Rikke",
+          "description": "Take Fort Dunstad so the Pale (Dawnstar) falls to the Empire.",
+          "map": "Fort Dunstad"
+        },
+        {
+          "id": "civil_war_compelling_tribute_legion",
+          "title": "Compelling Tribute",
+          "en": "Военная добыча",
+          "type": "quest",
+          "giver": "Legate Rikke",
+          "description": "Convince a hold's steward to secretly back the Empire — by persuasion, blackmail or threats."
+        },
+        {
+          "id": "civil_war_battle_for_fort_greenwall_legion",
+          "title": "The Battle for Fort Greenwall",
+          "en": "Битва за форт Гринвол",
+          "type": "quest",
+          "location": "Fort Greenwall, the Rift",
+          "giver": "Legate Rikke",
+          "description": "Capture Fort Greenwall in the Rift. Afterwards Maven Black-Briar becomes Jarl of Riften.",
+          "missable": "Riften gets a new jarl: Laila Law-Giver steps down, and her tasks and court positions become unavailable.",
+          "map": "Fort Greenwall"
+        },
+        {
+          "id": "civil_war_rescue_from_fort_kastav",
+          "title": "Rescue from Fort Kastav",
+          "en": "Форт Кастав — спасение товарищей",
+          "type": "quest",
+          "location": "Fort Kastav, Winterhold",
+          "giver": "Legate Rikke",
+          "description": "Free the captured legionnaires held by the Stormcloaks at Fort Kastav.",
+          "map": "Fort Kastav"
+        },
+        {
+          "id": "civil_war_battle_for_fort_amol",
+          "title": "The Battle for Fort Amol",
+          "en": "Битва за форт Амол",
+          "type": "quest",
+          "location": "Fort Amol, Eastmarch",
+          "giver": "Legate Rikke",
+          "description": "The last fort before Windhelm. Its fall opens the way to the Stormcloak capital.",
+          "map": "Fort Amol"
+        },
+        {
+          "id": "civil_war_battle_for_windhelm",
+          "title": "Battle for Windhelm",
+          "en": "Битва при Виндхельме",
+          "type": "quest",
+          "location": "Windhelm",
+          "giver": "Legate Rikke",
+          "description": "Storm Windhelm and face Ulfric Stormcloak in the Palace of the Kings.",
+          "tips": [
+            "You can deliver the final blow to Ulfric yourself or leave it to Tullius."
+          ],
+          "missable": "Ulfric and Galmar die; quests and dialogue tied to them become unavailable.",
+          "map": "Windhelm"
+        },
+        {
+          "id": "civil_war_post_truce_forts_legion",
+          "title": "Remaining Fort Battles (Imperial)",
+          "en": "Битвы за оставшиеся форты",
+          "type": "quest",
+          "giver": "Legate Rikke",
+          "description": "If the war goes on after \"Season Unending\", retake the holds ceded in the treaty: \"The Battle for Fort Neugrad\", \"The Battle for Fort Sungard\", \"The Battle for Fort Snowhawk\"."
+        }
+      ]
+    },
+    {
+      "title": "Stormcloaks",
+      "items": [
+        {
+          "id": "civil_war_joining_the_stormcloaks",
+          "title": "Joining the Stormcloaks",
+          "en": "Вступление в ряды Братьев Бури",
+          "type": "quest",
+          "location": "Windhelm",
+          "giver": "Galmar Stone-Fist",
+          "description": "Pass Galmar's test on the island near Windhelm and swear your oath to Ulfric.",
+          "map": "Windhelm"
+        },
+        {
+          "id": "civil_war_rescue_from_fort_neugrad",
+          "title": "Rescue from Fort Neugrad",
+          "en": "Форт Нойград — спасение товарищей",
+          "type": "quest",
+          "location": "Fort Neugrad, Falkreath",
+          "giver": "Galmar Stone-Fist",
+          "description": "Free the captured Stormcloaks from Fort Neugrad.",
+          "map": "Fort Neugrad"
+        },
+        {
+          "id": "civil_war_compelling_tribute_storm",
+          "title": "Compelling Tribute",
+          "en": "Военная добыча",
+          "type": "quest",
+          "giver": "Galmar Stone-Fist",
+          "description": "Convince a hold's steward to secretly back the Stormcloaks — by persuasion, blackmail or threats."
+        },
+        {
+          "id": "civil_war_battle_for_fort_sungard_storm",
+          "title": "The Battle for Fort Sungard",
+          "en": "Битва за форт Сангард",
+          "type": "quest",
+          "location": "Fort Sungard, the Reach",
+          "giver": "Galmar Stone-Fist",
+          "description": "Capture Fort Sungard in the Reach to break the Empire's hold on Markarth.",
+          "map": "Fort Sungard"
+        },
+        {
+          "id": "civil_war_false_front_storm",
+          "title": "A False Front",
+          "en": "Дезинформация",
+          "type": "quest",
+          "giver": "Galmar Stone-Fist",
+          "description": "Intercept an Imperial courier and swap his orders for forged ones."
+        },
+        {
+          "id": "civil_war_battle_for_fort_snowhawk_storm",
+          "title": "The Battle for Fort Snowhawk",
+          "en": "Битва за форт Сноухок",
+          "type": "quest",
+          "location": "Fort Snowhawk, Hjaalmarch",
+          "giver": "Galmar Stone-Fist",
+          "description": "Take Fort Snowhawk so Hjaalmarch falls to the Stormcloaks.",
+          "map": "Fort Snowhawk"
+        },
+        {
+          "id": "civil_war_battle_for_fort_hraggstad",
+          "title": "The Battle for Fort Hraggstad",
+          "en": "Битва за форт Храгстад",
+          "type": "quest",
+          "location": "Fort Hraggstad, Haafingar",
+          "giver": "Galmar Stone-Fist",
+          "description": "The last fort on the approach to Solitude.",
+          "map": "Fort Hraggstad"
+        },
+        {
+          "id": "civil_war_battle_for_solitude",
+          "title": "Battle for Solitude",
+          "en": "Битва при Солитьюде",
+          "type": "quest",
+          "location": "Solitude",
+          "giver": "Galmar Stone-Fist",
+          "description": "Storm Solitude and face General Tullius at Castle Dour.",
+          "tips": [
+            "Ulfric offers you the chance to execute Tullius yourself."
+          ],
+          "missable": "Tullius and Rikke die; quests and dialogue tied to them become unavailable.",
+          "map": "Solitude"
+        },
+        {
+          "id": "civil_war_post_truce_forts_storm",
+          "title": "Remaining Fort Battles (Stormcloak)",
+          "en": "Битвы за оставшиеся форты",
+          "type": "quest",
+          "giver": "Galmar Stone-Fist",
+          "description": "If the war goes on after \"Season Unending\", retake the holds ceded in the treaty: \"The Battle for Fort Greenwall\", \"The Battle for Fort Dunstad\", \"The Battle for Fort Kastav\"."
+        }
+      ]
+    }
+  ]
+}

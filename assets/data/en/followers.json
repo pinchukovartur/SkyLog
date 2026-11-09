@@ -1,0 +1,3238 @@
+{
+  "id": "followers",
+  "title": "Followers",
+  "icon": "map",
+  "section": "followers",
+  "description": "Everyone who can travel with you: where to find them, how to recruit, marriage, skills and level cap.",
+  "groups": [
+    {
+      "title": "Housecarls",
+      "items": [
+        {
+          "id": "followers_lydia",
+          "title": "Lydia",
+          "en": "Lydia",
+          "type": "follower",
+          "location": "Whiterun — Dragonsreach (Breezehome once you buy it)",
+          "description": "Whiterun housecarl and usually the hero's first follower. Jarl Balgruuf the Greater assigns her after Dragon Rising, when he makes you a thane.",
+          "tags": [
+            "housecarl",
+            "marriage",
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Become Thane of Whiterun by completing Dragon Rising (no house purchase needed)"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: steel sword and shield, hunting bow as backup"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first)"
+            },
+            {
+              "label": "Waits at",
+              "value": "Dragonsreach; Breezehome once purchased"
+            }
+          ],
+          "tips": [
+            "If you buy Breezehome, Lydia moves there and waits for you at home.",
+            "With the Dragonborn add-on she gains unique lines on Solstheim."
+          ],
+          "related": [
+            "main_dragon_rising"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "followers_argis_the_bulwark",
+          "title": "Argis the Bulwark",
+          "en": "Argis the Bulwark",
+          "type": "follower",
+          "location": "Markarth — Vlindrel Hall",
+          "description": "Housecarl of the Reach. He appears in Vlindrel Hall once you become Thane of the Reach.",
+          "tags": [
+            "housecarl",
+            "marriage",
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Become Thane of the Reach: do a task for Jarl Igmund, help the people of the hold and buy Vlindrel Hall"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: steel sword and shield"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first)"
+            },
+            {
+              "label": "Waits at",
+              "value": "Vlindrel Hall"
+            }
+          ],
+          "tips": [
+            "At level 50 Argis has 100 Block, Heavy Armor and One-handed, one of the toughest housecarls.",
+            "With Hearthfire he is the only housecarl who cannot become a steward."
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "followers_calder",
+          "title": "Calder",
+          "en": "Calder",
+          "type": "follower",
+          "location": "Windhelm — Hjerim",
+          "description": "Housecarl of Eastmarch. He appears in Hjerim once you become Thane of Eastmarch.",
+          "tags": [
+            "housecarl",
+            "marriage",
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Become Thane of Eastmarch and buy Hjerim. Under Jarl Ulfric: Rescue from Fort Neugrad and Blood on the Ice; under Brunwulf: Battle for Windhelm"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: steel war axe and shield"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first)"
+            },
+            {
+              "label": "Waits at",
+              "value": "Hjerim"
+            }
+          ],
+          "tips": [
+            "You cannot become Thane of Eastmarch without picking a side in the Civil War."
+          ],
+          "related": [
+            "side_blood_on_the_ice",
+            "civil_war_rescue_from_fort_neugrad",
+            "civil_war_battle_for_windhelm"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "followers_iona",
+          "title": "Iona",
+          "en": "Iona",
+          "type": "follower",
+          "location": "Riften — Honeyside",
+          "description": "Housecarl of the Rift. She appears in Honeyside as soon as you become Thane of the Rift.",
+          "tags": [
+            "housecarl",
+            "marriage",
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Become Thane of the Rift: Supply and Demand, help the people of the hold and buy Honeyside"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: steel war axe and shield"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first)"
+            },
+            {
+              "label": "Waits at",
+              "value": "Honeyside"
+            }
+          ],
+          "tips": [
+            "Known bug: Iona sometimes dies in normal combat even though she should be protected like other followers."
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "followers_jordis_the_sword_maiden",
+          "title": "Jordis the Sword-Maiden",
+          "en": "Jordis the Sword-Maiden",
+          "type": "follower",
+          "location": "Solitude — Proudspire Manor",
+          "description": "Housecarl of Haafingar. She appears in Proudspire Manor once you become Thane of Haafingar.",
+          "tags": [
+            "housecarl",
+            "marriage",
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Become Thane of Haafingar: Elisif's Tribute, help the people of the hold and buy Proudspire Manor"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: steel sword and shield"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first)"
+            },
+            {
+              "label": "Waits at",
+              "value": "Proudspire Manor"
+            }
+          ],
+          "tips": [
+            "Elisif stays Jarl of Haafingar whatever happens in the Civil War, so Jordis is available on either side."
+          ],
+          "map": "Solitude"
+        }
+      ]
+    },
+    {
+      "title": "Companions",
+      "items": [
+        {
+          "id": "followers_aela_the_huntress",
+          "title": "Aela the Huntress",
+          "en": "Aela the Huntress",
+          "type": "follower",
+          "location": "Whiterun — Jorrvaskr",
+          "description": "A huntress and member of the Companions' Circle, central to their questline. She becomes a follower after Glory of the Dead.",
+          "tags": [
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish the Companions questline (Glory of the Dead), then ask in Jorrvaskr"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Archer: hunting bow and Skyforge steel dagger"
+            },
+            {
+              "label": "Skills",
+              "value": "Archery, Light Armor, Sneak"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after the Companions questline"
+            },
+            {
+              "label": "Trainer",
+              "value": "Archery (expert, up to 75)"
+            }
+          ],
+          "tips": [
+            "The only Circle member who does not cure her lycanthropy after the questline.",
+            "She is essential only until Glory of the Dead is done; after that she is a normal follower."
+          ],
+          "related": [
+            "companions_glory_of_the_dead"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "followers_athis",
+          "title": "Athis",
+          "en": "Athis",
+          "type": "follower",
+          "location": "Whiterun — Jorrvaskr",
+          "description": "A Dunmer warrior of the Companions who prefers short blades. He becomes a follower after the Companions questline.",
+          "tags": [
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish the Companions questline (Glory of the Dead), then ask in Jorrvaskr"
+            },
+            {
+              "label": "Race",
+              "value": "Dunmer"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: Skyforge steel sword and shield"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "25"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after the Companions questline"
+            },
+            {
+              "label": "Trainer",
+              "value": "One-handed (expert, up to 75)"
+            }
+          ],
+          "tips": [
+            "On your first visit to Jorrvaskr he is brawling with Njada, and he always loses."
+          ],
+          "related": [
+            "companions_glory_of_the_dead"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "followers_farkas",
+          "title": "Farkas",
+          "en": "Farkas",
+          "type": "follower",
+          "location": "Whiterun — Jorrvaskr",
+          "description": "A member of the Companions' Circle, a werewolf and Vilkas's twin brother. He becomes a follower after Glory of the Dead.",
+          "tags": [
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish the Companions questline (Glory of the Dead), then ask in Jorrvaskr"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: Skyforge steel greatsword, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Smithing, Speech, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after the Companions questline"
+            },
+            {
+              "label": "Trainer",
+              "value": "Heavy Armor (master, up to 90)"
+            }
+          ],
+          "tips": [
+            "After Proving Honor he is afraid of spiders and will not go past the outer chambers of Ysgramor's Tomb.",
+            "\"Farkas\" means \"wolf\" in Hungarian.",
+            "He is essential only until Glory of the Dead is done."
+          ],
+          "related": [
+            "companions_glory_of_the_dead"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "followers_njada_stonearm",
+          "title": "Njada Stonearm",
+          "en": "Njada Stonearm",
+          "type": "follower",
+          "location": "Whiterun — Jorrvaskr",
+          "description": "An unsociable Companions warrior and shield specialist. She agrees to follow you once you become Harbinger.",
+          "tags": [
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish the Companions questline (Glory of the Dead), then ask in Jorrvaskr"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: Skyforge steel sword and steel shield, bow as backup"
+            },
+            {
+              "label": "Skills",
+              "value": "Block, One-handed, Speech"
+            },
+            {
+              "label": "Max level",
+              "value": "25"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after the Companions questline"
+            },
+            {
+              "label": "Trainer",
+              "value": "Block (expert, up to 75)"
+            }
+          ],
+          "tips": [
+            "Her health is low for a warrior, so give her gear enchanted with Fortify Health."
+          ],
+          "related": [
+            "companions_glory_of_the_dead"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "followers_ria",
+          "title": "Ria",
+          "en": "Ria",
+          "type": "follower",
+          "location": "Whiterun — Jorrvaskr",
+          "description": "An Imperial, the newest Companion before you arrive, eager to die an honorable death. She becomes a follower after the Companions questline.",
+          "tags": [
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish the Companions questline (Glory of the Dead), then ask in Jorrvaskr"
+            },
+            {
+              "label": "Race",
+              "value": "Imperial"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: Skyforge steel sword and steel shield"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "25"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after the Companions questline"
+            }
+          ],
+          "tips": [
+            "You can first meet her at Pelagia Farm, where the Companions fight a giant.",
+            "Her default scaled armor is light, but she is better with heavy armor, so give her a heavy set."
+          ],
+          "related": [
+            "companions_glory_of_the_dead"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "followers_torvar",
+          "title": "Torvar",
+          "en": "Torvar",
+          "type": "follower",
+          "location": "Whiterun — Jorrvaskr",
+          "description": "The drunken misfit of the Companions who grows colder towards you as you rise. He still becomes a follower after the questline.",
+          "tags": [
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish the Companions questline (Glory of the Dead), then ask in Jorrvaskr"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: Skyforge steel sword and steel shield"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "25"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after the Companions questline"
+            }
+          ],
+          "tips": [
+            "He brags about loving hammers and axes, yet carries a sword and wears leather, though he is better in heavy armor."
+          ],
+          "related": [
+            "companions_glory_of_the_dead"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "followers_vilkas",
+          "title": "Vilkas",
+          "en": "Vilkas",
+          "type": "follower",
+          "location": "Whiterun — Jorrvaskr",
+          "description": "A member of the Companions' Circle, a werewolf and Farkas's twin brother. He becomes a follower after Glory of the Dead.",
+          "tags": [
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish the Companions questline (Glory of the Dead), then ask in Jorrvaskr"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Two-handed warrior in Wolf Armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, Two-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after the Companions questline"
+            },
+            {
+              "label": "Trainer",
+              "value": "Two-handed (master, up to 90)"
+            }
+          ],
+          "tips": [
+            "\"Vilkas\" means \"wolf\" in Lithuanian.",
+            "He is essential only until Glory of the Dead is done."
+          ],
+          "related": [
+            "companions_glory_of_the_dead"
+          ],
+          "map": "Whiterun"
+        }
+      ]
+    },
+    {
+      "title": "Mercenaries",
+      "items": [
+        {
+          "id": "followers_belrand",
+          "title": "Belrand",
+          "en": "Belrand",
+          "type": "follower",
+          "location": "Solitude — The Winking Skeever",
+          "description": "A Nord sellsword who mixes blade and magic. He sits in the Winking Skeever and follows you for 500 gold.",
+          "tags": [
+            "marriage",
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Hire him at the Winking Skeever"
+            },
+            {
+              "label": "Hiring cost",
+              "value": "500 gold (again after each dismissal)"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Spellsword: iron sword plus spells"
+            },
+            {
+              "label": "Skills",
+              "value": "Destruction, Light Armor, One-handed, Restoration"
+            },
+            {
+              "label": "Max level",
+              "value": "40"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after hiring at least once"
+            }
+          ],
+          "tips": [
+            "If you ask him again soon after dismissing him, he may rejoin for free.",
+            "He heals himself and casts wards, a good pick for a hero without healing magic."
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "followers_erik_the_slayer",
+          "title": "Erik the Slayer",
+          "en": "Erik the Slayer",
+          "type": "follower",
+          "location": "Rorikstead — Frostfruit Inn",
+          "description": "Son of innkeeper Mralki who dreams of adventure. After his quest he becomes a mercenary you can hire for 500 gold.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete the quest Erik the Slayer (convince Mralki), then come back later and hire him"
+            },
+            {
+              "label": "Hiring cost",
+              "value": "500 gold (again after each dismissal)"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Barbarian: melee plus bow"
+            },
+            {
+              "label": "Skills",
+              "value": "Light Armor, Two-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "40"
+            },
+            {
+              "label": "Marriage",
+              "value": "no"
+            }
+          ],
+          "tips": [
+            "Mralki can be persuaded, intimidated or simply paid for the armor.",
+            "As a mercenary Erik gets iron armor and a shield, yet never actually leaves the inn to adventure."
+          ],
+          "related": [
+            "side_erik_the_slayer"
+          ],
+          "map": "Rorikstead"
+        },
+        {
+          "id": "followers_jenassa",
+          "title": "Jenassa",
+          "en": "Jenassa",
+          "type": "follower",
+          "location": "Whiterun — The Drunken Huntsman",
+          "description": "A Dunmer ranger sitting at a table in the Drunken Huntsman. She can be hired for 500 gold.",
+          "tags": [
+            "marriage",
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Hire her at the Drunken Huntsman"
+            },
+            {
+              "label": "Hiring cost",
+              "value": "500 gold (again after each dismissal)"
+            },
+            {
+              "label": "Race",
+              "value": "Dunmer"
+            },
+            {
+              "label": "Combat style",
+              "value": "Ranger: hunting bow, dual-wields sword and dagger up close"
+            },
+            {
+              "label": "Skills",
+              "value": "Archery, Light Armor, Block, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "40"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after hiring at least once"
+            }
+          ],
+          "tips": [
+            "One of the few followers who dual-wield blades.",
+            "If she vanishes after a visit to Jorrvaskr, check the Dragonsreach dungeon."
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "followers_marcurio",
+          "title": "Marcurio",
+          "en": "Marcurio",
+          "type": "follower",
+          "location": "Riften — The Bee and Barb",
+          "description": "An Imperial mercenary mage specialising in Destruction. He can be hired for 500 gold.",
+          "tags": [
+            "marriage",
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Hire him at the Bee and Barb"
+            },
+            {
+              "label": "Hiring cost",
+              "value": "500 gold (again after each dismissal)"
+            },
+            {
+              "label": "Race",
+              "value": "Imperial"
+            },
+            {
+              "label": "Combat style",
+              "value": "Destruction mage: lightning and fire, can use staves"
+            },
+            {
+              "label": "Skills",
+              "value": "Destruction, Restoration, Alteration, Sneak"
+            },
+            {
+              "label": "Max level",
+              "value": "40"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after hiring at least once"
+            }
+          ],
+          "tips": [
+            "Once married he follows you for free; he has no house, so he lives at the Bee and Barb.",
+            "If he is the mark in the Thieves Guild job The Fishing Job, it is easier to hire him and take the amulet by trading."
+          ],
+          "related": [
+            "thieves_fishing_job"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "followers_stenvar",
+          "title": "Stenvar",
+          "en": "Stenvar",
+          "type": "follower",
+          "location": "Windhelm — Candlehearth Hall (second floor)",
+          "description": "A Nord mercenary with a greatsword. He usually waits on the second floor of Candlehearth Hall and can be hired for 500 gold.",
+          "tags": [
+            "marriage",
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Hire him at Candlehearth Hall"
+            },
+            {
+              "label": "Hiring cost",
+              "value": "500 gold (again after each dismissal)"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Two-handed warrior in full steel armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, Two-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "40"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after hiring at least once"
+            }
+          ],
+          "tips": [
+            "Due to a bug he never rejoins for free; it is 500 gold every time (fixed by the Unofficial Patch)."
+          ],
+          "missable": "Bug: if Stenvar is forcibly dismissed by the Companions questline (they take the follower slot), he may vanish and never return to Candlehearth Hall. Dismiss him beforehand.",
+          "map": "Windhelm"
+        },
+        {
+          "id": "followers_vorstag",
+          "title": "Vorstag",
+          "en": "Vorstag",
+          "type": "follower",
+          "location": "Markarth — Silver-Blood Inn",
+          "description": "A Nord mercenary at the Silver-Blood Inn, equally good with a bow and in melee. He can be hired for 500 gold.",
+          "tags": [
+            "marriage",
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Hire him at the Silver-Blood Inn"
+            },
+            {
+              "label": "Hiring cost",
+              "value": "500 gold (again after each dismissal)"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: iron war axe and shield, bow"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "40"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after hiring at least once"
+            }
+          ],
+          "tips": [
+            "He hates mines but keeps marvelling at Dwemer ruins.",
+            "He wears light armor but is better with heavy armor, so give him a heavy set."
+          ],
+          "map": "Markarth"
+        }
+      ]
+    },
+    {
+      "title": "Mages",
+      "items": [
+        {
+          "id": "followers_brelyna_maryon",
+          "title": "Brelyna Maryon",
+          "en": "Brelyna Maryon",
+          "type": "follower",
+          "location": "Winterhold — College, Hall of Attainment",
+          "description": "A Dunmer student at the College of Winterhold. She becomes a follower after you help her in Brelyna's Practice.",
+          "tags": [
+            "marriage",
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "After Under Saarthal, complete Brelyna's Practice"
+            },
+            {
+              "label": "Race",
+              "value": "Dunmer"
+            },
+            {
+              "label": "Combat style",
+              "value": "Mystic: summons atronachs, casts wards and heals"
+            },
+            {
+              "label": "Skills",
+              "value": "Alteration, Illusion, Conjuration, Sneak"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after her quest"
+            }
+          ],
+          "tips": [
+            "Her quest turns you green, then into a horse, a cow and a dog; the reward is a Resist Magic necklace.",
+            "Steal from the College too often while she follows you and she will eventually attack."
+          ],
+          "related": [
+            "college_under_saarthal",
+            "college_brelynas_practice"
+          ],
+          "map": "Winterhold"
+        },
+        {
+          "id": "followers_jzargo",
+          "title": "J'zargo",
+          "en": "J'zargo",
+          "type": "follower",
+          "location": "Winterhold — College, Hall of Attainment",
+          "description": "A cocky Khajiit student at the College of Winterhold. He becomes a follower after J'zargo's Experiment.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "After Under Saarthal, complete J'zargo's Experiment: hit three undead with his scrolls"
+            },
+            {
+              "label": "Race",
+              "value": "Khajiit"
+            },
+            {
+              "label": "Combat style",
+              "value": "Sorcerer: shock and fire spells, casts wards"
+            },
+            {
+              "label": "Skills",
+              "value": "Destruction, Illusion, Heavy Armor, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "no cap (30 with the Unofficial Patch)"
+            },
+            {
+              "label": "Marriage",
+              "value": "no"
+            }
+          ],
+          "tips": [
+            "The only one of the three students who keeps leveling with you without a cap.",
+            "His Flame Cloak scrolls explode and hurt allies, so tell your follower to wait; you get no extra scrolls."
+          ],
+          "related": [
+            "college_under_saarthal",
+            "college_jzargos_experiment"
+          ],
+          "map": "Winterhold"
+        },
+        {
+          "id": "followers_onmund",
+          "title": "Onmund",
+          "en": "Onmund",
+          "type": "follower",
+          "location": "Winterhold — College, Hall of Attainment",
+          "description": "A Nord student at the College of Winterhold, a rare Nord mage. He becomes a follower once you return his family amulet.",
+          "tags": [
+            "marriage",
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "After Under Saarthal, complete Onmund's Request: get the amulet from Enthir for a staff or by persuasion"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Sorcerer: Chain Lightning and Lightning Bolt, ward, invisibility"
+            },
+            {
+              "label": "Skills",
+              "value": "Destruction, Illusion, One-handed, Heavy Armor"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "yes — wear an Amulet of Mara (talk to Maramal in Riften first), after his quest"
+            }
+          ],
+          "tips": [
+            "With high Speech you can persuade Enthir to hand over the amulet without fetching the staff."
+          ],
+          "related": [
+            "college_under_saarthal",
+            "college_onmunds_request"
+          ],
+          "map": "Winterhold"
+        }
+      ]
+    },
+    {
+      "title": "After Quests",
+      "items": [
+        {
+          "id": "followers_golldir",
+          "title": "Golldir",
+          "en": "Голлдир",
+          "type": "follower",
+          "location": "Hillgrund's Tomb",
+          "description": "A Nord guarding his ancestors' tomb from a necromancer. Joins you after Ancestral Worship (kill Vals Veran).",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete Ancestral Worship"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: one-handed weapon and shield, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "After the quest he waits outside the tomb entrance."
+          ],
+          "map": "Hillgrund's Tomb"
+        },
+        {
+          "id": "followers_illia",
+          "title": "Illia",
+          "en": "Иллия",
+          "type": "follower",
+          "location": "Darklight Tower",
+          "description": "An Imperial mage trying to stop her witch mother from becoming a hagraven. Becomes a follower after Repentance.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete Repentance with Illia alive"
+            },
+            {
+              "label": "Race",
+              "value": "Imperial"
+            },
+            {
+              "label": "Combat style",
+              "value": "Elemental mage: fire, frost and shock spells, healing"
+            },
+            {
+              "label": "Skills",
+              "value": "Destruction, Restoration, Alteration, Conjuration"
+            },
+            {
+              "label": "Max level",
+              "value": "40"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "One of the strongest mage followers; she favors frost spells.",
+            "When dismissed she returns to Darklight Tower."
+          ],
+          "map": "Darklight Tower"
+        },
+        {
+          "id": "followers_borgakh_the_steel_heart",
+          "title": "Borgakh the Steel Heart",
+          "en": "Боргак Стальное Сердце",
+          "type": "follower",
+          "location": "Mor Khazgur",
+          "description": "An Orc warrior who wants to leave her stronghold. Persuade her or pay her dowry — she can also be married.",
+          "tags": [
+            "protected",
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Become Blood-Kin of the Orcs, then persuade her or pay her dowry (bribe)"
+            },
+            {
+              "label": "Race",
+              "value": "Orc"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: one-handed weapon and shield, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Sneak"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "Yes — wear an Amulet of Mara (The Bonds of Matrimony)"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "You can take the dowry gold back from her inventory once she follows you."
+          ],
+          "map": "Mor Khazgur"
+        },
+        {
+          "id": "followers_ghorbash_the_iron_hand",
+          "title": "Ghorbash the Iron Hand",
+          "en": "Горбаш Железная Рука",
+          "type": "follower",
+          "location": "Dushnikh Yal",
+          "description": "Chief Burguk's brother and a former legionnaire who misses adventure. Joins after persuasion, a bribe or a brawl.",
+          "tags": [
+            "protected",
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Blood-Kin, then persuade, bribe or out-brawl him"
+            },
+            {
+              "label": "Race",
+              "value": "Orc"
+            },
+            {
+              "label": "Combat style",
+              "value": "Ranger: bow and one-handed weapon, light armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Archery, Light Armor, Block, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "Yes — wear an Amulet of Mara (The Bonds of Matrimony)"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "map": "Dushnikh Yal"
+        },
+        {
+          "id": "followers_lob",
+          "title": "Lob",
+          "en": "Лоб",
+          "type": "follower",
+          "location": "Largashbur",
+          "description": "An Orc smith's apprentice in cursed Largashbur. Becomes a follower once Malacath's curse is lifted.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete The Cursed Tribe"
+            },
+            {
+              "label": "Race",
+              "value": "Orc"
+            },
+            {
+              "label": "Combat style",
+              "value": "Ranger: bow and one-handed weapon, light armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Archery, Light Armor, Block, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "related": [
+            "daedric_the_cursed_tribe"
+          ],
+          "map": "Largashbur"
+        },
+        {
+          "id": "followers_ogol",
+          "title": "Ogol",
+          "en": "Огол",
+          "type": "follower",
+          "location": "Largashbur",
+          "description": "An Orc of Largashbur who is hostile at first. After The Cursed Tribe he respects you enough to follow.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete The Cursed Tribe"
+            },
+            {
+              "label": "Race",
+              "value": "Orc"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: one-handed weapon and shield, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Sneak"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "He wears only clothes — give him heavy armor right away."
+          ],
+          "related": [
+            "daedric_the_cursed_tribe"
+          ],
+          "map": "Largashbur"
+        },
+        {
+          "id": "followers_ugor",
+          "title": "Ugor",
+          "en": "Угор",
+          "type": "follower",
+          "location": "Largashbur",
+          "description": "An Orc warrior of Largashbur, first met fighting a giant at the gate. Becomes a follower after The Cursed Tribe.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete The Cursed Tribe"
+            },
+            {
+              "label": "Race",
+              "value": "Orc"
+            },
+            {
+              "label": "Combat style",
+              "value": "Ranger: bow and one-handed weapon, light armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Archery, Light Armor, Block, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "Help her against the giant at the gate — she can die before the quest even starts."
+          ],
+          "related": [
+            "daedric_the_cursed_tribe"
+          ],
+          "map": "Largashbur"
+        },
+        {
+          "id": "followers_adelaisa_vendicci",
+          "title": "Adelaisa Vendicci",
+          "en": "Аделаиза Вендиччи",
+          "type": "follower",
+          "location": "Windhelm, East Empire Company office",
+          "description": "An East Empire Company officer who joins the assault on the Blood Horker pirates. Becomes a follower after Rise in the East.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete Rise in the East"
+            },
+            {
+              "label": "Race",
+              "value": "Imperial"
+            },
+            {
+              "label": "Combat style",
+              "value": "Generalist: melee and bow, no real specialty"
+            },
+            {
+              "label": "Skills",
+              "value": "Archery, Light Armor, One-handed, Sneak"
+            },
+            {
+              "label": "Max level",
+              "value": "25"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "She is essential only until her quest ends."
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "followers_ahtar",
+          "title": "Ahtar",
+          "en": "Атар",
+          "type": "follower",
+          "location": "Solitude, Castle Dour",
+          "description": "Solitude's headsman and jailer who let a prisoner escape. Kill the escapee and he becomes a follower.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete his Kill the Bandit Leader favor"
+            },
+            {
+              "label": "Race",
+              "value": "Redguard"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: two-handed weapon, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, Two-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "Only one Kill the Bandit Leader quest can be active at a time."
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "followers_annekke_crag_jumper",
+          "title": "Annekke Crag-Jumper",
+          "en": "Аннеке Скалолазка",
+          "type": "follower",
+          "location": "Darkwater Crossing",
+          "description": "A retired adventurer who misses the road. After you kill a bandit leader for her, she will join you.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete her Kill the Bandit Leader favor"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Ranger: bow and one-handed weapon, light armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Archery, Light Armor, Block, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "No — she is married to Verner"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "map": "Darkwater Crossing"
+        },
+        {
+          "id": "followers_aranea_ienith",
+          "title": "Aranea Ienith",
+          "en": "Арания Иенит",
+          "type": "follower",
+          "location": "Shrine of Azura",
+          "description": "A priestess of Azura and a strong elemental mage. Joins you if you return the star to Azura rather than Nelacar in The Black Star.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish The Black Star in Azura's favor"
+            },
+            {
+              "label": "Race",
+              "value": "Dark Elf"
+            },
+            {
+              "label": "Combat style",
+              "value": "Elemental mage: fire, frost and shock spells, healing"
+            },
+            {
+              "label": "Skills",
+              "value": "Destruction, Restoration, Alteration, Conjuration"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will commit any crime you order"
+            }
+          ],
+          "missable": "If you give the star to Nelacar (The Black Star), Aranea turns hostile.",
+          "related": [
+            "daedric_the_black_star",
+            "missables_azuras_star"
+          ],
+          "map": "Shrine of Azura"
+        },
+        {
+          "id": "followers_benor",
+          "title": "Benor",
+          "en": "Бенор",
+          "type": "follower",
+          "location": "Morthal",
+          "description": "A boastful Nord warrior of Morthal. Beat him in a 100-gold brawl and he becomes a follower.",
+          "tags": [
+            "protected",
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Win his brawl (Fight! Fight!)"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: two-handed weapon, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, Two-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "Yes — wear an Amulet of Mara (The Bonds of Matrimony)"
+            },
+            {
+              "label": "Morality",
+              "value": "Will commit any crime you order"
+            }
+          ],
+          "map": "Morthal"
+        },
+        {
+          "id": "followers_cosnach",
+          "title": "Cosnach",
+          "en": "Коснах",
+          "type": "follower",
+          "location": "Markarth, Silver-Blood Inn",
+          "description": "A hard-drinking Breton warrior at the Silver-Blood Inn. Buy him a drink or win his brawl and he will follow you.",
+          "tags": [
+            "protected",
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Give him any alcohol (Quest all Drunks Have) or win his brawl"
+            },
+            {
+              "label": "Race",
+              "value": "Breton"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: one-handed weapon and shield, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "Yes — wear an Amulet of Mara (The Bonds of Matrimony)"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "The quickest follower in Markarth — one bottle of mead is enough."
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "followers_derkeethus",
+          "title": "Derkeethus",
+          "en": "Деркитус",
+          "type": "follower",
+          "location": "Darkwater Pass, then Darkwater Crossing",
+          "description": "An Argonian miner held captive by the Falmer. Rescue him in Darkwater Pass and he becomes a follower and marriage candidate.",
+          "tags": [
+            "essential",
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete Extracting an Argonian"
+            },
+            {
+              "label": "Race",
+              "value": "Argonian"
+            },
+            {
+              "label": "Combat style",
+              "value": "Ranger: bow and one-handed weapon, light armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Archery, Light Armor, Block, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "Yes — wear an Amulet of Mara (The Bonds of Matrimony)"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "The only follower with unlimited breath underwater.",
+            "He is essential because of a game bug."
+          ],
+          "map": "Darkwater Pass"
+        },
+        {
+          "id": "followers_eola",
+          "title": "Eola",
+          "en": "Эола",
+          "type": "follower",
+          "location": "Markarth Hall of the Dead; Reachcliff Cave",
+          "description": "A Breton cannibal devoted to Namira. Joins you if you finish The Taste of Death on her side.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish The Taste of Death as Namira's champion"
+            },
+            {
+              "label": "Race",
+              "value": "Breton"
+            },
+            {
+              "label": "Combat style",
+              "value": "Nightblade: fire spells and a sword"
+            },
+            {
+              "label": "Skills",
+              "value": "Destruction, Sneak, Alteration, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will commit any crime you order"
+            }
+          ],
+          "missable": "Lost if you refuse Namira in The Taste of Death and kill her.",
+          "related": [
+            "daedric_the_taste_of_death"
+          ],
+          "map": "Reachcliff Cave"
+        },
+        {
+          "id": "followers_erandur",
+          "title": "Erandur",
+          "en": "Эрандур",
+          "type": "follower",
+          "location": "Dawnstar, Windpeak Inn; Nightcaller Temple",
+          "description": "A Dunmer priest of Mara and former Vaermina cultist. If you let him destroy the Skull of Corruption in Waking Nightmare, he becomes a follower.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish Waking Nightmare without killing him"
+            },
+            {
+              "label": "Race",
+              "value": "Dark Elf"
+            },
+            {
+              "label": "Combat style",
+              "value": "Priest: mace, fire spells and wards"
+            },
+            {
+              "label": "Skills",
+              "value": "Restoration, Speech, Alchemy, Conjuration"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "missable": "Killing him for the Skull of Corruption at Vaermina's urging loses him forever.",
+          "related": [
+            "daedric_waking_nightmare",
+            "missables_skull_of_corruption"
+          ],
+          "map": "Nightcaller Temple"
+        },
+        {
+          "id": "followers_faendal",
+          "title": "Faendal",
+          "en": "Фендал",
+          "type": "follower",
+          "location": "Riverwood",
+          "description": "A Wood Elf lumberjack and hunter, Sven's rival for Camilla. Side with him in A Lovely Letter and he will follow you.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish A Lovely Letter in his favor"
+            },
+            {
+              "label": "Race",
+              "value": "Wood Elf"
+            },
+            {
+              "label": "Combat style",
+              "value": "Ranger: bow and one-handed weapon, light armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Archery, Light Armor, Sneak, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            },
+            {
+              "label": "Trainer",
+              "value": "Archery (up to 50)"
+            }
+          ],
+          "tips": [
+            "Train Archery and take the gold back from his inventory (fixed by the Unofficial Patch)."
+          ],
+          "missable": "Only one of Faendal or Sven can be recruited.",
+          "map": "Riverwood"
+        },
+        {
+          "id": "followers_kharjo",
+          "title": "Kharjo",
+          "en": "Карджо",
+          "type": "follower",
+          "location": "Ahkari's Khajiit caravan (Dawnstar–Riften route)",
+          "description": "A Khajiit caravan guard whose moon amulet was stolen by bandits. Return it and he joins you.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete Amulet of the Moon"
+            },
+            {
+              "label": "Race",
+              "value": "Khajiit"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: one-handed weapon and shield, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "When dismissed he returns to the caravan, so look for him along its route."
+          ],
+          "map": "Dawnstar"
+        },
+        {
+          "id": "followers_mjoll_the_lioness",
+          "title": "Mjoll the Lioness",
+          "en": "Мьол Львица",
+          "type": "follower",
+          "location": "Riften",
+          "description": "A retired adventurer fighting Riften's corruption. Recover her sword Grimsever from Mzinchaleft and she will follow you.",
+          "tags": [
+            "essential",
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete Grimsever's Return"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: two-handed weapon, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, Two-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "40"
+            },
+            {
+              "label": "Marriage",
+              "value": "Yes — wear an Amulet of Mara (The Bonds of Matrimony)"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "You can take Grimsever back from her inventory while she follows you.",
+            "She is essential, which makes her a safe pick at any level."
+          ],
+          "related": [
+            "side_grimsevers_return"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "followers_roggi_knot_beard",
+          "title": "Roggi Knot-Beard",
+          "en": "Рогги Борода Узлом",
+          "type": "follower",
+          "location": "Kynesgrove",
+          "description": "A Nord miner and mead connoisseur in Kynesgrove. Find his ancestor's shield and he becomes a follower and marriage candidate.",
+          "tags": [
+            "protected",
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Bring back his ancestor's shield (Dungeon Delving (Caves))"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Generalist: melee and bow, no real specialty"
+            },
+            {
+              "label": "Skills",
+              "value": "Archery, One-handed, Two-handed, Smithing"
+            },
+            {
+              "label": "Max level",
+              "value": "20"
+            },
+            {
+              "label": "Marriage",
+              "value": "Yes — wear an Amulet of Mara (The Bonds of Matrimony)"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "map": "Kynesgrove"
+        },
+        {
+          "id": "followers_sven",
+          "title": "Sven",
+          "en": "Свен",
+          "type": "follower",
+          "location": "Riverwood, Sleeping Giant Inn",
+          "description": "Riverwood's bard and Faendal's rival for Camilla. Side with him in A Lovely Letter and he will follow you.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish A Lovely Letter in his favor"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Generalist: melee and bow, no real specialty"
+            },
+            {
+              "label": "Skills",
+              "value": "Archery, One-handed, Two-handed, Smithing"
+            },
+            {
+              "label": "Max level",
+              "value": "20"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will steal, but not kill"
+            }
+          ],
+          "missable": "Only one of Sven or Faendal can be recruited.",
+          "map": "Riverwood"
+        },
+        {
+          "id": "followers_uthgerd_the_unbroken",
+          "title": "Uthgerd the Unbroken",
+          "en": "Утгерд Несломленная",
+          "type": "follower",
+          "location": "Whiterun, The Bannered Mare",
+          "description": "A Nord warrior at The Bannered Mare. Beat her in a 100-gold brawl and she becomes a follower and marriage candidate.",
+          "tags": [
+            "protected",
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Win her brawl (Fight! Fight!)"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: one-handed weapon and shield, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            },
+            {
+              "label": "Marriage",
+              "value": "Yes — wear an Amulet of Mara (The Bonds of Matrimony)"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "One of the earliest followers — available in Whiterun right at the start."
+          ],
+          "map": "Whiterun"
+        }
+      ]
+    },
+    {
+      "title": "Dawnguard",
+      "items": [
+        {
+          "id": "followers_serana",
+          "title": "Serana",
+          "en": "Серана",
+          "type": "follower",
+          "location": "Dimhollow Crypt; then Volkihar Keep or Fort Dawnguard",
+          "description": "A pure-blood vampire, Lord Harkon's daughter, found sealed in a sarcophagus. She travels with you through the Dawnguard story and stays a permanent follower after Kindred Judgment.",
+          "tags": [
+            "essential",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Free her in Awakening; permanent after Kindred Judgment"
+            },
+            {
+              "label": "Race",
+              "value": "Nord (vampire)"
+            },
+            {
+              "label": "Combat style",
+              "value": "Necromancer: raises corpses, vampiric drain, dagger"
+            },
+            {
+              "label": "Skills",
+              "value": "Sneak, Conjuration, Light Armor, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "No — she declines, though she reacts to an Amulet of Mara"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "Has more unique dialogue than any other follower — places, quests and NPCs all get comments.",
+            "On the Dawnguard side you can convince her to be cured of vampirism by Falion after the finale.",
+            "After Kindred Judgment she can turn you into a Vampire Lord at any time."
+          ],
+          "related": [
+            "dawnguard_awakening",
+            "dawnguard_bloodline",
+            "dawnguard_kindred_judgment"
+          ],
+          "map": "Dimhollow Crypt"
+        },
+        {
+          "id": "followers_agmaer",
+          "title": "Agmaer",
+          "en": "Агмейр",
+          "type": "follower",
+          "location": "Fort Dawnguard",
+          "description": "A nervous Nord who wants to become a vampire hunter, met in Dayspring Canyon. Becomes a follower after Prophet.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Join the Dawnguard and complete Prophet"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Melee fighter: one- or two-handed weapons, light armor"
+            },
+            {
+              "label": "Skills",
+              "value": "One-handed, Two-handed, Block, Light Armor"
+            },
+            {
+              "label": "Max level",
+              "value": "25"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "missable": "Unavailable if you side with the vampires — the Dawnguard is wiped out.",
+          "related": [
+            "dawnguard_prophet_dawnguard",
+            "missables_dawnguard_side"
+          ],
+          "map": "Fort Dawnguard"
+        },
+        {
+          "id": "followers_beleval",
+          "title": "Beleval",
+          "en": "Белевал",
+          "type": "follower",
+          "location": "Fort Dawnguard",
+          "description": "A Wood Elf Dawnguard recruit who drills with the crossbow at the fort. Becomes a follower after Prophet.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Join the Dawnguard and complete Prophet"
+            },
+            {
+              "label": "Race",
+              "value": "Wood Elf"
+            },
+            {
+              "label": "Combat style",
+              "value": "Melee fighter: one- or two-handed weapons, light armor"
+            },
+            {
+              "label": "Skills",
+              "value": "One-handed, Two-handed, Block, Light Armor"
+            },
+            {
+              "label": "Max level",
+              "value": "25"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "missable": "Unavailable if you side with the vampires — the Dawnguard is wiped out.",
+          "related": [
+            "dawnguard_prophet_dawnguard",
+            "missables_dawnguard_side"
+          ],
+          "map": "Fort Dawnguard"
+        },
+        {
+          "id": "followers_celann",
+          "title": "Celann",
+          "en": "Селанн",
+          "type": "follower",
+          "location": "Fort Dawnguard",
+          "description": "A Breton former Vigilant of Stendarr and Isran's old comrade. Becomes a follower after Prophet.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Join the Dawnguard and complete Prophet"
+            },
+            {
+              "label": "Race",
+              "value": "Breton"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: one-handed weapon and shield, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "None — levels with you"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "One of the few followers with no level cap."
+          ],
+          "missable": "Unavailable if you side with the vampires — the Dawnguard is wiped out.",
+          "related": [
+            "dawnguard_prophet_dawnguard",
+            "missables_dawnguard_side"
+          ],
+          "map": "Fort Dawnguard"
+        },
+        {
+          "id": "followers_durak",
+          "title": "Durak",
+          "en": "Дорак",
+          "type": "follower",
+          "location": "Fort Dawnguard",
+          "description": "An Orc vampire hunter who first invites you to join the Dawnguard. Becomes a follower after Prophet.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Join the Dawnguard and complete Prophet"
+            },
+            {
+              "label": "Race",
+              "value": "Orc"
+            },
+            {
+              "label": "Combat style",
+              "value": "Ranger: crossbow, war axe and shield"
+            },
+            {
+              "label": "Skills",
+              "value": "Archery, Light Armor, Block, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "None — levels with you"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "After Prophet he makes you Blood-Kin, opening every Orc stronghold.",
+            "No level cap."
+          ],
+          "missable": "Unavailable if you side with the vampires — the Dawnguard is wiped out.",
+          "related": [
+            "dawnguard_prophet_dawnguard",
+            "missables_dawnguard_side"
+          ],
+          "map": "Fort Dawnguard"
+        },
+        {
+          "id": "followers_ingjard",
+          "title": "Ingjard",
+          "en": "Ингьярд",
+          "type": "follower",
+          "location": "Fort Dawnguard",
+          "description": "A Nord warrior who joined the Dawnguard. Becomes a follower after Prophet.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Join the Dawnguard and complete Prophet"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: two-handed weapon, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, Two-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "None — levels with you"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "No level cap."
+          ],
+          "missable": "Unavailable if you side with the vampires — the Dawnguard is wiped out.",
+          "related": [
+            "dawnguard_prophet_dawnguard",
+            "missables_dawnguard_side"
+          ],
+          "map": "Fort Dawnguard"
+        },
+        {
+          "id": "followers_armored_troll",
+          "title": "Armored Troll",
+          "en": "Тролль в броне",
+          "type": "follower",
+          "location": "Fort Dawnguard (from Gunmar)",
+          "description": "A Dawnguard war troll sold by Gunmar. From level 20 on he sells an Armored Frost Troll instead.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Buy one from Gunmar once he joins the fort (A New Order)"
+            },
+            {
+              "label": "Price",
+              "value": "500 gold"
+            },
+            {
+              "label": "Type",
+              "value": "Animal follower — wait and follow commands only"
+            },
+            {
+              "label": "Max level",
+              "value": "14 (Armored Frost Troll — 22)"
+            }
+          ],
+          "tips": [
+            "A dismissed troll is gone for good — you have to buy another.",
+            "Regenerates health in combat but is weak to fire."
+          ],
+          "missable": "Unavailable if you side with the vampires — the Dawnguard is wiped out.",
+          "related": [
+            "dawnguard_a_new_order",
+            "missables_dawnguard_side"
+          ],
+          "map": "Fort Dawnguard"
+        },
+        {
+          "id": "followers_bran",
+          "title": "Bran",
+          "en": "Бран",
+          "type": "follower",
+          "location": "Fort Dawnguard",
+          "description": "An armored husky kept in the Fort Dawnguard pen. Available as an animal follower after A New Order.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Join the Dawnguard and complete A New Order"
+            },
+            {
+              "label": "Type",
+              "value": "Animal follower (husky)"
+            },
+            {
+              "label": "Max level",
+              "value": "25"
+            },
+            {
+              "label": "Pet (Hearthfire)",
+              "value": "Yes — can become your child's pet"
+            }
+          ],
+          "missable": "Unavailable if you side with the vampires — the Dawnguard is wiped out.",
+          "related": [
+            "dawnguard_a_new_order",
+            "missables_dawnguard_side"
+          ],
+          "map": "Fort Dawnguard"
+        },
+        {
+          "id": "followers_sceolang",
+          "title": "Sceolang",
+          "en": "Скеолан",
+          "type": "follower",
+          "location": "Fort Dawnguard",
+          "description": "The second armored husky in the Fort Dawnguard pen. Available as an animal follower after A New Order.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Join the Dawnguard and complete A New Order"
+            },
+            {
+              "label": "Type",
+              "value": "Animal follower (husky)"
+            },
+            {
+              "label": "Max level",
+              "value": "25"
+            },
+            {
+              "label": "Pet (Hearthfire)",
+              "value": "Yes — can become your child's pet"
+            }
+          ],
+          "missable": "Unavailable if you side with the vampires — the Dawnguard is wiped out.",
+          "related": [
+            "dawnguard_a_new_order",
+            "missables_dawnguard_side"
+          ],
+          "map": "Fort Dawnguard"
+        },
+        {
+          "id": "followers_cusith",
+          "title": "CuSith",
+          "en": "Ку-Сит",
+          "type": "follower",
+          "location": "Volkihar Keep",
+          "description": "A death hound of the Volkihar vampires. Becomes an animal follower if you join the clan.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Accept Harkon's gift and join the Volkihar Clan"
+            },
+            {
+              "label": "Type",
+              "value": "Animal follower (death hound)"
+            },
+            {
+              "label": "Max level",
+              "value": "5 (does not level)"
+            }
+          ],
+          "tips": [
+            "Stuck at level 5, so it falls behind quickly."
+          ],
+          "missable": "Unavailable if you side with the Dawnguard.",
+          "related": [
+            "dawnguard_bloodline",
+            "missables_dawnguard_side"
+          ]
+        },
+        {
+          "id": "followers_garmr",
+          "title": "Garmr",
+          "en": "Гармр",
+          "type": "follower",
+          "location": "Volkihar Keep",
+          "description": "The second death hound of Volkihar Keep. Becomes an animal follower if you join the clan.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Accept Harkon's gift and join the Volkihar Clan"
+            },
+            {
+              "label": "Type",
+              "value": "Animal follower (death hound)"
+            },
+            {
+              "label": "Max level",
+              "value": "5 (does not level)"
+            }
+          ],
+          "missable": "Unavailable if you side with the Dawnguard.",
+          "related": [
+            "dawnguard_bloodline",
+            "missables_dawnguard_side"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Dragonborn",
+      "items": [
+        {
+          "id": "followers_frea",
+          "title": "Frea",
+          "en": "Фрея",
+          "type": "follower",
+          "location": "Skaal Village",
+          "description": "The Skaal shaman's daughter who guides you through the Temple of Miraak. After The Fate of the Skaal she can be persuaded to follow you permanently.",
+          "tags": [
+            "essential",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete The Fate of the Skaal, then persuade her (Speech 25+)"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: two axes, flesh spells, healing"
+            },
+            {
+              "label": "Skills",
+              "value": "One-handed, Alteration, Light Armor, Restoration"
+            },
+            {
+              "label": "Max level",
+              "value": "None — levels with you"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "Essential with no level cap — one of the strongest followers.",
+            "Comments on places and events of the Dragonborn story."
+          ],
+          "related": [
+            "dragonborn_the_temple_of_miraak",
+            "dragonborn_the_fate_of_the_skaal"
+          ],
+          "map": "Skaal Village",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "followers_teldryn_sero",
+          "title": "Teldryn Sero",
+          "en": "Телдрин Серо",
+          "type": "follower",
+          "location": "Raven Rock, The Retching Netch",
+          "description": "A Dunmer sellsword in chitin armor who mixes blade and fire magic. Hire him for 500 gold.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Hire for 500 gold; rehiring is free"
+            },
+            {
+              "label": "Race",
+              "value": "Dark Elf"
+            },
+            {
+              "label": "Combat style",
+              "value": "Spellsword: sword, fire spells, Flame Atronach"
+            },
+            {
+              "label": "Skills",
+              "value": "One-handed, Light Armor, Destruction, Conjuration"
+            },
+            {
+              "label": "Max level",
+              "value": "60"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will commit any crime you order"
+            }
+          ],
+          "tips": [
+            "Plenty of witty lines about Solstheim and Morrowind.",
+            "Unlike mainland hirelings, he never asks to be paid again."
+          ],
+          "map": "Raven Rock",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "followers_talvas_fathryon",
+          "title": "Talvas Fathryon",
+          "en": "Талвас Фатрион",
+          "type": "follower",
+          "location": "Tel Mithryn",
+          "description": "Neloth's apprentice, obsessed with summoning an ash guardian. After From the Ashes he agrees to travel with you.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Complete From the Ashes"
+            },
+            {
+              "label": "Race",
+              "value": "Dark Elf"
+            },
+            {
+              "label": "Combat style",
+              "value": "Conjurer: atronachs, fire and frost spells"
+            },
+            {
+              "label": "Skills",
+              "value": "Conjuration, Restoration, Destruction, Alteration"
+            },
+            {
+              "label": "Max level",
+              "value": "25 (fixed level)"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            },
+            {
+              "label": "Trainer",
+              "value": "Conjuration (master, up to 90)"
+            }
+          ],
+          "tips": [
+            "Sells spells, including Conjure Ash Guardian after his quest."
+          ],
+          "map": "Tel Mithryn",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "followers_ralis_sedarys",
+          "title": "Ralis Sedarys",
+          "en": "Ралис Седарис",
+          "type": "follower",
+          "location": "Kolbjorn Barrow; later The Retching Netch in Raven Rock",
+          "description": "A Dunmer excavating Kolbjorn Barrow for the relics of Ahzidal. Spare him at the end of Unearthed and he moves to Raven Rock as a follower.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Spare him at the end of Unearthed"
+            },
+            {
+              "label": "Race",
+              "value": "Dark Elf"
+            },
+            {
+              "label": "Combat style",
+              "value": "Fighter: one-handed weapon, light armor"
+            },
+            {
+              "label": "Skills",
+              "value": "One-handed, Light Armor, Block, Sneak"
+            },
+            {
+              "label": "Max level",
+              "value": "60"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will not commit crimes"
+            }
+          ],
+          "tips": [
+            "With another follower active he offers no recruit dialogue — dismiss them first."
+          ],
+          "missable": "Lost if you kill him at the end of Unearthed.",
+          "related": [
+            "dragonborn_unearthed"
+          ],
+          "map": "Kolbjorn Barrow",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "followers_riekling",
+          "title": "Riekling",
+          "en": "Риклинг",
+          "type": "follower",
+          "location": "Thirsk Mead Hall",
+          "description": "The rieklings of Thirsk serve you once you become their chief. Choose a riekling, scout, hunter or warrior.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Become chief in The Chief of Thirsk Hall"
+            },
+            {
+              "label": "Type",
+              "value": "Creature follower: spear; the scout uses a bow"
+            },
+            {
+              "label": "Max level",
+              "value": "23"
+            }
+          ],
+          "tips": [
+            "Solstheim only — automatically leaves when you travel to Skyrim.",
+            "Thirsk riekling warriors sometimes appear at random to help you fight."
+          ],
+          "missable": "Unavailable if you help Bujold's Nords in Retaking Thirsk.",
+          "related": [
+            "dragonborn_the_chief_of_thirsk_hall",
+            "dragonborn_retaking_thirsk",
+            "missables_thirsk"
+          ],
+          "map": "Thirsk Mead Hall",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "followers_steadfast_dwarven_sphere",
+          "title": "Steadfast Dwarven Sphere",
+          "en": "Прочная двемерская сфера",
+          "type": "follower",
+          "location": "Kagrumez",
+          "description": "A friendly Dwemer automaton inside Kagrumez. Unlocked after the second stage of the Kagrumez Gauntlet.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Clear the second Kagrumez Gauntlet stage and talk to it"
+            },
+            {
+              "label": "Type",
+              "value": "Creature follower: blade and crossbow"
+            },
+            {
+              "label": "Max level",
+              "value": "30"
+            }
+          ],
+          "tips": [
+            "Come at level 24+ to get the version with a ranged attack.",
+            "If destroyed it respawns in Kagrumez after a day."
+          ],
+          "map": "Kagrumez",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "followers_steadfast_dwarven_spider",
+          "title": "Steadfast Dwarven Spider",
+          "en": "Прочный двемерский паук",
+          "type": "follower",
+          "location": "Kagrumez",
+          "description": "A friendly Dwemer spider in Kagrumez, unlocked after the first trial. Weaker than the sphere but available sooner.",
+          "tags": [
+            "protected",
+            "dlc"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Clear the first Kagrumez Gauntlet stage and pull the lever"
+            },
+            {
+              "label": "Type",
+              "value": "Creature follower"
+            },
+            {
+              "label": "Max level",
+              "value": "16"
+            }
+          ],
+          "tips": [
+            "Cannot follow you at the same time as a dog."
+          ],
+          "map": "Kagrumez",
+          "mapWorld": "solstheim"
+        }
+      ]
+    },
+    {
+      "title": "Animals and Others",
+      "items": [
+        {
+          "id": "followers_meeko",
+          "title": "Meeko",
+          "en": "Мико",
+          "type": "follower",
+          "location": "Meeko's Shack",
+          "description": "A dog left alone after his owner died, near a shack south of Solitude. Just talk to him and he follows you.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Talk to him"
+            },
+            {
+              "label": "Type",
+              "value": "Animal follower (dog)"
+            },
+            {
+              "label": "Max level",
+              "value": "25"
+            },
+            {
+              "label": "Pet (Hearthfire)",
+              "value": "Yes — introduce him to your child"
+            }
+          ],
+          "tips": [
+            "Look on the road south of the shack — he runs up to you.",
+            "Can follow you alongside a regular follower."
+          ],
+          "map": "Meeko's Shack"
+        },
+        {
+          "id": "followers_vigilance",
+          "title": "Vigilance",
+          "en": "Зоркий",
+          "type": "follower",
+          "location": "Markarth Stables",
+          "description": "A war dog sold by Banning at the Markarth stables. The highest level cap of any dog.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Buy him from Banning"
+            },
+            {
+              "label": "Price",
+              "value": "500 gold"
+            },
+            {
+              "label": "Type",
+              "value": "Animal follower (dog)"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Pet (Hearthfire)",
+              "value": "Yes"
+            }
+          ],
+          "tips": [
+            "If dismissed he returns to Banning and you must pay again.",
+            "Charges ahead and often breaks your stealth."
+          ],
+          "map": "Markarth Stables"
+        },
+        {
+          "id": "followers_stray_dog",
+          "title": "Stray Dog",
+          "en": "Бродячая собака",
+          "type": "follower",
+          "location": "Random wilderness encounter",
+          "description": "A dog fighting off two wolves or skeevers. If it survives, talk to it and it becomes a follower.",
+          "tags": [
+            "protected"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Save it in the random encounter and talk to it"
+            },
+            {
+              "label": "Type",
+              "value": "Animal follower (dog)"
+            },
+            {
+              "label": "Max level",
+              "value": "25"
+            },
+            {
+              "label": "Pet (Hearthfire)",
+              "value": "Yes"
+            }
+          ],
+          "tips": [
+            "Easily lost when changing areas — make it a pet quickly."
+          ]
+        },
+        {
+          "id": "followers_cicero",
+          "title": "Cicero",
+          "en": "Цицерон",
+          "type": "follower",
+          "location": "Dawnstar Sanctuary",
+          "description": "The mad jester and Keeper of the Night Mother. Spare him in The Cure for Madness and finish the Dark Brotherhood to recruit him.",
+          "tags": [
+            "essential"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Spare him in The Cure for Madness, finish Hail Sithis!"
+            },
+            {
+              "label": "Race",
+              "value": "Imperial"
+            },
+            {
+              "label": "Combat style",
+              "value": "Assassin: one-handed weapon and stealth, light armor"
+            },
+            {
+              "label": "Skills",
+              "value": "One-handed, Sneak, Archery, Light Armor"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will commit any crime you order"
+            }
+          ],
+          "tips": [
+            "Essential and will carry out any order, murder included.",
+            "Note: his jester outfit is only obtainable if you kill him instead."
+          ],
+          "missable": "Lost if you kill him in The Cure for Madness or destroy the Dark Brotherhood.",
+          "related": [
+            "dark_brotherhood_cure_for_madness",
+            "dark_brotherhood_hail_sithis",
+            "missables_cicero"
+          ],
+          "map": "Dawnstar Sanctuary"
+        },
+        {
+          "id": "followers_dark_brotherhood_initiate",
+          "title": "Dark Brotherhood Initiate",
+          "en": "Посвящённый Тёмного Братства",
+          "type": "follower",
+          "location": "Dawnstar Sanctuary",
+          "description": "Two Nord assassins (a man and a woman) who join the Brotherhood after its finale. Essential and level up to 100.",
+          "tags": [
+            "essential"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Finish Hail Sithis! and buy Sanctuary upgrades from Delvin Mallory"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Assassin: one-handed weapon and stealth, light armor"
+            },
+            {
+              "label": "Skills",
+              "value": "One-handed, Sneak, Archery, Light Armor"
+            },
+            {
+              "label": "Max level",
+              "value": "100"
+            },
+            {
+              "label": "Marriage",
+              "value": "No"
+            },
+            {
+              "label": "Morality",
+              "value": "Will commit any crime you order"
+            }
+          ],
+          "tips": [
+            "The highest level cap of any essential follower.",
+            "They wear full Shrouded armor and carry an ebony dagger.",
+            "They have no arrows of their own — give them some for archery."
+          ],
+          "missable": "Unavailable if you destroy the Dark Brotherhood.",
+          "related": [
+            "dark_brotherhood_hail_sithis",
+            "dark_brotherhood_destroy"
+          ],
+          "map": "Dawnstar Sanctuary"
+        },
+        {
+          "id": "followers_barbas",
+          "title": "Barbas",
+          "en": "Барбас",
+          "type": "follower",
+          "location": "Road near Falkreath",
+          "description": "Clavicus Vile's talking dog. Follows you during A Daedra's Best Friend and cannot be harmed.",
+          "tags": [
+            "essential",
+            "limited"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Start A Daedra's Best Friend"
+            },
+            {
+              "label": "Type",
+              "value": "Temporary animal follower"
+            },
+            {
+              "label": "Max level",
+              "value": "45"
+            },
+            {
+              "label": "Special",
+              "value": "Invulnerable; leaves when the quest ends"
+            }
+          ],
+          "tips": [
+            "Leave the quest unfinished and invulnerable Barbas will fight beside you indefinitely.",
+            "Only the Rueful Axe can hurt him."
+          ],
+          "related": [
+            "daedric_a_daedras_best_friend",
+            "missables_clavicus"
+          ],
+          "map": "Falkreath"
+        }
+      ]
+    },
+    {
+      "title": "Hearthfire",
+      "items": [
+        {
+          "id": "followers_gregor",
+          "title": "Gregor",
+          "en": "Грегор",
+          "type": "follower",
+          "location": "Dawnstar; later Heljarchen Hall",
+          "description": "A Nord housecarl granted by the Jarl of the Pale when you become thane. Guards Heljarchen Hall.",
+          "tags": [
+            "housecarl",
+            "protected",
+            "dlc",
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Become Thane of the Pale (requires Hearthfire)"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: one-handed weapon and shield, heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "Yes — wear an Amulet of Mara (The Bonds of Matrimony)"
+            },
+            {
+              "label": "Morality",
+              "value": "Will commit any crime you order"
+            }
+          ],
+          "tips": [
+            "Guards your Hearthfire homestead while not following you."
+          ],
+          "map": "Heljarchen Hall"
+        },
+        {
+          "id": "followers_rayya",
+          "title": "Rayya",
+          "en": "Райя",
+          "type": "follower",
+          "location": "Falkreath, Jarl's Longhouse; later Lakeview Manor",
+          "description": "A Redguard housecarl granted by the Jarl of Falkreath when you become thane. Guards Lakeview Manor.",
+          "tags": [
+            "housecarl",
+            "protected",
+            "dlc",
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Become Thane of Falkreath (requires Hearthfire)"
+            },
+            {
+              "label": "Race",
+              "value": "Redguard"
+            },
+            {
+              "label": "Combat style",
+              "value": "Warrior: one-handed, often dual-wielding; heavy armor"
+            },
+            {
+              "label": "Skills",
+              "value": "Heavy Armor, One-handed, Archery, Block"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "Yes — wear an Amulet of Mara (The Bonds of Matrimony)"
+            },
+            {
+              "label": "Morality",
+              "value": "Will commit any crime you order"
+            }
+          ],
+          "tips": [
+            "Guards your Hearthfire homestead while not following you."
+          ],
+          "map": "Lakeview Manor"
+        },
+        {
+          "id": "followers_valdimar",
+          "title": "Valdimar",
+          "en": "Валдимар",
+          "type": "follower",
+          "location": "Morthal; later Windstad Manor",
+          "description": "A Nord housecarl granted by the Jarl of Hjaalmarch when you become thane. The only mage housecarl — he fights in melee once out of magicka.",
+          "tags": [
+            "housecarl",
+            "protected",
+            "dlc",
+            "marriage"
+          ],
+          "facts": [
+            {
+              "label": "How to recruit",
+              "value": "Become Thane of Hjaalmarch (requires Hearthfire)"
+            },
+            {
+              "label": "Race",
+              "value": "Nord"
+            },
+            {
+              "label": "Combat style",
+              "value": "Sorcerer: Destruction spells, healing, one-handed weapon"
+            },
+            {
+              "label": "Skills",
+              "value": "Destruction, Restoration, Alteration, One-handed"
+            },
+            {
+              "label": "Max level",
+              "value": "50"
+            },
+            {
+              "label": "Marriage",
+              "value": "Yes — wear an Amulet of Mara (The Bonds of Matrimony)"
+            },
+            {
+              "label": "Morality",
+              "value": "Will commit any crime you order"
+            }
+          ],
+          "tips": [
+            "Guards your Hearthfire homestead while not following you."
+          ],
+          "map": "Windstad Manor"
+        }
+      ]
+    }
+  ]
+}

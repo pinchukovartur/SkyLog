@@ -1,0 +1,4079 @@
+{
+  "id": "side",
+  "title": "Side Quests",
+  "icon": "map",
+  "description": "Side quests and townsfolk favors by hold. The \"Counts for Thane\" tag marks tasks that count as helping the hold's people.",
+  "groups": [
+    {
+      "title": "Whiterun Hold",
+      "items": [
+        {
+          "id": "side_in_my_time_of_need",
+          "title": "In My Time of Need",
+          "en": "Время лишений",
+          "type": "quest",
+          "location": "Whiterun, Rorikstead, Swindler's Den",
+          "giver": "Alik'r Warrior",
+          "description": "Alik'r warriors are hunting a Redguard woman hiding in Whiterun under the name Saadia. Each side accuses the other of treachery — decide who to trust.",
+          "choices": [
+            {
+              "id": "side_in_my_time_of_need_choice",
+              "question": "Who do you help?",
+              "options": [
+                {
+                  "id": "saadia",
+                  "label": "Saadia: kill Kematu in Swindler's Den",
+                  "result": "Saadia stays in Whiterun and pays you."
+                },
+                {
+                  "id": "alikr",
+                  "label": "The Alik'r: hand Saadia over",
+                  "result": "Kematu takes Saadia away, and the Alik'r pay you in gold."
+                }
+              ]
+            }
+          ],
+          "hints": [
+            "If you believe Saadia: in the Dragonsreach dungeon, pay a guard 100 gold to talk to the captured Alik'r — he names Swindler's Den, west of Whiterun, where Kematu hides.",
+            "If you believe the Alik'r: their group waits in Rorikstead. Kematu asks you to lure Saadia to the Whiterun Stables, where he paralyzes her."
+          ],
+          "related": [
+            "missables_saadia"
+          ],
+          "map": "Swindler's Den"
+        },
+        {
+          "id": "side_missing_in_action",
+          "title": "Missing In Action",
+          "en": "Без вести пропавший",
+          "type": "quest",
+          "location": "Whiterun, Northwatch Keep",
+          "giver": "Fralia Gray-Mane",
+          "description": "Thorald Gray-Mane's mother is sure her son is alive. Find proof in the House of Clan Battle-Born that the Thalmor are holding him, then free him from Northwatch Keep.",
+          "hints": [
+            "The evidence is in the House of Clan Battle-Born: a small office on the ground floor, left of the entrance, next to a bedroom. Getting in is easier if a Battle-Born already likes you (e.g. after Lars's errand or selling crops to Alfhild).",
+            "The Thalmor hold Thorald in Northwatch Keep; Avulstein Gray-Mane can come along."
+          ],
+          "related": [
+            "side_bullying_braith"
+          ],
+          "map": "Northwatch Keep"
+        },
+        {
+          "id": "side_the_blessings_of_nature",
+          "title": "The Blessings of Nature",
+          "en": "Чудо природы",
+          "type": "quest",
+          "location": "Whiterun, Orphan Rock, Eldergleam Sanctuary",
+          "giver": "Danica Pure-Spring",
+          "description": "Take the dagger Nettlebane from the hagravens and travel to the Eldergleam for something that will revive the Gildergreen.",
+          "tips": [
+            "After the quest, Danica trains Restoration up to Master level."
+          ],
+          "choices": [
+            {
+              "id": "side_the_blessings_of_nature_choice",
+              "question": "What do you take from the Eldergleam?",
+              "options": [
+                {
+                  "id": "sap",
+                  "label": "Pierce the bark and collect sap",
+                  "result": "The sap brings the Gildergreen back to life."
+                },
+                {
+                  "id": "sapling",
+                  "label": "Let Maurice pray and take a sapling",
+                  "result": "The Eldergleam is unharmed, and the Gildergreen regrows from the sapling."
+                }
+              ]
+            }
+          ],
+          "hints": [
+            "The hagravens at Orphan Rock in Falkreath Hold keep Nettlebane.",
+            "Maurice Jondrelle tends to charge into fights and may die on the way — it's easiest to mark the Eldergleam Sanctuary on your map beforehand and fast travel straight there."
+          ],
+          "related": [
+            "secrets_gildergreen"
+          ],
+          "map": "Orphan Rock"
+        },
+        {
+          "id": "side_the_golden_claw",
+          "title": "The Golden Claw",
+          "en": "Золотой коготь",
+          "type": "quest",
+          "location": "Riverwood, Bleak Falls Barrow",
+          "giver": "Lucan Valerius",
+          "description": "A Riverwood trader asks you to recover a stolen golden dragon claw. Take it from the bandit Arvel the Swift and use it to open the puzzle door in Bleak Falls Sanctum.",
+          "tips": [
+            "The correct ring combination is on the back of the claw — inspect it in your inventory."
+          ],
+          "hints": [
+            "Arvel the Swift is stuck in a web deep in Bleak Falls Barrow: kill the spider and cut him loose — he runs off, and you take the claw from his body.",
+            "You can return the claw to Lucan only after reaching the Word Wall in the sanctum."
+          ],
+          "related": [
+            "main_bleak_falls_barrow"
+          ],
+          "map": "Bleak Falls Barrow"
+        },
+        {
+          "id": "side_erik_the_slayer",
+          "title": "Erik the Slayer",
+          "en": "Эрик Грозный Убийца",
+          "type": "quest",
+          "location": "Rorikstead, Frostfruit Inn",
+          "giver": "Erik",
+          "description": "The innkeeper's son dreams of adventure. Convince his father Mralki to let him go — then you can hire Erik as a follower.",
+          "tips": [
+            "You can persuade, bribe or intimidate Mralki."
+          ],
+          "hints": [
+            "By day Erik works on Lemkil's farm and spends evenings at the Frostfruit Inn; Mralki is the innkeeper there."
+          ],
+          "related": [
+            "followers_erik_the_slayer"
+          ],
+          "map": "Rorikstead"
+        },
+        {
+          "id": "side_sleeping_tree_cave",
+          "type": "quest",
+          "title": "Sleeping Tree Cave",
+          "en": "Сонное Дерево — Пещера",
+          "location": "Sleeping Tree Camp, Whiterun",
+          "giver": "Ysolda's Message (on Ulag's body)",
+          "description": "In a cave at a giant camp lies Ulag, a dead Orc who harvested Sleeping Tree Sap for Ysolda. Bring the note to Ysolda and she'll start buying the sap from you.",
+          "tips": [
+            "Ysolda pays 150 gold for each Sleeping Tree Sap."
+          ],
+          "hints": [
+            "Sleeping Tree Camp is west of Whiterun. The small cave entrance is northwest of the tree itself and is not marked on the world map.",
+            "Giants and mammoths turn hostile if you get close. At low level, slip into the cave without fighting: another giant wanders near Ulag's body inside."
+          ],
+          "related": [
+            "side_rare_gifts_ysolda"
+          ],
+          "map": "Sleeping Tree Camp"
+        },
+        {
+          "id": "side_rannveigs_fast",
+          "type": "quest",
+          "title": "Rannveig's Fast",
+          "en": "Обитель Раннвейг",
+          "location": "Rannveig's Fast",
+          "description": "An unmarked quest: ghosts outside the ruin apologize as they attack — the necromancer Sild the Warlock has enslaved their souls. Defeat him and learn a word of the Kyne's Peace shout.",
+          "hints": [
+            "The ruin is east-northeast of Rorikstead, south of Cold Rock Pass; no road leads there.",
+            "The chest in front of the Word Wall is bait: the dark patch of floor before it is a trapdoor that drops you into a cage near Sild. The cage key is in a satchel left of the door, and a dead bandit in the water carries lockpicks.",
+            "To avoid the trap, take the northern passage: a lever on the upper level raises the gate, letting you sneak up on Sild from behind."
+          ],
+          "map": "Rannveig's Fast"
+        },
+        {
+          "id": "side_thane_of_whiterun",
+          "type": "quest",
+          "title": "Thane of Whiterun",
+          "en": "Тан Вайтрана",
+          "location": "Whiterun, Dragonsreach",
+          "giver": "Jarl Vignar Gray-Mane",
+          "description": "If the Stormcloaks have taken Whiterun, the new jarl Vignar asks you to help five people of the hold and buy Breezehome. Reward: the title of thane and the hold blade.",
+          "tips": [
+            "While Balgruuf is jarl, you become Thane of Whiterun only through Dragon Rising, and this quest never appears.",
+            "Help given to citizens counts even before you get the quest — see the errands tagged for thanehood in this section."
+          ],
+          "related": [
+            "civil_war_battle_for_whiterun",
+            "main_dragon_rising",
+            "followers_lydia"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_andurs_arkay_amulet",
+          "type": "quest",
+          "title": "Andurs' Arkay Amulet",
+          "en": "Найти амулет Аркея для Андурса",
+          "location": "Whiterun, Hall of the Dead",
+          "giver": "Andurs",
+          "description": "The priest of Arkay left his amulet in the catacombs under the Hall of the Dead, where skeletons now roam. Bring it back.",
+          "hints": [
+            "The amulet is on a table on the right, in the room past the stairs by the second skeleton.",
+            "If you already carry an ordinary Amulet of Arkay, drop it before picking up the quest one, or the quest may not complete."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_argonian_ale_extraction",
+          "type": "quest",
+          "title": "Argonian Ale Extraction",
+          "en": "Украсть аргонианский эль",
+          "location": "Whiterun, The Bannered Mare",
+          "giver": "Brenuin",
+          "description": "A drunk beggar asks you to swipe a bottle of Argonian Ale from The Bannered Mare. Reward: a Potion of Vigorous Healing.",
+          "hints": [
+            "Give Brenuin a coin first — that unlocks the question about whether he is always drunk.",
+            "The ale sits on a cupboard in the inn's kitchen, opposite the cooking spit. Sell Hulda some firewood first and you can take it without stealing."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_bullying_braith",
+          "type": "quest",
+          "title": "Bullying Braith",
+          "en": "Убедить Брейт не приставать к Ларсу",
+          "location": "Whiterun",
+          "giver": "Lars Battle-Born",
+          "description": "Lars of Clan Battle-Born is being bullied by a girl named Braith. Talk to her — any of the three dialogue options works.",
+          "tips": [
+            "Lars only talks between 8am and 8pm.",
+            "Afterwards you can freely enter the House of Clan Battle-Born — handy for Missing in Action."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_missing_in_action"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_a_few_words_with_you_carlotta",
+          "type": "quest",
+          "title": "A Few Words with You (Carlotta)",
+          "en": "На пару слов (Карлотта)",
+          "location": "Whiterun",
+          "giver": "Carlotta Valentia",
+          "description": "A market vendor is tired of the pushy bard Mikael. Convince him to leave Carlotta alone.",
+          "hints": [
+            "Mikael performs or rests at The Bannered Mare. An easy Speech check, a bribe, a threat or a fistfight all work."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_dungeon_delving_amren",
+          "type": "quest",
+          "title": "Dungeon Delving (Amren)",
+          "en": "Подземелья (Амрен)",
+          "location": "Whiterun",
+          "giver": "Amren",
+          "description": "Bandits stole Amren's family sword. Find it in a random bandit hideout in the hold. Reward: +1 One-handed and Block.",
+          "hints": [
+            "The sword is in the boss chest at one of: Halted Stream Camp, Redoran's Retreat, Swindler's Den, Valtheim Keep or White River Watch.",
+            "It starts with Amren arguing with his wife Saffir; if you missed the scene, just ask Amren what they were arguing about."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_rare_gifts_ysolda",
+          "type": "quest",
+          "title": "Rare Gifts (Ysolda)",
+          "en": "Редкие дары (Изольда)",
+          "location": "Whiterun",
+          "giver": "Ysolda",
+          "description": "Ysolda wants to become a merchant: a Khajiit trader promised to help her get started if she gets him a mammoth tusk. Bring her one. Reward: +1 Speech.",
+          "tips": [
+            "It's a radiant quest: while another Rare Gifts quest (e.g. Siddgeir's) is in your journal, Ysolda won't offer it."
+          ],
+          "hints": [
+            "Halted Stream Camp north of Whiterun has several tusks; Belethor sometimes sells one.",
+            "If you don't mind stealing: there is a tusk in Jorrvaskr, in the Jarl's Quarters in Dragonsreach and on a shelf behind the Bannered Mare's counter."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_rare_gifts_siddgeir",
+            "side_sleeping_tree_cave"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_greatsword_for_a_great_man",
+          "type": "quest",
+          "title": "Greatsword for a Great Man",
+          "en": "Отнести меч Провентусу Авениччи",
+          "location": "Whiterun, Warmaiden's",
+          "giver": "Adrianne Avenicci",
+          "description": "Adrianne has forged a greatsword for the jarl and asks you to hand it to her father Proventus, Dragonsreach's steward.",
+          "tips": [
+            "Ask Adrianne whether she works the forge all day — that opens the errand."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_salt_for_arcadia",
+          "type": "quest",
+          "title": "Salt for Arcadia",
+          "en": "Отдать Аркадии морозную соль",
+          "location": "Whiterun, Dragonsreach, Arcadia's Cauldron",
+          "giver": "Farengar Secret-Fire",
+          "description": "The court wizard asks you to bring the alchemist Arcadia the frost salts he promised her. Reward: three potions.",
+          "tips": [
+            "Ask Farengar whether he's the only wizard in town.",
+            "Afterwards Arcadia lets you take many ingredients in her shop for free."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_fight_fight_uthgerd",
+          "type": "quest",
+          "title": "Fight! Fight! (Uthgerd)",
+          "en": "Драка! Драка! (Утгерд)",
+          "location": "Whiterun, The Bannered Mare",
+          "giver": "Uthgerd the Unbroken",
+          "description": "Uthgerd challenges you to a fistfight for 100 gold. Winning makes her a friend: she can become a follower or a spouse.",
+          "tips": [
+            "Fists only: weapons or spells against her count as assault. Healing yourself with magic is allowed."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "followers_uthgerd_the_unbroken"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_beggars_brenuin",
+          "type": "quest",
+          "title": "Quest all Beggars Have (Brenuin)",
+          "en": "Квест всех нищих (Бренуин)",
+          "location": "Whiterun",
+          "giver": "Brenuin",
+          "description": "Not shown in the journal: give the beggar a coin. He becomes a friend and you get the Gift of Charity blessing, which temporarily boosts Speech.",
+          "tips": [
+            "The same coin unlocks Argonian Ale Extraction."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "repeatable": true,
+          "related": [
+            "side_argonian_ale_extraction"
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_chop_wood_whiterun",
+          "type": "quest",
+          "title": "Chop Wood (Whiterun Hold)",
+          "en": "Рубка дров (владение Вайтран)",
+          "location": "Whiterun, Riverwood",
+          "giver": "Hulda (The Bannered Mare), Hod (Riverwood mill)",
+          "description": "Not shown in the journal: chop firewood at a wood chopping block with a woodcutter's axe and sell it at 5 gold each. The first sale makes the buyer a friend.",
+          "tips": [
+            "Each buyer counts separately toward thanehood — sell at least one log to both Hulda and Hod."
+          ],
+          "hints": [
+            "There are chopping blocks at The Bannered Mare and by the Riverwood mill. In Riverwood an axe lies nearby, but Whiterun has none without the unofficial patch — bring your own."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "repeatable": true,
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_gather_wheat_whiterun",
+          "type": "quest",
+          "title": "Gather Wheat (Whiterun Hold)",
+          "en": "Сбор урожая (владение Вайтран)",
+          "location": "Farms near Whiterun, Rorikstead",
+          "giver": "Alfhild Battle-Born, Severio Pelagia, Lemkil, Reldith",
+          "description": "Not shown in the journal: sell crops (wheat, cabbage, potatoes, leeks, gourds) to a farmer. The first sale makes them a friend.",
+          "tips": [
+            "The easiest way to help citizens for thanehood: each of the four farmers counts separately."
+          ],
+          "hints": [
+            "Alfhild is at Battle-Born Farm and Severio at Pelagia Farm near Whiterun; Lemkil is at Lemkil's Farmhouse and Reldith at Cowflop Farmhouse in Rorikstead.",
+            "You can pick the crops right in their fields — the farmers don't mind."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "repeatable": true,
+          "map": "Whiterun"
+        },
+        {
+          "id": "side_a_lovely_letter",
+          "type": "quest",
+          "title": "A Lovely Letter",
+          "en": "Любовное письмо",
+          "location": "Riverwood",
+          "giver": "Sven or Faendal",
+          "description": "The bard Sven and the hunter Faendal are rivals for Camilla Valerius, and each asks you to deliver a forged letter \"from\" the other. The winner becomes your friend and follower.",
+          "hints": [
+            "Sven is at the Sleeping Giant Inn or at home; Faendal chops wood by the mill. Show one man's letter to the other to get the counter-letter.",
+            "Camilla is at the Riverwood Trader by day and sometimes at the inn in the evening. You can hand over the letter as is or tell her the truth — the loser is upset either way."
+          ],
+          "choices": [
+            {
+              "id": "side_a_lovely_letter_choice",
+              "question": "Who do you help?",
+              "options": [
+                {
+                  "id": "sven",
+                  "label": "Sven: deliver the letter \"from Faendal\"",
+                  "result": "Sven becomes a friend and can follow you; Faendal is upset and won't."
+                },
+                {
+                  "id": "faendal",
+                  "label": "Faendal: deliver the letter \"from Sven\"",
+                  "result": "Faendal becomes a friend, can follow you and trains Archery; Sven is upset."
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "followers_sven",
+            "followers_faendal"
+          ],
+          "missable": "You can help only one: the other turns unfriendly and won't become a follower.",
+          "map": "Riverwood"
+        },
+        {
+          "id": "side_drunks_embry",
+          "type": "quest",
+          "title": "Quest all Drunks Have (Embry)",
+          "en": "Квест всех пьяниц (Эмбри)",
+          "location": "Riverwood, Sleeping Giant Inn",
+          "giver": "Embry",
+          "description": "Not shown in the journal: share a drink with Embry — almost any alcohol in your inventory will do. After that he counts you as a friend.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "repeatable": true,
+          "map": "Riverwood"
+        },
+        {
+          "id": "side_blacksmithing_tutorial",
+          "type": "quest",
+          "title": "Blacksmithing Tutorial",
+          "en": "Обучение кузнечному делу",
+          "location": "Riverwood, Whiterun",
+          "giver": "Alvor or Adrianne Avenicci",
+          "description": "A smith teaches you the basics: forge and sharpen an iron dagger, tan leather, then craft and improve a hide helmet. You keep what you make.",
+          "tips": [
+            "Lots of quick objectives in a row — a fast way toward the Hero of the People achievement."
+          ],
+          "hints": [
+            "Don't sharpen the dagger or improve the helmet before you're asked to, or the objective won't count."
+          ],
+          "map": "Riverwood"
+        },
+        {
+          "id": "side_alchemy_tutorial",
+          "type": "quest",
+          "title": "Alchemy Tutorial",
+          "en": "Обучение алхимии",
+          "location": "Riverwood, Whiterun, Falkreath",
+          "giver": "Orgnar, Arcadia or Zaria",
+          "description": "Ask permission to use the alchemy lab and brew any potion.",
+          "hints": [
+            "The giver's own tip: wheat and blisterwort make a healing potion."
+          ],
+          "map": "Riverwood"
+        },
+        {
+          "id": "side_enchanting_tutorial",
+          "type": "quest",
+          "title": "Enchanting Tutorial",
+          "en": "Обучение зачарованию",
+          "location": "Whiterun, Dragonsreach",
+          "giver": "Farengar Secret-Fire",
+          "description": "Ask Farengar how to enchant weapons and armor, then use the Arcane Enchanter next to him.",
+          "tips": [
+            "Just activating the enchanter is enough — you don't have to enchant anything. Leaving Dragonsreach makes the quest vanish."
+          ],
+          "map": "Whiterun"
+        }
+      ]
+    },
+    {
+      "title": "Falkreath Hold",
+      "items": [
+        {
+          "id": "side_hunter_and_hunted",
+          "title": "Moss Mother Cavern",
+          "en": "Мшистая пещера",
+          "type": "quest",
+          "location": "Falkreath, Moss Mother Cavern",
+          "giver": "Valdr / Valga Vinicia",
+          "description": "The wounded hunter Valdr asks for help clearing Moss Mother Cavern of spriggans. Reward: Valdr's Lucky Dagger, and Valdr can become your follower.",
+          "hints": [
+            "The cave is northwest of Half-Moon Mill. Heal Valdr right away — give him a healing potion or use a healing spell.",
+            "Inside are three spriggans and a bear; fire damage helps the most. Valdr can come along or wait outside."
+          ],
+          "missable": "Valdr isn't protected: if he dies before you arrive or you don't heal him in time, the quest won't start.",
+          "map": "Moss Mother Cavern"
+        },
+        {
+          "id": "side_the_savior_of_selveni_nethri",
+          "type": "quest",
+          "title": "The Savior of Selveni Nethri",
+          "en": "Помочь Селвени Нетри выбраться из пещеры",
+          "location": "Southfringe Sanctum",
+          "giver": "Selveni Nethri",
+          "description": "In Southfringe Sanctum, the Dunmer necromancer Selveni Nethri, cast out of her coven by Bashnag, hangs in a spider web. Cut her down and clear the way out.",
+          "hints": [
+            "The cave is southeast of Helgen, south of Fort Neugrad.",
+            "Selveni is cursed and can't cast — kill the spiders along the way out first, then tell her the path is clear. You don't have to kill Bashnag."
+          ],
+          "missable": "If Selveni dies before leaving the cave, the quest fails.",
+          "map": "Southfringe Sanctum"
+        },
+        {
+          "id": "side_thane_of_falkreath",
+          "type": "quest",
+          "title": "Thane of Falkreath",
+          "en": "Тан Фолкрита",
+          "location": "Falkreath, Jarl's Longhouse",
+          "giver": "Jarl Siddgeir or Dengeir of Stuhn",
+          "description": "The jarl asks you to help three people of the hold. Reward: the title of thane and the Blade of Falkreath.",
+          "tips": [
+            "Under Siddgeir you must first complete Kill the Bandit Leader for him; if Dengeir is jarl, the quest is available right away.",
+            "Help given to citizens counts even before you get the quest — see the errands tagged for thanehood in this section."
+          ],
+          "hints": [
+            "If you complete Rescue from Fort Neugrad before your first visit to Falkreath, Dengeir becomes jarl and his Some Light Theft errand is lost — leaving few people to help in this small hold."
+          ],
+          "related": [
+            "side_kill_the_bandit_leader_siddgeir",
+            "civil_war_rescue_from_fort_neugrad",
+            "followers_rayya"
+          ],
+          "map": "Falkreath"
+        },
+        {
+          "id": "side_some_light_theft_dengeir",
+          "title": "Some Light Theft (Dengeir)",
+          "en": "Небольшая кража (Денгейр)",
+          "type": "quest",
+          "location": "Falkreath, Dengeir's House",
+          "giver": "Dengeir of Stuhn",
+          "description": "Dengeir asks you to steal an item. Reward: gold and +1 Speech and Sneak.",
+          "missable": "Becomes unavailable once Dengeir becomes Jarl of Falkreath — if the Stormcloaks take the hold.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "hints": [
+            "Dengeir is sure the smith Lod is writing a treasonous letter. The Private Letter is on the bedside table in Lod's House — taking it is theft.",
+            "The letter only appears in Lod's House after you talk to Dengeir."
+          ],
+          "related": [
+            "side_dark_ancestor"
+          ],
+          "map": "Falkreath"
+        },
+        {
+          "id": "side_dark_ancestor",
+          "title": "Dark Ancestor",
+          "en": "Тёмный предок",
+          "type": "quest",
+          "location": "Falkreath, Bloodlet Throne",
+          "giver": "Dengeir of Stuhn",
+          "description": "Falkreath's former jarl asks you to kill the vampire Vighar, his ancestor, holed up in Bloodlet Throne.",
+          "tags": [
+            "favor"
+          ],
+          "tips": [
+            "Unlocks after Some Light Theft. Minimum level 10."
+          ],
+          "hints": [
+            "Bloodlet Throne is a fort in the mountains southwest of Helgen: leave Helgen by the east gate and follow the path.",
+            "Right past the entrance is a pressure plate for a fire trap. Vighar releases wolves into an arena, then jumps down himself — he is as strong as a Master Vampire."
+          ],
+          "missable": "If Dengeir becomes Jarl of Falkreath (the Stormcloaks take the hold), he no longer gives this errand.",
+          "related": [
+            "side_some_light_theft_dengeir"
+          ],
+          "map": "Bloodlet Throne"
+        },
+        {
+          "id": "side_rare_gifts_siddgeir",
+          "type": "quest",
+          "title": "Rare Gifts (Siddgeir)",
+          "en": "Редкие дары (Сиддгейр)",
+          "location": "Falkreath, Jarl's Longhouse",
+          "giver": "Jarl Siddgeir",
+          "description": "Falkreath's jarl wants a bottle of Black-Briar Mead. Reward: 2–3 potions and access to the jarl's next task.",
+          "tips": [
+            "It's a radiant quest: while another Rare Gifts quest (e.g. Ysolda's) is in your journal, Siddgeir won't offer it."
+          ],
+          "hints": [
+            "There is a bottle in the cave under Helgen at the very start of the game — where you sneak past the bear.",
+            "Another one sits in Lod's House next to the Some Light Theft letter; many innkeepers sell the mead too."
+          ],
+          "missable": "Only offered while Siddgeir is jarl. With Hearthfire, a courier brings a letter from the jarl at level 9, after which you can't get this errand (an active one fails).",
+          "tags": [
+            "favor"
+          ],
+          "related": [
+            "side_kill_the_bandit_leader_siddgeir",
+            "side_rare_gifts_ysolda"
+          ],
+          "map": "Falkreath"
+        },
+        {
+          "id": "side_kill_the_bandit_leader_siddgeir",
+          "type": "quest",
+          "title": "Kill the Bandit Leader (Siddgeir)",
+          "en": "Убить вожака бандитов (Сиддгейр)",
+          "location": "Falkreath, Jarl's Longhouse",
+          "giver": "Jarl Siddgeir",
+          "description": "Siddgeir no longer gets his cut from the bandits and wants their leader dead. Reward: gold; afterwards the jarl offers thanehood.",
+          "hints": [
+            "The hideout is random: Bilegulch Mine, Cracked Tusk Keep, Embershard Mine, Knifepoint Ridge or Bannermist Tower.",
+            "Only the leader has to die."
+          ],
+          "missable": "Only offered while Siddgeir is jarl. Under Dengeir it isn't needed for thanehood.",
+          "tags": [
+            "favor"
+          ],
+          "related": [
+            "side_rare_gifts_siddgeir",
+            "side_thane_of_falkreath"
+          ],
+          "map": "Falkreath"
+        },
+        {
+          "id": "side_delivery_thadgeir",
+          "type": "quest",
+          "title": "Delivery (Thadgeir)",
+          "en": "Доставка (Тадгейр)",
+          "location": "Falkreath, Dengeir's House",
+          "giver": "Thadgeir",
+          "description": "Old Thadgeir asks you to take Berit's Ashes to the priest Runil at Falkreath's Hall of the Dead. Reward: a little gold.",
+          "tips": [
+            "It's a radiant quest: only one Delivery can be active at a time."
+          ],
+          "hints": [
+            "Ask Thadgeir about the burial — a guard at the town entrance mentions it."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_dungeon_delving_runil"
+          ],
+          "map": "Falkreath"
+        },
+        {
+          "id": "side_dungeon_delving_runil",
+          "type": "quest",
+          "title": "Dungeon Delving (Runil)",
+          "en": "Подземелья (Рунил)",
+          "location": "Falkreath, Hall of the Dead",
+          "giver": "Runil",
+          "description": "Runil, priest of Arkay, lost his journal in a cave. Find it at a random spot in Falkreath Hold. Reward: gold.",
+          "tips": [
+            "Ask Runil if he's a priest of Arkay — that opens the errand.",
+            "It's a radiant quest: while another similar fetch quest is in your journal, Runil won't offer it."
+          ],
+          "hints": [
+            "The journal can be in: Bloated Man's Grotto, Brittleshin Pass, Darkshade Copse, Embershard Mine, Greywater Grotto, Halldir's Cairn, Moss Mother Cavern, Southfringe Sanctum or Sunderstone Gorge."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_delivery_thadgeir"
+          ],
+          "map": "Falkreath"
+        },
+        {
+          "id": "side_gather_wheat_falkreath",
+          "type": "quest",
+          "title": "Gather Wheat (Mathies)",
+          "en": "Сбор урожая (Матьес)",
+          "location": "Falkreath, Corpselight Farm",
+          "giver": "Mathies",
+          "description": "Not shown in the journal: sell crops to the farmer Mathies. The first sale makes him a friend.",
+          "hints": [
+            "The farm is in the middle of Falkreath, behind the Dead Man's Drink inn; you can pick cabbages, gourds and potatoes right in its field."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "repeatable": true,
+          "map": "Falkreath"
+        },
+        {
+          "id": "side_chop_wood_falkreath",
+          "type": "quest",
+          "title": "Chop Wood (Hert)",
+          "en": "Рубка дров (Херт)",
+          "location": "Half-Moon Mill",
+          "giver": "Hert",
+          "description": "Not shown in the journal: chop firewood and sell it to Hert at 5 gold each. The first sale makes him a friend.",
+          "hints": [
+            "The mill is on the southwest shore of Lake Ilinalta, east of Hunter's Rest."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "repeatable": true,
+          "map": "Half-Moon Mill"
+        }
+      ]
+    },
+    {
+      "title": "Hjaalmarch (Morthal)",
+      "items": [
+        {
+          "id": "side_laid_to_rest",
+          "title": "Laid to Rest",
+          "en": "Вечный покой",
+          "type": "quest",
+          "location": "Morthal",
+          "giver": "Jarl Idgrod Ravencrone, innkeeper Jonna",
+          "description": "Investigate the fire at Hroggar's house that killed his wife and daughter. The trail leads to Alva and Movarth's Lair, a vampire den.",
+          "tips": [
+            "Drop by Moorside Inn between stages: Jonna and Hroggar get new lines about the case.",
+            "You don't have to kill Hroggar: fight him with fists or use Paralyze, Fear or Calm. Easiest of all is to visit Alva's house while he works at the lumber mill. His reaction varies from threats to attacking without warning.",
+            "You can clear Movarth's Lair early. Then on the first visit you'll meet a Volkihar master vampire with helpers instead, and Movarth himself shows up later for the quest, alone.",
+            "If Alva isn't home at night, she's running to Movarth's Lair — you may spot her on the way. If you never met her, she (or her body) will be in the lair.",
+            "Movarth's Boots, a unique artifact, lie next to his bed.",
+            "Alva's body carries up to four soul gems, 50–250 septims, vampire dust, a steel dagger, her house key, innkeeper's clothes and boots.",
+            "Russian localization only: Helgi hums the tune of a Russian children's song (e.g. \"In the Forest a Little Fir Tree Was Born\")."
+          ],
+          "hints": [
+            "Helgi's ghost appears at the burned ruins of Hroggar's house next to Highmoon Hall: after you get the quest, search the ruins again. Agree to play hide-and-seek with her.",
+            "Wait for nightfall and go to Helgi's grave: a small plot behind the burned house, up and to the right, marked with cairns. Laelette is already waiting there — you'll have to fight.",
+            "If you're not sure where to look, tell the jarl about the ghost — she points you to the grave and a quest marker appears.",
+            "Alva's journal is in her coffin in the basement. During the day Hroggar is at the lumber mill and Alva is asleep; at night the coffin is empty but the journal is there.",
+            "Before heading to Movarth's Lair, talk to one of the helpers the jarl assigns, or you'll clear the cave alone."
+          ],
+          "map": "Morthal"
+        },
+        {
+          "id": "side_rising_at_dawn",
+          "title": "Rising at Dawn",
+          "en": "Подъём на рассвете",
+          "type": "quest",
+          "location": "Morthal, Summoning Circle",
+          "giver": "Falion",
+          "description": "If you've become a vampire, the mage Falion in Morthal can cure your vampirism. Bring him a filled black soul gem and meet him at dawn at the summoning circle.",
+          "tips": [
+            "Fill a black soul gem with the soul of any human or mer."
+          ],
+          "hints": [
+            "Falion lives in Morthal, in Falion's House. Tell him you're a vampire and he'll ask for a filled black soul gem.",
+            "The Summoning Circle is a ring of stones in the marsh northwest of Morthal. Go there at dawn with the filled gem."
+          ],
+          "related": [
+            "side_falions_secret"
+          ],
+          "map": "Morthal"
+        },
+        {
+          "id": "side_falions_secret",
+          "title": "Falion's Secret",
+          "en": "Секрет Фалиона",
+          "type": "quest",
+          "location": "Morthal, Summoning Circle",
+          "giver": "Falion",
+          "description": "Every night the mage Falion slips out of Morthal into the marsh. Follow him to a ring of stones and decide whether to keep his secret or tell the jarl.",
+          "tips": [
+            "The quest doesn't appear in your journal.",
+            "You can demand 200 gold from Falion for your silence — you can still tell the jarl afterwards."
+          ],
+          "hints": [
+            "Wait by Falion's House around 1 a.m. and follow him past the lumber mill, northwest into the marsh, to the Summoning Circle.",
+            "Morthal's residents and Falion's ward Agni mention his nightly walks."
+          ],
+          "related": [
+            "side_rising_at_dawn"
+          ],
+          "map": "Morthal"
+        },
+        {
+          "id": "side_thane_of_hjaalmarch",
+          "title": "Thane of Hjaalmarch",
+          "en": "Тан Хьялмарка",
+          "type": "quest",
+          "location": "Morthal, Highmoon Hall",
+          "giver": "Jarl Idgrod Ravencrone or Sorli the Builder",
+          "description": "Hjaalmarch's jarl asks you to help three people of the hold. Reward: the title of thane and the Blade of Hjaalmarch; with Hearthfire, also the housecarl Valdimar.",
+          "tips": [
+            "Idgrod offers it after Laid to Rest. If Sorli the Builder is jarl (after the civil war or Season Unending), you can take it right away.",
+            "Help counts even if you did the favors before talking to the jarl. Look for items tagged \"thane\" in this group.",
+            "With the Investor Speech perk, investing 500 gold in Lami's Thaumaturgist's Hut also counts."
+          ],
+          "hints": [
+            "Fastest route: sell one piece of firewood to Hroggar or Jorgen, one iron ore to Gestur Rockbreaker in Stonehills, and win a fistfight against Benor."
+          ],
+          "related": [
+            "side_laid_to_rest",
+            "followers_valdimar"
+          ],
+          "map": "Morthal"
+        },
+        {
+          "id": "side_for_the_good_of_morthal",
+          "title": "For the Good of Morthal",
+          "en": "Ради блага Морфала",
+          "type": "quest",
+          "location": "Morthal, Moorside Inn; Solitude, Castle Dour",
+          "giver": "Gorm",
+          "description": "Gorm, housecarl of Jarl Idgrod Ravencrone, doubts the jarl can still rule and asks you to take a letter to Captain Aldis in Solitude. Reward: 20 gold.",
+          "hints": [
+            "Gorm only brings it up away from the jarl: around 8 p.m. he dines at Moorside Inn or walks there from Highmoon Hall.",
+            "Captain Aldis is in Castle Dour in Solitude."
+          ],
+          "missable": "Gorm is exiled to Solitude if the Stormcloaks take Morthal. The quest is also lost if Captain Aldis dies in the \"Battle for Solitude\".",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Morthal"
+        },
+        {
+          "id": "side_delivery_idgrod_the_younger",
+          "title": "Delivery (Idgrod the Younger)",
+          "en": "Доставка (Идгрод Младшая)",
+          "type": "quest",
+          "location": "Morthal, Highmoon Hall; Whiterun, Temple of Kynareth",
+          "giver": "Idgrod the Younger",
+          "description": "Idgrod the Younger asks you to take a note about her son Joric's health to the priestess Danica Pure-Spring at the Temple of Kynareth in Whiterun. Reward: gold.",
+          "hints": [
+            "Ask Idgrod the Younger what's wrong with Joric and she'll ask you to deliver the note.",
+            "While another Delivery errand is active, this one won't be offered."
+          ],
+          "missable": "Idgrod the Younger is exiled to Solitude if the Stormcloaks take Morthal, and her errand becomes unavailable.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Morthal"
+        },
+        {
+          "id": "side_rare_gifts_lami",
+          "title": "Rare Gifts (Lami)",
+          "en": "Редкие дары (Лами)",
+          "type": "quest",
+          "location": "Morthal, Thaumaturgist's Hut",
+          "giver": "Lami",
+          "description": "The alchemist Lami wants a copy of Song of the Alchemists. Bring her any copy. Reward: +1 Alchemy.",
+          "tips": [
+            "While another Rare Gifts errand is active, this one won't be offered."
+          ],
+          "hints": [
+            "Ask Lami how long she has studied alchemy.",
+            "The marker points to the Bards College in Solitude: the book is on the counter to the right of the entrance. It isn't marked as stolen, but taking it while seen counts as theft. Another copy is in Anise's Cabin near Riverwood."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Morthal"
+        },
+        {
+          "id": "side_fight_fight_benor",
+          "title": "Fight! Fight! (Benor)",
+          "en": "Драка! Драка! (Бенор)",
+          "type": "quest",
+          "location": "Morthal, Guardhouse",
+          "giver": "Benor",
+          "description": "Benor boasts that he's the best warrior in Morthal. Take him up on it and beat him in a fistfight for a 100-gold bet.",
+          "tips": [
+            "After you win, Benor can become your follower and can be married."
+          ],
+          "hints": [
+            "Use only your fists: weapons or magic turn the brawl into a real fight."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "followers_benor"
+          ],
+          "map": "Morthal"
+        },
+        {
+          "id": "side_chop_wood_morthal",
+          "title": "Chop Wood (Morthal)",
+          "en": "Рубка дров (Морфал)",
+          "type": "quest",
+          "location": "Morthal",
+          "giver": "Hroggar, Jorgen",
+          "description": "Hroggar and Jorgen buy firewood at 5 gold apiece. Chop it with a woodcutter's axe at a chopping block and sell it.",
+          "tips": [
+            "Selling a single piece is enough to befriend them. Hroggar and Jorgen count as two separate residents."
+          ],
+          "hints": [
+            "A woodcutter's axe usually lies by the chopping block; if not, buy one from a blacksmith."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Morthal"
+        },
+        {
+          "id": "side_mine_ore_stonehills",
+          "title": "Mine Ore (Stonehills)",
+          "en": "Добыча руды (Каменные холмы)",
+          "type": "quest",
+          "location": "Stonehills, Rockwallow Mine",
+          "giver": "Gestur Rockbreaker",
+          "description": "Gestur Rockbreaker buys iron ore at 7 gold apiece. Mine ore in Rockwallow Mine and sell it to him.",
+          "tips": [
+            "Selling a single piece is enough to make Gestur a friend."
+          ],
+          "hints": [
+            "The ore veins are inside the mine; you can find a pickaxe in the settlement or in the mine itself."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Stonehills"
+        },
+        {
+          "id": "side_payment_delivery",
+          "title": "Payment Delivery",
+          "en": "Задержка платежа",
+          "type": "quest",
+          "location": "Stonehills, Sorli's House; Solitude",
+          "giver": "Pactur",
+          "description": "Pactur in Stonehills asks you to tell the mine's owner Bryling in Solitude that the late shipment will arrive soon. Reward: a little gold.",
+          "tips": [
+            "Doesn't count toward becoming thane."
+          ],
+          "hints": [
+            "Ask Pactur whether he owns the mine — the conversation leads to the request on its own.",
+            "Bryling is in the Blue Palace by day and at her house in Solitude at night."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "map": "Stonehills"
+        }
+      ]
+    },
+    {
+      "title": "The Pale (Dawnstar)",
+      "items": [
+        {
+          "id": "side_the_pale_lady",
+          "title": "The Pale Lady",
+          "en": "Бледная леди",
+          "type": "quest",
+          "location": "Frostmere Crypt",
+          "giver": "Eisa Blackthorn",
+          "description": "In Frostmere Crypt you uncover the story of a stolen blade and face the spirit of the Pale Lady. Reward: the Pale Blade.",
+          "tips": [
+            "Reward: the Pale Blade and a word of the Ice Form shout. You can recharge the blade by placing it back on the pedestal in the crypt."
+          ],
+          "hints": [
+            "Outside Frostmere Crypt, bandits attack Eisa Blackthorn. Whether you help or not, the quest starts; her journal starts it too.",
+            "At the end the Pale Lady attacks Ra'jirr. You can quickly take the sword from his body and place it on the pedestal — that banishes her without a fight."
+          ],
+          "map": "Frostmere Crypt"
+        },
+        {
+          "id": "side_kill_the_giant_jarl",
+          "title": "Kill the Giant (Jarl)",
+          "en": "Убить великана",
+          "type": "quest",
+          "location": "Dawnstar, The White Hall",
+          "giver": "Jarl Skald",
+          "description": "After Waking Nightmare, Skald asks you to kill a giant at one of the Pale's giant camps. Reward: 1,000–1,500 gold; unlocks Thane of the Pale and (with Hearthfire) buying the Heljarchen Hall plot.",
+          "tips": [
+            "Requires level 22 and no bounty in the Pale.",
+            "If all nearby giants are dead, wait 30 days for the camps to repopulate."
+          ],
+          "hints": [
+            "The giant is at one of these camps: Blizzard Rest, Tumble Arch Pass or Red Road Pass."
+          ],
+          "missable": "Only Skald gives this quest. If Dawnstar goes to the Legion (in the campaign or as a concession at \"Season Unending\"), Brina Merilis becomes jarl and the quest is lost; she grants the thane title without it.",
+          "tags": [
+            "favor"
+          ],
+          "related": [
+            "daedric_waking_nightmare"
+          ],
+          "map": "Dawnstar"
+        },
+        {
+          "id": "side_thane_of_the_pale",
+          "title": "Thane of the Pale",
+          "en": "Тан Белого Берега",
+          "type": "quest",
+          "location": "Dawnstar, The White Hall",
+          "giver": "Jarl Skald or Brina Merilis",
+          "description": "The Pale's jarl asks you to help three people of the hold. Reward: the title of thane and the Blade of the Pale; with Hearthfire, also the housecarl Gregor.",
+          "tips": [
+            "Skald offers it after Kill the Giant. Brina Merilis is friendly to you from the start.",
+            "If a resident has several favors, only the first one you complete counts.",
+            "With the Investor Speech perk, investing in Frida's Mortar and Pestle or Rustleif's smithy counts too."
+          ],
+          "hints": [
+            "Fastest route: share a drink with Karl, sell ore to Beitild or Leigelf, and sell a piece of firewood to Aeri at Anga's Mill."
+          ],
+          "related": [
+            "side_kill_the_giant_jarl",
+            "followers_gregor"
+          ],
+          "map": "Dawnstar"
+        },
+        {
+          "id": "side_salty_sea_dogs",
+          "title": "Salty Sea-Dogs",
+          "en": "Солёные морские волки",
+          "type": "quest",
+          "location": "Dawnstar, The Sea Squall",
+          "giver": "Captain Wayfinder",
+          "description": "The inexperienced Captain Wayfinder lost a cargo of fine-cut void salts from the College of Winterhold: drunk sailors left it in some cave. Find the salts and bring them back. Reward: gold.",
+          "tips": [
+            "Eight samples of the salts spawn at once in different places, but only the one the marker points to counts."
+          ],
+          "hints": [
+            "The salts are in the boss chest of a random location marked on your map after the conversation."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Dawnstar"
+        },
+        {
+          "id": "side_dungeon_delving_frida",
+          "title": "Dungeon Delving (Frida)",
+          "en": "Подземелья (Фрида)",
+          "type": "quest",
+          "location": "Dawnstar, The Mortar and Pestle",
+          "giver": "Frida",
+          "description": "The herbalist Frida asks you to recover the Ring of Pure Mixtures from a random cave. Reward: +1 Alchemy.",
+          "tips": [
+            "Afterwards you can buy the ring from Frida or steal it: it is a rare Fortify Alchemy ring you can disenchant to learn the enchantment.",
+            "While another Dungeon Delving quest is active, this one won't be offered."
+          ],
+          "hints": [
+            "Ask Frida how she got into the herb trade. The line is only available while the shop is open.",
+            "The ring is in Forsaken Cave or Hillgrund's Tomb (with the Unofficial Patch, also Shrouded Grove)."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Dawnstar"
+        },
+        {
+          "id": "side_rare_gifts_rustleif",
+          "title": "Rare Gifts (Rustleif)",
+          "en": "Редкие дары (Рустлейф)",
+          "type": "quest",
+          "location": "Dawnstar, Rustleif's House",
+          "giver": "Rustleif",
+          "description": "The blacksmith Rustleif wants a copy of Night Falls on Sentinel. Bring him any copy. Reward: +1 Smithing.",
+          "tips": [
+            "While another Rare Gifts errand is active, this one won't be offered."
+          ],
+          "hints": [
+            "Ask Rustleif whether he runs the forge.",
+            "Once you have the quest, a copy appears on a crate in Swindler's Den; other copies are in Volunruud."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Dawnstar"
+        },
+        {
+          "id": "side_mine_ore_dawnstar",
+          "title": "Mine Ore (Dawnstar)",
+          "en": "Добыча руды (Данстар)",
+          "type": "quest",
+          "location": "Dawnstar, Iron-Breaker Mine and Quicksilver Mine",
+          "giver": "Beitild, Leigelf",
+          "description": "Beitild buys iron ore (7 gold each) and Leigelf buys quicksilver ore (25 gold each). Mine ore in their mines and sell it.",
+          "tips": [
+            "Beitild and Leigelf count as two separate residents; one piece each is enough.",
+            "Beitild is a Dark Brotherhood contract target. If you plan to kill her, sell her ore first."
+          ],
+          "hints": [
+            "Iron-Breaker Mine and Quicksilver Mine are right in Dawnstar; pickaxes lie near the entrances."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "dark_brotherhood_kill_beitild"
+          ],
+          "map": "Dawnstar"
+        },
+        {
+          "id": "side_quest_all_drunks_have_karl",
+          "title": "Quest all Drunks Have (Karl)",
+          "en": "Квест всех пьяниц (Карл)",
+          "type": "quest",
+          "location": "Dawnstar, Iron-Breaker Mine",
+          "giver": "Karl",
+          "description": "The miner Karl won't say no to a free drink. Give him any alcohol and he becomes your friend.",
+          "tips": [
+            "The quest doesn't appear in your journal."
+          ],
+          "hints": [
+            "Carry mead, ale or wine — then the option to share a drink appears in dialogue. Some expensive drinks don't work."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Dawnstar"
+        },
+        {
+          "id": "side_delivery_skald",
+          "title": "Delivery (Aeri)",
+          "en": "Доставка (Эйри)",
+          "type": "quest",
+          "location": "Anga's Mill; Dawnstar, The White Hall",
+          "giver": "Aeri",
+          "description": "Aeri of the lumber mill at Anga's Mill asks you to take a note to Jarl Skald in Dawnstar. Reward: gold.",
+          "hints": [
+            "Ask Aeri about \"one of the Jarl's men\" and she'll ask you to deliver Aeri's Note.",
+            "While another Delivery errand is active, this one won't be offered."
+          ],
+          "missable": "Aeri gives this errand only while Skald is Jarl of Dawnstar. If the Legion takes Dawnstar, Skald is exiled to Windhelm and the errand is lost.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Anga's Mill"
+        },
+        {
+          "id": "side_chop_wood_angas_mill",
+          "title": "Chop Wood (Anga's Mill)",
+          "en": "Рубка дров (Деревня Анга)",
+          "type": "quest",
+          "location": "Anga's Mill",
+          "giver": "Aeri",
+          "description": "Aeri buys firewood at 5 gold apiece. Chop it with a woodcutter's axe at a chopping block and sell it.",
+          "tips": [
+            "With Hearthfire, befriending Aeri lets you cut lumber at her mill for building your own house."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Anga's Mill"
+        },
+        {
+          "id": "side_silenced_tongues",
+          "title": "Silenced Tongues",
+          "en": "Молчание Языков",
+          "type": "quest",
+          "location": "Volunruud, The Pale",
+          "giver": "Heddic's Volunruud Notes",
+          "description": "Find the ceremonial sword and axe, open the Elder's Cairn and defeat the ghost of Kvenel the Tongue. Reward: access to a Word of Power.",
+          "map": "Volunruud"
+        }
+      ]
+    },
+    {
+      "title": "Winterhold Hold",
+      "items": [
+        {
+          "id": "side_frostflow_abyss",
+          "title": "Frostflow Abyss",
+          "en": "Инеевая бездна",
+          "type": "quest",
+          "location": "Frostflow Lighthouse",
+          "description": "At Frostflow Lighthouse you find the murdered lady of the house and traces of her family's tragedy. Descend into the abyss beneath the lighthouse and burn Habd's remains in the lighthouse fire. Reward: the Sailor's Repose power.",
+          "map": "Frostflow Lighthouse"
+        },
+        {
+          "id": "side_coming_of_age",
+          "title": "Coming of Age",
+          "en": "Совершеннолетие",
+          "type": "quest",
+          "location": "Ironbind Barrow",
+          "giver": "Salma",
+          "description": "At Ironbind Barrow, a pair of adventurers asks you to guide them to the end of the dungeon. The ending is a surprise.",
+          "tips": [
+            "The quest doesn't appear in your journal.",
+            "Reward: the Steel Battleaxe of Fiery Souls behind the throne and a word of the Become Ethereal shout."
+          ],
+          "hints": [
+            "Salma and Beem-Ja are protected, not essential: you can accidentally kill them yourself. Save often.",
+            "Once Warlord Gathrik falls, Beem-Ja turns on you — he is a necromancer seeking a sacrifice. Strike first before he raises Gathrik."
+          ],
+          "map": "Ironbind Barrow"
+        },
+        {
+          "id": "side_yngols_barrow",
+          "title": "Yngol's Barrow",
+          "en": "Курган Ингола",
+          "type": "quest",
+          "location": "Winterhold, Birna's Oddments; Yngol Barrow",
+          "giver": "Birna",
+          "description": "Birna sells a Coral Dragon Claw for 50 gold that supposedly opens a treasure chamber in Yngol Barrow. Get through the barrow and claim the Helm of Yngol.",
+          "tips": [
+            "The quest doesn't appear in your journal.",
+            "Yngol Barrow lies northeast of Windhelm, by the White River. If you don't buy the claw, a second one is inside the barrow."
+          ],
+          "hints": [
+            "The dead scholar's notes in the first chamber explain the pillar puzzle: whale to the water, eagle to the sun, snake to the weeds.",
+            "The puzzle door combination is on the claw: snake, wolf, moth. Afterwards Yngol's shade rises from the throne."
+          ],
+          "map": "Yngol Barrow"
+        },
+        {
+          "id": "side_jarl_dungeon_delving_caves",
+          "title": "Dungeon Delving (Caves)",
+          "en": "Подземелья (ярл — пещеры)",
+          "type": "quest",
+          "location": "Winterhold, The Jarl's Longhouse",
+          "giver": "Jarl Korir",
+          "description": "Korir wants to restore Winterhold's former glory and asks you to find the Helm of Winterhold, a relic of the First Era jarls. Reward: gold; unlocks Thane of Winterhold.",
+          "hints": [
+            "The helm is in the boss chest of a random location: Driftshade Refuge, Fort Fellhammer, Hela's Folly, Hob's Fall Cave, Ironbind Barrow, Wreck of the Pride of Tel Vos, Saarthal, Snow Veil Sanctum, Yngol Barrow or Yngvild."
+          ],
+          "missable": "Korir backs the Stormcloaks. If the Legion takes Winterhold, he's exiled to Windhelm and the quest is lost. You can still become thane under the new jarl.",
+          "tags": [
+            "favor"
+          ],
+          "map": "Winterhold"
+        },
+        {
+          "id": "side_thane_of_winterhold",
+          "title": "Thane of Winterhold",
+          "en": "Тан Винтерхолда",
+          "type": "quest",
+          "location": "Winterhold, The Jarl's Longhouse",
+          "giver": "Jarl Korir or Kraldar",
+          "description": "Winterhold's jarl asks you to help three people of the hold. Reward: the title of thane and the Blade of Winterhold. Winterhold has no house or housecarl.",
+          "tips": [
+            "Korir offers it after you recover the Helm of Winterhold. If Kraldar is jarl, you can take it right away.",
+            "College quests that raise the mages' disposition (First Lessons, Brelyna's Practice, Onmund's Request and others) and The Black Star count too.",
+            "With the Investor Speech perk, investing in Birna's Oddments counts."
+          ],
+          "hints": [
+            "Fastest route: share a drink with Ranmir, talk him into paying Haran his debt, and sell ore to Thorgar at Whistling Mine."
+          ],
+          "related": [
+            "side_jarl_dungeon_delving_caves",
+            "daedric_the_black_star",
+            "college_first_lessons"
+          ],
+          "map": "Winterhold"
+        },
+        {
+          "id": "side_a_few_words_with_you_haran",
+          "title": "A Few Words with You (Haran)",
+          "en": "На пару слов (Харан)",
+          "type": "quest",
+          "location": "Winterhold, The Frozen Hearth",
+          "giver": "Haran",
+          "description": "The innkeeper Haran complains that Ranmir drinks on credit. Get him to pay — by persuasion, bribe, intimidation or fists. Reward: a weapon and a piece of armor.",
+          "tips": [
+            "While another A Few Words with You errand is active, this one won't be offered."
+          ],
+          "hints": [
+            "Ask Haran what's wrong with Ranmir. Ranmir sits right there in the inn."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_drowned_sorrows"
+          ],
+          "map": "Winterhold"
+        },
+        {
+          "id": "side_quest_all_drunks_have_ranmir",
+          "title": "Quest all Drunks Have (Ranmir)",
+          "en": "Квест всех пьяниц (Ранмир)",
+          "type": "quest",
+          "location": "Winterhold, The Frozen Hearth",
+          "giver": "Ranmir",
+          "description": "Birna's brother Ranmir drinks away everything at the Frozen Hearth. Give him any alcohol and he becomes your friend.",
+          "tips": [
+            "The quest doesn't appear in your journal."
+          ],
+          "hints": [
+            "Carry mead, ale or wine — then the option to share a drink appears in dialogue."
+          ],
+          "missable": "After Drowned Sorrows, Ranmir disappears for good. Share a drink with him before you hand him Isabelle's letter.",
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_drowned_sorrows"
+          ],
+          "map": "Winterhold"
+        },
+        {
+          "id": "side_drowned_sorrows",
+          "title": "Drowned Sorrows",
+          "en": "Утопленное горе",
+          "type": "quest",
+          "location": "Winterhold, The Frozen Hearth; Hob's Fall Cave",
+          "giver": "Dagur",
+          "description": "The innkeeper Dagur tells you Ranmir took to drink after his beloved Isabelle Rolaine left him. Find out what became of her and bring Ranmir an answer.",
+          "tips": [
+            "The quest doesn't appear in your journal and doesn't count toward becoming thane.",
+            "Dagur offers it only after A Few Words with You for Haran."
+          ],
+          "hints": [
+            "The trail leads to Vex in the Ragged Flagon in Riften, but you can go straight to Hob's Fall Cave between Dawnstar and Winterhold.",
+            "Isabelle's body lies just inside the cave entrance; take Isabelle's Letter and bring it to Ranmir."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "related": [
+            "side_a_few_words_with_you_haran",
+            "side_quest_all_drunks_have_ranmir"
+          ],
+          "map": "Hob's Fall Cave"
+        },
+        {
+          "id": "side_some_light_theft_malur",
+          "title": "Some Light Theft (Malur Seloth)",
+          "en": "Небольшая кража (Мейлур Селот)",
+          "type": "quest",
+          "location": "Winterhold, The Jarl's Longhouse; The Frozen Hearth",
+          "giver": "Malur Seloth",
+          "description": "The jarl's steward Malur Seloth wants to look like a mage and asks you to steal the Staff of Arcane Authority from Nelacar. Reward: +1 Speech.",
+          "tips": [
+            "While another Some Light Theft quest is active, this one won't be offered."
+          ],
+          "hints": [
+            "Ask Malur what he does around here.",
+            "The staff is in the shop counter in Nelacar's room at the Frozen Hearth."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_some_light_theft_dengeir"
+          ],
+          "map": "Winterhold"
+        },
+        {
+          "id": "side_mine_ore_whistling_mine",
+          "title": "Mine Ore (Whistling Mine)",
+          "en": "Добыча руды (Свистящая шахта)",
+          "type": "quest",
+          "location": "Whistling Mine",
+          "giver": "Thorgar",
+          "description": "Thorgar buys iron ore at 7 gold apiece. Mine ore in Whistling Mine and sell it to him.",
+          "tips": [
+            "Selling a single piece is enough to make Thorgar a friend."
+          ],
+          "hints": [
+            "Whistling Mine lies west of Winterhold; the ore veins are inside."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Whistling Mine"
+        }
+      ]
+    },
+    {
+      "title": "Eastmarch (Windhelm)",
+      "items": [
+        {
+          "id": "side_blood_on_the_ice",
+          "title": "Blood on the Ice",
+          "en": "Кровь на снегу",
+          "type": "quest",
+          "location": "Windhelm, Hjerim",
+          "giver": "Windhelm Guard",
+          "description": "Investigate the Butcher's string of murders in the Windhelm graveyard. Find clues in Hjerim and set an ambush for the killer. Reward: the Necromancer Amulet and the option to buy Hjerim.",
+          "tips": [
+            "The quest starts at night when you're in Windhelm and stumble upon the crime scene."
+          ],
+          "hints": [
+            "After talking to Helgird in the Hall of the Dead, follow the blood trail — it leads to Hjerim. The lock is Master level; Tova Shatter-Shield also has a key to the house.",
+            "In Hjerim open the right-hand wardrobe in the western alcove and remove the false back panel to find a hidden room. Take the strange amulet from the shelf between the wardrobes and show it to Jorleif: he sends you to Calixto.",
+            "The killer strikes at night in the Stone Quarter: patrol it after 8 pm and don't rush to accuse anyone."
+          ],
+          "missable": "Wrongly accuse the court wizard Wuunferth and the killings go on while he sits in jail.",
+          "related": [
+            "missables_blood_on_the_ice_wuunferth",
+            "side_thane_of_eastmarch"
+          ],
+          "choices": [
+            {
+              "id": "side_blood_on_the_ice_choice",
+              "question": "Who do you accuse?",
+              "options": [
+                {
+                  "id": "wuunferth",
+                  "label": "Wuunferth the Unliving",
+                  "result": "Wuunferth is jailed, but after a while another murder happens and the investigation goes on."
+                },
+                {
+                  "id": "trap",
+                  "label": "Set an ambush and catch the real killer",
+                  "result": "The Butcher is exposed, and Jorleif rewards you."
+                }
+              ]
+            }
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_the_white_phial",
+          "title": "The White Phial",
+          "en": "Белый флакон",
+          "type": "quest",
+          "location": "Windhelm, Forsaken Cave",
+          "giver": "Nurelion",
+          "description": "The old alchemist Nurelion spent his life searching for the legendary White Phial. Retrieve it from Forsaken Cave and bring it to the apothecary's owner.",
+          "tips": [
+            "It continues in the side quest \"Repairing the Phial\": Quintus Navale fixes the phial so it refills itself with a potion."
+          ],
+          "hints": [
+            "The phial sits on a pedestal in a secret room at the very end of Forsaken Cave, past the draugr catacombs."
+          ],
+          "related": [
+            "side_repairing_the_phial"
+          ],
+          "map": "Forsaken Cave"
+        },
+        {
+          "id": "side_repairing_the_phial",
+          "title": "Repairing the Phial",
+          "en": "Починка Флакона",
+          "type": "quest",
+          "location": "Windhelm, The White Phial; Throat of the World; Stonehill Bluff",
+          "giver": "Quintus Navale (letter by courier)",
+          "description": "Quintus Navale asks you to gather three rare components to repair the White Phial for the dying Nurelion. Reward: the White Phial, which refills itself with a potion.",
+          "tips": [
+            "Quintus's letter arrives a few days after \"The White Phial\", but only once the summit of the Throat of the World is open (main quest \"The Throat of the World\")."
+          ],
+          "hints": [
+            "Unmelting Snow is on the very top of the Throat of the World, near the word wall.",
+            "Mammoth Tusk Powder sits in a large vat by the giants at Stonehill Bluff; you can grab it without angering them. The regular Powdered Mammoth Tusk ingredient won't work.",
+            "A Briar Heart comes from any Forsworn Briarheart in the Reach; one camp gets marked on your map."
+          ],
+          "related": [
+            "side_the_white_phial"
+          ],
+          "map": "Throat of the World"
+        },
+        {
+          "id": "side_rise_in_the_east",
+          "title": "Rise in the East",
+          "en": "Солнце всходит на востоке",
+          "type": "quest",
+          "location": "Windhelm, East Empire Company; Dawnstar; Japhet's Folly",
+          "giver": "Orthus Endario",
+          "description": "The East Empire Company is being ruined by pirates. Find proof that Clan Shatter-Shield is dealing with them, track the pirates down in Dawnstar and wipe out their hideout on Japhet's Folly.",
+          "tips": [
+            "Reward: gold, and Adelaisa Vendicci becomes available as a follower.",
+            "Counts as helping the people of Eastmarch for the thane title."
+          ],
+          "hints": [
+            "The quest starts with the guard outside the East Empire Company Warehouse in Solitude, or directly with Orthus Endario in the office at the Windhelm docks (open 4 am to 8 pm).",
+            "Suvaris Atheron's logbook is in the Clan Shatter-Shield Office. After 8 pm Suvaris goes to the New Gnisis Cornerclub; during the day you can quietly take it from the table in the alcove while she sits by the door.",
+            "Look for Captain Stig Salt-Plank in the Windpeak Inn in Dawnstar."
+          ],
+          "tags": [
+            "thane"
+          ],
+          "related": [
+            "followers_adelaisa_vendicci"
+          ],
+          "map": "Japhet's Folly"
+        },
+        {
+          "id": "side_a_love_beyond_death",
+          "title": "Ansilvund",
+          "en": "Ансилвунд",
+          "type": "quest",
+          "location": "Ansilvund, Eastmarch (north of Riften)",
+          "description": "In the Nordic ruins of Ansilvund you uncover a tragic love that outlived death and fight the lich Lu'ah Al-Skaven. Reward: the Ghostblade.",
+          "hints": [
+            "The lich Lu'ah Al-Skaven waits in the burial chambers at the very end of the ruins.",
+            "Once she's dead, the ghostly lovers thank you and vanish, leaving the Ghostblade on the table behind them. The key on Lu'ah's body opens the northern door with a chest and soul gems."
+          ],
+          "map": "Ansilvund"
+        },
+        {
+          "id": "side_mistwatch",
+          "title": "Mistwatch",
+          "en": "Найти Фьолу на Туманной заставе",
+          "type": "quest",
+          "location": "Mistwatch, east of Darkwater Crossing",
+          "giver": "Christer",
+          "description": "In a bandit-held fort, Christer asks you to find his kidnapped wife Fjola. The truth about her disappearance is not what he expects.",
+          "hints": [
+            "First lower the drawbridge with the lever in the courtyard and enter the North Tower by its main door — only there can you meet Christer and get the key to the other towers.",
+            "The bandit leader in the East Tower is Fjola herself. Grab the Heavy Armor skill book \"Hallgerd's Tale\" from the dresser in her quarters."
+          ],
+          "missable": "If Christer dies before the quest is over, it can't be completed.",
+          "choices": [
+            {
+              "id": "side_mistwatch_choice",
+              "question": "What do you do about Fjola?",
+              "options": [
+                {
+                  "id": "lie",
+                  "label": "Lie to Christer",
+                  "result": "Christer leaves at peace and gives you Fjola's Wedding Band; Fjola stays in the fort."
+                },
+                {
+                  "id": "kill",
+                  "label": "Kill Fjola",
+                  "result": "Christer flies into a rage and attacks you; if he yields, you can still end things peacefully."
+                }
+              ]
+            }
+          ],
+          "map": "Mistwatch"
+        },
+        {
+          "id": "side_find_the_thalmor_assassin",
+          "title": "Find the Thalmor Assassin",
+          "en": "Найти талморского убийцу",
+          "type": "quest",
+          "location": "Windhelm, New Gnisis Cornerclub",
+          "giver": "Malborn",
+          "description": "After \"Diplomatic Immunity\", Malborn hides in the New Gnisis Cornerclub and asks you to deal with the Khajiit assassin the Thalmor sent after him.",
+          "hints": [
+            "The assassin hides among Ri'saad's caravan by the Windhelm stables. Talk to Ri'saad — he'll point out the stranger."
+          ],
+          "missable": "Once you return near Windhelm, a hidden one-day timer starts. If you don't talk to Ri'saad in time, the caravan moves on and the quest gets stuck for good.",
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_thane_of_eastmarch",
+          "title": "Thane of Eastmarch",
+          "en": "Тан Истмарка",
+          "type": "quest",
+          "location": "Windhelm, Palace of the Kings",
+          "giver": "Ulfric Stormcloak or Brunwulf Free-Winter",
+          "description": "The Jarl of Windhelm offers you the title of thane: help five people of Eastmarch and buy the house Hjerim. Reward: the title, the hold's axe and the housecarl Calder.",
+          "tips": [
+            "Ulfric offers it after \"Rescue from Fort Neugrad\" and \"Blood on the Ice\"; Brunwulf after \"Battle for Windhelm\". You can't become thane without picking a side in the civil war.",
+            "Earlier help counts too: favors tagged \"thane\" in this section qualify."
+          ],
+          "hints": [
+            "Without \"Blood on the Ice\" you can buy Hjerim but not furnish it — start the investigation before you enter the house."
+          ],
+          "related": [
+            "side_blood_on_the_ice",
+            "civil_war_rescue_from_fort_neugrad",
+            "civil_war_battle_for_windhelm",
+            "followers_calder"
+          ],
+          "map": "Palace of the Kings"
+        },
+        {
+          "id": "side_kill_the_bandit_leader_brunwulf",
+          "title": "Kill the Bandit Leader (Brunwulf)",
+          "en": "Убить вожака бандитов (Брунвульф)",
+          "type": "quest",
+          "location": "Windhelm, Brunwulf Free-Winter's House",
+          "giver": "Brunwulf Free-Winter",
+          "description": "Brunwulf asks you to kill a bandit leader in one of Eastmarch's camps. Reward: gold and +1 Heavy Armor.",
+          "hints": [
+            "Ask Brunwulf \"Ulfric doesn't care about outsiders?\" The lair is random: Cragslane Cavern, Gallows Rock, Lost Knife Hideout, Stony Creek Cave or Uttering Hills Camp."
+          ],
+          "missable": "Becomes unavailable once Brunwulf himself becomes Jarl of Windhelm — after a Legion victory.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_a_few_words_with_you_scouts",
+          "title": "A Few Words with You (Scouts-Many-Marshes)",
+          "en": "На пару слов (Хорошо-Знает-Болота)",
+          "type": "quest",
+          "location": "Windhelm, Argonian Assemblage",
+          "giver": "Scouts-Many-Marshes",
+          "description": "An Argonian dockworker complains that Torbjorn Shatter-Shield underpays the workers. Persuade, bribe or intimidate Torbjorn into paying them fairly.",
+          "tips": [
+            "Reward: two fortify-skill potions or three restoration potions."
+          ],
+          "hints": [
+            "Ask \"Someone giving you trouble?\" If persuasion fails, you can brawl with Torbjorn — winning counts too."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_dungeon_delving_shahvee",
+          "title": "Dungeon Delving (Shahvee)",
+          "en": "Подземелья (Шави)",
+          "type": "quest",
+          "location": "Windhelm, Argonian Assemblage",
+          "giver": "Shahvee",
+          "description": "Thieves stole Shahvee's sacred Amulet of Zenithar. Find it in a bandit hideout and bring it back. Reward: +1 Light Armor and Lockpicking.",
+          "tips": [
+            "Only one quest of this type can be active at a time (e.g. not together with Amren's in Whiterun)."
+          ],
+          "hints": [
+            "Ask \"Your people have bad luck?\" The amulet is in the boss chest at Cragslane Cavern, Gallows Rock, Lost Knife Hideout, Stony Creek Cave or Uttering Hills Camp."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_some_light_theft_stands_in_shallows",
+          "title": "Some Light Theft (Stands-In-Shallows)",
+          "en": "Небольшая кража (Стоит-на-Отмели)",
+          "type": "quest",
+          "location": "Windhelm, Argonian Assemblage; New Gnisis Cornerclub",
+          "giver": "Stands-In-Shallows",
+          "description": "An Argonian overheard sailors talk about a stash of extra-strong skooma. Steal the Double-Distilled Skooma and bring it to him. Reward: +1 Sneak.",
+          "hints": [
+            "Ask \"Are you all right?\" The bottle is hidden in the New Gnisis Cornerclub, under the second set of stairs."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_dungeon_delving_oengul",
+          "title": "Dungeon Delving (Oengul War-Anvil)",
+          "en": "Подземелья (Онгул Наковальня)",
+          "type": "quest",
+          "location": "Windhelm, Blacksmith Quarters",
+          "giver": "Oengul War-Anvil",
+          "description": "The smith Oengul dreams of studying Queen Freydis's Sword. Find it in one of Eastmarch's dungeons. Reward: +1 Smithing.",
+          "hints": [
+            "Ask \"You're the castle blacksmith?\" (only during shop hours). The sword can be in Ansilvund, Cragwallow Slope, Cronvangr Cave, Lost Knife Hideout, Stony Creek Cave or Uttering Hills Camp."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_delivery_adonato",
+          "title": "Delivery (Adonato Leotelli)",
+          "en": "Доставка (Адонато Леотелли)",
+          "type": "quest",
+          "location": "Windhelm, Candlehearth Hall; Solitude, Bards College",
+          "giver": "Adonato Leotelli",
+          "description": "The writer Adonato asks you to take his book to Giraud Gemane at the Bards College in Solitude. Reward: gold.",
+          "hints": [
+            "Ask Adonato what he writes. If he won't offer the job, finish any other radiant \"Delivery\" first."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_delivery_hillevi",
+          "title": "Delivery (Hillevi)",
+          "en": "Доставка (Хиллеви)",
+          "type": "quest",
+          "location": "Windhelm, Stone Quarter; Palace of the Kings",
+          "giver": "Hillevi Cruel-Sea",
+          "description": "Hillevi asks you to take a bottle of Nightshade Extract to the court wizard Wuunferth the Unliving. Reward: gold.",
+          "hints": [
+            "Hillevi walks the streets of Windhelm by day; Wuunferth is in his room in the Palace of the Kings."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Palace of the Kings"
+        },
+        {
+          "id": "side_that_was_always_there",
+          "title": "That Was Always There",
+          "en": "Скажем, что так и было",
+          "type": "quest",
+          "location": "Windhelm, Sadri's Used Wares; Viola Giordano's House",
+          "giver": "Revyn Sadri",
+          "description": "Revyn Sadri bought Viola Giordano's stolen gold ring and asks you to secretly plant it back in her house so he isn't blamed. Reward: gold.",
+          "hints": [
+            "Put the ring in the dresser in Viola's house — you'll need to break in while she's out."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "choices": [
+            {
+              "id": "side_that_was_always_there_choice",
+              "question": "How do you return the ring?",
+              "options": [
+                {
+                  "id": "plant",
+                  "label": "Secretly plant the ring",
+                  "result": "Revyn pays you and likes you more."
+                },
+                {
+                  "id": "tell",
+                  "label": "Tell Viola that Revyn has her ring",
+                  "result": "Viola becomes your friend instead of Revyn; it still counts toward the thane title."
+                }
+              ]
+            }
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_rare_gifts_torbjorn",
+          "title": "Rare Gifts (Torbjorn)",
+          "en": "Редкие дары (Торбьорн)",
+          "type": "quest",
+          "location": "Windhelm, House of Clan Shatter-Shield",
+          "giver": "Torbjorn Shatter-Shield",
+          "description": "Torbjorn's wife is mourning their murdered daughter. Bring him an Amulet of Arkay to comfort her. Reward: gold.",
+          "hints": [
+            "Ask \"Your wife is in mourning?\" Amulets of Arkay are often sold by merchants and turn up in shrines and on priests.",
+            "Hand it over on the street during the day: entering the house may get you treated as a trespasser."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_harsh_master",
+          "title": "Harsh Master",
+          "en": "Жестокий правитель",
+          "type": "quest",
+          "location": "Windhelm, docks",
+          "giver": "Kjar",
+          "description": "Captain Kjar asks you to hunt down a runaway crewman who now leads a bandit gang. Reward: gold.",
+          "tips": [
+            "In the base game this doesn't count toward Thane of Eastmarch: Kjar is wrongly flagged as a Winterhold citizen (fixed by the Unofficial Patch)."
+          ],
+          "hints": [
+            "Kjar is on the deck of his ship at the Windhelm docks. The bandit camp is random."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_fight_fight_rolff",
+          "title": "Fight! Fight! (Rolff Stone-Fist)",
+          "en": "Драка! Драка! (Рольф Каменный Кулак)",
+          "type": "quest",
+          "location": "Windhelm, Candlehearth Hall",
+          "giver": "Rolff Stone-Fist",
+          "description": "The brash Rolff is up for a fistfight with a 100-gold wager. Beat him in a fair brawl.",
+          "hints": [
+            "Sheathe your weapons and don't use magic, or it turns into a real fight and the guards step in. Winning returns your 100 gold plus 100 more."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_beggars_windhelm",
+          "title": "Quest all Beggars Have (Windhelm)",
+          "en": "Квест всех нищих (Виндхельм)",
+          "type": "quest",
+          "location": "Windhelm, Candlehearth Hall and streets",
+          "giver": "Angrenor Once-Honored, Silda the Unseen",
+          "description": "Give a beggar a single coin. You get the Gift of Charity blessing (+10 Speech for an hour) and the beggar becomes your friend.",
+          "tips": [
+            "Each beggar counts as a separate citizen for the thane title."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_drunks_torbjorn",
+          "title": "Quest all Drunks Have (Torbjorn)",
+          "en": "Квест всех пьяниц (Торбьорн)",
+          "type": "quest",
+          "location": "Windhelm, House of Clan Shatter-Shield",
+          "giver": "Torbjorn Shatter-Shield",
+          "description": "If you carry some alcohol, offer the grieving Torbjorn a drink — he becomes your friend.",
+          "tips": [
+            "Plain mead or ale works; expensive drinks don't show up as an option."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "side_gather_wheat_eastmarch",
+          "title": "Gather Wheat (farms near Windhelm)",
+          "en": "Сбор урожая (фермы у Виндхельма)",
+          "type": "quest",
+          "location": "Hlaalu Farm, Brandy-Mug Farm, Hollyfrost Farm",
+          "giver": "Belyn Hlaalu, Bolfrida Brandy-Mug, Tulvur",
+          "description": "The farmers outside Windhelm buy wheat. Pick it in their fields or bring it from anywhere and sell it through dialogue — the farmer becomes your friend.",
+          "tips": [
+            "Each farmer counts separately toward Thane of Eastmarch — three quick, risk-free \"helps\"."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Hlaalu Farm"
+        },
+        {
+          "id": "side_dravyneas_frost_salts",
+          "title": "Dravynea's Frost Salts",
+          "en": "Морозная соль Дравинии",
+          "type": "quest",
+          "location": "Kynesgrove, Braidwood Inn; Steamscorch Mine",
+          "giver": "Dravynea the Stoneweaver",
+          "description": "A Dark Elf keeps the mine cool with a potion but has run out of frost salts. Bring her one. Reward: a free level of Alteration training.",
+          "hints": [
+            "Apothecaries sell frost salts; frost atronachs drop them, and the College of Winterhold's lab has some."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Braidwood Inn"
+        },
+        {
+          "id": "side_a_few_words_with_you_iddra",
+          "title": "A Few Words with You (Iddra)",
+          "en": "На пару слов (Иддра)",
+          "type": "quest",
+          "location": "Kynesgrove, Braidwood Inn",
+          "giver": "Iddra",
+          "description": "The innkeeper Iddra has forgiven Roggi Knot-Beard his bar tab, but he keeps beating himself up. Talk Roggi into letting it go. Reward: a weapon and a piece of armor.",
+          "hints": [
+            "Ask Iddra \"Who's Roggi?\" If Roggi is already your friend (after his shield), no persuasion is needed."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_dungeon_delving_roggi"
+          ],
+          "map": "Braidwood Inn"
+        },
+        {
+          "id": "side_dungeon_delving_roggi",
+          "title": "Dungeon Delving (Roggi Knot-Beard)",
+          "en": "Подземелья (Рогги Борода Узлом)",
+          "type": "quest",
+          "location": "Kynesgrove, Steamscorch Mine",
+          "giver": "Roggi Knot-Beard",
+          "description": "The miner Roggi asks you to recover his ancestral shield from a dungeon in Eastmarch. Reward: +1 Block, and Roggi becomes a follower.",
+          "hints": [
+            "Ask \"Are you from Kynesgrove?\" The shield can be in Ansilvund, Cragwallow Slope, Cronvangr Cave, Lost Knife Hideout, Stony Creek Cave or Uttering Hills Camp."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "followers_roggi_knot_beard",
+            "side_a_few_words_with_you_iddra"
+          ],
+          "map": "Kynesgrove"
+        },
+        {
+          "id": "side_chop_wood_eastmarch",
+          "title": "Chop Wood (Eastmarch)",
+          "en": "Рубка дров (Истмарк)",
+          "type": "quest",
+          "location": "Kynesgrove; Mixwater Mill",
+          "giver": "Ganna Uriel, Gilfre",
+          "description": "Chop firewood at a chopping block and sell it for 5 gold a log. The first sale makes the buyer your friend.",
+          "tips": [
+            "Ganna and Gilfre each count separately toward Thane of Eastmarch."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Mixwater Mill"
+        },
+        {
+          "id": "side_mine_ore_eastmarch",
+          "title": "Mine Ore (Eastmarch)",
+          "en": "Добыча руды (Истмарк)",
+          "type": "quest",
+          "location": "Kynesgrove, Steamscorch Mine; Darkwater Crossing, Goldenrock Mine",
+          "giver": "Kjeld, Verner Rock-Chucker",
+          "description": "Kjeld buys malachite ore and Verner buys corundum ore. Mine it in their mine and sell it through dialogue; the buyer becomes your friend.",
+          "tips": [
+            "The price is fixed and ignores Speech — handy if you don't want to level skills."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Goldenrock Mine"
+        },
+        {
+          "id": "side_kill_the_bandit_leader_annekke",
+          "title": "Kill the Bandit Leader (Annekke)",
+          "en": "Убить вожака бандитов (Аннеке)",
+          "type": "quest",
+          "location": "Darkwater Crossing",
+          "giver": "Annekke Crag-Jumper",
+          "description": "Former adventurer Annekke asks you to kill a bandit leader threatening the settlement. Reward: +1 Light Armor, and Annekke becomes a follower.",
+          "hints": [
+            "Ask \"You were an adventurer?\" The lair is picked at random from Eastmarch's bandit camps."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "followers_annekke_crag_jumper"
+          ],
+          "map": "Darkwater Crossing"
+        },
+        {
+          "id": "side_delivery_sondas",
+          "title": "Delivery (Sondas Drenim)",
+          "en": "Доставка (Сондас Дреним)",
+          "type": "quest",
+          "location": "Darkwater Crossing, Goldenrock Mine; Windhelm, The White Phial",
+          "giver": "Sondas Drenim",
+          "description": "The miner Sondas asks you to take a note to Quintus Navale at The White Phial in Windhelm. Reward: gold.",
+          "hints": [
+            "Ask \"Have you been working in the mines long?\" Only one \"Delivery\" can be active at a time."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Goldenrock Mine"
+        },
+        {
+          "id": "side_extracting_an_argonian",
+          "title": "Extracting an Argonian",
+          "en": "Спасти Деркитуса",
+          "type": "quest",
+          "location": "Darkwater Crossing; Darkwater Pass",
+          "giver": "Residents of Darkwater Crossing",
+          "description": "The Argonian Derkeethus went missing by the falls near Darkwater Crossing. Find him held by the Falmer and lead him out. Afterwards he can become a follower.",
+          "hints": [
+            "The entrance to Darkwater Pass is an iron door in the cliff by the pool under three waterfalls: from the bridge southwest of Darkwater Crossing head toward Fort Amol and take the westward path at the stone marker.",
+            "Derkeethus is in a cell in Darkwater Pit; the key is in the left burial urn just inside the gate — you can reach it through the bars."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "followers_derkeethus"
+          ],
+          "map": "Darkwater Pass"
+        }
+      ]
+    },
+    {
+      "title": "The Rift (Riften)",
+      "items": [
+        {
+          "id": "side_promises_to_keep",
+          "title": "Promises to Keep",
+          "en": "Дал слово — держи",
+          "type": "quest",
+          "location": "Riften, Black-Briar Lodge",
+          "giver": "Louis Letrush",
+          "description": "Louis Letrush asks you to strike a deal with the prisoner Sibbi Black-Briar over the horse Frost. In the end you'll have to steal the horse's lineage papers and the horse itself from Black-Briar Lodge.",
+          "hints": [
+            "Frost's lineage papers are in Black-Briar Lodge; the door locks vary — the top floor is easiest, the bottom floor hardest.",
+            "Before giving Frost to Louis, clear Fort Greenwall: the horse's route passes through the bandit camp there."
+          ],
+          "related": [
+            "missables_frost"
+          ],
+          "choices": [
+            {
+              "id": "side_promises_to_keep_choice",
+              "question": "Who gets Frost?",
+              "options": [
+                {
+                  "id": "louis",
+                  "label": "Give the horse to Louis",
+                  "result": "Louis pays 750–1500 gold; later Maven sends mercenaries after him."
+                },
+                {
+                  "id": "keep",
+                  "label": "Keep Frost for yourself",
+                  "result": "You get a tough horse, but Louis hires assassins to get revenge."
+                }
+              ]
+            }
+          ],
+          "map": "Black-Briar Lodge"
+        },
+        {
+          "id": "side_unfathomable_depths",
+          "title": "Unfathomable Depths",
+          "en": "Из глубин",
+          "type": "quest",
+          "location": "Riften Fishery, Avanchnzel",
+          "giver": "From-Deepest-Fathoms",
+          "description": "Carry a mysterious Dwemer Lexicon through the dangerous ruins of Avanchnzel to a Dwemer device.",
+          "tips": [
+            "Reward: the Ancient Knowledge power — Dwarven armor protects better and Smithing levels faster."
+          ],
+          "hints": [
+            "From-Deepest-Fathoms only shows up near the Riften Fishery from level 14. Avanchnzel is northeast of Riften; the device for the Lexicon is at the very end of the ruins."
+          ],
+          "map": "Avanchnzel"
+        },
+        {
+          "id": "side_the_book_of_love",
+          "title": "The Book of Love",
+          "en": "Книга любви",
+          "type": "quest",
+          "location": "Riften, Temple of Mara; Ivarstead; Markarth; Gjukar's Monument",
+          "giver": "Dinya Balu",
+          "description": "A priestess of Mara asks you to help unhappy lovers all over Skyrim. Reward: the Agent of Mara power (magic resistance) and the Amulet of Mara.",
+          "hints": [
+            "The order is Fastred in Ivarstead, then Calcelmo in Markarth, then the ghost at Gjukar's Monument. After choosing Fastred's suitor, watch their conversation or the quest won't advance."
+          ],
+          "related": [
+            "side_spread_the_love"
+          ],
+          "map": "Gjukar's Monument"
+        },
+        {
+          "id": "side_repentance",
+          "title": "Repentance",
+          "en": "Раскаяние",
+          "type": "quest",
+          "location": "Darklight Tower, southwest of Riften",
+          "giver": "Illia",
+          "description": "The mage Illia wants to stop her mother Silvia from becoming a hagraven. Climb to the top of the tower with her and fight Silvia. Reward: the Staff of Hag's Wrath, and Illia becomes a follower.",
+          "hints": [
+            "Every floor has a witch and some creatures; Illia is a strong frost mage, so stay close to her."
+          ],
+          "related": [
+            "followers_illia"
+          ],
+          "map": "Darklight Tower"
+        },
+        {
+          "id": "side_siege_on_the_dragon_cult",
+          "title": "Siege on the Dragon Cult",
+          "en": "Охота на культ драконов",
+          "type": "quest",
+          "location": "Forelhost, southeast of Riften",
+          "giver": "Captain Valmir",
+          "description": "Captain Valmir asks you to retrieve the dragon priest Rahgot's mask from the ruins of Forelhost. Reward: the Rahgot mask, a Dragon Priest Staff and a word of the Storm Call shout.",
+          "hints": [
+            "The well in the crypt opens by lockpick or with the key from the far end of the tunnels. The claw door is Fox — Owl — Snake (outer ring to inner).",
+            "Valmir is an impostor: on the battlements he changes armor and tries to fool another soldier. You can even kill him right away; the orders on his body prove it."
+          ],
+          "map": "Forelhost"
+        },
+        {
+          "id": "side_angarvunde",
+          "title": "Angarvunde",
+          "en": "Ангарвунд",
+          "type": "quest",
+          "location": "Angarvunde, west of Riften",
+          "giver": "Medresi Dran",
+          "description": "The Dunmer Medresi wants the treasure of a Nordic ruin, but draugr scared off her workers. Clear the way — the \"treasure\" turns out to be a word wall for Animal Allegiance.",
+          "hints": [
+            "Once you have the key, open both side doors of the main chamber (Catacombs and Ruins) — each one lowers a gate to the treasure room.",
+            "The stairs in the ruins have dart traps — wait for them to stop firing; they don't reset."
+          ],
+          "map": "Angarvunde"
+        },
+        {
+          "id": "side_helping_hand",
+          "title": "Helping Hand",
+          "en": "Лекарство",
+          "type": "quest",
+          "location": "Riften, Fishery / Haelga's Bunkhouse",
+          "giver": "Wujeeta",
+          "description": "The Argonian Wujeeta is suffering from skooma addiction. Give her a standard healing potion. Reward: a ring.",
+          "tips": [
+            "Only a standard healing potion works: no spells, no crafted potions.",
+            "First step of the chain to Thane of the Rift: Helping Hand → The Raid → Supply and Demand."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_the_raid"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_the_raid",
+          "title": "The Raid",
+          "en": "Облава",
+          "type": "quest",
+          "location": "Riften, Warehouse",
+          "giver": "Wujeeta",
+          "description": "Wujeeta names the skooma dealer — Sarthis Idren. Report to the jarl, get the warehouse key, kill Sarthis and find evidence of where the skooma comes from.",
+          "hints": [
+            "The jarl hands over the Riften Warehouse key after your report. Sarthis hides in the warehouse cellar."
+          ],
+          "missable": "If Wujeeta dies before you report to the jarl, or someone other than you kills Sarthis, the quest fails — and you can never become Thane of the Rift.",
+          "tags": [
+            "thane"
+          ],
+          "related": [
+            "side_helping_hand",
+            "side_supply_and_demand"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_supply_and_demand",
+          "title": "Supply and Demand",
+          "en": "Спрос и предложение",
+          "type": "quest",
+          "location": "Riften, Mistveil Keep; Cragslane Cavern",
+          "giver": "Laila Law-Giver or Maven Black-Briar",
+          "description": "The note from the warehouse shows the skooma is brewed in Cragslane Cavern. Clear it out on the jarl's orders. Reward: an enchanted weapon.",
+          "hints": [
+            "Every person in the cave must die by your hand; the wolves can be spared."
+          ],
+          "related": [
+            "side_the_raid",
+            "side_i_done_got_thaned"
+          ],
+          "map": "Mistveil Keep"
+        },
+        {
+          "id": "side_i_done_got_thaned",
+          "title": "I Done Got Thaned!",
+          "en": "Я теперь тан!",
+          "type": "quest",
+          "location": "Riften, Mistveil Keep",
+          "giver": "Laila Law-Giver or Maven Black-Briar",
+          "description": "After \"Supply and Demand\" the jarl offers you the title of Thane of the Rift: complete more jobs in Riften itself and buy the house Honeyside. Reward: the title, the hold's blade and the housecarl Iona.",
+          "tips": [
+            "You need five completed miscellaneous quests in Riften (Helping Hand and The Raid included), i.e. three more. Items tagged \"thane\" qualify; quests in Ivarstead, Shor's Stone or on farms don't.",
+            "Honeyside costs 5,000 gold or more; you don't have to furnish it."
+          ],
+          "related": [
+            "side_supply_and_demand",
+            "followers_iona"
+          ],
+          "map": "Mistveil Keep"
+        },
+        {
+          "id": "side_the_bonds_of_matrimony",
+          "title": "The Bonds of Matrimony",
+          "en": "Брачные узы",
+          "type": "quest",
+          "location": "Riften, Temple of Mara",
+          "giver": "Maramal",
+          "description": "The priest Maramal explains how marriage works in Skyrim. Wear an Amulet of Mara, propose, and attend your wedding at the Temple of Mara.",
+          "tips": [
+            "You can buy an Amulet of Mara from Maramal. Don't miss the ceremony: skipping the scheduled time fails the quest and upsets everyone."
+          ],
+          "hints": [
+            "Your partner must like you: usually you need to do their favor first. Candidates are in the followers section, tagged \"marriage\"."
+          ],
+          "related": [
+            "missables_followers"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_grimsevers_return",
+          "title": "Grimsever's Return",
+          "en": "Возвращение Лютого",
+          "type": "quest",
+          "location": "Riften, Mzinchaleft",
+          "giver": "Mjoll the Lioness",
+          "description": "Find Mjoll's lost sword Grimsever in the Dwemer ruins of Mzinchaleft and return it to her. Afterwards Mjoll can become your follower.",
+          "tips": [
+            "You can keep the sword, but then Mjoll won't join you."
+          ],
+          "hints": [
+            "Mjoll lives in Aerin's House. Mzinchaleft is west of Dawnstar, in the Pale; Grimsever lies by an adventurer's body near the lift at the end of the ruins."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "followers_mjoll_the_lioness"
+          ],
+          "map": "Mzinchaleft"
+        },
+        {
+          "id": "side_bring_it",
+          "title": "Bring It!",
+          "en": "Подай-принеси",
+          "type": "quest",
+          "location": "Riften, Mistveil Keep",
+          "giver": "Harrald",
+          "description": "The jarl's son Harrald left his sword with the smith Balimund for repairs. Pick it up at The Scorched Hammer and bring it to Harrald. Reward: two gems.",
+          "tips": [
+            "Not a typical favor, but it does count toward Thane of the Rift."
+          ],
+          "missable": "Harrald is exiled to Windhelm with Laila's family if the Legion takes Riften (Maven Black-Briar becomes jarl).",
+          "tags": [
+            "thane"
+          ],
+          "map": "Mistveil Keep"
+        },
+        {
+          "id": "side_ringmaker",
+          "title": "Ringmaker",
+          "en": "Ювелир",
+          "type": "quest",
+          "location": "Riften, marketplace",
+          "giver": "Madesi",
+          "description": "An Argonian jeweler wants materials for his work: two flawless sapphires, a mammoth tusk and some gold ore. Reward: gold and a necklace.",
+          "tips": [
+            "It's a money loser: the sapphires are worth more than the reward. Do it for the Rift thaneship."
+          ],
+          "hints": [
+            "Tusks come from mammoths at giant camps; gold ore and sapphires can be bought from merchants or found in ore veins. Madesi accepts stolen goods too."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_few_and_far_between",
+          "title": "Few and Far Between",
+          "en": "Гербарий",
+          "type": "quest",
+          "location": "Riften, Elgrim's Elixirs; Black-Briar Manor",
+          "giver": "Ingun Black-Briar",
+          "description": "Maven's daughter dabbles in alchemy and wants 20 each of nirnroot, deathbell and nightshade. Reward: potions and the key to her chest.",
+          "hints": [
+            "Nirnroot glows and chimes near water; deathbell grows around Morthal and caves; nightshade in the Rift and Falkreath.",
+            "You can hand them in in batches: each set of 20 counts separately."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_under_the_table",
+          "title": "Under the Table",
+          "en": "Из-под полы",
+          "type": "quest",
+          "location": "Riften, Black-Briar Meadery; Ivarstead, Vilemyr Inn",
+          "giver": "Romlyn Dreth",
+          "description": "Romlyn secretly sells Black-Briar Mead on the side and asks you to take a keg to Wilhelm in Ivarstead. Or you can turn him in to the manager, Indaryn.",
+          "hints": [
+            "Romlyn works in the meadery's lower floor by day and sits in The Bee and Barb in the evening.",
+            "After a delivery you can take another keg from Romlyn — Wilhelm pays with jewelry for each one."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "choices": [
+            {
+              "id": "side_under_the_table_choice",
+              "question": "What do you do about the smuggling?",
+              "options": [
+                {
+                  "id": "deliver",
+                  "label": "Deliver the mead to Wilhelm",
+                  "result": "Wilhelm pays with jewelry; Romlyn becomes your friend."
+                },
+                {
+                  "id": "expose",
+                  "label": "Turn Romlyn in to Indaryn",
+                  "result": "Indaryn pays with gems; Romlyn resents you."
+                }
+              ]
+            }
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_special_delivery_bolli",
+          "title": "Special Delivery (Bolli)",
+          "en": "Курьерская доставка",
+          "type": "quest",
+          "location": "Riften, Fishery; Markarth",
+          "giver": "Bolli",
+          "description": "Bolli, owner of the fishery, asks you to take a purchase agreement to Kleppr in Markarth. Reward: a silver ingot and other ingots.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_truth_ore_consequences",
+          "title": "Truth Ore Consequences",
+          "en": "Рудные страдания",
+          "type": "quest",
+          "location": "Riften, Elgrim's Elixirs; Shor's Stone",
+          "giver": "Hafjorg",
+          "description": "Hafjorg is waiting for an unusual quicksilver ore sample from Filnjar in Shor's Stone. Fetch it and bring it to the shop. Reward: potions.",
+          "hints": [
+            "It can only be started through Hafjorg, even though Filnjar has been waiting for a courier."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_mine_or_yours"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_distant_memories",
+          "title": "Distant Memories",
+          "en": "Смутные воспоминания",
+          "type": "quest",
+          "location": "Riften, Haelga's Bunkhouse; Wreck of The Pride of Tel Vos",
+          "giver": "Brand-Shei",
+          "description": "The Argonian Brand-Shei knows nothing of his past except the name Tenvanni. Find Lymdrenn Tenvanni's Journal on the wrecked ship. Reward: the key to Brand-Shei's strongbox.",
+          "hints": [
+            "The Pride of Tel Vos lies wrecked off the coast east of Winterhold; you can take the journal before talking to Brand-Shei."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Wreck of The Pride of Tel Vos"
+        },
+        {
+          "id": "side_caught_red_handed",
+          "title": "Caught Red Handed",
+          "en": "С поличным",
+          "type": "quest",
+          "location": "Riften, Haelga's Bunkhouse",
+          "giver": "Svana Far-Shield",
+          "description": "Svana wants to expose her aunt Haelga's affairs. Get the Marks of Dibella from Bolli, Indaryn and Hofgrir and confront Haelga. Reward: enchanted heavy armor and a scroll.",
+          "hints": [
+            "Each of the three hands over his mark if persuaded, bribed, intimidated or pickpocketed. The Dibella shrine blessing in Haelga's bedroom and the Gift of Charity help with persuasion."
+          ],
+          "missable": "Svana won't offer the quest if one of the three lovers is already dead.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_pilgrimage",
+          "title": "Pilgrimage",
+          "en": "Паломничество",
+          "type": "quest",
+          "location": "Riften, Hall of the Dead; Whiterun",
+          "giver": "Alessandra",
+          "description": "Alessandra asks you to take her father's dagger to Andurs at Whiterun's Hall of the Dead to make peace with his memory. Reward: a Restoration spell tome.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_ice_cold",
+          "title": "Ice Cold",
+          "en": "Холодильник",
+          "type": "quest",
+          "location": "Riften, Marise Aravel's House",
+          "giver": "Marise Aravel",
+          "description": "The fishmonger Marise wants five ice wraith teeth. Reward: a spell tome and pheasant breasts.",
+          "hints": [
+            "Ice wraiths float over frozen lakes and in snowy mountains; apothecaries also sell their teeth."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_hunt_and_gather",
+          "title": "Hunt and Gather",
+          "en": "Охота и собирательство",
+          "type": "quest",
+          "location": "Riften, Mistveil Keep",
+          "giver": "Wylandriah",
+          "description": "The absent-minded court wizard Wylandriah left satchels with her tools in different towns. Find her spoon, soul gem and orichalcum ingot. Reward: five valuable scrolls.",
+          "hints": [
+            "Spoon: on the table in the Fellstar Farm house in Ivarstead; soul gem: on a barrel under the stairs in The White Phial in Windhelm; ingot: on a bookshelf in The Frozen Hearth in Winterhold.",
+            "The Fellstar Farm house is locked by day — go in the evening once the family is back."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Mistveil Keep"
+        },
+        {
+          "id": "side_stabilized",
+          "title": "Stabilized",
+          "en": "Стабилизация",
+          "type": "quest",
+          "location": "Riften, bridge by the north gate",
+          "giver": "Shadr",
+          "description": "Sapphire of the Thieves Guild is demanding Shadr pay for a shipment she stole herself. Persuade her to drop the debt or pay it yourself. Reward: gold or a potion of invisibility.",
+          "tips": [
+            "A Thieves Guild member can threaten Sapphire with Brynjolf and even take a cut."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_the_lovers_requital",
+          "title": "The Lover's Requital",
+          "en": "Месть любовника",
+          "type": "quest",
+          "location": "Riften, jail; Ivarstead, Vilemyr Inn",
+          "giver": "Sibbi Black-Briar",
+          "description": "Sibbi is locked up in Riften Jail and wants to find his ex-fiancee Svidi to take revenge. She hides as Lynly Star-Sung, a bard in Ivarstead.",
+          "hints": [
+            "To reach Sibbi, ask the guard to let you into the jail, or get locked up yourself."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "choices": [
+            {
+              "id": "side_the_lovers_requital_choice",
+              "question": "What do you tell Sibbi?",
+              "options": [
+                {
+                  "id": "truth",
+                  "label": "Reveal where Lynly is",
+                  "result": "Sibbi gives you the key to a stash in the Black-Briar Meadery cellar."
+                },
+                {
+                  "id": "lie",
+                  "label": "Lie to protect Lynly",
+                  "result": "Lynly is grateful and becomes your friend; Sibbi gives nothing."
+                }
+              ]
+            }
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_bloody_nose",
+          "title": "Bloody Nose",
+          "en": "Фингал под глазом",
+          "type": "quest",
+          "location": "Riften Stables",
+          "giver": "Hofgrir Horse-Crusher",
+          "description": "Hofgrir challenges you to a fistfight. Beat him. Reward: 100 gold.",
+          "tips": [
+            "He hits much harder than other brawlers — on high difficulty wear armor and keep potions handy."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Riften Stables"
+        },
+        {
+          "id": "side_spread_the_love",
+          "title": "Spread the Love",
+          "en": "Несём любовь в массы",
+          "type": "quest",
+          "location": "Riften, Temple of Mara",
+          "giver": "Dinya Balu",
+          "description": "After \"The Book of Love\", Dinya asks you to hand out 20 copies of \"The Warmth of Mara\" to the people of Riften. Reward: a potion.",
+          "hints": [
+            "You can hand one to any resident through dialogue; the market by day is easiest."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_the_book_of_love"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_sealing_the_deal",
+          "title": "Sealing the Deal",
+          "en": "Помолвка",
+          "type": "quest",
+          "location": "Riften, The Bee and Barb",
+          "giver": "Talen-Jei",
+          "description": "Talen-Jei wants to marry Keerava and needs three flawless amethysts for the engagement ring. Reward: a potion.",
+          "hints": [
+            "Amethysts turn up in ore veins and chests, and jewelers and merchants sell them."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_stoking_the_flames",
+          "title": "Stoking the Flames",
+          "en": "Раздуть огонь",
+          "type": "quest",
+          "location": "Riften, The Scorched Hammer",
+          "giver": "Balimund",
+          "description": "The smith Balimund wants his forge as hot as it used to be and asks for 10 fire salts. Reward: gold.",
+          "hints": [
+            "Flame atronachs drop fire salts; apothecaries and court wizards sell them."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_beggars_rift",
+          "title": "Quest all Beggars Have (the Rift)",
+          "en": "Квест всех нищих (Рифт)",
+          "type": "quest",
+          "location": "Riften, Beggar's Row and market; Ivarstead",
+          "giver": "Edda, Snilf, Narfi",
+          "description": "Give a beggar a single coin: you get the Gift of Charity (+10 Speech for an hour) and the beggar becomes your friend.",
+          "tips": [
+            "This doesn't count toward Thane of the Rift: only journal quests in Riften itself count there."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor"
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "side_lifting_the_shroud",
+          "title": "Lifting the Shroud",
+          "en": "Погребальные тайны",
+          "type": "quest",
+          "location": "Ivarstead, Vilemyr Inn; Shroud Hearth Barrow",
+          "giver": "Wilhelm",
+          "description": "The innkeeper Wilhelm is sure Shroud Hearth Barrow is haunted. Find out who's scaring the village. Reward: the Sapphire Dragon Claw and a word of the Kyne's Peace shout.",
+          "hints": [
+            "The \"ghost\" is the mage Wyndelius Gatharian, who drank a Philter of the Phantom. Take his journal to Wilhelm.",
+            "Wilhelm's reward is the Sapphire Dragon Claw — it opens the rest of the barrow with the word wall. The door code is on the back of the claw."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "map": "Shroud Hearth Barrow"
+        },
+        {
+          "id": "side_the_straw_that_broke",
+          "title": "The Straw that Broke",
+          "en": "Соломинка",
+          "type": "quest",
+          "location": "Ivarstead",
+          "giver": "Narfi",
+          "description": "The deranged Narfi lives in a ruined house mourning his missing sister Reyda. Ask Wilhelm what happened to her and find her necklace. Reward: rare ingredients.",
+          "hints": [
+            "Wilhelm thinks Reyda vanished near the barrow island, but he's wrong: her remains lie underwater just east of the southern bridge into town, next to the necklace and a satchel of ingredients."
+          ],
+          "missable": "Narfi is the target of the Dark Brotherhood contract \"Kill Narfi\". Once you accept the contract, this quest can no longer be completed.",
+          "tags": [
+            "favor"
+          ],
+          "related": [
+            "dark_brotherhood_kill_narfi"
+          ],
+          "map": "Ivarstead"
+        },
+        {
+          "id": "side_climb_the_steps",
+          "title": "Climb the Steps",
+          "en": "По ступенькам",
+          "type": "quest",
+          "location": "Ivarstead; High Hrothgar",
+          "giver": "Klimmek",
+          "description": "Klimmek is getting old and asks you to carry supplies up the Seven Thousand Steps to the Greybeards. Reward: gold.",
+          "hints": [
+            "Put the supplies in the chest by the entrance to High Hrothgar's courtyard rather than handing them to a Greybeard."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "map": "High Hrothgar"
+        },
+        {
+          "id": "side_grin_and_bear_it",
+          "title": "Grin and Bear It",
+          "en": "Медвежья услуга",
+          "type": "quest",
+          "location": "Ivarstead, Vilemyr Inn",
+          "giver": "Temba Wide-Arm",
+          "description": "The mill owner Temba hates the bears that bother her loggers and wants 10 bear pelts. Reward: an enchanted war axe.",
+          "hints": [
+            "Pelts from any bear count, including cave and snow bears; hunters sell them too."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "map": "Ivarstead"
+        },
+        {
+          "id": "side_chop_wood_rift",
+          "title": "Chop Wood (the Rift)",
+          "en": "Рубка дров (Рифт)",
+          "type": "quest",
+          "location": "Ivarstead; Heartwood Mill",
+          "giver": "Temba Wide-Arm, Grosta",
+          "description": "Chop firewood at a chopping block and sell it for 5 gold a log. The first sale makes the buyer your friend.",
+          "repeatable": true,
+          "tags": [
+            "favor"
+          ],
+          "map": "Ivarstead"
+        },
+        {
+          "id": "side_mine_or_yours",
+          "title": "Mine or Yours",
+          "en": "Красная шахта",
+          "type": "quest",
+          "location": "Shor's Stone; Redbelly Mine",
+          "giver": "Filnjar",
+          "description": "The smith Filnjar asks you to clear Redbelly Mine of frostbite spiders so the miners can get back to work. Reward: gold.",
+          "hints": [
+            "It completes as soon as all the spiders are dead — even if you never spoke to Filnjar."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "related": [
+            "side_truth_ore_consequences",
+            "side_mine_ore_shors_stone"
+          ],
+          "map": "Shor's Stone"
+        },
+        {
+          "id": "side_special_delivery_sylgja",
+          "title": "Special Delivery (Sylgja)",
+          "en": "Специальная доставка",
+          "type": "quest",
+          "location": "Shor's Stone; Darkwater Crossing",
+          "giver": "Sylgja",
+          "description": "Sylgja asks you to take a satchel to her father Verner in Darkwater Crossing and come back for your reward — a piece of jewelry.",
+          "tips": [
+            "After this quest you can marry Sylgja."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "map": "Shor's Stone"
+        },
+        {
+          "id": "side_mine_ore_shors_stone",
+          "title": "Mine Ore (Shor's Stone)",
+          "en": "Добыча руды (Камень Шора)",
+          "type": "quest",
+          "location": "Shor's Stone, Redbelly Mine",
+          "giver": "Grogmar gro-Burzag",
+          "description": "The Orc Grogmar buys iron ore from Redbelly Mine at 7 gold a chunk. The first sale makes him your friend.",
+          "tips": [
+            "Grogmar then names you Blood-Kin to the Orcs — you'll be welcome in Orc strongholds."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor"
+          ],
+          "map": "Shor's Stone"
+        },
+        {
+          "id": "side_smooth_jazbay",
+          "title": "Smooth Jazbay",
+          "en": "Виноград Джазби",
+          "type": "quest",
+          "location": "Sarethi Farm, between Riften and Ivarstead",
+          "giver": "Avrusa Sarethi",
+          "description": "The alchemist Avrusa grows moon sugar and asks for 20 jazbay grapes. Reward: potions.",
+          "hints": [
+            "Jazbay grows in Eastmarch around the hot springs and near Windhelm; apothecaries sell it too."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "map": "Sarethi Farm"
+        },
+        {
+          "id": "side_bow_to_the_master",
+          "title": "Bow to the Master",
+          "en": "Лук мастера",
+          "type": "quest",
+          "location": "Merryfair Farm; Riften, the Ratway",
+          "giver": "Dravin Llanith",
+          "description": "Thugs took Dravin's bow along with his coin. Find the bow in Riften's Ratway. Reward: five gems.",
+          "hints": [
+            "The bow is in the Ratway Vaults; the only way in is the door to the right of the bar in the Ragged Flagon. You don't need to join the Thieves Guild."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "map": "Merryfair Farm"
+        },
+        {
+          "id": "side_flight_or_fight",
+          "title": "Flight or Fight",
+          "en": "Бой или бегство",
+          "type": "quest",
+          "location": "Heartwood Mill; Broken Helm Hollow",
+          "giver": "Grosta",
+          "description": "Grosta's husband Leifnarr went after the bandits in Broken Helm Hollow and never came back. Find him. Reward: an enchanted weapon.",
+          "hints": [
+            "Leifnarr's body is in a hidden room in Broken Helm Hollow: pull the chain south of the first bedrolls and the rock wall slides away."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "map": "Broken Helm Hollow"
+        },
+        {
+          "id": "side_gather_wheat_rift",
+          "title": "Gather Wheat (the Rift)",
+          "en": "Сбор урожая (Рифт)",
+          "type": "quest",
+          "location": "Merryfair Farm, Snow-Shod Farm, Sarethi Farm, Fellstar Farm (Ivarstead)",
+          "giver": "Synda Llanith, Addvild, Avrusa Sarethi, Boti",
+          "description": "The Rift's farmers buy vegetables and wheat from their own fields. Sell the crops through dialogue — the farmer becomes your friend.",
+          "repeatable": true,
+          "tags": [
+            "favor"
+          ],
+          "map": "Merryfair Farm"
+        }
+      ]
+    },
+    {
+      "title": "The Reach (Markarth)",
+      "items": [
+        {
+          "id": "side_the_forsworn_conspiracy",
+          "title": "The Forsworn Conspiracy",
+          "en": "Заговор Изгоев",
+          "type": "quest",
+          "location": "Markarth",
+          "giver": "Eltrys",
+          "description": "Right at the gates of Markarth, a murder happens before your eyes. Investigate a Forsworn conspiracy that leads to the powerful Silver-Blood family.",
+          "tips": [
+            "At the end you're framed and sent to Cidhna Mine — it's part of the story, don't reload."
+          ],
+          "related": [
+            "side_no_one_escapes_cidhna_mine"
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "side_no_one_escapes_cidhna_mine",
+          "title": "No One Escapes Cidhna Mine",
+          "en": "Никому не сбежать из Сидны",
+          "type": "quest",
+          "location": "Markarth, Cidhna Mine",
+          "giver": "Madanach",
+          "description": "In the prison mine you must get a meeting with Madanach, leader of the Forsworn, and decide whether to escape with him or kill him.",
+          "related": [
+            "side_the_forsworn_conspiracy",
+            "missables_cidhna_mine"
+          ],
+          "choices": [
+            {
+              "id": "side_cidhna_mine_choice",
+              "question": "Help Madanach?",
+              "options": [
+                {
+                  "id": "escape_with",
+                  "label": "Escape with the Forsworn",
+                  "result": "You get the Armor of the Old Gods, and the Forsworn fight their way out of Markarth."
+                },
+                {
+                  "id": "kill_madanach",
+                  "label": "Kill Madanach and escape alone",
+                  "result": "Thonar Silver-Blood returns your gear and gives you the Silver-Blood Family Ring."
+                }
+              ]
+            }
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "side_the_lost_expedition",
+          "title": "The Lost Expedition",
+          "en": "Пропавшая экспедиция",
+          "type": "quest",
+          "location": "Markarth, Nchuand-Zel",
+          "giver": "Alethius (note) / Calcelmo",
+          "description": "The Dwemer city of Nchuand-Zel has been dug up beneath Markarth. Find the journals of the missing explorers and switch on the ruins' automated defenses.",
+          "tips": [
+            "The ruins are full of Falmer and Dwarven automatons — stock up on potions and lockpicks."
+          ],
+          "related": [
+            "side_nimhe_the_poisoned_one"
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "side_the_heart_of_dibella",
+          "title": "The Heart of Dibella",
+          "en": "Сердце Дибеллы",
+          "type": "quest",
+          "location": "Markarth, Temple of Dibella; Karthwasten; Broken Tower Redoubt",
+          "giver": "Hamal",
+          "description": "Find Dibella's new Sybil — a girl named Fjotra kidnapped by the Forsworn — and bring her to the temple. Reward: the Agent of Dibella power.",
+          "tips": [
+            "To get the quest, enter the inner sanctum of the Temple of Dibella — the priestesses will be annoyed at first.",
+            "Completing it befriends all the priestesses of Dibella at once — almost enough on its own for the Reach thane requirement."
+          ],
+          "related": [
+            "side_speak_to_degaine",
+            "side_sanuarach_mine"
+          ],
+          "map": "Broken Tower Redoubt"
+        },
+        {
+          "id": "side_the_legend_of_red_eagle",
+          "title": "The Legend of Red Eagle",
+          "en": "Легенда о Красном Орле",
+          "type": "quest",
+          "location": "Red Eagle Redoubt, Sundered Towers, Rebel's Cairn",
+          "giver": "The book \"The Legend of Red Eagle\"",
+          "description": "After reading the book about the chieftain Red Eagle, get the sword Red Eagle's Fury and awaken Red Eagle in Rebel's Cairn. Reward: Red Eagle's Bane.",
+          "tips": [
+            "Near Rebel's Cairn there's a sword in a stone — a nod to the legend of King Arthur."
+          ],
+          "hints": [
+            "One copy of the book lies in Dushnikh Yal; in the journal the quest starts as a miscellaneous objective to find Red Eagle's sword."
+          ],
+          "related": [
+            "secrets_red_eagle_bucket",
+            "secrets_reachmans_altar_red_eagle"
+          ],
+          "map": "Red Eagle Redoubt"
+        },
+        {
+          "id": "side_the_affairs_of_hagravens",
+          "title": "The Affairs of Hagravens",
+          "en": "Забавы ворожей",
+          "type": "quest",
+          "location": "Blind Cliff Cave, Blind Cliff Bastion",
+          "giver": "Melka",
+          "description": "The hagraven Melka is locked in a cage in Blind Cliff Cave: her sister Petra has taken her tower. Free Melka, follow her through the traps and kill Petra. Reward: the staff Eye of Melka.",
+          "tips": [
+            "It counts as a side quest toward the \"Sideways\" achievement, even though the journal lists it under Miscellaneous."
+          ],
+          "hints": [
+            "The cave is on the Karth River southwest of Karthwasten; the tower itself is higher up, reached through the cave's upper exit.",
+            "Melka tells you which handles to pull — stay close to her so her reward scene isn't broken."
+          ],
+          "related": [
+            "side_jarl_dungeon_delving_hagravens"
+          ],
+          "map": "Blind Cliff Cave"
+        },
+        {
+          "id": "side_ragnvald",
+          "title": "Ragnvald",
+          "en": "Рагнвальд",
+          "type": "quest",
+          "location": "Ragnvald (north of Markarth)",
+          "giver": "Sarcophagus in Ragnvald Temple",
+          "description": "The mad chieftain Otar, who became a dragon priest, is sealed in these ancient ruins. Get Saerek's and Torsten's Skull Keys, open the sarcophagus and kill Otar the Mad.",
+          "tips": [
+            "Otar uses shock and summons a storm atronach — bring resist shock potions.",
+            "Reward: the dragon priest mask Otar and a word of Kyne's Peace on the Word Wall."
+          ],
+          "hints": [
+            "An unmarked path to the ruins starts due north of Salvius Farm.",
+            "The quest starts when you examine the empty slots on the sarcophagus in the western part of the temple; the keys are guarded by two draugr in different wings of the ruin.",
+            "After the fight, take the Skull Keys back out of the sarcophagus — they sell for a lot."
+          ],
+          "related": [
+            "secrets_ragnvald_hagraven_camp"
+          ],
+          "map": "Ragnvald"
+        },
+        {
+          "id": "side_jarl_kill_forsworn_leader",
+          "title": "Kill the Forsworn Leader (Jarl)",
+          "en": "Убить вожака Изгоев",
+          "type": "quest",
+          "location": "Markarth, Understone Keep",
+          "giver": "Jarl Igmund",
+          "description": "Igmund offers this on your first visit to Understone Keep: kill the leader of a Forsworn camp. Reward: 400–1,200 septims. Without it, Igmund won't ask you to recover his father's shield.",
+          "hints": [
+            "The camp is picked at random from eight: Broken Tower Redoubt, Bruca's Leap Redoubt, Deepwood Redoubt, Dragon Bridge Overlook, Druadach Redoubt, Hag Rock Redoubt, Red Eagle Redoubt, Serpent's Bluff Redoubt."
+          ],
+          "missable": "Igmund is an Imperial jarl. If Markarth goes to the Stormcloaks (in their campaign or as a concession at \"Season Unending\"), Igmund is exiled to Solitude and the quest becomes unavailable.",
+          "related": [
+            "side_jarl_dungeon_delving_hagravens",
+            "side_thane_of_the_reach",
+            "missables_jarl_quests"
+          ],
+          "map": "Understone Keep"
+        },
+        {
+          "id": "side_jarl_dungeon_delving_hagravens",
+          "title": "Dungeon Delving (Hagravens)",
+          "en": "Подземелья (ярл — ворожеи)",
+          "type": "quest",
+          "location": "Markarth, Understone Keep",
+          "giver": "Jarl Igmund",
+          "description": "Igmund asks you to recover the shield of his father Hrolfdir, killed by the Forsworn during negotiations; a hagraven keeps it. Needed to become Thane of the Reach.",
+          "tips": [
+            "First complete Kill the Forsworn Leader for Igmund and reach level 20 — he won't offer this quest before that.",
+            "Reward: leveled armor (cuirass, helmet or shield) and the right to buy Vlindrel Hall from Raerek.",
+            "It's a radiant quest: while another similar fetch quest is open in your journal, Igmund won't give it."
+          ],
+          "hints": [
+            "The shield is in a random spot in the Reach: Bleakwind Bluff, Blind Cliff Cave, Dead Crone Rock, Hag's End or Lost Valley Redoubt.",
+            "Bleakwind Bluff is by far the easiest: a small tower with no interior, a few Forsworn and a hagraven. You can reload before talking to Igmund until it comes up.",
+            "You don't have to kill anyone — a stealthy character can just grab the shield."
+          ],
+          "missable": "Igmund is an Imperial jarl. If Markarth goes to the Stormcloaks (in their campaign or as a concession at \"Season Unending\"), Igmund is exiled to Solitude and the quest becomes unavailable.",
+          "related": [
+            "side_jarl_kill_forsworn_leader",
+            "side_thane_of_the_reach",
+            "side_the_affairs_of_hagravens",
+            "missables_jarl_quests"
+          ],
+          "map": "Understone Keep"
+        },
+        {
+          "id": "side_thane_of_the_reach",
+          "title": "Thane of the Reach",
+          "en": "Тан Предела",
+          "type": "quest",
+          "location": "Markarth, Understone Keep",
+          "giver": "Jarl of Markarth (Igmund or Thongvor Silver-Blood)",
+          "description": "After the jarl's quests, buy Vlindrel Hall (8,000 septims) and help five people of the Reach. Reward: the thane title, the hold's blade and a housecarl.",
+          "tips": [
+            "Favors tagged \"thane\" in this section count even if done before the quest starts.",
+            "Orcs living in Dushnikh Yal and Mor Khazgur don't count as citizens of the hold, but Orcs living in Markarth do."
+          ],
+          "hints": [
+            "Quickest: \"The Heart of Dibella\" (all priestesses at once), the Sanuarach Mine dispute, plus giving a coin to Degaine and sharing a drink with Cosnach in the Warrens.",
+            "Under Jarl Igmund you first need \"Kill the Forsworn Leader\" and \"Dungeon Delving (Hagravens)\"; if Thongvor is jarl, handing Markarth to the Stormcloaks is enough."
+          ],
+          "related": [
+            "side_jarl_kill_forsworn_leader",
+            "side_jarl_dungeon_delving_hagravens",
+            "missables_jarl_quests"
+          ],
+          "map": "Understone Keep"
+        },
+        {
+          "id": "side_lisbets_missing_shipment",
+          "title": "Lisbet's Missing Shipment",
+          "en": "Пропавший товар Лисбет",
+          "type": "quest",
+          "location": "Markarth, Arnleif and Sons Trading Company",
+          "giver": "Lisbet",
+          "description": "The Forsworn have plundered Lisbet's caravans, including a specially made Dibella statue. Recover it from a random Forsworn camp. Reward: a large sum of gold.",
+          "hints": [
+            "The statue is in the boss chest of one redoubt: Broken Tower, Bruca's Leap, Deepwood, Dragon Bridge Overlook, Druadach, Hag Rock, Red Eagle or Serpent's Bluff.",
+            "If the camp matches your \"Kill the Forsworn Leader\" target, you can finish both in one trip."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_jarl_kill_forsworn_leader"
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "side_nimhe_the_poisoned_one",
+          "title": "Nimhe, the Poisoned One",
+          "en": "Нимхе Отравленная",
+          "type": "quest",
+          "location": "Markarth, Understone Keep, Nchuand-Zel",
+          "giver": "Calcelmo",
+          "description": "The giant frostbite spider Nimhe blocks the entrance to the Nchuand-Zel dig site. Kill her and Calcelmo gives you the Dwemer Museum key and access to the excavation.",
+          "tips": [
+            "Calcelmo sits at the arcane enchanter across the underground river deep in Understone Keep."
+          ],
+          "hints": [
+            "Nimhe fills most of the small antechamber before Nchuand-Zel — fight her at range from the corridor."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_the_lost_expedition",
+            "side_delivery_to_calcelmo",
+            "thieves_hard_answers"
+          ],
+          "map": "Understone Keep"
+        },
+        {
+          "id": "side_buy_dwarven_artifact",
+          "title": "Buy Dwarven artifact",
+          "en": "Приобретение двемерской реликвии",
+          "type": "quest",
+          "location": "Markarth, Understone Keep",
+          "giver": "Calcelmo (letter via courier)",
+          "description": "After you buy a Dwarven item in a city, a courier may bring a letter from Calcelmo offering to buy it. Bring it to him and he pays twice its base value.",
+          "tips": [
+            "Persuading or intimidating him raises the price to two and a half times the base value.",
+            "Don't sell, temper or enchant the item before the deal — otherwise you'll need an identical new one."
+          ],
+          "repeatable": true,
+          "map": "Understone Keep"
+        },
+        {
+          "id": "side_delivery_to_calcelmo",
+          "title": "Delivery to Calcelmo",
+          "en": "Посылка для Колсельмо",
+          "type": "quest",
+          "location": "Markarth, marketplace; Understone Keep",
+          "giver": "Kerah",
+          "description": "Kerah, who runs the jewelry stall at the market, asks you to take a ring to Calcelmo in Understone Keep. Reward: some gold.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_nimhe_the_poisoned_one"
+          ],
+          "map": "Understone Keep"
+        },
+        {
+          "id": "side_bothelas_discreet_delivery",
+          "title": "Bothela's Discreet Delivery",
+          "en": "Тайное поручение Ботелы",
+          "type": "quest",
+          "location": "Markarth, The Hag's Cure; Understone Keep",
+          "giver": "Bothela",
+          "description": "The old alchemist asks you to quietly hand the jarl's steward a Stallion's Potion — \"it should solve that problem he has\". Reward: some gold.",
+          "hints": [
+            "The recipient is Steward Raerek in Understone Keep (if he has been exiled, look in the Blue Palace in Solitude)."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Understone Keep"
+        },
+        {
+          "id": "side_skilled_apprenticeship",
+          "title": "Skilled Apprenticeship",
+          "en": "Книжная мудрость",
+          "type": "quest",
+          "location": "Markarth, smithy",
+          "giver": "Ghorza gra-Bagol",
+          "description": "The smith Ghorza is fed up with her apprentice and wants the book \"The Last Scabbard of Akrash\" for him. Bring any copy. Reward: a free Smithing lesson and Blood-Kin status with the Orcs.",
+          "hints": [
+            "The marker points to Fort Sungard, but any copy works: another is at Gallows Rock, a third lies on the ground south-southeast of Black-Briar Lodge."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "secrets_black_briar_akrash_scabbard",
+            "side_the_forgemasters_fingers"
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "side_coated_in_blood",
+          "title": "Coated in Blood",
+          "en": "Закалка в крови",
+          "type": "quest",
+          "location": "Markarth, Understone Keep",
+          "giver": "Moth gro-Bagol",
+          "description": "The jarl's blacksmith needs a Daedra heart to temper a weapon for the jarl. Bring him one. Reward: a random piece of armor and Blood-Kin status with the Orcs.",
+          "tips": [
+            "Daedra hearts can be bought from apothecaries or taken from slain dremora.",
+            "After this quest you can marry Moth."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_the_forgemasters_fingers"
+          ],
+          "map": "Understone Keep"
+        },
+        {
+          "id": "side_search_and_seizure",
+          "title": "Search and Seizure",
+          "en": "Поиск и арест",
+          "type": "quest",
+          "location": "Markarth, Understone Keep, Ogmund's House",
+          "giver": "Ondolemar",
+          "description": "The Thalmor Justiciar Ondolemar wants proof that the old skald Ogmund worships Talos. Take the Amulet of Talos from Ogmund's house. Reward: gold.",
+          "tips": [
+            "Afterwards you may freely enter the Thalmor headquarters in Understone Keep — entering and taking things there no longer counts as a crime."
+          ],
+          "hints": [
+            "The amulet is in a chest in Ogmund's bedroom; go in while he's out, or pick the lock unseen."
+          ],
+          "missable": "If the Reach goes to the Stormcloaks (Season Unending or their campaign), Ondolemar leaves the city and the quest becomes unavailable. Killing Ogmund also closes it.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "main_season_unending"
+          ],
+          "map": "Understone Keep"
+        },
+        {
+          "id": "side_a_few_words_with_you_omluag",
+          "title": "A Few Words with You (Omluag)",
+          "en": "На пару слов (Омлаг)",
+          "type": "quest",
+          "location": "Markarth, the Warrens; smelter",
+          "giver": "Omluag",
+          "description": "The smelter worker Omluag complains about his overseer Mulush gro-Shugurz. Persuade, bribe or intimidate Mulush into leaving him alone. Reward: gold.",
+          "tips": [
+            "Only one \"A Few Words with You\" quest can be active at a time across Skyrim."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_a_few_words_with_you_octieve"
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "side_delivery_banning",
+          "title": "Delivery (Banning)",
+          "en": "Доставка (Беннинг)",
+          "type": "quest",
+          "location": "Markarth, Markarth Stables",
+          "giver": "Banning",
+          "description": "The dog trainer Banning asks you to take Spiced Beef to Voada at the Markarth market. Reward: some gold.",
+          "tips": [
+            "Only one radiant \"Delivery\" quest can be active at a time."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Markarth Stables"
+        },
+        {
+          "id": "side_speak_to_degaine",
+          "title": "Speak to Degaine",
+          "en": "Поговорить с Дегейном",
+          "type": "quest",
+          "location": "Markarth, Silver-Blood Inn; Temple of Dibella",
+          "giver": "Kleppr or Frabbi (innkeepers)",
+          "description": "The beggar Degaine wants you to steal the golden Statue of Dibella from the temple's inner sanctum. Reward: 150 gold.",
+          "hints": [
+            "The statue stands in the inner sanctum of the Temple of Dibella; priestesses are nearby, so you need stealth or a good moment."
+          ],
+          "missable": "Completing \"The Heart of Dibella\" removes the statue and this quest from your journal.",
+          "related": [
+            "side_the_heart_of_dibella"
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "side_kolskeggr_mine",
+          "title": "Kolskeggr Mine",
+          "en": "Шахта Колскеггр",
+          "type": "quest",
+          "location": "Left Hand Mine; Kolskeggr Mine",
+          "giver": "Skaggi Scar-Face or Pavo Attius",
+          "description": "The Forsworn have taken Kolskeggr gold mine; only Pavo Attius and Gat gro-Shargakh survived. Clear the mine. Reward: gold and Blood-Kin status with the Orcs.",
+          "hints": [
+            "You only need to kill the Forsworn leader in the mine, not everyone.",
+            "Afterwards Pavo returns to the mine and buys gold ore."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_mine_ore_reach"
+          ],
+          "map": "Left Hand Mine"
+        },
+        {
+          "id": "side_rogatuss_letter",
+          "title": "Rogatus's Letter",
+          "en": "Письмо Рагата",
+          "type": "quest",
+          "location": "Salvius Farm; Old Hroldan Inn",
+          "giver": "Rogatus Salvius",
+          "description": "The grumpy farmer Rogatus asks you to take a letter to his son Leontius, who works at Old Hroldan Inn and never visits. Reward: 25 gold.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_the_ghost_of_old_hroldan"
+          ],
+          "map": "Salvius Farm"
+        },
+        {
+          "id": "side_the_ghost_of_old_hroldan",
+          "title": "The Ghost of Old Hroldan",
+          "en": "Призрак Старого Хролдана",
+          "type": "quest",
+          "location": "Old Hroldan Inn",
+          "giver": "Ghost",
+          "description": "Spend the night in the room where Tiber Septim once stayed and meet the ghost of a warrior who fell fighting him. Reward: +1 to One-handed and Block.",
+          "hints": [
+            "Ask the innkeeper Eydis about Tiber Septim's room and sleep there — the ghost asks you to bring Hjalti's sword, which is right there in the inn."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_rogatuss_letter"
+          ],
+          "map": "Old Hroldan Inn"
+        },
+        {
+          "id": "side_soljunds_sinkhole",
+          "title": "Soljund's Sinkhole",
+          "en": "Логово Сольюнда",
+          "type": "quest",
+          "location": "Soljund's Sinkhole (southeast of Markarth)",
+          "giver": "Perth",
+          "description": "The miners broke into a tomb and draugr drove them out of the moonstone mine. Clear Soljund's Sinkhole. Reward: gold.",
+          "hints": [
+            "Killing the draugr boss in the last chamber is enough; he heals and disarms with a shout — shoot him from the tunnel.",
+            "Afterwards Perth buys moonstone ore, and the mine has its veins."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_mine_ore_reach"
+          ],
+          "map": "Soljund's Sinkhole"
+        },
+        {
+          "id": "side_sanuarach_mine",
+          "title": "Sanuarach Mine",
+          "en": "Шахта Сануарах",
+          "type": "quest",
+          "location": "Karthwasten, Sanuarach Mine",
+          "giver": "Ainethach or Atar",
+          "description": "Silver-Blood mercenaries have occupied Karthwasten's mine, supposedly to guard it from the Forsworn. Either convince the mercenary Atar to leave or the owner Ainethach to sell. Reward: gold.",
+          "hints": [
+            "Persuade, bribe or intimidate works for either side; a failed intimidation starts a brawl."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_gharols_message",
+            "side_the_heart_of_dibella"
+          ],
+          "choices": [
+            {
+              "id": "side_sanuarach_mine_choice",
+              "question": "Whose side to take?",
+              "options": [
+                {
+                  "id": "ainethach",
+                  "label": "Ainethach — drive the mercenaries out",
+                  "result": "Ainethach, Lash and Ragnar become friends; counts toward Thane of the Reach and grants Blood-Kin status."
+                },
+                {
+                  "id": "atar",
+                  "label": "Atar — talk Ainethach into selling",
+                  "result": "Same gold reward, but the people of Karthwasten like you less."
+                }
+              ]
+            }
+          ],
+          "map": "Sanuarach Mine"
+        },
+        {
+          "id": "side_gharols_message",
+          "title": "Gharol's Message",
+          "en": "Послание Гарол",
+          "type": "quest",
+          "location": "Dushnikh Yal; Karthwasten",
+          "giver": "Gharol",
+          "description": "The Dushnikh Yal blacksmith Gharol has forged a sword for her daughter Lash, who left the stronghold. Take the blade to Lash in Karthwasten. Reward: gold.",
+          "tips": [
+            "You need Blood-Kin status to talk to Gharol.",
+            "Stronghold Orcs don't count as hold citizens — this favor doesn't help with the thane title."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "related": [
+            "side_sanuarach_mine",
+            "side_the_forgemasters_fingers"
+          ],
+          "map": "Dushnikh Yal"
+        },
+        {
+          "id": "side_fight_fight_cosnach",
+          "title": "Fight! Fight! (Cosnach)",
+          "en": "Драка! Драка! (Коснах)",
+          "type": "quest",
+          "location": "Markarth, The Warrens",
+          "giver": "Cosnach",
+          "description": "Cosnach offers a 100-gold bet on a fistfight. Win and you get your stake back doubled, and Cosnach becomes a follower.",
+          "tips": [
+            "Weapons, magic or shouts turn the brawl into assault — you'll get a bounty.",
+            "The chiefs of Dushnikh Yal and Mor Khazgur also challenge you, but that doesn't count toward Thane of the Reach."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "followers_cosnach"
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "side_beggars_degaine",
+          "title": "Quest all Beggars Have (Degaine)",
+          "en": "Квест всех нищих (Дегейн)",
+          "type": "quest",
+          "location": "Markarth, The Warrens",
+          "giver": "Degaine",
+          "description": "Give Degaine one coin — he likes you more and you get The Gift of Charity blessing.",
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "side_drunks_markarth",
+          "title": "Quest all Drunks Have (Markarth)",
+          "en": "Квест всех пьяниц (Маркарт)",
+          "type": "quest",
+          "location": "Markarth, The Warrens",
+          "giver": "Cosnach, Degaine",
+          "description": "If you carry alcohol, you can share a drink with Cosnach or Degaine — afterwards they become your friends.",
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_fight_fight_cosnach"
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "side_mine_ore_reach",
+          "title": "Mine Ore (the Reach)",
+          "en": "Добыча руды (Предел)",
+          "type": "quest",
+          "location": "Left Hand Mine, Kolskeggr Mine, Soljund's Sinkhole",
+          "giver": "Skaggi Scar-Face, Pavo Attius, Perth",
+          "description": "Mine owners buy their type of ore at a fixed price: Skaggi takes iron, Pavo gold, Perth moonstone.",
+          "tips": [
+            "For the thane title only ore sold to Skaggi counts; Pavo and Perth count through their own quests."
+          ],
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_kolskeggr_mine",
+            "side_soljunds_sinkhole"
+          ],
+          "map": "Left Hand Mine"
+        },
+        {
+          "id": "side_gather_wheat_salvius",
+          "title": "Gather Wheat (Salvius Farm)",
+          "en": "Сбор урожая (ферма Салвиев)",
+          "type": "quest",
+          "location": "Salvius Farm, near Markarth",
+          "giver": "Vigdis Salvius",
+          "description": "Vigdis buys the crops grown on her fields: wheat, potatoes, cabbage, leeks.",
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Salvius Farm"
+        }
+      ]
+    },
+    {
+      "title": "Haafingar (Solitude)",
+      "items": [
+        {
+          "id": "side_the_man_who_cried_wolf",
+          "title": "The Man Who Cried Wolf",
+          "en": "Мужчина, который кричал «Волки»",
+          "type": "quest",
+          "location": "Solitude, Wolfskull Cave",
+          "giver": "Falk Firebeard",
+          "description": "A local guard keeps talking about strange lights near Wolfskull Cave. Deal with the necromancers performing a ritual there.",
+          "related": [
+            "side_the_wolf_queen_awakened",
+            "side_elisifs_tribute"
+          ],
+          "map": "Wolfskull Cave"
+        },
+        {
+          "id": "side_the_wolf_queen_awakened",
+          "title": "The Wolf Queen Awakened",
+          "en": "Пробуждение Королевы-Волчицы",
+          "type": "quest",
+          "location": "Solitude, Blue Palace, Temple of the Divines",
+          "giver": "Falk Firebeard (via courier)",
+          "description": "Necromancers are trying to resurrect Potema, the Wolf Queen. Clear Potema's Catacombs beneath the Temple of the Divines and destroy her remains. Reward: the Shield of Solitude.",
+          "tips": [
+            "Falk Firebeard's letter usually arrives after \"The Man Who Cried Wolf\"."
+          ],
+          "related": [
+            "side_the_man_who_cried_wolf"
+          ],
+          "map": "Blue Palace"
+        },
+        {
+          "id": "side_lights_out",
+          "title": "Lights Out!",
+          "en": "Туши свет!",
+          "type": "quest",
+          "location": "Solitude Lighthouse, Wreck of the Icerunner, Broken Oar Grotto",
+          "giver": "Jaree-Ra",
+          "description": "The Khajiit Jaree-Ra asks you to put out the Solitude Lighthouse — it turns out to be a trap to wreck a ship. Find the survivor at the wreck and take revenge on the gang in Broken Oar Grotto.",
+          "tips": [
+            "You can start the quest just by talking to Jaree-Ra outside the Solitude gates."
+          ],
+          "related": [
+            "side_kill_the_bandit_leader_ahtar",
+            "followers_ahtar"
+          ],
+          "map": "Solitude Lighthouse"
+        },
+        {
+          "id": "side_tending_the_flames",
+          "title": "Tending the Flames",
+          "en": "Поджигай!",
+          "type": "quest",
+          "location": "Solitude, Bards College; Dead Men's Respite",
+          "giver": "Viarmo",
+          "description": "Elisif has banned the Burning of King Olaf festival. Find the lost King Olaf's Verse in Dead Men's Respite so Viarmo can sway the jarl, and join the Bards College. Reward: gold and a word of Whirlwind Sprint.",
+          "tips": [
+            "Any bard in an inn will point you to the Bards College.",
+            "Afterwards three College teachers offer favors for +1 to a whole skill group."
+          ],
+          "hints": [
+            "In Dead Men's Respite the ghost of the bard Svaknir guides you; at the end you fight Olaf One-Eye.",
+            "After you find the verse, Viarmo asks you to help \"fix\" the text — pick lines so Elisif approves the festival.",
+            "If \"Bound Until Death\" is active, finish it before the final step — Jorn will ask you to wait until the wedding is over."
+          ],
+          "related": [
+            "side_finns_lute",
+            "side_panteas_flute",
+            "side_rjorns_drum",
+            "dark_brotherhood_bound_until_death"
+          ],
+          "map": "Dead Men's Respite"
+        },
+        {
+          "id": "side_elisifs_tribute",
+          "title": "Elisif's Tribute",
+          "en": "Пожертвование Элисиф",
+          "type": "quest",
+          "location": "Solitude, Blue Palace; Shrine of Talos in the White River valley",
+          "giver": "Elisif the Fair",
+          "description": "Elisif asks you to secretly take Torygg's War Horn to a Shrine of Talos — her husband would have wanted it. Reward: the right to buy Proudspire Manor and the next step toward the thane title.",
+          "hints": [
+            "The shrine is in the Whiterun Hold wilds, due north of the Ritual Stone, by the river near Shimmermist Cave.",
+            "Agent Lorcalin and a Thalmor soldier attack at the shrine; you don't have to fight — you can just place the horn on the pedestal."
+          ],
+          "related": [
+            "side_the_man_who_cried_wolf",
+            "side_thane_of_haafingar"
+          ],
+          "map": "Blue Palace"
+        },
+        {
+          "id": "side_thane_of_haafingar",
+          "title": "Thane of Haafingar",
+          "en": "Тан Хаафингара",
+          "type": "quest",
+          "location": "Solitude, Blue Palace",
+          "giver": "Elisif the Fair",
+          "description": "After Elisif's Tribute, buy Proudspire Manor (25,000 septims) and help five people of Haafingar. Reward: the thane title, the Blade of Haafingar and a housecarl.",
+          "tips": [
+            "Elisif stays jarl even if the Stormcloaks win, so this title can't be missed.",
+            "Favors tagged \"thane\" in this section count even if done earlier."
+          ],
+          "hints": [
+            "Easiest: give a coin to Dervenin, Noster or Svari, sell crops to Katla or Azzada, chop wood for Hjorunn or Horgeir, deliver Sorex's rum."
+          ],
+          "related": [
+            "side_elisifs_tribute"
+          ],
+          "map": "Blue Palace"
+        },
+        {
+          "id": "side_finns_lute",
+          "title": "Finn's Lute",
+          "en": "Лютня Финна",
+          "type": "quest",
+          "location": "Solitude, Bards College; Stony Creek Cave",
+          "giver": "Inge Six Fingers",
+          "description": "Thieves stole the very first eight-course lute from the College. Recover it from Stony Creek Cave in Eastmarch. Reward: +1 to all Stealth skills.",
+          "hints": [
+            "The chest with the lute is just past the first right turn in the cave."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_tending_the_flames"
+          ],
+          "map": "Stony Creek Cave"
+        },
+        {
+          "id": "side_panteas_flute",
+          "title": "Pantea's Flute",
+          "en": "Флейта Пантеи",
+          "type": "quest",
+          "location": "Solitude, Bards College; Hob's Fall Cave",
+          "giver": "Pantea Ateia",
+          "description": "A student stole Pantea's heirloom flute and sold it to a necromancer who believed it makes the dead dance. Recover it from Hob's Fall Cave in Winterhold Hold. Reward: +1 to all Magic skills.",
+          "hints": [
+            "In the corridor with magic traps, pull the soul gems out of the pedestals to switch them off."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_tending_the_flames"
+          ],
+          "map": "Hob's Fall Cave"
+        },
+        {
+          "id": "side_rjorns_drum",
+          "title": "Rjorn's Drum",
+          "en": "Барабан Рьорна",
+          "type": "quest",
+          "location": "Solitude, Bards College; Halldir's Cairn",
+          "giver": "Giraud Gemane",
+          "description": "The legendary battle drummer Rjorn vanished in Halldir's Cairn. Find his drum for Giraud. Reward: +1 to all Combat skills.",
+          "hints": [
+            "The crypt key lies next to the journal near the Cairn's entrance; a lever behind the throne opens the barred passage.",
+            "Halldir splits into ghostly copies during the fight — destroy the copies first, then him."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_tending_the_flames"
+          ],
+          "map": "Halldir's Cairn"
+        },
+        {
+          "id": "side_no_news_is_good_news",
+          "title": "No News is Good News",
+          "en": "Отсутствие новостей — хорошая новость",
+          "type": "quest",
+          "location": "Solitude, Castle Dour",
+          "giver": "Angeline Morrard",
+          "description": "Angeline asks you to find out from Captain Aldis what happened to her daughter, who serves in the Legion.",
+          "missable": "Captain Aldis dies in the \"Battle for Solitude\" during the Stormcloak campaign, after which the quest can't be completed.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_rare_gifts_aldis",
+            "civil_war_battle_for_solitude"
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "side_rare_gifts_aldis",
+          "title": "Rare Gifts (Aldis)",
+          "en": "Редкие дары (Алдис)",
+          "type": "quest",
+          "location": "Solitude, Castle Dour",
+          "giver": "Captain Aldis",
+          "description": "Captain Aldis wants a copy of the book \"The Mirror\". Bring him one. Reward: gold.",
+          "hints": [
+            "The marker points to the Palace of the Kings in Windhelm — taking it there is theft, but Aldis accepts a stolen copy."
+          ],
+          "missable": "Aldis dies in the \"Battle for Solitude\" during the Stormcloak campaign — after that the quest is unavailable.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_no_news_is_good_news",
+            "civil_war_battle_for_solitude"
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "side_kill_the_vampire",
+          "title": "Kill the Vampire",
+          "en": "Убить вампира",
+          "type": "quest",
+          "location": "Solitude, Blue Palace; Pinemoon Cave",
+          "giver": "Sybille Stentor",
+          "description": "The court wizard asks you to wipe out a vampire nest in Pinemoon Cave west of Solitude. Reward: jewelry and a free Illusion lesson.",
+          "hints": [
+            "Killing the Master Vampire at the altar in the third chamber is enough; his helpers may raise the corpse on the nearby table."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Blue Palace"
+        },
+        {
+          "id": "side_the_spiced_wine",
+          "title": "The Spiced Wine",
+          "en": "Пряное вино",
+          "type": "quest",
+          "location": "Solitude, marketplace; East Empire Company Warehouse",
+          "giver": "Evette San",
+          "description": "The East Empire Company is holding up a spice shipment for Evette's famous wine. Persuade or bribe Vittoria Vici by the warehouse at the docks. Reward: 25 gold and 2 bottles of Spiced Wine.",
+          "missable": "The quest disappears after the Dark Brotherhood quest \"Bound Until Death\" (Vittoria Vici's murder).",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "dark_brotherhood_bound_until_death",
+            "secrets_vittoria_groom"
+          ],
+          "map": "East Empire Company Warehouse"
+        },
+        {
+          "id": "side_a_few_words_with_you_octieve",
+          "title": "A Few Words with You (Octieve)",
+          "en": "На пару слов (Октав Сан)",
+          "type": "quest",
+          "location": "Solitude, The Winking Skeever",
+          "giver": "Octieve San",
+          "description": "Old Octieve owes money to Irnskar Ironhand. Persuade, bribe or intimidate Irnskar into forgiving the debt. Reward: +1 Two-handed.",
+          "tips": [
+            "Only one \"A Few Words with You\" quest can be active at a time across Skyrim."
+          ],
+          "hints": [
+            "Irnskar is usually around his house or in the Winking Skeever; a failed intimidation leads to a brawl."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_a_few_words_with_you_omluag"
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "side_kill_the_bandit_leader_ahtar",
+          "title": "Kill the Bandit Leader (Ahtar)",
+          "en": "Убить вожака бандитов (Атар)",
+          "type": "quest",
+          "location": "Solitude; Broken Oar Grotto",
+          "giver": "Ahtar",
+          "description": "Solitude's headsman Ahtar let a prisoner, Captain Hargar, escape. Kill Hargar in Broken Oar Grotto. Reward: gold, and Ahtar becomes available as a follower.",
+          "missable": "If you kill Hargar earlier (in \"Lights Out!\" or just clearing the grotto), Ahtar won't offer this quest. Take it on your first visit to Solitude.",
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_lights_out",
+            "followers_ahtar",
+            "side_dungeon_delving_noster"
+          ],
+          "map": "Broken Oar Grotto"
+        },
+        {
+          "id": "side_dungeon_delving_noster",
+          "title": "Dungeon Delving (Noster)",
+          "en": "Подземелья (Ностер)",
+          "type": "quest",
+          "location": "Solitude, The Winking Skeever",
+          "giver": "Noster Eagle-Eye",
+          "description": "The old Legion veteran turned beggar asks you to recover his helmet from a cave in Haafingar. Reward: +1 Sneak.",
+          "hints": [
+            "Noster's Helmet is in one of: Broken Oar Grotto, Steepfall Burrow or Shadowgreen Cavern.",
+            "If it's Broken Oar Grotto, you can combine it with \"Lights Out!\" and Ahtar's quest."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_lights_out",
+            "side_kill_the_bandit_leader_ahtar"
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "side_delivery_sorex",
+          "title": "Delivery (Sorex)",
+          "en": "Доставка (Сорекс)",
+          "type": "quest",
+          "location": "Solitude, The Winking Skeever; Blue Palace",
+          "giver": "Sorex Vinius",
+          "description": "The innkeeper's son Sorex asks you to take a bottle of Stros M'Kai Rum to Falk Firebeard in the Blue Palace. Reward: some gold.",
+          "tips": [
+            "Afterwards you can marry Sorex."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Blue Palace"
+        },
+        {
+          "id": "side_return_to_grace",
+          "title": "Return to Grace",
+          "en": "Вернуть милость богов",
+          "type": "quest",
+          "location": "Solitude, Addvar's House; Hall of the Dead catacombs",
+          "giver": "Svari",
+          "description": "Little Svari's mother Greta stopped going to the temple after her brother Roggvir's execution. Get Roggvir's Amulet of Talos so she'll go back. Reward: gold.",
+          "hints": [
+            "For three days after the execution Roggvir's body lies by the block; later it's in a coffin in the catacombs behind Solitude's Hall of the Dead."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "side_fit_for_a_jarl",
+          "title": "Fit for a Jarl",
+          "en": "Одежда, достойная ярла",
+          "type": "quest",
+          "location": "Solitude, Radiant Raiment; Blue Palace",
+          "giver": "Taarie",
+          "description": "The tailor Taarie wants to promote her clothes: wear her outfit and show it to Jarl Elisif. Reward: gold and Radiant Raiment fine clothes.",
+          "hints": [
+            "Put the outfit on before talking to Elisif, then ask for her opinion."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "map": "Blue Palace"
+        },
+        {
+          "id": "side_dragons_breath_mead",
+          "title": "Dragon's Breath Mead",
+          "en": "Огнедышащий мёд",
+          "type": "quest",
+          "location": "Dragon Bridge, Horgeir's House",
+          "giver": "Olda",
+          "description": "Olda found out her husband Horgeir keeps a drink stash guarded by wolves. Bring her the bottle of Dragon's Breath Mead. Reward: gold.",
+          "hints": [
+            "Before the bridge turn right, pass the mill, cross the river and follow a trail west — the stash is under an overhanging rock guarded by three wolves."
+          ],
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_chop_wood_haafingar"
+          ],
+          "choices": [
+            {
+              "id": "side_dragons_breath_mead_choice",
+              "question": "Who gets the mead?",
+              "options": [
+                {
+                  "id": "olda",
+                  "label": "Olda",
+                  "result": "Olda pays gold; counts toward Thane of Haafingar. Horgeir stops buying firewood from you."
+                },
+                {
+                  "id": "horgeir",
+                  "label": "Horgeir",
+                  "result": "Horgeir trains you in Block, but the quest counts as failed."
+                }
+              ]
+            }
+          ],
+          "map": "Dragon Bridge"
+        },
+        {
+          "id": "side_beggars_solitude",
+          "title": "Quest all Beggars Have (Solitude)",
+          "en": "Квест всех нищих (Солитьюд)",
+          "type": "quest",
+          "location": "Solitude",
+          "giver": "Dervenin, Svari",
+          "description": "Give a coin to Dervenin by the Temple of the Divines or to Svari — they like you more and you get The Gift of Charity.",
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "side_drunks_razelan",
+          "title": "Quest all Drunks Have (Razelan)",
+          "en": "Квест всех пьяниц (Разелан)",
+          "type": "quest",
+          "location": "Thalmor Embassy, the party",
+          "giver": "Razelan",
+          "description": "At the embassy party during Diplomatic Immunity you can offer the drunk Razelan a drink — he causes a scene and distracts the guests.",
+          "tips": [
+            "Doesn't count toward Thane of Haafingar."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "related": [
+            "main_diplomatic_immunity"
+          ],
+          "map": "Thalmor Embassy"
+        },
+        {
+          "id": "side_gather_wheat_haafingar",
+          "title": "Gather Wheat (Haafingar)",
+          "en": "Сбор урожая (Хаафингар)",
+          "type": "quest",
+          "location": "Katla's Farm near Solitude; Dragon Bridge",
+          "giver": "Katla, Azzada Lylvieve",
+          "description": "Farmers buy the crops grown on their fields: wheat, potatoes, cabbage, leeks.",
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "map": "Katla's Farm"
+        },
+        {
+          "id": "side_chop_wood_haafingar",
+          "title": "Chop Wood (Haafingar)",
+          "en": "Рубка дров (Хаафингар)",
+          "type": "quest",
+          "location": "Solitude Sawmill; Dragon Bridge",
+          "giver": "Hjorunn, Horgeir",
+          "description": "Chop firewood at a chopping block and sell it — 5 gold per piece.",
+          "repeatable": true,
+          "tags": [
+            "favor",
+            "thane"
+          ],
+          "related": [
+            "side_dragons_breath_mead"
+          ],
+          "map": "Solitude Sawmill"
+        }
+      ]
+    },
+    {
+      "title": "Anywhere",
+      "items": [
+        {
+          "id": "side_forbidden_legend",
+          "title": "Forbidden Legend",
+          "en": "Запретная легенда",
+          "type": "quest",
+          "location": "Folgunthur, Saarthal, Geirmund's Hall, Reachwater Rock",
+          "giver": "The book \"Lost Legends\"",
+          "description": "Collect the three pieces of the Gauldur Amulet and reforge it at Reachwater Rock after fighting the three Gauldurson brothers. Reward: the Gauldur Amulet.",
+          "tips": [
+            "The Saarthal fragment is easiest to grab during the College quest \"Under Saarthal\"."
+          ],
+          "map": "Folgunthur"
+        },
+        {
+          "id": "side_a_return_to_your_roots",
+          "title": "A Return to Your Roots",
+          "en": "Возвращение к корням",
+          "type": "quest",
+          "location": "Blackreach, Sinderion's Field Laboratory; Sarethi Farm",
+          "giver": "Sinderion's Field Journal (Crimson Nirnroot)",
+          "description": "After picking a Crimson Nirnroot in Blackreach, continue the alchemist Sinderion's research: gather 30 roots and take them to Avrusa Sarethi. Reward: the Sinderion's Serendipity ability (chance to brew an extra potion).",
+          "tips": [
+            "Some roots grow in unreachable spots — Whirlwind Sprint can get you there."
+          ],
+          "hints": [
+            "Sinderion's laboratory is across from the gates of Alftand Cathedral in Blackreach; his journal is there.",
+            "Avrusa Sarethi lives at Sarethi Farm near Riften."
+          ],
+          "related": [
+            "secrets_blackreach_daylight"
+          ],
+          "map": "Sarethi Farm"
+        },
+        {
+          "id": "side_evil_in_waiting",
+          "title": "Evil in Waiting",
+          "en": "Зло дремлет",
+          "type": "quest",
+          "location": "Valthume",
+          "giver": "Valdar's ghost",
+          "description": "Valdar's ghost is holding back the dragon priest Hevnoraak. Empty the three vessels of the priest's blood and destroy him. Reward: the Hevnoraak mask.",
+          "map": "Valthume"
+        },
+        {
+          "id": "side_infiltration",
+          "title": "Infiltration",
+          "en": "Проникновение",
+          "type": "quest",
+          "location": "Treva's Watch",
+          "giver": "Stalleo",
+          "description": "Sneak into bandit-held Treva's Watch through a secret tunnel and open the gate for Stalleo's men.",
+          "map": "Treva's Watch"
+        },
+        {
+          "id": "side_find_the_word_of_power",
+          "title": "The Words of Power",
+          "en": "Слова силы",
+          "type": "quest",
+          "location": "Word Walls all over Skyrim",
+          "giver": "The Greybeards, Esbern, Paarthurnax and others",
+          "description": "Repeatable directions to Word Walls. A handy way to find new shout words.",
+          "tips": [
+            "Esbern (after the main quest) and the Greybeards will tell you where to look for walls."
+          ],
+          "repeatable": true
+        },
+        {
+          "id": "side_amulet_of_the_moon",
+          "title": "Amulet of the Moon",
+          "en": "Лунный амулет",
+          "type": "quest",
+          "location": "Khajiit caravan (Ahkari's)",
+          "giver": "Kharjo",
+          "description": "Bandits stole the caravan guard Kharjo's heirloom amulet. Recover it from a random bandit hideout. Reward: gold, and Kharjo becomes available as a follower.",
+          "tips": [
+            "Caravan Khajiit aren't hold citizens — this doesn't count toward any thane title."
+          ],
+          "hints": [
+            "Ahkari's caravan stops outside Dawnstar and Riften — it's easiest to wait for it at one of those cities."
+          ],
+          "tags": [
+            "favor"
+          ],
+          "related": [
+            "followers_kharjo"
+          ]
+        },
+        {
+          "id": "side_the_forgemasters_fingers",
+          "title": "The Forgemaster's Fingers",
+          "en": "Перчатки мастера-кузнеца",
+          "type": "quest",
+          "location": "Orc strongholds: Dushnikh Yal, Mor Khazgur, Narzulbur",
+          "giver": "Stronghold guard, then the chief",
+          "description": "To be let into an Orc stronghold as an outsider, find the Forgemaster's Fingers (+12 Smithing) and give them to the chief. Reward: Blood-Kin status and entry to all strongholds.",
+          "tips": [
+            "Blood-Kin is easier to get from \"Skilled Apprenticeship\", \"Coated in Blood\" or \"Kolskeggr Mine\" in Markarth."
+          ],
+          "hints": [
+            "Orc characters and players already Blood-Kin don't get this quest; in Largashbur it's replaced by \"The Cursed Tribe\".",
+            "While this quest is active, other Orcs won't make you Blood-Kin."
+          ],
+          "related": [
+            "side_skilled_apprenticeship",
+            "side_coated_in_blood",
+            "side_kolskeggr_mine",
+            "followers_borgakh_the_steel_heart"
+          ],
+          "map": "Dushnikh Yal"
+        }
+      ]
+    }
+  ]
+}

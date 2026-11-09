@@ -1,0 +1,363 @@
+{
+  "id": "dawnguard",
+  "title": "Dawnguard",
+  "icon": "vampire",
+  "description": "The war between the Dawnguard and the Volkihar vampires over the Tyranny of the Sun prophecy, with a choice of side midway through the story.",
+  "groups": [
+    {
+      "title": "Story Start",
+      "items": [
+        {
+          "id": "dawnguard_dawnguard",
+          "title": "Dawnguard",
+          "en": "Страж Рассвета",
+          "type": "quest",
+          "location": "Fort Dawnguard, the Rift",
+          "giver": "Guard rumors or the recruiter Durak",
+          "description": "Once you hear the Dawnguard is recruiting, head to the canyon east of Riften and join Isran's order of vampire hunters. Available from level 10.",
+          "tips": [
+            "Even if you plan to side with the vampires, the story starts with the Dawnguard."
+          ],
+          "map": "Fort Dawnguard"
+        },
+        {
+          "id": "dawnguard_awakening",
+          "title": "Awakening",
+          "en": "Пробуждение",
+          "type": "quest",
+          "location": "Dimhollow Crypt",
+          "giver": "Isran",
+          "description": "Check Dimhollow Crypt with Durak, where vampires are searching for something. Deep inside you find and free Serana, an ancient vampire carrying an Elder Scroll.",
+          "map": "Dimhollow Crypt"
+        },
+        {
+          "id": "dawnguard_bloodline",
+          "title": "Bloodline",
+          "en": "Линия крови",
+          "type": "quest",
+          "location": "Castle Volkihar",
+          "giver": "Serana",
+          "description": "Escort Serana home to Castle Volkihar and her father, Lord Harkon. He offers you a \"gift\": to become a Vampire Lord. This is where you pick your side in the war.",
+          "missable": "The choice of side is final: the other side's quests become unavailable.",
+          "choices": [
+            {
+              "id": "dawnguard_bloodline_side",
+              "question": "Accept Harkon's gift?",
+              "options": [
+                {
+                  "id": "vampires",
+                  "label": "Accept the gift (Volkihar Vampires)",
+                  "result": "You become a Vampire Lord and play for the Volkihar Clan. Dawnguard quests are closed, and Fort Dawnguard turns hostile.",
+                  "locks": [
+                    "dawnguard_a_new_order",
+                    "dawnguard_prophet_dawnguard",
+                    "dawnguard_ancient_technology",
+                    "dawnguard_preemptive_strike",
+                    "dawnguard_hunting_the_monster",
+                    "dawnguard_rescue"
+                  ]
+                },
+                {
+                  "id": "dawnguard",
+                  "label": "Refuse (Dawnguard)",
+                  "result": "Harkon throws you out of the castle. You return to Isran and fight for the Dawnguard; Serana joins you later.",
+                  "locks": [
+                    "dawnguard_the_bloodstone_chalice",
+                    "dawnguard_prophet_vampire",
+                    "dawnguard_protecting_the_bloodline",
+                    "dawnguard_deceiving_the_herd",
+                    "dawnguard_the_gift",
+                    "dawnguard_destroying_the_dawnguard"
+                  ]
+                }
+              ]
+            }
+          ],
+          "map": "Castle Volkihar"
+        }
+      ]
+    },
+    {
+      "title": "Dawnguard",
+      "items": [
+        {
+          "id": "dawnguard_a_new_order",
+          "title": "A New Order",
+          "en": "Новый орден",
+          "type": "quest",
+          "location": "Fort Dawnguard",
+          "giver": "Isran",
+          "description": "Fight off the vampire attack on the fort and recruit Isran's old allies, Gunmar and Sorine Jurard.",
+          "map": "Fort Dawnguard"
+        },
+        {
+          "id": "dawnguard_prophet_dawnguard",
+          "title": "Prophet",
+          "en": "Пророк",
+          "type": "quest",
+          "location": "Fort Dawnguard, College of Winterhold",
+          "giver": "Isran",
+          "description": "Reading Serana's Elder Scroll takes a Moth Priest. Find Dexion Evicus, held captive by vampires, and free him.",
+          "map": "Fort Dawnguard"
+        },
+        {
+          "id": "dawnguard_ancient_technology",
+          "title": "Ancient Technology",
+          "en": "Древняя технология",
+          "type": "quest",
+          "location": "Random Dwemer ruins and bandit camps",
+          "giver": "Sorine Jurard",
+          "description": "Retrieve Dwemer schematics for Sorine six times. Each one unlocks smithing for new crossbows and exploding bolts.",
+          "tips": [
+            "The last schematic is the Enhanced Dwarven Crossbow, one of the best ranged weapons in the DLC."
+          ]
+        },
+        {
+          "id": "dawnguard_preemptive_strike",
+          "title": "Preemptive Strike",
+          "en": "Упреждающий удар",
+          "type": "quest",
+          "location": "Random location",
+          "giver": "Gunmar",
+          "description": "Repeatable: kill a master vampire who plans to turn a gang of outlaws into vampires. Reward: a random enchanted weapon.",
+          "repeatable": true
+        },
+        {
+          "id": "dawnguard_hunting_the_monster",
+          "title": "Hunting the Monster",
+          "en": "Охота на чудовище",
+          "type": "quest",
+          "location": "Random city and vampire lair",
+          "giver": "Gunmar",
+          "description": "Repeatable: get a townsperson who knows the vampire to talk, take the letter with the lair's location, and kill the master vampire.",
+          "repeatable": true
+        },
+        {
+          "id": "dawnguard_rescue",
+          "title": "Rescue",
+          "en": "Спасение",
+          "type": "quest",
+          "location": "Random location",
+          "giver": "Florentius Baenius",
+          "description": "Repeatable: vampires have kidnapped a friend of yours, possibly even your spouse or a Jarl. Kill the kidnapper and free the captive.",
+          "repeatable": true
+        }
+      ]
+    },
+    {
+      "title": "Volkihar Vampires",
+      "items": [
+        {
+          "id": "dawnguard_the_bloodstone_chalice",
+          "title": "The Bloodstone Chalice",
+          "en": "Чаша из гелиотропа",
+          "type": "quest",
+          "location": "Castle Volkihar, Redwater Den",
+          "giver": "Garan Marethi",
+          "description": "Fill the Bloodstone Chalice with the blood of a Daughter of Coldharbour at the Redwater Den bloodspring to strengthen the clan.",
+          "map": "Castle Volkihar"
+        },
+        {
+          "id": "dawnguard_prophet_vampire",
+          "title": "Prophet",
+          "en": "Пророк",
+          "type": "quest",
+          "location": "Forebears' Holdout, College of Winterhold",
+          "giver": "Lord Harkon",
+          "description": "Find the Moth Priest Dexion Evicus, who is hiding in Forebears' Holdout, and bring him back to read the Elder Scroll.",
+          "map": "Forebears' Holdout"
+        },
+        {
+          "id": "dawnguard_protecting_the_bloodline",
+          "title": "Protecting the Bloodline",
+          "en": "Защитить линию крови",
+          "type": "quest",
+          "location": "Random location",
+          "giver": "Fura Bloodmouth or Garan Marethi",
+          "description": "Repeatable: kill a rogue vampire who plans to build his own clan out of bandits.",
+          "repeatable": true
+        },
+        {
+          "id": "dawnguard_deceiving_the_herd",
+          "title": "Deceiving the Herd",
+          "en": "Обмануть стадо",
+          "type": "quest",
+          "location": "Random city",
+          "giver": "Feran Sadri",
+          "description": "Repeatable: kill a victim in front of witnesses and plant a letter to frame the Dawnguard.",
+          "tips": [
+            "Wearing Dawnguard armor is safer: the bounty for the murder won't be pinned on you."
+          ],
+          "repeatable": true
+        },
+        {
+          "id": "dawnguard_the_gift",
+          "title": "The Gift",
+          "en": "Дар",
+          "type": "quest",
+          "location": "Castle Volkihar",
+          "giver": "Vingalmo",
+          "description": "If you are married, Vingalmo explains how to turn your spouse: charm them with Vampire's Seduction and feed on them.",
+          "tips": [
+            "Your spouse won't become a real vampire: the change is mostly cosmetic."
+          ],
+          "map": "Castle Volkihar"
+        },
+        {
+          "id": "dawnguard_destroying_the_dawnguard",
+          "title": "Destroying the Dawnguard",
+          "en": "Уничтожить Стражу Рассвета",
+          "type": "quest",
+          "location": "Fort Dawnguard",
+          "giver": "Fura Bloodmouth or Garan Marethi",
+          "description": "After finishing the vampire storyline, clear out Fort Dawnguard and kill its leaders.",
+          "missable": "Isran, Sorine, Gunmar and other Dawnguard members die for good, along with their shops and quests.",
+          "map": "Fort Dawnguard"
+        }
+      ]
+    },
+    {
+      "title": "Shared Ending",
+      "items": [
+        {
+          "id": "dawnguard_scroll_scouting",
+          "title": "Scroll Scouting",
+          "en": "Охота за свитком",
+          "type": "quest",
+          "location": "College of Winterhold",
+          "giver": "Dexion Evicus",
+          "description": "The prophecy needs all three Elder Scrolls. If you already have the Dragon scroll from the main quest, use it; otherwise find out where to look for the rest.",
+          "tips": [
+            "If you sold the scroll to Urag gro-Shub, buying it back costs 4,000 gold (2,000 for the Arch-Mage)."
+          ],
+          "map": "College of Winterhold"
+        },
+        {
+          "id": "dawnguard_chasing_echoes",
+          "title": "Chasing Echoes",
+          "en": "В погоне за прошлым",
+          "type": "quest",
+          "location": "Castle Volkihar, courtyard",
+          "giver": "Serana",
+          "description": "Serana remembers her mother Valerica and her garden. Solve the secrets of the Castle Volkihar courtyard and open the portal to the Soul Cairn.",
+          "map": "Castle Volkihar"
+        },
+        {
+          "id": "dawnguard_beyond_death",
+          "title": "Beyond Death",
+          "en": "За гранью смерти",
+          "type": "quest",
+          "location": "Soul Cairn",
+          "giver": "Serana",
+          "description": "Enter the Soul Cairn, find Valerica and destroy the Keepers so she will hand over the second Elder Scroll.",
+          "tips": [
+            "You can't enter the Soul Cairn alive: either become a Vampire Lord or let Serana partially soul trap you (the penalty lasts while you're there)."
+          ]
+        },
+        {
+          "id": "dawnguard_seeking_disclosure",
+          "title": "Seeking Disclosure",
+          "en": "В поисках истины",
+          "type": "quest",
+          "location": "College of Winterhold",
+          "giver": "Dexion Evicus",
+          "description": "Bring both Elder Scrolls to Dexion so he can read the Tyranny of the Sun prophecy.",
+          "map": "College of Winterhold"
+        },
+        {
+          "id": "dawnguard_unseen_visions",
+          "title": "Unseen Visions",
+          "en": "Невидимые видения",
+          "type": "quest",
+          "location": "Ancestor Glade",
+          "giver": "Dexion Evicus",
+          "description": "Perform the ceremony at Ancestor Glade to read the Elder Scroll: find a Moth Priest's draw knife, gather Canticle Tree bark and attract the Ancestor Moths.",
+          "map": "Ancestor Glade"
+        },
+        {
+          "id": "dawnguard_touching_the_sky",
+          "title": "Touching the Sky",
+          "en": "Прикосновение к небу",
+          "type": "quest",
+          "location": "Darkfall Cave, Forgotten Vale",
+          "giver": "Serana",
+          "description": "Pass through Darkfall Cave into the Forgotten Vale, meet the Snow Elf Gelebor and climb to the top of Auriel's Chapel. Vyrthur, Gelebor's brother turned vampire, awaits there. Reward: Auriel's Bow.",
+          "tips": [
+            "The Wayshrines of Auriel are hidden around the Vale — find them all for a reward from Gelebor."
+          ],
+          "map": "Darkfall Cave"
+        },
+        {
+          "id": "dawnguard_kindred_judgment",
+          "title": "Kindred Judgment",
+          "en": "Семейный суд",
+          "type": "quest",
+          "location": "Castle Volkihar",
+          "giver": "Serana",
+          "description": "The DLC finale: stop Harkon before he fulfills the prophecy. Both sides end up fighting Lord Harkon.",
+          "tips": [
+            "After the finale, Falion in Morthal can cure Serana of vampirism."
+          ],
+          "map": "Castle Volkihar"
+        }
+      ]
+    },
+    {
+      "title": "Side Quests",
+      "items": [
+        {
+          "id": "dawnguard_lost_to_the_ages",
+          "title": "Lost to the Ages",
+          "en": "Затерявшееся в веках",
+          "type": "quest",
+          "location": "Arkngthamz, Deep Folk Crossing, Mzulft, Raldbthar, Ruins of Bthalft",
+          "giver": "Katria's ghost",
+          "description": "Collect the four Aetherium Shards and find the Dwemer Aetherium Forge. It can craft only one item. You can also grab the bow Zephyr along the way.",
+          "missable": "The forge works only once: the other two Aetherium items are gone for good.",
+          "choices": [
+            {
+              "id": "dawnguard_lost_to_the_ages_forge",
+              "question": "What to craft at the Aetherium Forge?",
+              "options": [
+                {
+                  "id": "crown",
+                  "label": "Aetherial Crown",
+                  "result": "Lets you have two Standing Stone effects at once."
+                },
+                {
+                  "id": "shield",
+                  "label": "Aetherial Shield",
+                  "result": "A shield bash banishes the enemy to the ether for a while."
+                },
+                {
+                  "id": "staff",
+                  "label": "Aetherial Staff",
+                  "result": "Summons Dwarven Centurions."
+                }
+              ]
+            }
+          ],
+          "map": "Arkngthamz"
+        },
+        {
+          "id": "dawnguard_impatience_of_a_saint",
+          "title": "Impatience of a Saint",
+          "en": "Нетерпеливый святой",
+          "type": "quest",
+          "location": "Soul Cairn",
+          "giver": "Jiub",
+          "description": "The soul of Jiub, a hero of Morrowind, asks you to collect the 10 pages of his autobiography scattered around the Soul Cairn. Reward: Saint Jiub's Opus and the Locket of Saint Jiub."
+        },
+        {
+          "id": "dawnguard_find_arvaks_skull",
+          "title": "Find Arvak's Skull",
+          "en": "Конь Каирна Душ",
+          "type": "quest",
+          "location": "Soul Cairn",
+          "giver": "A soul in the Soul Cairn",
+          "description": "Find the skull of Arvak, the spectral horse, in the Soul Cairn to get the Summon Arvak spell."
+        }
+      ]
+    }
+  ]
+}

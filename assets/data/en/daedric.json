@@ -1,0 +1,349 @@
+{
+  "id": "daedric",
+  "title": "Daedric Quests",
+  "icon": "daedra",
+  "description": "The Daedric Princes' quests and their artifacts. You can't get them all in one playthrough: some rewards are mutually exclusive.",
+  "groups": [
+    {
+      "title": "Low Level (up to 10)",
+      "items": [
+        {
+          "id": "daedric_the_taste_of_death",
+          "title": "The Taste of Death",
+          "en": "Вкус смерти",
+          "type": "quest",
+          "location": "Markarth, Hall of the Dead; Reachcliff Cave",
+          "giver": "Brother Verulus (Namira)",
+          "description": "Look into the strange goings-on in Markarth's Hall of the Dead and meet Eola, a priestess of Namira. To get the Ring of Namira, lure Brother Verulus to a cannibal feast and eat him. Requires level 6.",
+          "tips": [
+            "The Ring of Namira gives +50 Stamina and lets you feed on corpses to regenerate Health."
+          ],
+          "missable": "Brother Verulus has to die: the quest comes down to killing an NPC. If you refuse and attack the cannibals, you won't get the Ring of Namira.",
+          "choices": [
+            {
+              "id": "daedric_the_taste_of_death_choice",
+              "question": "Sacrifice Brother Verulus to Namira?",
+              "options": [
+                {
+                  "id": "feast",
+                  "label": "Yes, hold the feast",
+                  "result": "Verulus dies, and you get the Ring of Namira."
+                },
+                {
+                  "id": "refuse",
+                  "label": "No, kill the cannibals",
+                  "result": "Verulus survives, but no Ring of Namira."
+                }
+              ]
+            }
+          ],
+          "map": "Reachcliff Cave"
+        },
+        {
+          "id": "daedric_the_black_star",
+          "title": "The Black Star",
+          "en": "Чёрная звезда",
+          "type": "quest",
+          "location": "Shrine of Azura, Winterhold, Ilinalta's Deep",
+          "giver": "Aranea Ienith (Azura)",
+          "description": "Azura's priestess Aranea sends you after the corrupted Azura's Star, taken by the elven mage Malyn Varen. In the end you decide who gets the star: Azura's priestess or the mage Nelacar. Requires level 8.",
+          "tips": [
+            "Azura's Star holds white souls (animals, monsters); the Black Star holds black souls (men and mer).",
+            "Inside the star you have to fight Malyn Varen's soul and his Dremora."
+          ],
+          "missable": "You can only get one star: the other is lost for good.",
+          "choices": [
+            {
+              "id": "daedric_the_black_star_choice",
+              "question": "Who gets the star?",
+              "options": [
+                {
+                  "id": "azura",
+                  "label": "Aranea (Azura)",
+                  "result": "You get Azura's Star, a reusable soul gem for white souls."
+                },
+                {
+                  "id": "nelacar",
+                  "label": "Nelacar",
+                  "result": "You get the Black Star, a reusable black soul gem for the souls of men and mer."
+                }
+              ]
+            }
+          ],
+          "map": "Shrine of Azura"
+        },
+        {
+          "id": "daedric_the_cursed_tribe",
+          "title": "The Cursed Tribe",
+          "en": "Проклятое племя",
+          "type": "quest",
+          "location": "Largashbur, Fallowstone Cave, Giant's Grove",
+          "giver": "Atub (Malacath)",
+          "description": "Help the cursed Orcs of Largashbur: defend the stronghold from a giant, perform the ritual to summon Malacath and kill the giant chieftain. The reward is the warhammer Volendrung. Requires level 9.",
+          "tips": [
+            "Largashbur's gate only opens if you arrive while the giant is attacking the stronghold."
+          ],
+          "map": "Largashbur"
+        },
+        {
+          "id": "daedric_a_daedras_best_friend",
+          "title": "A Daedra's Best Friend",
+          "en": "Собака — друг даэдра",
+          "type": "quest",
+          "location": "Falkreath, Haemar's Shame",
+          "giver": "Barbas (Clavicus Vile)",
+          "description": "Barbas, a talking dog, asks you to reconcile him with his master, Clavicus Vile. To do so you must fetch the Rueful Axe, after which Vile offers you a deal. Requires level 10.",
+          "tips": [
+            "The Rueful Axe doesn't count as a Daedric artifact for the Oblivion Walker achievement."
+          ],
+          "missable": "The Masque of Clavicus Vile and the Rueful Axe are mutually exclusive: pick one and the other is lost for good.",
+          "choices": [
+            {
+              "id": "daedric_a_daedras_best_friend_choice",
+              "question": "What do you do with Barbas?",
+              "options": [
+                {
+                  "id": "kill_barbas",
+                  "label": "Kill Barbas with the Rueful Axe",
+                  "result": "You keep the Rueful Axe; the Masque of Clavicus Vile is unavailable."
+                },
+                {
+                  "id": "spare_barbas",
+                  "label": "Return Barbas and hand over the axe",
+                  "result": "You get the Masque of Clavicus Vile (+10 Speech, 20% better prices)."
+                }
+              ]
+            }
+          ],
+          "map": "Haemar's Shame"
+        },
+        {
+          "id": "daedric_the_house_of_horrors",
+          "title": "The House of Horrors",
+          "en": "Дом ужасов",
+          "type": "quest",
+          "location": "Markarth, abandoned house",
+          "giver": "Vigilant Tyranus (Molag Bal)",
+          "description": "A Vigilant of Stendarr asks you to search an abandoned house in Markarth, where Molag Bal orders you to kill him. Then free Logrolf the Willful, a priest of Boethiah, and beat him with the Rusty Mace at the altar. Reward: the Mace of Molag Bal. Requires level 10 and The Forsworn Conspiracy started.",
+          "missable": "The quest requires killing Vigilant Tyranus; without that you can't get the Mace of Molag Bal.",
+          "map": "Markarth"
+        },
+        {
+          "id": "daedric_the_only_cure",
+          "title": "The Only Cure",
+          "en": "Единственное лекарство",
+          "type": "quest",
+          "location": "Shrine to Peryite, the Reach; Bthardamz",
+          "giver": "Kesh the Clean (Peryite)",
+          "description": "Bring Kesh the ritual ingredients (vampire dust, deathbell, a silver ingot, a flawless ruby), breathe in the vapors and, at Peryite's will, kill the renegade priest Orchendor. Reward: the shield Spellbreaker. You can talk to Kesh from level 12.",
+          "tips": [
+            "You can find the shrine yourself in the mountains northeast of Markarth without waiting for the afflicted refugee."
+          ],
+          "map": "Shrine to Peryite"
+        }
+      ]
+    },
+    {
+      "title": "Mid Level (12–20)",
+      "items": [
+        {
+          "id": "daedric_the_break_of_dawn",
+          "title": "The Break of Dawn",
+          "en": "Рассветная заря",
+          "type": "quest",
+          "location": "Statue to Meridia, Kilkreath Temple",
+          "giver": "Meridia",
+          "description": "Pick up Meridia's Beacon and take it to Mount Kilkreath, then guide her light through the temple and destroy the necromancer Malkoran. Reward: the sword Dawnbreaker, especially strong against the undead. Requires level 12.",
+          "map": "Statue to Meridia"
+        },
+        {
+          "id": "daedric_a_night_to_remember",
+          "title": "A Night to Remember",
+          "en": "Незабываемая ночка",
+          "type": "quest",
+          "location": "Skyrim's taverns, Markarth, Rorikstead, Whiterun, Morvunskar, Witchmist Grove",
+          "giver": "Sam Guevenne (Sanguine)",
+          "description": "Win a drinking contest against Sam Guevenne and wake up in Markarth with no memory. Retrace the wild night, fixing what you messed up, to finally earn the Sanguine Rose. Requires level 14.",
+          "tips": [
+            "The Sanguine Rose summons a Dremora for 60 seconds.",
+            "You can peacefully \"call off\" your wedding to the hagraven at Witchmist Grove."
+          ],
+          "map": "Morvunskar"
+        },
+        {
+          "id": "daedric_discerning_the_transmundane",
+          "title": "Discerning the Transmundane",
+          "en": "За гранью обыденного",
+          "type": "quest",
+          "location": "Septimus Signus's Outpost, Alftand, Blackreach, Tower of Mzark",
+          "giver": "Septimus Signus (Hermaeus Mora)",
+          "description": "Get a lexicon and the blood of five elven races so Septimus can open the Dwemer cube. Inside is the Oghma Infinium, the book of Hermaeus Mora. Requires level 15 and Elder Knowledge started.",
+          "tips": [
+            "The Oghma Infinium can be read only once: it gives +5 to six skills of the chosen path (Warrior, Thief or Mage).",
+            "It's convenient to combine this with the main quest while you're in Blackreach."
+          ],
+          "missable": "The Oghma Infinium vanishes after reading: you can't choose a path a second time. Septimus Signus dies at the end of the quest.",
+          "map": "Septimus Signus's Outpost"
+        },
+        {
+          "id": "daedric_the_mind_of_madness",
+          "title": "The Mind of Madness",
+          "en": "Безумный ум",
+          "type": "quest",
+          "location": "Solitude, Blue Palace, The Mind of a Madman",
+          "giver": "Dervenin (Sheogorath)",
+          "description": "Get into the sealed Pelagius Wing of the Blue Palace and end up inside the mind of the mad Emperor Pelagius. Use the Wabbajack to cure his confidence, nightmares and paranoia so Sheogorath lets you go, Wabbajack and all.",
+          "tips": [
+            "You don't need weapons or armor inside: the Wabbajack solves everything.",
+            "The tea party scene is a nod to Alice's Adventures in Wonderland."
+          ],
+          "map": "Blue Palace"
+        },
+        {
+          "id": "daedric_waking_nightmare",
+          "title": "Waking Nightmare",
+          "en": "Ходячий кошмар",
+          "type": "quest",
+          "location": "Dawnstar, Nightcaller Temple",
+          "giver": "Erandur (Vaermina)",
+          "description": "Erandur, a priest of Mara, asks for help freeing Dawnstar from its nightmares by destroying the Skull of Corruption in Nightcaller Temple. At the end Vaermina offers you to kill Erandur and keep the artifact.",
+          "tips": [
+            "Spare Erandur and he becomes available as a follower."
+          ],
+          "missable": "You can only get the Skull of Corruption by killing Erandur before he finishes the ritual. Let him finish and the artifact is destroyed for good.",
+          "choices": [
+            {
+              "id": "daedric_waking_nightmare_choice",
+              "question": "Let Erandur destroy the Skull of Corruption?",
+              "options": [
+                {
+                  "id": "let_erandur",
+                  "label": "Yes, allow the ritual",
+                  "result": "The Skull is destroyed; Erandur survives and can become a follower."
+                },
+                {
+                  "id": "kill_erandur",
+                  "label": "Kill Erandur",
+                  "result": "You get the Skull of Corruption; Erandur dies."
+                }
+              ]
+            }
+          ],
+          "map": "Nightcaller Temple"
+        },
+        {
+          "id": "daedric_ill_met_by_moonlight",
+          "title": "Ill Met By Moonlight",
+          "en": "Зов луны",
+          "type": "quest",
+          "location": "Falkreath (jail), Bloated Man's Grotto",
+          "giver": "Sinding (Hircine)",
+          "description": "Sinding, a werewolf in Falkreath Jail, gives you the cursed Ring of Hircine. In Bloated Man's Grotto you decide: kill Sinding for Hircine or help him slaughter the hunters.",
+          "tips": [
+            "Your quarry in the grotto is a white stag, a nod to Arthurian legend."
+          ],
+          "missable": "The rewards are mutually exclusive: Savior's Hide (kill Sinding) or the cleansed Ring of Hircine (spare Sinding).",
+          "choices": [
+            {
+              "id": "daedric_ill_met_by_moonlight_choice",
+              "question": "Whose side are you on in Bloated Man's Grotto?",
+              "options": [
+                {
+                  "id": "kill_sinding",
+                  "label": "Kill Sinding",
+                  "result": "Hircine grants Savior's Hide (+15% Magic Resistance, +50% Poison Resistance)."
+                },
+                {
+                  "id": "help_sinding",
+                  "label": "Help Sinding kill the hunters",
+                  "result": "Hircine lifts the curse from the Ring of Hircine: one extra werewolf transformation per day."
+                }
+              ]
+            }
+          ],
+          "map": "Bloated Man's Grotto"
+        }
+      ]
+    },
+    {
+      "title": "High Level (20+)",
+      "items": [
+        {
+          "id": "daedric_the_whispering_door",
+          "title": "The Whispering Door",
+          "en": "Дверь, которая шепчет",
+          "type": "quest",
+          "location": "Whiterun, Dragonsreach",
+          "giver": "Hulda, the Bannered Mare (Mephala)",
+          "description": "Jarl Balgruuf's son Nelkir hears voices from a locked door in the Dragonsreach basement. Get the key from the Jarl or Farengar, open the door and take the Ebony Blade. Requires level 20 and Dragon Rising completed.",
+          "tips": [
+            "The Ebony Blade reaches full power only after you kill ten characters who are friendly toward you with it."
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "daedric_pieces_of_the_past",
+          "title": "Pieces of the Past",
+          "en": "Осколки былой славы",
+          "type": "quest",
+          "location": "Dawnstar (Mythic Dawn Museum), Dead Crone Rock, Cracked Tusk Keep, Shrine of Mehrunes Dagon",
+          "giver": "Silus Vesuius (Mehrunes Dagon)",
+          "description": "The collector Silus Vesuius asks you to gather the three pieces of Mehrunes' Razor. At the shrine Mehrunes Dagon demands that you kill Silus. Requires level 20; a courier brings the invitation.",
+          "missable": "Mehrunes' Razor is yours only if you kill Silus Vesuius. Spare him and the artifact is lost for good.",
+          "choices": [
+            {
+              "id": "daedric_pieces_of_the_past_choice",
+              "question": "Kill Silus Vesuius on Dagon's orders?",
+              "options": [
+                {
+                  "id": "kill_silus",
+                  "label": "Kill Silus",
+                  "result": "You get Mehrunes' Razor (a chance to kill the target instantly)."
+                },
+                {
+                  "id": "spare_silus",
+                  "label": "Spare Silus",
+                  "result": "Silus pays more gold, but Mehrunes' Razor is unavailable."
+                }
+              ]
+            }
+          ],
+          "map": "Dead Crone Rock"
+        },
+        {
+          "id": "daedric_boethiahs_calling",
+          "title": "Boethiah's Calling",
+          "en": "Зов Боэтии",
+          "type": "quest",
+          "location": "Sacellum of Boethiah, Knifepoint Ridge",
+          "giver": "Boethiah (the book Boethiah's Proving)",
+          "description": "Lure a follower to Boethiah's shrine and sacrifice them, then kill the rest of the cultists. After that Boethiah orders you to kill her former champion. Reward: the Ebony Mail. Requires level 30.",
+          "tips": [
+            "Any follower or hireling you can spare will do for the sacrifice."
+          ],
+          "missable": "The sacrificed follower dies for good. Don't use your spouse or a valuable companion.",
+          "map": "Sacellum of Boethiah"
+        }
+      ]
+    },
+    {
+      "title": "Outside the Daedric Questline",
+      "items": [
+        {
+          "id": "daedric_darkness_returns",
+          "title": "Darkness Returns",
+          "en": "Возвращение сумерек",
+          "type": "quest",
+          "location": "Twilight Sepulcher",
+          "giver": "Karliah (Nocturnal)",
+          "description": "Nocturnal has no separate Daedric quest: you use her Skeleton Key during the Thieves Guild questline and must return it to the Twilight Sepulcher.",
+          "tips": [
+            "While you hold the key, it opens any lock without lockpicks, so you can put the quest off."
+          ],
+          "missable": "Once the Skeleton Key is back in the Ebonmere, it leaves your inventory for good.",
+          "map": "Twilight Sepulcher"
+        }
+      ]
+    }
+  ]
+}

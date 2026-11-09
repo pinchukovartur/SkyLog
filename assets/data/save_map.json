@@ -1,0 +1,1081 @@
+{
+"enchantments": {
+"Dragonborn.esm:02C46E": [
+"enchanting_chaos_damage"
+],
+"Skyrim.esm:03B0B2": [
+"enchanting_silent_moons_enchant"
+],
+"Skyrim.esm:040003": [
+"enchanting_fiery_soul_trap"
+],
+"Skyrim.esm:10EAD1": [
+"enchanting_fortify_alteration_magicka_regen"
+],
+"Skyrim.esm:10EAD2": [
+"enchanting_fortify_conjuration_magicka_regen"
+],
+"Skyrim.esm:10EAD3": [
+"enchanting_fortify_destruction_magicka_regen"
+],
+"Skyrim.esm:10EAD4": [
+"enchanting_fortify_illusion_magicka_regen"
+],
+"Skyrim.esm:10EAD5": [
+"enchanting_fortify_restoration_magicka_regen"
+],
+"Skyrim.esm:10FB70": [
+"enchanting_fortify_alchemy"
+],
+"Skyrim.esm:10FB71": [
+"enchanting_fortify_alteration"
+],
+"Skyrim.esm:10FB72": [
+"enchanting_fortify_block"
+],
+"Skyrim.esm:10FB73": [
+"enchanting_fortify_carry_weight"
+],
+"Skyrim.esm:10FB74": [
+"enchanting_fortify_conjuration"
+],
+"Skyrim.esm:10FB75": [
+"enchanting_fortify_destruction"
+],
+"Skyrim.esm:10FB76": [
+"enchanting_fortify_healing_rate"
+],
+"Skyrim.esm:10FB77": [
+"enchanting_fortify_health"
+],
+"Skyrim.esm:10FB78": [
+"enchanting_fortify_heavy_armor"
+],
+"Skyrim.esm:10FB79": [
+"enchanting_fortify_illusion"
+],
+"Skyrim.esm:10FB7A": [
+"enchanting_fortify_light_armor"
+],
+"Skyrim.esm:10FB7B": [
+"enchanting_fortify_lockpicking"
+],
+"Skyrim.esm:10FB7C": [
+"enchanting_fortify_magicka"
+],
+"Skyrim.esm:10FB7D": [
+"enchanting_fortify_magicka_regen"
+],
+"Skyrim.esm:10FB7E": [
+"enchanting_fortify_archery"
+],
+"Skyrim.esm:10FB7F": [
+"enchanting_fortify_one_handed"
+],
+"Skyrim.esm:10FB80": [
+"enchanting_fortify_pickpocket"
+],
+"Skyrim.esm:10FB81": [
+"enchanting_fortify_restoration"
+],
+"Skyrim.esm:10FB82": [
+"enchanting_fortify_smithing"
+],
+"Skyrim.esm:10FB83": [
+"enchanting_fortify_sneak"
+],
+"Skyrim.esm:10FB84": [
+"enchanting_fortify_barter"
+],
+"Skyrim.esm:10FB85": [
+"enchanting_fortify_stamina"
+],
+"Skyrim.esm:10FB86": [
+"enchanting_fortify_stamina_regen"
+],
+"Skyrim.esm:10FB87": [
+"enchanting_fortify_two_handed"
+],
+"Skyrim.esm:10FB88": [
+"enchanting_fortify_unarmed"
+],
+"Skyrim.esm:10FB89": [
+"enchanting_muffle"
+],
+"Skyrim.esm:10FB8A": [
+"enchanting_resist_disease"
+],
+"Skyrim.esm:10FB8B": [
+"enchanting_resist_fire"
+],
+"Skyrim.esm:10FB8C": [
+"enchanting_resist_frost"
+],
+"Skyrim.esm:10FB8D": [
+"enchanting_resist_magic"
+],
+"Skyrim.esm:10FB8E": [
+"enchanting_resist_poison"
+],
+"Skyrim.esm:10FB8F": [
+"enchanting_resist_shock"
+],
+"Skyrim.esm:10FB90": [
+"enchanting_waterbreathing"
+],
+"Skyrim.esm:10FB91": [
+"enchanting_absorb_health"
+],
+"Skyrim.esm:10FB92": [
+"enchanting_absorb_stamina"
+],
+"Skyrim.esm:10FB93": [
+"enchanting_banish"
+],
+"Skyrim.esm:10FB94": [
+"enchanting_fear"
+],
+"Skyrim.esm:10FB95": [
+"enchanting_fire_damage"
+],
+"Skyrim.esm:10FB96": [
+"enchanting_frost_damage"
+],
+"Skyrim.esm:10FB97": [
+"enchanting_magicka_damage"
+],
+"Skyrim.esm:10FB98": [
+"enchanting_paralyze"
+],
+"Skyrim.esm:10FB99": [
+"enchanting_shock_damage"
+],
+"Skyrim.esm:10FB9A": [
+"enchanting_soul_trap"
+],
+"Skyrim.esm:10FB9B": [
+"enchanting_stamina_damage"
+],
+"Skyrim.esm:10FB9C": [
+"enchanting_turn_undead"
+],
+"Skyrim.esm:10FB9D": [
+"enchanting_absorb_magicka"
+]
+},
+"quests": {
+"Dawnguard.esm:00284F": [
+"dawnguard_chasing_echoes"
+],
+"Dawnguard.esm:002850": [
+"dawnguard_beyond_death"
+],
+"Dawnguard.esm:002852": [
+"dawnguard_unseen_visions"
+],
+"Dawnguard.esm:002853": [
+"dawnguard_touching_the_sky"
+],
+"Dawnguard.esm:002F65": [
+"dawnguard_bloodline"
+],
+"Dawnguard.esm:00352A": [
+"dawnguard_awakening"
+],
+"Dawnguard.esm:004E24": [
+"dawnguard_a_new_order"
+],
+"Dawnguard.esm:0050BD": [
+"dawnguard_deceiving_the_herd"
+],
+"Dawnguard.esm:0056FD": [
+"dawnguard_protecting_the_bloodline"
+],
+"Dawnguard.esm:005817": [
+"dawnguard_lost_to_the_ages"
+],
+"Dawnguard.esm:0058CA": [
+"dawnguard_the_gift"
+],
+"Dawnguard.esm:00594C": [
+"dawnguard_the_bloodstone_chalice"
+],
+"Dawnguard.esm:005DA9": [
+"dawnguard_seeking_disclosure"
+],
+"Dawnguard.esm:005E58": [
+"dawnguard_preemptive_strike"
+],
+"Dawnguard.esm:006952": [
+"dawnguard_hunting_the_monster"
+],
+"Dawnguard.esm:006BAC": [
+"dawnguard_ancient_technology"
+],
+"Dawnguard.esm:007201": [
+"dawnguard_rescue"
+],
+"Dawnguard.esm:007C25": [
+"dawnguard_kindred_judgment"
+],
+"Dawnguard.esm:01400B": [
+"dawnguard_impatience_of_a_saint"
+],
+"Dawnguard.esm:0181BF": [
+"dawnguard_scroll_scouting"
+],
+"Dawnguard.esm:019938": [
+"dawnguard_destroying_the_dawnguard"
+],
+"Dragonborn.esm:016E1F": [
+"dragonborn_the_path_of_knowledge"
+],
+"Dragonborn.esm:0179D7": [
+"dragonborn_at_the_summit_of_apocrypha"
+],
+"Dragonborn.esm:0179DE": [
+"dragonborn_the_gardener_of_men"
+],
+"Dragonborn.esm:017F8F": [
+"dragonborn_the_temple_of_miraak"
+],
+"Dragonborn.esm:017F90": [
+"dragonborn_the_fate_of_the_skaal"
+],
+"Dragonborn.esm:01810B": [
+"dragonborn_unearthed"
+],
+"Dragonborn.esm:01844E": [
+"dragonborn_a_new_debt"
+],
+"Dragonborn.esm:018B13": [
+"dragonborn_march_of_the_dead"
+],
+"Dragonborn.esm:018B14": [
+"dragonborn_served_cold"
+],
+"Dragonborn.esm:018B15": [
+"dragonborn_the_final_descent"
+],
+"Dragonborn.esm:01A50B": [
+"dragonborn_retaking_thirsk"
+],
+"Dragonborn.esm:01A50C": [
+"dragonborn_the_chief_of_thirsk_hall"
+],
+"Dragonborn.esm:01C06E": [
+"dragonborn_heart_stones"
+],
+"Dragonborn.esm:01CAF1": [
+"dragonborn_a_new_source_of_stalhrim"
+],
+"Dragonborn.esm:0247F8": [
+"dragonborn_summoning_karstaag"
+],
+"Dragonborn.esm:02AD26": [
+"dragonborn_paid_in_full"
+],
+"Dragonborn.esm:02C49E": [
+"dragonborn_the_ebony_warrior"
+],
+"Dragonborn.esm:035440": [
+"dragonborn_cleansing_the_stones"
+],
+"Skyrim.esm:015D24": [
+"thieves_shill_job"
+],
+"Skyrim.esm:018B4B": [
+"side_the_forsworn_conspiracy"
+],
+"Skyrim.esm:01BB9B": [
+"daedric_a_night_to_remember"
+],
+"Skyrim.esm:01BFC4": [
+"daedric_a_daedras_best_friend"
+],
+"Skyrim.esm:01C48E": [
+"side_the_blessings_of_nature"
+],
+"Skyrim.esm:01CEF4": [
+"companions_the_silver_hand"
+],
+"Skyrim.esm:01CEF5": [
+"companions_bloods_honor"
+],
+"Skyrim.esm:01CEF6": [
+"companions_glory_of_the_dead"
+],
+"Skyrim.esm:01CF25": [
+"side_in_my_time_of_need"
+],
+"Skyrim.esm:01CF26": [
+"side_missing_in_action"
+],
+"Skyrim.esm:01DA3C": [
+"side_promises_to_keep"
+],
+"Skyrim.esm:01DBFC": [
+"side_rise_in_the_east"
+],
+"Skyrim.esm:01EA4F": [
+"dark_brotherhood_delayed_burial"
+],
+"Skyrim.esm:01EA50": [
+"dark_brotherhood_innocence_lost"
+],
+"Skyrim.esm:01EA51": [
+"dark_brotherhood_with_friends_like_these"
+],
+"Skyrim.esm:01EA52": [
+"dark_brotherhood_mourning_never_comes"
+],
+"Skyrim.esm:01EA53": [
+"dark_brotherhood_whispers_in_the_dark"
+],
+"Skyrim.esm:01EA54": [
+"dark_brotherhood_bound_until_death"
+],
+"Skyrim.esm:01EA55": [
+"dark_brotherhood_breaching_security"
+],
+"Skyrim.esm:01EA56": [
+"dark_brotherhood_cure_for_madness"
+],
+"Skyrim.esm:01EA57": [
+"dark_brotherhood_recipe_for_disaster"
+],
+"Skyrim.esm:01EA58": [
+"dark_brotherhood_to_kill_an_empire"
+],
+"Skyrim.esm:01EA59": [
+"dark_brotherhood_hail_sithis"
+],
+"Skyrim.esm:01EA5A": [
+"dark_brotherhood_forever"
+],
+"Skyrim.esm:01EA5B": [
+"dark_brotherhood_kill_narfi"
+],
+"Skyrim.esm:01EA5E": [
+"dark_brotherhood_kill_ennodius_papius"
+],
+"Skyrim.esm:01EA5F": [
+"dark_brotherhood_kill_beitild"
+],
+"Skyrim.esm:01EA60": [
+"dark_brotherhood_kill_hern"
+],
+"Skyrim.esm:01EA61": [
+"dark_brotherhood_kill_lurbuk"
+],
+"Skyrim.esm:01EA62": [
+"dark_brotherhood_kill_deekus"
+],
+"Skyrim.esm:01EA63": [
+"dark_brotherhood_kill_ma_randru_jo"
+],
+"Skyrim.esm:01EA64": [
+"dark_brotherhood_kill_anoriath"
+],
+"Skyrim.esm:01EA65": [
+"dark_brotherhood_kill_agnis"
+],
+"Skyrim.esm:01EA66": [
+"dark_brotherhood_kill_maluril"
+],
+"Skyrim.esm:01EA67": [
+"dark_brotherhood_kill_helvard"
+],
+"Skyrim.esm:01EA68": [
+"dark_brotherhood_kill_safia"
+],
+"Skyrim.esm:01F251": [
+"college_first_lessons"
+],
+"Skyrim.esm:01F252": [
+"college_under_saarthal"
+],
+"Skyrim.esm:01F253": [
+"college_hitting_the_books"
+],
+"Skyrim.esm:01F254": [
+"college_good_intentions"
+],
+"Skyrim.esm:01F255": [
+"college_containment"
+],
+"Skyrim.esm:01F257": [
+"college_the_staff_of_magnus"
+],
+"Skyrim.esm:01F258": [
+"college_the_eye_of_magnus"
+],
+"Skyrim.esm:01F326": [
+"thieves_taking_care_of_business"
+],
+"Skyrim.esm:01F7A3": [
+"side_blood_on_the_ice"
+],
+"Skyrim.esm:0209CA": [
+"side_unfathomable_depths"
+],
+"Skyrim.esm:0211D5": [
+"side_the_book_of_love"
+],
+"Skyrim.esm:02154E": [
+"thieves_loud_and_clear"
+],
+"Skyrim.esm:02154F": [
+"thieves_dampened_spirits"
+],
+"Skyrim.esm:021550": [
+"thieves_scoundrels_folly"
+],
+"Skyrim.esm:021551": [
+"thieves_speaking_with_silence"
+],
+"Skyrim.esm:021552": [
+"thieves_hard_answers"
+],
+"Skyrim.esm:021553": [
+"thieves_the_pursuit"
+],
+"Skyrim.esm:021554": [
+"thieves_blindsighted"
+],
+"Skyrim.esm:021555": [
+"thieves_darkness_returns",
+"daedric_darkness_returns"
+],
+"Skyrim.esm:021556": [
+"thieves_a_chance_arrangement"
+],
+"Skyrim.esm:021891": [
+"side_falions_secret"
+],
+"Skyrim.esm:021896": [
+"side_for_the_good_of_morthal"
+],
+"Skyrim.esm:022F08": [
+"daedric_the_house_of_horrors"
+],
+"Skyrim.esm:022F47": [
+"dark_brotherhood_sanctuary"
+],
+"Skyrim.esm:023A64": [
+"side_lights_out"
+],
+"Skyrim.esm:023B6C": [
+"side_the_heart_of_dibella"
+],
+"Skyrim.esm:0240B8": [
+"daedric_pieces_of_the_past"
+],
+"Skyrim.esm:0242AF": [
+"daedric_waking_nightmare"
+],
+"Skyrim.esm:0242BA": [
+"main_the_way_of_the_voice"
+],
+"Skyrim.esm:02499C": [
+"side_repairing_the_phial"
+],
+"Skyrim.esm:02522F": [
+"companions_trouble_in_skyrim"
+],
+"Skyrim.esm:025231": [
+"companions_hired_muscle"
+],
+"Skyrim.esm:025250": [
+"companions_escaped_criminal"
+],
+"Skyrim.esm:025251": [
+"companions_rescue_mission"
+],
+"Skyrim.esm:025252": [
+"companions_striking_the_heart"
+],
+"Skyrim.esm:025F3E": [
+"side_laid_to_rest"
+],
+"Skyrim.esm:02610C": [
+"main_dragon_rising"
+],
+"Skyrim.esm:0266F1": [
+"college_tolfdir_the_absent_minded"
+],
+"Skyrim.esm:0266F2": [
+"college_out_of_balance"
+],
+"Skyrim.esm:026C4D": [
+"side_the_wolf_queen_awakened"
+],
+"Skyrim.esm:028922": [
+"thieves_fishing_job"
+],
+"Skyrim.esm:028936": [
+"thieves_sweep_job"
+],
+"Skyrim.esm:02893B": [
+"thieves_heist_job"
+],
+"Skyrim.esm:02893E": [
+"thieves_burglary_job"
+],
+"Skyrim.esm:028A13": [
+"college_enchanting_pick_up"
+],
+"Skyrim.esm:028A19": [
+"college_restocking_soul_gems"
+],
+"Skyrim.esm:028A24": [
+"college_fetch_me_that_book"
+],
+"Skyrim.esm:028AD6": [
+"daedric_the_black_star"
+],
+"Skyrim.esm:02A49A": [
+"daedric_ill_met_by_moonlight"
+],
+"Skyrim.esm:02AC68": [
+"daedric_the_mind_of_madness"
+],
+"Skyrim.esm:02AD16": [
+"dark_brotherhood_silence_has_been_broken"
+],
+"Skyrim.esm:02C258": [
+"side_the_white_phial"
+],
+"Skyrim.esm:02C358": [
+"daedric_the_taste_of_death"
+],
+"Skyrim.esm:02D512": [
+"daedric_discerning_the_transmundane"
+],
+"Skyrim.esm:02D515": [
+"main_the_throat_of_the_world"
+],
+"Skyrim.esm:02D516": [
+"main_elder_knowledge"
+],
+"Skyrim.esm:02D75C": [
+"civil_war_the_jagged_crown"
+],
+"Skyrim.esm:02E656": [
+"dark_brotherhood_locate_the_assassin_of_old"
+],
+"Skyrim.esm:030B36": [
+"side_mistwatch"
+],
+"Skyrim.esm:032926": [
+"main_a_blade_in_the_dark"
+],
+"Skyrim.esm:03372B": [
+"main_unbound"
+],
+"Skyrim.esm:035354": [
+"side_siege_on_the_dragon_cult"
+],
+"Skyrim.esm:035D5F": [
+"main_diplomatic_immunity"
+],
+"Skyrim.esm:036191": [
+"main_a_cornered_rat"
+],
+"Skyrim.esm:036192": [
+"main_alduins_wall"
+],
+"Skyrim.esm:036193": [
+"main_alduins_bane"
+],
+"Skyrim.esm:03763C": [
+"side_ragnvald"
+],
+"Skyrim.esm:0376EE": [
+"side_hunter_and_hunted"
+],
+"Skyrim.esm:037A2D": [
+"dark_brotherhood_take_the_hidden_treasure"
+],
+"Skyrim.esm:039645": [
+"side_the_golden_claw"
+],
+"Skyrim.esm:039B3B": [
+"side_the_affairs_of_hagravens"
+],
+"Skyrim.esm:03A74A": [
+"side_the_savior_of_selveni_nethri"
+],
+"Skyrim.esm:03B681": [
+"daedric_the_cursed_tribe"
+],
+"Skyrim.esm:03CEDA": [
+"dark_brotherhood_death_incarnate"
+],
+"Skyrim.esm:03D721": [
+"side_a_love_beyond_death"
+],
+"Skyrim.esm:03ED82": [
+"side_evil_in_waiting"
+],
+"Skyrim.esm:03F4EC": [
+"side_that_was_always_there"
+],
+"Skyrim.esm:03FA16": [
+"main_paarthurnax"
+],
+"Skyrim.esm:03FA89": [
+"side_repentance"
+],
+"Skyrim.esm:040A5E": [
+"side_no_one_escapes_cidhna_mine"
+],
+"Skyrim.esm:041F91": [
+"side_caught_red_handed"
+],
+"Skyrim.esm:041FD2": [
+"side_helping_hand"
+],
+"Skyrim.esm:0434A3": [
+"side_yngols_barrow"
+],
+"Skyrim.esm:043E1A": [
+"side_pilgrimage"
+],
+"Skyrim.esm:043E25": [
+"side_hunt_and_gather"
+],
+"Skyrim.esm:044C56": [
+"main_the_fallen"
+],
+"Skyrim.esm:045923": [
+"main_season_unending"
+],
+"Skyrim.esm:046EF0": [
+"main_the_world_eaters_eyrie"
+],
+"Skyrim.esm:046EF1": [
+"main_sovngarde"
+],
+"Skyrim.esm:046EF2": [
+"main_dragonslayer"
+],
+"Skyrim.esm:048121": [
+"side_frostflow_abyss"
+],
+"Skyrim.esm:04A37B": [
+"daedric_the_whispering_door"
+],
+"Skyrim.esm:04B2A1": [
+"side_infiltration"
+],
+"Skyrim.esm:04B2D9": [
+"companions_take_up_arms"
+],
+"Skyrim.esm:04C6C2": [
+"thieves_litany_of_larceny"
+],
+"Skyrim.esm:04CECE": [
+"side_find_the_thalmor_assassin"
+],
+"Skyrim.esm:04D8D6": [
+"daedric_boethiahs_calling"
+],
+"Skyrim.esm:04E4E1": [
+"daedric_the_break_of_dawn"
+],
+"Skyrim.esm:04E50D": [
+"main_before_the_storm"
+],
+"Skyrim.esm:053305": [
+"side_supply_and_demand"
+],
+"Skyrim.esm:053306": [
+"side_the_lovers_requital"
+],
+"Skyrim.esm:053307": [
+"side_under_the_table"
+],
+"Skyrim.esm:053308": [
+"side_few_and_far_between"
+],
+"Skyrim.esm:053309": [
+"side_spread_the_love"
+],
+"Skyrim.esm:053318": [
+"side_sealing_the_deal"
+],
+"Skyrim.esm:05331A": [
+"side_ice_cold"
+],
+"Skyrim.esm:05331B": [
+"side_distant_memories"
+],
+"Skyrim.esm:05331C": [
+"side_grimsevers_return"
+],
+"Skyrim.esm:05331D": [
+"side_stoking_the_flames"
+],
+"Skyrim.esm:053511": [
+"side_tending_the_flames"
+],
+"Skyrim.esm:053804": [
+"side_nimhe_the_poisoned_one"
+],
+"Skyrim.esm:054D0A": [
+"college_objective"
+],
+"Skyrim.esm:0557E9": [
+"side_special_delivery_bolli"
+],
+"Skyrim.esm:0557F3": [
+"side_bring_it"
+],
+"Skyrim.esm:057F99": [
+"thieves_trinity_restored"
+],
+"Skyrim.esm:05B2DE": [
+"side_truth_ore_consequences"
+],
+"Skyrim.esm:05B3A5": [
+"side_ringmaker"
+],
+"Skyrim.esm:05C625": [
+"side_rising_at_dawn"
+],
+"Skyrim.esm:06098E": [
+"thieves_numbers_job"
+],
+"Skyrim.esm:060990": [
+"thieves_bedlam_job"
+],
+"Skyrim.esm:06099C": [
+"side_skilled_apprenticeship"
+],
+"Skyrim.esm:064798": [
+"side_search_and_seizure"
+],
+"Skyrim.esm:0647B3": [
+"side_coated_in_blood"
+],
+"Skyrim.esm:064958": [
+"side_payment_delivery"
+],
+"Skyrim.esm:064EA8": [
+"side_drowned_sorrows"
+],
+"Skyrim.esm:065BDF": [
+"side_i_done_got_thaned"
+],
+"Skyrim.esm:065C30": [
+"side_bloody_nose"
+],
+"Skyrim.esm:06819A": [
+"side_the_ghost_of_old_hroldan"
+],
+"Skyrim.esm:069043": [
+"side_dravyneas_frost_salts"
+],
+"Skyrim.esm:06A086": [
+"college_arniels_endeavor"
+],
+"Skyrim.esm:06BC33": [
+"college_onmunds_request"
+],
+"Skyrim.esm:06CD54": [
+"side_coming_of_age"
+],
+"Skyrim.esm:06E803": [
+"companions_proving_honor"
+],
+"Skyrim.esm:06E805": [
+"companions_purity_of_revenge"
+],
+"Skyrim.esm:06FE37": [
+"side_jarl_dungeon_delving_caves"
+],
+"Skyrim.esm:0713DC": [
+"main_the_horn_of_jurgen_windcaller"
+],
+"Skyrim.esm:074793": [
+"side_the_bonds_of_matrimony"
+],
+"Skyrim.esm:074A83": [
+"side_a_lovely_letter"
+],
+"Skyrim.esm:075399": [
+"side_delivery_to_calcelmo"
+],
+"Skyrim.esm:0753A1": [
+"side_lisbets_missing_shipment"
+],
+"Skyrim.esm:076335": [
+"side_the_forgemasters_fingers"
+],
+"Skyrim.esm:076B4A": [
+"side_extracting_an_argonian"
+],
+"Skyrim.esm:0790E1": [
+"side_bothelas_discreet_delivery"
+],
+"Skyrim.esm:0799DF": [
+"thieves_silver_lining"
+],
+"Skyrim.esm:0799E0": [
+"thieves_the_dainty_sload"
+],
+"Skyrim.esm:0799E1": [
+"thieves_imitation_amnesty"
+],
+"Skyrim.esm:0799E2": [
+"thieves_summerset_shadows"
+],
+"Skyrim.esm:07EDE5": [
+"side_angarvunde"
+],
+"Skyrim.esm:085D40": [
+"side_the_raid"
+],
+"Skyrim.esm:087BA2": [
+"dark_brotherhood_where_you_hang_your_enemys_head"
+],
+"Skyrim.esm:08998D": [
+"daedric_the_only_cure"
+],
+"Skyrim.esm:08ADFA": [
+"side_silenced_tongues"
+],
+"Skyrim.esm:0931BF": [
+"side_rogatuss_letter"
+],
+"Skyrim.esm:0934F9": [
+"side_bullying_braith"
+],
+"Skyrim.esm:0934FB": [
+"dark_brotherhood_destroy"
+],
+"Skyrim.esm:093807": [
+"side_the_man_who_cried_wolf"
+],
+"Skyrim.esm:09380B": [
+"side_argonian_ale_extraction"
+],
+"Skyrim.esm:0940E0": [
+"side_kill_the_vampire"
+],
+"Skyrim.esm:094152": [
+"side_salty_sea_dogs"
+],
+"Skyrim.esm:094158": [
+"side_harsh_master"
+],
+"Skyrim.esm:0946FD": [
+"side_greatsword_for_a_great_man"
+],
+"Skyrim.esm:094E3C": [
+"side_andurs_arkay_amulet"
+],
+"Skyrim.esm:094E3F": [
+"side_salt_for_arcadia"
+],
+"Skyrim.esm:0958B3": [
+"college_jzargos_experiment"
+],
+"Skyrim.esm:09976E": [
+"side_gharols_message"
+],
+"Skyrim.esm:099F27": [
+"college_ritual_conjuration"
+],
+"Skyrim.esm:09D6FC": [
+"companions_stealing_plans"
+],
+"Skyrim.esm:09D700": [
+"companions_retrieval"
+],
+"Skyrim.esm:09DD77": [
+"thieves_no_stone_unturned"
+],
+"Skyrim.esm:0A0F43": [
+"side_buy_dwarven_artifact"
+],
+"Skyrim.esm:0A2C86": [
+"side_thane_of_the_reach"
+],
+"Skyrim.esm:0A2C9B": [
+"side_thane_of_haafingar"
+],
+"Skyrim.esm:0A2C9E": [
+"side_thane_of_whiterun"
+],
+"Skyrim.esm:0A2CA6": [
+"side_thane_of_eastmarch"
+],
+"Skyrim.esm:0A34CE": [
+"side_thane_of_hjaalmarch"
+],
+"Skyrim.esm:0A34D4": [
+"side_thane_of_the_pale"
+],
+"Skyrim.esm:0A34D7": [
+"side_thane_of_winterhold"
+],
+"Skyrim.esm:0A34DE": [
+"side_thane_of_falkreath"
+],
+"Skyrim.esm:0A4E82": [
+"college_ritual_destruction"
+],
+"Skyrim.esm:0B03A2": [
+"thieves_reparations"
+],
+"Skyrim.esm:0B3233": [
+"college_ritual_illusion"
+],
+"Skyrim.esm:0B83C3": [
+"side_dark_ancestor"
+],
+"Skyrim.esm:0C0416": [
+"college_brelynas_practice"
+],
+"Skyrim.esm:0C04BA": [
+"thieves_valds_debt"
+],
+"Skyrim.esm:0C18E1": [
+"companions_family_heirloom"
+],
+"Skyrim.esm:0C1E07": [
+"side_stabilized"
+],
+"Skyrim.esm:0C1E72": [
+"college_aftershock"
+],
+"Skyrim.esm:0C349B": [
+"civil_war_get_outfitted"
+],
+"Skyrim.esm:0C3709": [
+"side_the_lost_expedition"
+],
+"Skyrim.esm:0C5940": [
+"side_speak_to_degaine"
+],
+"Skyrim.esm:0C7D1C": [
+"side_fit_for_a_jarl"
+],
+"Skyrim.esm:0C7D42": [
+"side_return_to_grace"
+],
+"Skyrim.esm:0C9A0E": [
+"college_rejoining"
+],
+"Skyrim.esm:0C9BA0": [
+"side_a_return_to_your_roots"
+],
+"Skyrim.esm:0CD987": [
+"college_ritual_restoration"
+],
+"Skyrim.esm:0CF915": [
+"side_the_pale_lady"
+],
+"Skyrim.esm:0D055D": [
+"side_delivery_sorex"
+],
+"Skyrim.esm:0D0755": [
+"college_ritual_alteration"
+],
+"Skyrim.esm:0D0800": [
+"main_bleak_falls_barrow"
+],
+"Skyrim.esm:0D19B9": [
+"companions_introduction"
+],
+"Skyrim.esm:0D517A": [
+"civil_war_joining_the_legion"
+],
+"Skyrim.esm:0D661C": [
+"civil_war_message_to_whiterun"
+],
+"Skyrim.esm:0D69FB": [
+"side_the_spiced_wine"
+],
+"Skyrim.esm:0D7D69": [
+"thieves_under_new_management"
+],
+"Skyrim.esm:0D9393": [
+"side_amulet_of_the_moon"
+],
+"Skyrim.esm:0D93FA": [
+"side_finns_lute"
+],
+"Skyrim.esm:0D9431": [
+"side_panteas_flute"
+],
+"Skyrim.esm:0D944F": [
+"side_rjorns_drum"
+],
+"Skyrim.esm:0D9B63": [
+"side_lifting_the_shroud"
+],
+"Skyrim.esm:0D9B64": [
+"side_the_straw_that_broke"
+],
+"Skyrim.esm:0D9B65": [
+"side_grin_and_bear_it"
+],
+"Skyrim.esm:0D9B66": [
+"side_climb_the_steps"
+],
+"Skyrim.esm:0E0E04": [
+"college_shalidors_insights"
+],
+"Skyrim.esm:0E1A9D": [
+"side_sleeping_tree_cave"
+],
+"Skyrim.esm:0E2D29": [
+"civil_war_joining_the_stormcloaks"
+],
+"Skyrim.esm:0E3145": [
+"companions_totems_of_hircine"
+],
+"Skyrim.esm:0E3156": [
+"companions_dragon_seekers"
+],
+"Skyrim.esm:0E3308": [
+"side_smooth_jazbay"
+],
+"Skyrim.esm:0E38C9": [
+"main_rebuilding_the_blades"
+],
+"Skyrim.esm:0E3E9B": [
+"side_bow_to_the_master"
+],
+"Skyrim.esm:0E3EA5": [
+"side_flight_or_fight"
+],
+"Skyrim.esm:0E49E7": [
+"side_mine_or_yours"
+],
+"Skyrim.esm:0E4D31": [
+"side_forbidden_legend"
+],
+"Skyrim.esm:0E76DE": [
+"side_find_the_word_of_power"
+],
+"Skyrim.esm:0E77BA": [
+"side_elisifs_tribute"
+],
+"Skyrim.esm:0E8BD7": [
+"side_no_news_is_good_news"
+],
+"Skyrim.esm:105385": [
+"side_blacksmithing_tutorial"
+],
+"Skyrim.esm:10557C": [
+"side_alchemy_tutorial"
+],
+"Skyrim.esm:105A60": [
+"side_enchanting_tutorial"
+]
+}
+}

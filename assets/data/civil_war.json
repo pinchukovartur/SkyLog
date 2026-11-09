@@ -1,0 +1,308 @@
+{
+  "id": "civil_war",
+  "title": "Гражданская война",
+  "icon": "swords",
+  "description": "Борьба Имперского легиона и Братьев Бури за власть над Скайримом.",
+  "groups": [
+    {
+      "title": "Выбор стороны",
+      "items": [
+        {
+          "id": "civil_war_choose_side",
+          "title": "Выбор стороны",
+          "en": "Choosing a Side",
+          "type": "quest",
+          "location": "Солитьюд или Виндхельм",
+          "giver": "Генерал Туллий или Ульфрик Буревестник",
+          "description": "Вступить в Имперский легион у генерала Туллия в Мрачном замке (Солитьюд) или примкнуть к Братьям Бури у Ульфрика в Королевском дворце (Виндхельм).",
+          "tips": [
+            "Если война мешает основному сюжету, её можно приостановить в «Бесконечной поре».",
+            "Победа меняет ярлов во многих владениях — сделайте их задания заранее, если они важны."
+          ],
+          "missable": "После присяги одной стороне квесты другой стороны становятся недоступны навсегда.",
+          "choices": [
+            {
+              "id": "civil_war_side",
+              "question": "На чьей стороне воевать?",
+              "options": [
+                {
+                  "id": "legion",
+                  "label": "Имперский легион",
+                  "result": "Вы воюете за Империю под началом генерала Туллия и легата Рикке; Ульфрик в финале погибает.",
+                  "locks": [
+                    "civil_war_joining_the_stormcloaks",
+                    "civil_war_rescue_from_fort_neugrad",
+                    "civil_war_compelling_tribute_storm",
+                    "civil_war_battle_for_fort_sungard_storm",
+                    "civil_war_false_front_storm",
+                    "civil_war_battle_for_fort_snowhawk_storm",
+                    "civil_war_battle_for_fort_hraggstad",
+                    "civil_war_battle_for_solitude",
+                    "civil_war_post_truce_forts_storm"
+                  ]
+                },
+                {
+                  "id": "stormcloaks",
+                  "label": "Братья Бури",
+                  "result": "Вы воюете за независимость Скайрима под началом Ульфрика и Галмара Каменного Кулака; Туллий в финале погибает.",
+                  "locks": [
+                    "civil_war_joining_the_legion",
+                    "civil_war_get_outfitted",
+                    "civil_war_false_front_legion",
+                    "civil_war_battle_for_fort_dunstad_legion",
+                    "civil_war_compelling_tribute_legion",
+                    "civil_war_battle_for_fort_greenwall_legion",
+                    "civil_war_rescue_from_fort_kastav",
+                    "civil_war_battle_for_fort_amol",
+                    "civil_war_battle_for_windhelm",
+                    "civil_war_post_truce_forts_legion"
+                  ]
+                }
+              ]
+            }
+          ],
+          "map": "Solitude"
+        }
+      ]
+    },
+    {
+      "title": "Общие этапы",
+      "items": [
+        {
+          "id": "civil_war_the_jagged_crown",
+          "title": "Зубчатая корона",
+          "en": "The Jagged Crown",
+          "type": "quest",
+          "location": "Корваньюнд",
+          "giver": "Легат Рикке или Галмар Каменный Кулак",
+          "description": "Опередить противника и добыть в древнем кургане Корваньюнд Зубчатую корону — символ власти верховного короля Скайрима.",
+          "tips": [
+            "Вход в курган охраняют солдаты противника — готовьтесь к бою ещё снаружи."
+          ],
+          "map": "Korvanjund"
+        },
+        {
+          "id": "civil_war_message_to_whiterun",
+          "title": "Сообщение для Вайтрана",
+          "en": "Message to Whiterun",
+          "type": "quest",
+          "location": "Вайтран",
+          "giver": "Генерал Туллий или Ульфрик Буревестник",
+          "description": "Доставить ярлу Балгруфу послание своей стороны. Ответ ярла приводит к штурму Вайтрана.",
+          "tips": [
+            "Если основной сюжет ещё не дошёл до «Падшего», квест может ждать — Балгруф тянет время."
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "civil_war_battle_for_whiterun",
+          "title": "Битва при Вайтране",
+          "en": "Battle for Whiterun",
+          "type": "quest",
+          "location": "Вайтран",
+          "giver": "Легат Рикке или Ульфрик Буревестник",
+          "description": "За Легион — оборонять Вайтран от Братьев Бури; за Братьев Бури — штурмовать город и свергнуть Балгруфа.",
+          "missable": "При победе Братьев Бури Балгруф и Провентус уходят в изгнание, ярлом становится Вигнар Серая Грива — задания и услуги старого двора меняются.",
+          "map": "Whiterun"
+        }
+      ]
+    },
+    {
+      "title": "Имперский легион",
+      "items": [
+        {
+          "id": "civil_war_joining_the_legion",
+          "title": "Вступление в Легион",
+          "en": "Joining the Legion",
+          "type": "quest",
+          "location": "Солитьюд",
+          "giver": "Легат Рикке",
+          "description": "Пройти испытание Рикке — зачистить форт Храгстад от бандитов — и принести присягу Империи.",
+          "map": "Solitude"
+        },
+        {
+          "id": "civil_war_get_outfitted",
+          "title": "Обмундирование",
+          "en": "Get Outfitted",
+          "type": "quest",
+          "location": "Мрачный замок, Солитьюд",
+          "giver": "Генерал Туллий",
+          "description": "Получить имперскую броню у квартирмейстера Легиона.",
+          "map": "Solitude"
+        },
+        {
+          "id": "civil_war_false_front_legion",
+          "title": "Дезинформация",
+          "en": "A False Front",
+          "type": "quest",
+          "giver": "Легат Рикке",
+          "description": "Перехватить курьера Братьев Бури и подменить его приказы фальшивыми, чтобы ослабить врага перед штурмом."
+        },
+        {
+          "id": "civil_war_battle_for_fort_dunstad_legion",
+          "title": "Битва за форт Дунстад",
+          "en": "The Battle for Fort Dunstad",
+          "type": "quest",
+          "location": "Форт Дунстад, Белый Берег",
+          "giver": "Легат Рикке",
+          "description": "Взять форт Дунстад, чтобы Белый Берег (Данстар) перешёл к Империи.",
+          "map": "Fort Dunstad"
+        },
+        {
+          "id": "civil_war_compelling_tribute_legion",
+          "title": "Военная добыча",
+          "en": "Compelling Tribute",
+          "type": "quest",
+          "giver": "Легат Рикке",
+          "description": "Убедить управителя одного из владений тайно поддержать Империю — уговорами, шантажом или угрозами."
+        },
+        {
+          "id": "civil_war_battle_for_fort_greenwall_legion",
+          "title": "Битва за форт Гринвол",
+          "en": "The Battle for Fort Greenwall",
+          "type": "quest",
+          "location": "Форт Гринвол, Рифт",
+          "giver": "Легат Рикке",
+          "description": "Захватить форт Гринвол в Рифте. После победы ярлом Рифтена становится Мавен Чёрный Вереск.",
+          "missable": "Смена ярла Рифтена: Лайла Рука Закона уходит, её поручения и должности двора становятся недоступны.",
+          "map": "Fort Greenwall"
+        },
+        {
+          "id": "civil_war_rescue_from_fort_kastav",
+          "title": "Форт Кастав — спасение товарищей",
+          "en": "Rescue from Fort Kastav",
+          "type": "quest",
+          "location": "Форт Кастав, Винтерхолд",
+          "giver": "Легат Рикке",
+          "description": "Освободить пленных легионеров, удерживаемых Братьями Бури в форте Кастав.",
+          "map": "Fort Kastav"
+        },
+        {
+          "id": "civil_war_battle_for_fort_amol",
+          "title": "Битва за форт Амол",
+          "en": "The Battle for Fort Amol",
+          "type": "quest",
+          "location": "Форт Амол, Истмарк",
+          "giver": "Легат Рикке",
+          "description": "Последний форт перед Виндхельмом. Его падение открывает путь к столице Братьев Бури.",
+          "map": "Fort Amol"
+        },
+        {
+          "id": "civil_war_battle_for_windhelm",
+          "title": "Битва при Виндхельме",
+          "en": "Battle for Windhelm",
+          "type": "quest",
+          "location": "Виндхельм",
+          "giver": "Легат Рикке",
+          "description": "Штурм Виндхельма и финальное столкновение с Ульфриком Буревестником в Королевском дворце.",
+          "tips": [
+            "Можно нанести последний удар Ульфрику самому или уступить его Туллию."
+          ],
+          "missable": "Ульфрик и Галмар погибают; задания и диалоги, связанные с ними, становятся недоступны.",
+          "map": "Windhelm"
+        },
+        {
+          "id": "civil_war_post_truce_forts_legion",
+          "title": "Битвы за оставшиеся форты",
+          "en": "Remaining fort battles (Imperial)",
+          "type": "quest",
+          "giver": "Легат Рикке",
+          "description": "Если война продолжилась после «Бесконечной поры», нужно отбить отданные по договору владения: «Битва за форт Нойград», «Битва за форт Сангард», «Битва за форт Сноухок»."
+        }
+      ]
+    },
+    {
+      "title": "Братья Бури",
+      "items": [
+        {
+          "id": "civil_war_joining_the_stormcloaks",
+          "title": "Вступление в ряды Братьев Бури",
+          "en": "Joining the Stormcloaks",
+          "type": "quest",
+          "location": "Виндхельм",
+          "giver": "Галмар Каменный Кулак",
+          "description": "Пройти испытание Галмара на острове у Виндхельма и принести присягу Ульфрику.",
+          "map": "Windhelm"
+        },
+        {
+          "id": "civil_war_rescue_from_fort_neugrad",
+          "title": "Форт Нойград — спасение товарищей",
+          "en": "Rescue from Fort Neugrad",
+          "type": "quest",
+          "location": "Форт Нойград, Фолкрит",
+          "giver": "Галмар Каменный Кулак",
+          "description": "Освободить пленных Братьев Бури из форта Нойград.",
+          "map": "Fort Neugrad"
+        },
+        {
+          "id": "civil_war_compelling_tribute_storm",
+          "title": "Военная добыча",
+          "en": "Compelling Tribute",
+          "type": "quest",
+          "giver": "Галмар Каменный Кулак",
+          "description": "Убедить управителя одного из владений тайно поддержать Братьев Бури — уговорами, шантажом или угрозами."
+        },
+        {
+          "id": "civil_war_battle_for_fort_sungard_storm",
+          "title": "Битва за форт Сангард",
+          "en": "The Battle for Fort Sungard",
+          "type": "quest",
+          "location": "Форт Сангард, Предел",
+          "giver": "Галмар Каменный Кулак",
+          "description": "Захватить форт Сангард в Пределе, чтобы подорвать власть Империи над Маркартом.",
+          "map": "Fort Sungard"
+        },
+        {
+          "id": "civil_war_false_front_storm",
+          "title": "Дезинформация",
+          "en": "A False Front",
+          "type": "quest",
+          "giver": "Галмар Каменный Кулак",
+          "description": "Перехватить имперского курьера и подменить его приказы фальшивыми."
+        },
+        {
+          "id": "civil_war_battle_for_fort_snowhawk_storm",
+          "title": "Битва за форт Сноухок",
+          "en": "The Battle for Fort Snowhawk",
+          "type": "quest",
+          "location": "Форт Сноухок, Хьялмарк",
+          "giver": "Галмар Каменный Кулак",
+          "description": "Взять форт Сноухок, чтобы Хьялмарк перешёл к Братьям Бури.",
+          "map": "Fort Snowhawk"
+        },
+        {
+          "id": "civil_war_battle_for_fort_hraggstad",
+          "title": "Битва за форт Храгстад",
+          "en": "The Battle for Fort Hraggstad",
+          "type": "quest",
+          "location": "Форт Храгстад, Хаафингар",
+          "giver": "Галмар Каменный Кулак",
+          "description": "Последний форт на подступах к Солитьюду.",
+          "map": "Fort Hraggstad"
+        },
+        {
+          "id": "civil_war_battle_for_solitude",
+          "title": "Битва при Солитьюде",
+          "en": "Battle for Solitude",
+          "type": "quest",
+          "location": "Солитьюд",
+          "giver": "Галмар Каменный Кулак",
+          "description": "Штурм Солитьюда и финальное столкновение с генералом Туллием в Мрачном замке.",
+          "tips": [
+            "Ульфрик предложит вам казнить Туллия лично."
+          ],
+          "missable": "Туллий и Рикке погибают; задания и диалоги, связанные с ними, становятся недоступны.",
+          "map": "Solitude"
+        },
+        {
+          "id": "civil_war_post_truce_forts_storm",
+          "title": "Битвы за оставшиеся форты",
+          "en": "Remaining fort battles (Stormcloak)",
+          "type": "quest",
+          "giver": "Галмар Каменный Кулак",
+          "description": "Если война продолжилась после «Бесконечной поры», нужно отбить отданные по договору владения: «Битва за форт Гринвол», «Битва за форт Дунстад», «Битва за форт Кастав»."
+        }
+      ]
+    }
+  ]
+}

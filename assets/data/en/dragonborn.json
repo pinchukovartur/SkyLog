@@ -1,0 +1,405 @@
+{
+  "id": "dragonborn",
+  "title": "Dragonborn (Solstheim)",
+  "icon": "book",
+  "description": "Face Miraak, the first Dragonborn, on the island of Solstheim and in Hermaeus Mora's Apocrypha, plus the island's side quests.",
+  "groups": [
+    {
+      "title": "Main Story",
+      "items": [
+        {
+          "id": "dragonborn_dragonborn",
+          "title": "Dragonborn",
+          "en": "Драконорождённый",
+          "type": "quest",
+          "location": "Windhelm, the Northern Maiden, Raven Rock",
+          "giver": "Cultists",
+          "description": "Cultists who call themselves servants of the true Dragonborn attack you. In Windhelm, board the Northern Maiden and sail to Solstheim to find out who Miraak is.",
+          "map": "Windhelm"
+        },
+        {
+          "id": "dragonborn_the_temple_of_miraak",
+          "title": "The Temple of Miraak",
+          "en": "Храм Мирака",
+          "type": "quest",
+          "location": "Temple of Miraak, Apocrypha",
+          "giver": "Storn Crag-Strider / Frea",
+          "description": "Explore the Temple of Miraak with Frea of the Skaal, learn the first word of the Bend Will shout and face Miraak in Apocrypha for the first time.",
+          "tips": [
+            "This is also where you get the Black Book: Waking Dreams. You'll need it for the finale."
+          ],
+          "map": "Temple of Miraak",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_the_fate_of_the_skaal",
+          "title": "The Fate of the Skaal",
+          "en": "Судьба скаалов",
+          "type": "quest",
+          "location": "Skaal Village, Saering's Watch, Wind Stone",
+          "giver": "Frea",
+          "description": "Escort Frea to Skaal Village and use the Bend Will shout to free the Wind Stone from Miraak's influence.",
+          "map": "Saering's Watch",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_cleansing_the_stones",
+          "title": "Cleansing the Stones",
+          "en": "Очищение Камней",
+          "type": "quest",
+          "location": "Beast, Sun, Earth and Water Stones",
+          "giver": "Storn Crag-Strider",
+          "description": "Optional: cleanse the other four All-Maker Stones and free the workers Miraak forced to build his temples.",
+          "tips": [
+            "Each cleansed stone can be used once a day for its own blessing."
+          ]
+        },
+        {
+          "id": "dragonborn_the_path_of_knowledge",
+          "title": "The Path of Knowledge",
+          "en": "Путь знания",
+          "type": "quest",
+          "location": "Tel Mithryn, Nchardak",
+          "giver": "Storn Crag-Strider",
+          "description": "Ask the Telvanni wizard Neloth for help and go with him to the Black Book: Epistolary Acumen in the flooded Dwemer ruins of Nchardak.",
+          "tips": [
+            "In Nchardak you drain and flood rooms one after another by switching the valves."
+          ],
+          "map": "Tel Mithryn",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_the_gardener_of_men",
+          "title": "The Gardener of Men",
+          "en": "Садовод людей",
+          "type": "quest",
+          "location": "Apocrypha, Nchardak, Skaal Village",
+          "giver": "Hermaeus Mora",
+          "description": "In Apocrypha, Hermaeus Mora offers the last word of the shout in exchange for the secrets of the Skaal. Storn sacrifices himself reading the Black Book, and you get the full Bend Will shout.",
+          "tips": [
+            "Storn's death is scripted and can't be prevented."
+          ],
+          "map": "Nchardak",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_at_the_summit_of_apocrypha",
+          "title": "At the Summit of Apocrypha",
+          "en": "На вершине Апокрифа",
+          "type": "quest",
+          "location": "Apocrypha",
+          "giver": "Frea",
+          "description": "Use Waking Dreams to get through the chapters of Apocrypha, tame a dragon with Bend Will and fight Miraak. Reward: Miraak's gear and the option to reset perks with dragon souls.",
+          "tips": [
+            "Save your dragon souls for the finale: afterwards, one soul resets the perks of one skill tree and refunds the points spent."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Black Books",
+      "items": [
+        {
+          "id": "dragonborn_black_book_the_sallow_regent",
+          "title": "Black Book: The Sallow Regent",
+          "en": "Чёрная книга: Болезненный регент",
+          "type": "quest",
+          "location": "White Ridge Barrow",
+          "description": "Get through Apocrypha for this book and choose one of the powers: Seeker of Might, Seeker of Sorcery or Seeker of Shadows.",
+          "tips": [
+            "You can swap any Black Book's power by reading it again and returning to the final chamber."
+          ],
+          "map": "White Ridge Barrow",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_black_book_the_winds_of_change",
+          "title": "Black Book: The Winds of Change",
+          "en": "Чёрная книга: Ветры перемен",
+          "type": "quest",
+          "location": "Raven Rock Mine",
+          "description": "The book is hidden deep in Raven Rock Mine. Powers to choose from: Companion's Insight, Lover's Insight, Scholar's Insight.",
+          "tips": [
+            "Raven Rock Mine opens up during \"The Final Descent\"."
+          ],
+          "map": "Raven Rock Mine",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_black_book_untold_legends",
+          "title": "Black Book: Untold Legends",
+          "en": "Чёрная книга: Нерассказанные легенды",
+          "type": "quest",
+          "location": "Benkongerike Great Hall",
+          "description": "The book is guarded by a Lurker in the riekling lair of Benkongerike. Powers to choose from: Secret Servant, Bardic Knowledge, Black Market.",
+          "map": "Benkongerike",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_black_book_the_hidden_twilight",
+          "title": "Black Book: The Hidden Twilight",
+          "en": "Чёрная книга: Скрытый сумрак",
+          "type": "quest",
+          "location": "Tel Mithryn, Neloth's tower",
+          "description": "Neloth keeps this book in Tel Mithryn. Powers to choose from: Mora's Agony, Mora's Boon, Mora's Grasp.",
+          "map": "Tel Mithryn",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_black_book_filament_and_filigree",
+          "title": "Black Book: Filament and Filigree",
+          "en": "Чёрная книга: Филамент и филигрань",
+          "type": "quest",
+          "location": "Kolbjorn Barrow",
+          "description": "The book lies deep in Kolbjorn Barrow and becomes reachable during \"Unearthed\". Powers to choose from: Secret of Strength, Secret of Arcana, Secret of Protection.",
+          "map": "Kolbjorn Barrow",
+          "mapWorld": "solstheim"
+        }
+      ]
+    },
+    {
+      "title": "House Telvanni",
+      "items": [
+        {
+          "id": "dragonborn_experimental_subject",
+          "title": "Experimental Subject",
+          "en": "Подопытный",
+          "type": "quest",
+          "location": "Tel Mithryn",
+          "giver": "Neloth",
+          "description": "Neloth tests a spell on you. Get caught in the rain or step into water, then report the results.",
+          "map": "Tel Mithryn",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_heart_stones",
+          "title": "Heart Stones",
+          "en": "Сердечные камни",
+          "type": "quest",
+          "location": "Tel Mithryn, Solstheim",
+          "giver": "Neloth",
+          "description": "Mine a heart stone for Neloth from a deposit on Solstheim. It's the material that powers Ash Guardians.",
+          "map": "Tel Mithryn",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_wind_and_sand",
+          "title": "Wind and Sand",
+          "en": "Ветер и песок",
+          "type": "quest",
+          "location": "Random dungeon",
+          "giver": "Neloth",
+          "description": "Retrieve a copy of the book Wind and Sand for Neloth. Reward: gold and access to the Whirlwind Cloak spell tome.",
+          "tips": [
+            "Requires Destruction 40."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Raven Rock",
+      "items": [
+        {
+          "id": "dragonborn_march_of_the_dead",
+          "title": "March of the Dead",
+          "en": "Марш мертвецов",
+          "type": "quest",
+          "location": "Old Attius Farm, Fort Frostmoth",
+          "giver": "Captain Veleth",
+          "description": "Fight off the ash spawn attacking the farm and find out who controls them. General Falx Carius awaits you at Fort Frostmoth.",
+          "map": "Old Attius Farm",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_the_final_descent",
+          "title": "The Final Descent",
+          "en": "Последний спуск",
+          "type": "quest",
+          "location": "Raven Rock Mine, Bloodskal Barrow",
+          "giver": "Crescius Caerellius",
+          "description": "Descend into the Nordic ruins at the bottom of the mine, find the remains of Crescius's ancestor and take the Bloodskal Blade to defeat the dragon priest Zahkriisos.",
+          "tips": [
+            "Power attacks with the Bloodskal Blade release a slashing wave of energy."
+          ],
+          "map": "Raven Rock Mine",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_served_cold",
+          "title": "Served Cold",
+          "en": "Месть не терпит суеты",
+          "type": "quest",
+          "location": "Raven Rock, Severin Manor, Ashfallow Citadel",
+          "giver": "Captain Veleth / Adril Arano",
+          "description": "Uncover the Severin family's plot against Councilor Morvayn and stop the assassination in Ashfallow Citadel. Reward: the right to buy a house in Raven Rock.",
+          "tips": [
+            "Available after \"March of the Dead\" and \"The Final Descent\"."
+          ],
+          "map": "Ashfallow Citadel",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_a_new_debt",
+          "title": "A New Debt",
+          "en": "Новый долг",
+          "type": "quest",
+          "location": "Raven Rock",
+          "giver": "Mogrul",
+          "description": "The moneylender Mogrul wants you to repay Drovas Relvi's debt, which you took over. Pay it (you can talk him into a lower sum or more time) or kill the moneylender.",
+          "choices": [
+            {
+              "id": "dragonborn_a_new_debt_choice",
+              "question": "How to deal with the debt?",
+              "options": [
+                {
+                  "id": "pay",
+                  "label": "Pay Mogrul",
+                  "result": "The debt is settled and Mogrul stays alive."
+                },
+                {
+                  "id": "kill",
+                  "label": "Kill Mogrul",
+                  "result": "Nobody comes for the debt anymore, but it's a murder in town."
+                }
+              ]
+            }
+          ],
+          "map": "Raven Rock",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_paid_in_full",
+          "title": "Paid in Full",
+          "en": "Услуга за услугу",
+          "type": "quest",
+          "location": "Raven Rock, Castle Karstaag Caverns",
+          "giver": "Glover Mallory",
+          "description": "Delvin's brother asks you to find Esmond Tyne's body and recover the Bonemold Formula. Requires the Thieves Guild quest \"Meet the Family\".",
+          "map": "Castle Karstaag Caverns",
+          "mapWorld": "solstheim"
+        }
+      ]
+    },
+    {
+      "title": "The Skaal and Thirsk",
+      "items": [
+        {
+          "id": "dragonborn_a_new_source_of_stalhrim",
+          "title": "A New Source of Stalhrim",
+          "en": "Новый источник сталгрима",
+          "type": "quest",
+          "location": "Skaal Village, Abandoned Lodge, Northshore Landing",
+          "giver": "Deor Woodcutter",
+          "description": "Deal with the Thalmor at the lodge and find the smith Baldor Iron-Shaper. Afterwards you can forge stalhrim gear.",
+          "tips": [
+            "Stalhrim is mined with the Bend Will shout: cleanse the deposit first, then use a pickaxe."
+          ],
+          "map": "Abandoned Lodge",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_retaking_thirsk",
+          "title": "Retaking Thirsk",
+          "en": "Освобождение Тирска",
+          "type": "quest",
+          "location": "Bujold's Retreat, Thirsk Mead Hall, Hrothmund's Barrow",
+          "giver": "Bujold the Unworthy",
+          "description": "Help Bujold's exiled Nords retake Thirsk Mead Hall from the rieklings and find the legendary Hrothmund's Axe.",
+          "choices": [
+            {
+              "id": "dragonborn_retaking_thirsk_side",
+              "question": "Who do you help take Thirsk Mead Hall?",
+              "options": [
+                {
+                  "id": "nords",
+                  "label": "Bujold's Nords",
+                  "result": "You drive the rieklings out of the hall and Bujold becomes chief of Thirsk.",
+                  "locks": [
+                    "dragonborn_the_chief_of_thirsk_hall"
+                  ]
+                },
+                {
+                  "id": "rieklings",
+                  "label": "The rieklings (\"The Chief of Thirsk Hall\")",
+                  "result": "You help the rieklings hold the hall and kill the Nords.",
+                  "locks": [
+                    "dragonborn_retaking_thirsk"
+                  ]
+                }
+              ]
+            }
+          ],
+          "map": "Bujold's Retreat",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_the_chief_of_thirsk_hall",
+          "title": "The Chief of Thirsk Hall",
+          "en": "Вождь Тирска",
+          "type": "quest",
+          "location": "Thirsk Mead Hall, Bujold's Retreat",
+          "giver": "Riekling Chief",
+          "description": "The alternative to \"Retaking Thirsk\": help the rieklings by catching Bilgemuck and gathering scathecraw, then lead them against the Nords. At the end, the chief challenges you.",
+          "missable": "If Bujold's Nords have already retaken the mead hall, this quest is unavailable.",
+          "map": "Thirsk Mead Hall",
+          "mapWorld": "solstheim"
+        }
+      ]
+    },
+    {
+      "title": "Other Solstheim Quests",
+      "items": [
+        {
+          "id": "dragonborn_unearthed",
+          "title": "Unearthed",
+          "en": "Раскопки",
+          "type": "quest",
+          "location": "Kolbjorn Barrow",
+          "giver": "Ralis Sedarys",
+          "description": "Fund the excavation of Kolbjorn Barrow (in several payments) and help Ralis dig through to the tomb of the dragon priest Ahzidal.",
+          "tips": [
+            "Inside: the Black Book: Filament and Filigree and Ahzidal's gear."
+          ],
+          "map": "Kolbjorn Barrow",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_deathbrand",
+          "title": "Deathbrand",
+          "en": "Печать Смерти",
+          "type": "quest",
+          "location": "Haknir's Shoal, Gyldenhul Barrow",
+          "description": "Find the treasure map of the pirate king Haknir Death-Brand and collect his unique armor set across Solstheim. Requires level 36 and the Ancient Nordic Pickaxe.",
+          "tips": [
+            "You get the Ancient Nordic Pickaxe from Glover Mallory in the quest \"An Axe to Find\"."
+          ],
+          "map": "Haknir's Shoal",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_summoning_karstaag",
+          "title": "Summoning Karstaag",
+          "en": "Вызов Карстага",
+          "type": "quest",
+          "location": "Glacial Cave, Castle Karstaag Ruins",
+          "description": "Unmarked quest: find the skull of the frost giant Karstaag, place it on the throne in the castle ruins and defeat the spirit. Reward: the Summon Karstaag power, usable only three times per playthrough.",
+          "tips": [
+            "One of the toughest fights in the game: come prepared."
+          ],
+          "map": "Glacial Cave",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "dragonborn_the_ebony_warrior",
+          "title": "The Ebony Warrior",
+          "en": "Эбонитовый воин",
+          "type": "quest",
+          "location": "A major Skyrim city, Last Vigil",
+          "giver": "Ebony Warrior",
+          "description": "At level 80, the Ebony Warrior, seeking a worthy death, meets you in one of the major cities. Defeat him at Last Vigil.",
+          "map": "Last Vigil"
+        }
+      ]
+    }
+  ]
+}

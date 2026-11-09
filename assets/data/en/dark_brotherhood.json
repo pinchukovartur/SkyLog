@@ -1,0 +1,458 @@
+{
+  "id": "dark_brotherhood",
+  "title": "Dark Brotherhood",
+  "icon": "dagger",
+  "description": "The guild of assassins serving Sithis and the Night Mother, or its destruction.",
+  "groups": [
+    {
+      "title": "Joining",
+      "items": [
+        {
+          "id": "dark_brotherhood_innocence_lost",
+          "title": "Innocence Lost",
+          "en": "Потерянная невинность",
+          "type": "quest",
+          "location": "Windhelm, Riften",
+          "giver": "Aventus Aretino",
+          "description": "In Windhelm, a boy named Aventus Aretino is performing the Black Sacrament. Kill Grelod the Kind, the matron of Honorhall Orphanage in Riften.",
+          "tips": [
+            "Guards and townsfolk in Windhelm gossip about the boy; you can also start the quest just by entering his house."
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "dark_brotherhood_with_friends_like_these",
+          "title": "With Friends Like These…",
+          "en": "С такими друзьями…",
+          "type": "quest",
+          "location": "Abandoned Shack",
+          "giver": "Astrid",
+          "description": "You are abducted and taken to the Abandoned Shack. Astrid demands you kill one of three bound captives to prove your loyalty.",
+          "tips": [
+            "After you complete Innocence Lost, a courier brings a note reading \"We Know\" once you sleep."
+          ],
+          "missable": "The choice is final: killing Astrid closes the Dark Brotherhood questline for good.",
+          "choices": [
+            {
+              "id": "dark_brotherhood_join_or_destroy",
+              "question": "Join the Brotherhood or destroy it?",
+              "options": [
+                {
+                  "id": "join",
+                  "label": "Kill a captive and join",
+                  "result": "You become a member of the Dark Brotherhood and gain access to the Falkreath Sanctuary.",
+                  "locks": [
+                    "dark_brotherhood_destroy"
+                  ]
+                },
+                {
+                  "id": "destroy",
+                  "label": "Kill Astrid",
+                  "result": "Starts Destroy the Dark Brotherhood!: the Penitus Oculatus help you wipe out the Sanctuary. The whole Brotherhood questline becomes unavailable.",
+                  "locks": [
+                    "dark_brotherhood_sanctuary",
+                    "dark_brotherhood_mourning_never_comes",
+                    "dark_brotherhood_whispers_in_the_dark",
+                    "dark_brotherhood_silence_has_been_broken",
+                    "dark_brotherhood_bound_until_death",
+                    "dark_brotherhood_breaching_security",
+                    "dark_brotherhood_cure_for_madness",
+                    "dark_brotherhood_recipe_for_disaster",
+                    "dark_brotherhood_to_kill_an_empire",
+                    "dark_brotherhood_death_incarnate",
+                    "dark_brotherhood_hail_sithis",
+                    "dark_brotherhood_take_the_hidden_treasure",
+                    "dark_brotherhood_delayed_burial",
+                    "dark_brotherhood_locate_the_assassin_of_old",
+                    "dark_brotherhood_where_you_hang_your_enemys_head",
+                    "dark_brotherhood_forever",
+                    "dark_brotherhood_kill_narfi",
+                    "dark_brotherhood_kill_beitild",
+                    "dark_brotherhood_kill_ennodius_papius",
+                    "dark_brotherhood_kill_hern",
+                    "dark_brotherhood_kill_lurbuk",
+                    "dark_brotherhood_kill_deekus",
+                    "dark_brotherhood_kill_ma_randru_jo",
+                    "dark_brotherhood_kill_anoriath",
+                    "dark_brotherhood_kill_agnis",
+                    "dark_brotherhood_kill_maluril",
+                    "dark_brotherhood_kill_helvard",
+                    "dark_brotherhood_kill_safia"
+                  ]
+                }
+              ]
+            }
+          ],
+          "map": "Abandoned Shack"
+        },
+        {
+          "id": "dark_brotherhood_destroy",
+          "title": "Destroy the Dark Brotherhood!",
+          "en": "Прощай, Тёмное Братство",
+          "type": "quest",
+          "location": "Falkreath Sanctuary",
+          "giver": "Commander Maro",
+          "description": "After killing Astrid, report to a guard, then to Commander Maro of the Penitus Oculatus. Infiltrate the Sanctuary and kill everyone inside.",
+          "tips": [
+            "You learn the password for the Sanctuary's Black Door during the quest."
+          ],
+          "map": "Falkreath"
+        }
+      ]
+    },
+    {
+      "title": "Main Questline",
+      "items": [
+        {
+          "id": "dark_brotherhood_sanctuary",
+          "title": "Sanctuary",
+          "en": "Убежище",
+          "type": "quest",
+          "location": "Dark Brotherhood Sanctuary, Falkreath",
+          "giver": "Astrid",
+          "description": "Enter the Sanctuary through the Black Door (the answer is \"Silence, my brother\"), meet the Family and get your first contracts.",
+          "tips": [
+            "Later in the questline Astrid gives you the immortal horse Shadowmere."
+          ],
+          "map": "Dark Brotherhood Sanctuary"
+        },
+        {
+          "id": "dark_brotherhood_mourning_never_comes",
+          "title": "Mourning Never Comes",
+          "en": "Прощай, любовь",
+          "type": "quest",
+          "location": "Markarth",
+          "giver": "Astrid",
+          "description": "Meet the client Muiri in Markarth and fulfill her contract on Alain Dufont.",
+          "tips": [
+            "Muiri pays extra for killing Nilsine Shatter-Shield in Windhelm."
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "dark_brotherhood_whispers_in_the_dark",
+          "title": "Whispers in the Dark",
+          "en": "Шепотки во тьме",
+          "type": "quest",
+          "location": "Dark Brotherhood Sanctuary",
+          "giver": "Astrid",
+          "description": "The jester Cicero has brought the Night Mother's coffin to the Sanctuary. The Night Mother speaks to you: you are now the Listener.",
+          "tips": [
+            "Astrid is wary: hear her out before you act."
+          ],
+          "map": "Dark Brotherhood Sanctuary"
+        },
+        {
+          "id": "dark_brotherhood_silence_has_been_broken",
+          "title": "The Silence Has Been Broken",
+          "en": "Со смертью тишины",
+          "type": "quest",
+          "location": "Volunruud",
+          "giver": "Astrid",
+          "description": "Meet Amaund Motierre in Volunruud. He orders a hit on the Emperor; take his letter and amulet to Astrid.",
+          "map": "Volunruud"
+        },
+        {
+          "id": "dark_brotherhood_bound_until_death",
+          "title": "Bound Until Death",
+          "en": "Пока смерть не разлучит нас",
+          "type": "quest",
+          "location": "Solitude",
+          "giver": "Astrid",
+          "description": "Kill the Emperor's cousin, Vittoria Vici, at her wedding in Solitude.",
+          "tips": [
+            "Bonus: kill her during her wedding speech on the balcony."
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "dark_brotherhood_breaching_security",
+          "title": "Breaching Security",
+          "en": "Уязвимое место",
+          "type": "quest",
+          "location": "Dragon Bridge",
+          "giver": "Gabriella",
+          "description": "Kill Gaius Maro, son of the Penitus Oculatus commander, and plant a forged letter about a conspiracy on him.",
+          "tips": [
+            "Gaius Maro's Schedule tells you the best spots to intercept him."
+          ],
+          "map": "Dragon Bridge"
+        },
+        {
+          "id": "dark_brotherhood_cure_for_madness",
+          "title": "The Cure for Madness",
+          "en": "Лекарство от безумия",
+          "type": "quest",
+          "location": "Dawnstar Sanctuary",
+          "giver": "Gabriella",
+          "description": "Cicero has betrayed the Family and fled. Hunt him down in the Dawnstar Sanctuary.",
+          "missable": "Spare Cicero and you can recruit him as a follower later; kill him and that option is gone for good.",
+          "choices": [
+            {
+              "id": "dark_brotherhood_cicero_fate",
+              "question": "Kill Cicero or let him go?",
+              "options": [
+                {
+                  "id": "kill",
+                  "label": "Kill him",
+                  "result": "Cicero dies; you can take his jester's outfit."
+                },
+                {
+                  "id": "spare",
+                  "label": "Let him go",
+                  "result": "Cicero escapes; after the questline ends he shows up at the Dawnstar Sanctuary and becomes available as a follower."
+                }
+              ]
+            }
+          ],
+          "map": "Dawnstar Sanctuary"
+        },
+        {
+          "id": "dark_brotherhood_recipe_for_disaster",
+          "title": "Recipe for Disaster",
+          "en": "Убийственный рецепт",
+          "type": "quest",
+          "location": "Nightgate Inn",
+          "giver": "Astrid",
+          "description": "Find out who is hiding behind the famous chef known as the Gourmet, eliminate him and take his Writ of Passage. It gets you into the Emperor's kitchen.",
+          "tips": [
+            "Bonus: hide the Gourmet's body."
+          ],
+          "map": "Nightgate Inn"
+        },
+        {
+          "id": "dark_brotherhood_to_kill_an_empire",
+          "title": "To Kill an Empire",
+          "en": "Смерть Империи",
+          "type": "quest",
+          "location": "Castle Dour, Solitude",
+          "giver": "Astrid",
+          "description": "Posing as the Gourmet, slip into the Castle Dour kitchen and kill the Emperor at the feast. The \"Emperor\" turns out to be a decoy, and the Penitus Oculatus have set a trap for you.",
+          "missable": "After this quest the Falkreath Sanctuary is destroyed and most of the Family dies.",
+          "map": "Solitude"
+        },
+        {
+          "id": "dark_brotherhood_death_incarnate",
+          "title": "Death Incarnate",
+          "en": "Смерть воплощённая",
+          "type": "quest",
+          "location": "Dark Brotherhood Sanctuary, Falkreath",
+          "description": "The Penitus Oculatus storm the Falkreath Sanctuary. Fight your way in, save the survivors (Nazir and Babette), escape and deal with Astrid, who betrayed you.",
+          "missable": "Astrid's Blade of Woe can only be taken now; it is an optional objective of the quest.",
+          "map": "Dark Brotherhood Sanctuary"
+        },
+        {
+          "id": "dark_brotherhood_hail_sithis",
+          "title": "Hail Sithis!",
+          "en": "Слава Ситису!",
+          "type": "quest",
+          "location": "The Katariah",
+          "giver": "Night Mother",
+          "description": "Board the ship Katariah and kill Emperor Titus Mede II.",
+          "missable": "The Emperor dies. This permanently changes the game world and closes dialogue tied to him.",
+          "map": "The Katariah"
+        }
+      ]
+    },
+    {
+      "title": "Other Brotherhood Quests",
+      "items": [
+        {
+          "id": "dark_brotherhood_take_the_hidden_treasure",
+          "title": "Take the Hidden Treasure",
+          "en": "Забрать спрятанное сокровище",
+          "type": "quest",
+          "location": "Dawnstar Sanctuary",
+          "giver": "Torture Victims",
+          "description": "Buy the torture room upgrade for the Dawnstar Sanctuary from Delvin Mallory. The four prisoners each reveal where they hid their gold — 1,000–2,000 septims apiece.",
+          "map": "Dawnstar Sanctuary"
+        },
+        {
+          "id": "dark_brotherhood_delayed_burial",
+          "title": "Delayed Burial",
+          "en": "Запоздалые похороны",
+          "type": "quest",
+          "location": "Loreius Farm",
+          "giver": "Cicero or Vantus Loreius",
+          "description": "Cicero is stuck near Loreius Farm with a broken cart carrying a coffin. You can persuade Vantus Loreius to fix the wheel or report the jester to a guard.",
+          "tips": [
+            "The quest fails if you enter the Brotherhood Sanctuary or start Destroy the Dark Brotherhood!, so deal with it first."
+          ],
+          "map": "Loreius Farm"
+        },
+        {
+          "id": "dark_brotherhood_locate_the_assassin_of_old",
+          "title": "Locate the Assassin of Old",
+          "en": "Найти ассасина из прошлого",
+          "type": "quest",
+          "location": "Whiterun, Deepwood Redoubt, Hag's End",
+          "giver": "Olava the Feeble",
+          "description": "Olava the Feeble reads Olava's Token, Gabriella's bonus for Breaching Security. The trail leads through Deepwood Redoubt to Hag's End, where a Dark Brotherhood assassin lies behind a hidden wall. Reward: Ancient Shrouded Armor.",
+          "map": "Deepwood Redoubt"
+        },
+        {
+          "id": "dark_brotherhood_where_you_hang_your_enemys_head",
+          "title": "Where You Hang Your Enemy's Head",
+          "en": "Где повесить голову врага",
+          "type": "quest",
+          "location": "Dawnstar Sanctuary",
+          "giver": "Nazir",
+          "description": "Restore and refurnish the Dawnstar Sanctuary after Hail Sithis!. Delvin Mallory in Riften helps with supplies.",
+          "map": "Dawnstar Sanctuary"
+        },
+        {
+          "id": "dark_brotherhood_forever",
+          "title": "The Dark Brotherhood Forever",
+          "en": "Тёмное Братство вечно",
+          "type": "quest",
+          "location": "Dawnstar Sanctuary",
+          "giver": "Night Mother",
+          "description": "Repeatable Dark Brotherhood Forever contracts: the Night Mother passes kill orders on people all over Skyrim through the Listener.",
+          "repeatable": true,
+          "map": "Dawnstar Sanctuary"
+        }
+      ]
+    },
+    {
+      "title": "Nazir's Contracts",
+      "items": [
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_narfi",
+          "title": "Kill Narfi",
+          "en": "Контракт: убить Нарфи",
+          "location": "Ivarstead",
+          "giver": "Nazir",
+          "description": "Kill Narfi, a wretched beggar.",
+          "tips": [
+            "Required to advance the Brotherhood questline."
+          ],
+          "map": "Ivarstead"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_beitild",
+          "title": "Kill Beitild",
+          "en": "Контракт: убить Бейтильд",
+          "location": "Dawnstar",
+          "giver": "Nazir",
+          "description": "Settle a feud between former spouses: the contract is on Beitild.",
+          "tips": [
+            "Required to advance the Brotherhood questline."
+          ],
+          "map": "Dawnstar"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_ennodius_papius",
+          "title": "Kill Ennodius Papius",
+          "en": "Контракт: убить Эннодия Папия",
+          "location": "Anga's Mill",
+          "giver": "Nazir",
+          "description": "Eliminate Ennodius Papius, the mill's former owner.",
+          "tips": [
+            "Required to advance the Brotherhood questline."
+          ],
+          "map": "Anga's Mill"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_hern",
+          "title": "Kill Hern",
+          "en": "Контракт: убить Херна",
+          "location": "Half-Moon Mill",
+          "giver": "Nazir",
+          "description": "Kill Hern, a reclusive vampire.",
+          "tips": [
+            "To advance, you need one of the two contracts: Hern or Lurbuk."
+          ],
+          "map": "Half-Moon Mill"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_lurbuk",
+          "title": "Kill Lurbuk",
+          "en": "Контракт: убить Лурбука",
+          "location": "Morthal, Moorside Inn",
+          "giver": "Nazir",
+          "description": "Silence Skyrim's worst bard for good.",
+          "tips": [
+            "To advance, you need one of the two contracts: Hern or Lurbuk."
+          ],
+          "map": "Morthal"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_deekus",
+          "title": "Kill Deekus",
+          "en": "Контракт: убить Дикуса",
+          "location": "A shipwreck on the northern coast",
+          "giver": "Nazir",
+          "description": "Kill an Argonian looting wrecked ships."
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_ma_randru_jo",
+          "title": "Kill Ma'randru-jo",
+          "en": "Контракт: убить Ма'рандру-джо",
+          "location": "Ri'saad's caravan",
+          "giver": "Nazir",
+          "description": "Kill an arrogant Khajiit mage from Ri'saad's caravan."
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_anoriath",
+          "title": "Kill Anoriath",
+          "en": "Контракт: убить Анориата",
+          "location": "Whiterun",
+          "giver": "Nazir",
+          "description": "Kill a talkative Bosmer hunter.",
+          "map": "Whiterun"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_agnis",
+          "title": "Kill Agnis",
+          "en": "Контракт: убить Агнис",
+          "location": "Fort Greymoor",
+          "giver": "Nazir",
+          "description": "Kill the fort's grumpy maid.",
+          "related": [
+            "secrets_agnis"
+          ],
+          "map": "Fort Greymoor"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_maluril",
+          "title": "Kill Maluril",
+          "en": "Контракт: убить Мейлурила",
+          "location": "Mzinchaleft",
+          "giver": "Nazir",
+          "description": "Kill a fugitive mage who leads a gang of bandits.",
+          "map": "Mzinchaleft"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_helvard",
+          "title": "Kill Helvard",
+          "en": "Контракт: убить Хелварда",
+          "location": "Falkreath, Jarl's Longhouse",
+          "giver": "Nazir",
+          "description": "Kill Jarl Siddgeir's arrogant housecarl.",
+          "map": "Falkreath"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_safia",
+          "title": "Kill Safia",
+          "en": "Контракт: убить Сафию",
+          "location": "The Red Wave, by the East Empire Company Warehouse, Solitude",
+          "giver": "Nazir",
+          "description": "Kill the pirate captain Safia aboard her own ship.",
+          "map": "East Empire Company Warehouse"
+        }
+      ]
+    }
+  ]
+}

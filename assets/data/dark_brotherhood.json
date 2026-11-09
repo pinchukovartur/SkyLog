@@ -1,0 +1,458 @@
+{
+  "id": "dark_brotherhood",
+  "title": "Тёмное Братство",
+  "icon": "dagger",
+  "description": "Гильдия убийц, служащая Ситису и Матери Ночи, — или её уничтожение.",
+  "groups": [
+    {
+      "title": "Вступление",
+      "items": [
+        {
+          "id": "dark_brotherhood_innocence_lost",
+          "title": "Потерянная невинность",
+          "en": "Innocence Lost",
+          "type": "quest",
+          "location": "Виндхельм, Рифтен",
+          "giver": "Авентус Аретино",
+          "description": "Мальчик Авентус Аретино в Виндхельме проводит Чёрное Таинство. Нужно убить Грелод Добрую — хозяйку Благородного сиротского приюта в Рифтене.",
+          "tips": [
+            "Слухи о мальчике можно услышать от стражи и жителей Виндхельма; квест можно начать, просто зайдя в его дом."
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "dark_brotherhood_with_friends_like_these",
+          "title": "С такими друзьями…",
+          "en": "With Friends Like These…",
+          "type": "quest",
+          "location": "Покинутая хижина",
+          "giver": "Астрид",
+          "description": "Вас похищают и приводят в Покинутую хижину. Астрид требует убить одного из трёх связанных пленников, чтобы доказать свою верность.",
+          "tips": [
+            "Курьер с запиской «Мы знаем» приходит после ночи сна, если вы выполнили «Потерянную невинность»."
+          ],
+          "missable": "Выбор окончателен: убив Астрид, вы навсегда закрываете линию Тёмного Братства.",
+          "choices": [
+            {
+              "id": "dark_brotherhood_join_or_destroy",
+              "question": "Присоединиться к Братству или уничтожить его?",
+              "options": [
+                {
+                  "id": "join",
+                  "label": "Убить пленника и вступить",
+                  "result": "Вы становитесь членом Тёмного Братства и получаете доступ к Убежищу в Фолкрите.",
+                  "locks": [
+                    "dark_brotherhood_destroy"
+                  ]
+                },
+                {
+                  "id": "destroy",
+                  "label": "Убить Астрид",
+                  "result": "Начинается квест «Прощай, Тёмное Братство»: Пенитус Окулатус поможет уничтожить Убежище. Вся линия Братства становится недоступна.",
+                  "locks": [
+                    "dark_brotherhood_sanctuary",
+                    "dark_brotherhood_mourning_never_comes",
+                    "dark_brotherhood_whispers_in_the_dark",
+                    "dark_brotherhood_silence_has_been_broken",
+                    "dark_brotherhood_bound_until_death",
+                    "dark_brotherhood_breaching_security",
+                    "dark_brotherhood_cure_for_madness",
+                    "dark_brotherhood_recipe_for_disaster",
+                    "dark_brotherhood_to_kill_an_empire",
+                    "dark_brotherhood_death_incarnate",
+                    "dark_brotherhood_hail_sithis",
+                    "dark_brotherhood_take_the_hidden_treasure",
+                    "dark_brotherhood_delayed_burial",
+                    "dark_brotherhood_locate_the_assassin_of_old",
+                    "dark_brotherhood_where_you_hang_your_enemys_head",
+                    "dark_brotherhood_forever",
+                    "dark_brotherhood_kill_narfi",
+                    "dark_brotherhood_kill_beitild",
+                    "dark_brotherhood_kill_ennodius_papius",
+                    "dark_brotherhood_kill_hern",
+                    "dark_brotherhood_kill_lurbuk",
+                    "dark_brotherhood_kill_deekus",
+                    "dark_brotherhood_kill_ma_randru_jo",
+                    "dark_brotherhood_kill_anoriath",
+                    "dark_brotherhood_kill_agnis",
+                    "dark_brotherhood_kill_maluril",
+                    "dark_brotherhood_kill_helvard",
+                    "dark_brotherhood_kill_safia"
+                  ]
+                }
+              ]
+            }
+          ],
+          "map": "Abandoned Shack"
+        },
+        {
+          "id": "dark_brotherhood_destroy",
+          "title": "Прощай, Тёмное Братство",
+          "en": "Destroy the Dark Brotherhood!",
+          "type": "quest",
+          "location": "Убежище в Фолкрите",
+          "giver": "Командир Марон",
+          "description": "Убив Астрид, сообщите страже, а затем командиру Марону из Пенитус Окулатус. Нужно проникнуть в Убежище и перебить всех его обитателей.",
+          "tips": [
+            "Пароль на Чёрной двери Убежища узнаётся по ходу квеста."
+          ],
+          "map": "Falkreath"
+        }
+      ]
+    },
+    {
+      "title": "Основная линия",
+      "items": [
+        {
+          "id": "dark_brotherhood_sanctuary",
+          "title": "Убежище",
+          "en": "Sanctuary",
+          "type": "quest",
+          "location": "Убежище Тёмного Братства, Фолкрит",
+          "giver": "Астрид",
+          "description": "Войти в Убежище через Чёрную дверь (ответ на вопрос: «Тишина, брат мой»), познакомиться с семьёй и получить первые задания.",
+          "tips": [
+            "По ходу линии Астрид откроет доступ к бессмертному коню Тенегриву."
+          ],
+          "map": "Dark Brotherhood Sanctuary"
+        },
+        {
+          "id": "dark_brotherhood_mourning_never_comes",
+          "title": "Прощай, любовь",
+          "en": "Mourning Never Comes",
+          "type": "quest",
+          "location": "Маркарт",
+          "giver": "Астрид",
+          "description": "Встретиться в Маркарте с клиенткой Муири и выполнить её контракт на Алена Дюфона.",
+          "tips": [
+            "Дополнительно Муири заплатит за убийство Нильсин Расколотый Щит в Виндхельме."
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "dark_brotherhood_whispers_in_the_dark",
+          "title": "Шепотки во тьме",
+          "en": "Whispers in the Dark",
+          "type": "quest",
+          "location": "Убежище Тёмного Братства",
+          "giver": "Астрид",
+          "description": "Шут Цицерон доставил в Убежище гроб Матери Ночи. Мать Ночи говорит с вами — теперь вы Слышащий.",
+          "tips": [
+            "Астрид насторожена: выслушайте её, прежде чем действовать."
+          ],
+          "map": "Dark Brotherhood Sanctuary"
+        },
+        {
+          "id": "dark_brotherhood_silence_has_been_broken",
+          "title": "Со смертью тишины",
+          "en": "The Silence Has Been Broken",
+          "type": "quest",
+          "location": "Волундруд",
+          "giver": "Астрид",
+          "description": "Встретиться с Амоном Мотьером в Волундруде. Он заказывает убийство Императора; письмо и амулет нужно передать Астрид.",
+          "map": "Volunruud"
+        },
+        {
+          "id": "dark_brotherhood_bound_until_death",
+          "title": "Пока смерть не разлучит нас",
+          "en": "Bound Until Death",
+          "type": "quest",
+          "location": "Солитьюд",
+          "giver": "Астрид",
+          "description": "Убить кузину Императора Витторию Вичи на её свадьбе в Солитьюде.",
+          "tips": [
+            "Бонус — убить её во время свадебной речи на балконе."
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "dark_brotherhood_breaching_security",
+          "title": "Уязвимое место",
+          "en": "Breaching Security",
+          "type": "quest",
+          "location": "Драконий Мост",
+          "giver": "Габриэлла",
+          "description": "Убить Гая Марона, сына командира Пенитус Окулатус, и подбросить ему поддельное письмо о заговоре.",
+          "tips": [
+            "«Распорядок Гая Марона» подскажет, где его удобнее перехватить."
+          ],
+          "map": "Dragon Bridge"
+        },
+        {
+          "id": "dark_brotherhood_cure_for_madness",
+          "title": "Лекарство от безумия",
+          "en": "The Cure for Madness",
+          "type": "quest",
+          "location": "Данстарское убежище",
+          "giver": "Габриэлла",
+          "description": "Цицерон предал семью и сбежал. Нужно выследить его в Данстарском убежище.",
+          "missable": "Если пощадить Цицерона, позже его можно взять в последователи; если убить — эта возможность закрывается навсегда.",
+          "choices": [
+            {
+              "id": "dark_brotherhood_cicero_fate",
+              "question": "Убить Цицерона или отпустить?",
+              "options": [
+                {
+                  "id": "kill",
+                  "label": "Убить",
+                  "result": "Цицерон погибает; можно забрать его шутовской наряд."
+                },
+                {
+                  "id": "spare",
+                  "label": "Отпустить",
+                  "result": "Цицерон сбежит, а после окончания линии появится в Данстарском убежище и станет доступен как последователь."
+                }
+              ]
+            }
+          ],
+          "map": "Dawnstar Sanctuary"
+        },
+        {
+          "id": "dark_brotherhood_recipe_for_disaster",
+          "title": "Убийственный рецепт",
+          "en": "Recipe for Disaster",
+          "type": "quest",
+          "location": "Таверна «Ночные ворота»",
+          "giver": "Астрид",
+          "description": "Выяснить, кто скрывается под именем знаменитого повара Гурмана, устранить его и забрать грамоту — с ней вы попадёте на кухню Императора.",
+          "tips": [
+            "Бонус — спрятать тело Гурмана."
+          ],
+          "map": "Nightgate Inn"
+        },
+        {
+          "id": "dark_brotherhood_to_kill_an_empire",
+          "title": "Смерть Империи",
+          "en": "To Kill an Empire",
+          "type": "quest",
+          "location": "Мрачный замок, Солитьюд",
+          "giver": "Астрид",
+          "description": "Под видом Гурмана проникнуть на кухню Мрачного замка и убить Императора на пиру. «Император» оказывается двойником, а вас ждала ловушка Пенитус Окулатус.",
+          "missable": "После этого квеста Убежище в Фолкрите будет уничтожено, а большинство членов семьи погибнет.",
+          "map": "Solitude"
+        },
+        {
+          "id": "dark_brotherhood_death_incarnate",
+          "title": "Смерть воплощённая",
+          "en": "Death Incarnate",
+          "type": "quest",
+          "location": "Убежище Тёмного Братства, Фолкрит",
+          "description": "Пенитус Окулатус штурмует Убежище в Фолкрите. Нужно пробиться внутрь, спасти выживших (Назира и Бабетту), сбежать и разобраться с предавшей вас Астрид.",
+          "missable": "Клинок Горя Астрид — забрать его можно только сейчас, это необязательная цель квеста.",
+          "map": "Dark Brotherhood Sanctuary"
+        },
+        {
+          "id": "dark_brotherhood_hail_sithis",
+          "title": "Слава Ситису!",
+          "en": "Hail Sithis!",
+          "type": "quest",
+          "location": "«Катария»",
+          "giver": "Мать Ночи",
+          "description": "Проникнуть на корабль «Катария» и убить Императора Тита Мида II.",
+          "missable": "Император погибает — это необратимо меняет мир игры и закрывает связанные с ним диалоги.",
+          "map": "The Katariah"
+        }
+      ]
+    },
+    {
+      "title": "Прочие задания Братства",
+      "items": [
+        {
+          "id": "dark_brotherhood_take_the_hidden_treasure",
+          "title": "Забрать спрятанное сокровище",
+          "en": "Take the Hidden Treasure",
+          "type": "quest",
+          "location": "Данстарское убежище",
+          "giver": "Жертвы пыток",
+          "description": "Купите у Делвина Меллори пыточную для Данстарского убежища. Четверо пленников по очереди выдают, где спрятали золото — по 1000–2000 септимов.",
+          "map": "Dawnstar Sanctuary"
+        },
+        {
+          "id": "dark_brotherhood_delayed_burial",
+          "title": "Запоздалые похороны",
+          "en": "Delayed Burial",
+          "type": "quest",
+          "location": "Ферма Лорея",
+          "giver": "Цицерон или Ванций Лорей",
+          "description": "Цицерон застрял у фермы Лорея со сломанной повозкой, в которой гроб. Можно уговорить Ванция Лорея починить колесо или донести на шута стражнику.",
+          "tips": [
+            "Квест проваливается, если вы войдёте в Убежище Братства или начнёте «Прощай, Тёмное Братство» — решите его заранее."
+          ],
+          "map": "Loreius Farm"
+        },
+        {
+          "id": "dark_brotherhood_locate_the_assassin_of_old",
+          "title": "Найти ассасина из прошлого",
+          "en": "Locate the Assassin of Old",
+          "type": "quest",
+          "location": "Вайтран, Лесной оплот, Ведьмино гнездо",
+          "giver": "Олава Немощная",
+          "description": "Олава Немощная гадает на жетоне, полученном от Габриэллы после «Уязвимого места». След ведёт через Лесной оплот в Ведьмино гнездо, где за потайной стеной лежит ассасин Тёмного Братства. Награда — древняя броня Тёмного Братства.",
+          "map": "Deepwood Redoubt"
+        },
+        {
+          "id": "dark_brotherhood_where_you_hang_your_enemys_head",
+          "title": "Где повесить голову врага",
+          "en": "Where You Hang Your Enemy's Head",
+          "type": "quest",
+          "location": "Данстарское убежище",
+          "giver": "Назир",
+          "description": "Восстановить и обустроить Данстарское убежище после «Слава Ситису!» — Делвин Меллори в Рифтене поможет с поставками.",
+          "map": "Dawnstar Sanctuary"
+        },
+        {
+          "id": "dark_brotherhood_forever",
+          "title": "Тёмное Братство вечно",
+          "en": "The Dark Brotherhood Forever",
+          "type": "quest",
+          "location": "Данстарское убежище",
+          "giver": "Мать Ночи",
+          "description": "Повторяемые контракты Вечного: Мать Ночи передаёт через Слышащего заказы на убийство людей по всему Скайриму.",
+          "repeatable": true,
+          "map": "Dawnstar Sanctuary"
+        }
+      ]
+    },
+    {
+      "title": "Контракты Назира",
+      "items": [
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_narfi",
+          "title": "Контракт: убить Нарфи",
+          "en": "Kill Narfi",
+          "location": "Айварстед",
+          "giver": "Назир",
+          "description": "Убить несчастного нищего Нарфи.",
+          "tips": [
+            "Обязателен для продвижения по линии Братства."
+          ],
+          "map": "Ivarstead"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_beitild",
+          "title": "Контракт: убить Бейтильд",
+          "en": "Kill Beitild",
+          "location": "Данстар",
+          "giver": "Назир",
+          "description": "Разрешить конфликт бывших супругов: заказ на Бейтильд.",
+          "tips": [
+            "Обязателен для продвижения по линии Братства."
+          ],
+          "map": "Dawnstar"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_ennodius_papius",
+          "title": "Контракт: убить Эннодия Папия",
+          "en": "Kill Ennodius Papius",
+          "location": "Лесопилка Анги",
+          "giver": "Назир",
+          "description": "Устранить бывшего хозяина лесопилки Эннодия Папия.",
+          "tips": [
+            "Обязателен для продвижения по линии Братства."
+          ],
+          "map": "Anga's Mill"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_hern",
+          "title": "Контракт: убить Херна",
+          "en": "Kill Hern",
+          "location": "Полулунная лесопилка",
+          "giver": "Назир",
+          "description": "Убить вампира-затворника Херна.",
+          "tips": [
+            "Для продвижения нужен один из двух контрактов: на Херна или на Лурбука."
+          ],
+          "map": "Half-Moon Mill"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_lurbuk",
+          "title": "Контракт: убить Лурбука",
+          "en": "Kill Lurbuk",
+          "location": "Морфал, таверна",
+          "giver": "Назир",
+          "description": "Заставить навсегда замолчать худшего барда Скайрима.",
+          "tips": [
+            "Для продвижения нужен один из двух контрактов: на Херна или на Лурбука."
+          ],
+          "map": "Morthal"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_deekus",
+          "title": "Контракт: убить Дикуса",
+          "en": "Kill Deekus",
+          "location": "Место кораблекрушения на северном побережье",
+          "giver": "Назир",
+          "description": "Убить аргонианина, грабящего разбившиеся корабли."
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_ma_randru_jo",
+          "title": "Контракт: убить Ма'рандру-джо",
+          "en": "Kill Ma'randru-jo",
+          "location": "Караван Ри'сада",
+          "giver": "Назир",
+          "description": "Убить дерзкого каджита-мага из каравана Ри'сада."
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_anoriath",
+          "title": "Контракт: убить Анориата",
+          "en": "Kill Anoriath",
+          "location": "Вайтран",
+          "giver": "Назир",
+          "description": "Убить болтливого босмера-охотника.",
+          "map": "Whiterun"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_agnis",
+          "title": "Контракт: убить Агнис",
+          "en": "Kill Agnis",
+          "location": "Форт Греймур",
+          "giver": "Назир",
+          "description": "Убить ворчливую служанку форта.",
+          "related": [
+            "secrets_agnis"
+          ],
+          "map": "Fort Greymoor"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_maluril",
+          "title": "Контракт: убить Мейлурила",
+          "en": "Kill Maluril",
+          "location": "Мзинчалефт",
+          "giver": "Назир",
+          "description": "Убить беглого мага, который возглавляет бандитов.",
+          "map": "Mzinchaleft"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_helvard",
+          "title": "Контракт: убить Хелварда",
+          "en": "Kill Helvard",
+          "location": "Фолкрит, Длинный дом ярла",
+          "giver": "Назир",
+          "description": "Убить заносчивого хускарла ярла Сиддгейра.",
+          "map": "Falkreath"
+        },
+        {
+          "type": "quest",
+          "id": "dark_brotherhood_kill_safia",
+          "title": "Контракт: убить Сафию",
+          "en": "Kill Safia",
+          "location": "Корабль «Алая волна» у склада Восточной имперской компании, Солитьюд",
+          "giver": "Назир",
+          "description": "Убить капитана пиратов Сафию на её корабле.",
+          "map": "East Empire Company Warehouse"
+        }
+      ]
+    }
+  ]
+}

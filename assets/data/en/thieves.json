@@ -1,0 +1,360 @@
+{
+  "id": "thieves",
+  "title": "Thieves Guild",
+  "icon": "lock",
+  "description": "Riften's brotherhood of thieves: restoring the Guild, Mercer Frey's betrayal and the Nightingales of Nocturnal.",
+  "groups": [
+    {
+      "title": "Main Questline",
+      "items": [
+        {
+          "id": "thieves_a_chance_arrangement",
+          "title": "A Chance Arrangement",
+          "en": "Случайная встреча",
+          "type": "quest",
+          "location": "Riften",
+          "giver": "Brynjolf",
+          "description": "Brynjolf tests you at the Riften market: steal Madesi's ring and plant it in Brand-Shei's pocket.",
+          "tips": [
+            "Brynjolf is at the market by day; at night look for him in the Bee and Barb."
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "thieves_taking_care_of_business",
+          "title": "Taking Care of Business",
+          "en": "Надёжная крыша",
+          "type": "quest",
+          "location": "Riften, the Ragged Flagon",
+          "giver": "Brynjolf",
+          "description": "Collect debts from three Riften merchants (Keerava, Haelga and Bersi Honey-Hand) and join the Guild.",
+          "tips": [
+            "Every merchant has a weak spot; Talen-Jei can tell you about Keerava."
+          ],
+          "map": "Riften"
+        },
+        {
+          "id": "thieves_loud_and_clear",
+          "title": "Loud and Clear",
+          "en": "Ясность",
+          "type": "quest",
+          "location": "Goldenglow Estate",
+          "giver": "Mercer Frey",
+          "description": "Break into Goldenglow Estate, burn three beehives and take the papers from Aringoth's safe.",
+          "tips": [
+            "Besides the main entrance, a sewer tunnel leads into the estate, which makes sneaking in easier."
+          ],
+          "map": "Goldenglow Estate"
+        },
+        {
+          "id": "thieves_dampened_spirits",
+          "title": "Dampened Spirits",
+          "en": "Неправильный мёд",
+          "type": "quest",
+          "location": "Honningbrew Meadery, Whiterun",
+          "giver": "Brynjolf",
+          "description": "Team up with Mallus Maccius to ruin Sabjorn's business at Honningbrew Meadery by poisoning the mead before the guard captain's visit.",
+          "map": "Honningbrew Meadery"
+        },
+        {
+          "id": "thieves_scoundrels_folly",
+          "title": "Scoundrel's Folly",
+          "en": "Каприз негодяя",
+          "type": "quest",
+          "location": "Solitude",
+          "giver": "Mercer Frey",
+          "description": "Find out from Gulum-Ei in Solitude who is behind the Guild's troubles. The trail leads to Karliah, a former Guild member.",
+          "tips": [
+            "Tail Gulum-Ei to the East Empire Company Warehouse without letting him spot you."
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "thieves_speaking_with_silence",
+          "title": "Speaking With Silence",
+          "en": "Разговор с тишиной",
+          "type": "quest",
+          "location": "Snow Veil Sanctum",
+          "giver": "Mercer Frey",
+          "description": "Track down Karliah in Snow Veil Sanctum with Mercer. The truth turns out very different from Mercer's story.",
+          "map": "Snow Veil Sanctum"
+        },
+        {
+          "id": "thieves_hard_answers",
+          "title": "Hard Answers",
+          "en": "Трудные ответы",
+          "type": "quest",
+          "location": "Winterhold, Markarth",
+          "giver": "Karliah",
+          "description": "Decode Gallus's journal: Enthir at the College of Winterhold sends you to Calcelmo in Markarth for help.",
+          "map": "Winterhold"
+        },
+        {
+          "id": "thieves_the_pursuit",
+          "title": "The Pursuit",
+          "en": "Преследование",
+          "type": "quest",
+          "location": "Riftweald Manor, Riften",
+          "giver": "Brynjolf",
+          "description": "Break into Mercer Frey's home, Riftweald Manor, and find out where he went.",
+          "missable": "The sword Chillrend sits in a display case in Riftweald Manor. Take it during this quest.",
+          "map": "Riften"
+        },
+        {
+          "id": "thieves_trinity_restored",
+          "title": "Trinity Restored",
+          "en": "Возрождённая триада",
+          "type": "quest",
+          "location": "Nightingale Hall",
+          "giver": "Karliah",
+          "description": "Become a Nightingale of Nocturnal alongside Karliah and Brynjolf and receive the Nightingale Armor.",
+          "map": "Nightingale Hall"
+        },
+        {
+          "id": "thieves_blindsighted",
+          "title": "Blindsighted",
+          "en": "Ослепление",
+          "type": "quest",
+          "location": "Irkngthand",
+          "giver": "Karliah",
+          "description": "Catch up with Mercer in the Dwemer ruins of Irkngthand, where he is after the Eyes of the Falmer, and recover the Skeleton Key.",
+          "tips": [
+            "Right after the quest the Skeleton Key opens any lock and never breaks. Use it before you return it."
+          ],
+          "map": "Irkngthand"
+        },
+        {
+          "id": "thieves_darkness_returns",
+          "title": "Darkness Returns",
+          "en": "Возвращение сумерек",
+          "type": "quest",
+          "location": "Twilight Sepulcher",
+          "giver": "Karliah",
+          "description": "Return the Skeleton Key to the Twilight Sepulcher, walk the Pilgrim's Path and choose Nocturnal's gift.",
+          "missable": "Once you return the key, it is gone for good. Your choice of Nightingale power is final.",
+          "choices": [
+            {
+              "id": "thieves_nightingale_power",
+              "question": "Which Nightingale power do you choose?",
+              "options": [
+                {
+                  "id": "shadow",
+                  "label": "Agent of Shadow (crescent moon)",
+                  "result": "Once a day: invisibility for 120 seconds while sneaking."
+                },
+                {
+                  "id": "strife",
+                  "label": "Agent of Strife (full moon)",
+                  "result": "Once a day: absorb 100 points of health from an enemy."
+                },
+                {
+                  "id": "subterfuge",
+                  "label": "Agent of Subterfuge (half moon)",
+                  "result": "Once a day: nearby enemies fight each other for 30 seconds."
+                }
+              ]
+            }
+          ],
+          "map": "Twilight Sepulcher"
+        },
+        {
+          "id": "thieves_under_new_management",
+          "title": "Under New Management",
+          "en": "Смена руководства",
+          "type": "quest",
+          "location": "Riften, the Ragged Flagon",
+          "giver": "Brynjolf",
+          "description": "Become Guild Master of the Thieves Guild. Unlocks after the main questline and restoring the Guild's influence in all four cities.",
+          "tips": [
+            "You get the Guild Master's Armor and access to the Guild Master's tribute chest, refilled every week."
+          ],
+          "map": "Riften"
+        }
+      ]
+    },
+    {
+      "title": "Special Jobs and More",
+      "items": [
+        {
+          "type": "quest",
+          "id": "thieves_imitation_amnesty",
+          "title": "Imitation Amnesty",
+          "en": "Амнистия вручную",
+          "location": "Whiterun, Dragonsreach",
+          "giver": "Delvin Mallory",
+          "description": "Help get a convicted prisoner out of the Whiterun jail. Reward: jewelry and a Guild upgrade.",
+          "tips": [
+            "Unlocks after five jobs from Vex and Delvin in that city. Upgrades the Ragged Flagon and lets you bribe the hold's guards.",
+            "Olfrid Battle-Born in Whiterun gives the details."
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "type": "quest",
+          "id": "thieves_the_dainty_sload",
+          "title": "The Dainty Sload",
+          "en": "Привередливый слоад",
+          "location": "Solitude, the Dainty Sload",
+          "giver": "Delvin Mallory",
+          "description": "Frame a ship's captain to get revenge for a cheated merchant. Reward: a random spell tome.",
+          "tips": [
+            "Unlocks after five jobs from Vex and Delvin in that city. Upgrades the Ragged Flagon and lets you bribe the hold's guards."
+          ],
+          "map": "Dainty Sload"
+        },
+        {
+          "type": "quest",
+          "id": "thieves_silver_lining",
+          "title": "Silver Lining",
+          "en": "Серебряная заготовка",
+          "location": "Markarth, Silver-Blood Inn, Pinewatch",
+          "giver": "Delvin Mallory",
+          "description": "Recover the stolen mold from Pinewatch for the silversmith Endon. Reward: enchanted armor, and Endon becomes a Guild fence.",
+          "tips": [
+            "Unlocks after five jobs from Vex and Delvin in that city. Upgrades the Ragged Flagon and lets you bribe the hold's guards."
+          ],
+          "map": "Pinewatch"
+        },
+        {
+          "type": "quest",
+          "id": "thieves_summerset_shadows",
+          "title": "Summerset Shadows",
+          "en": "Саммерсетские тени",
+          "location": "Windhelm",
+          "giver": "Delvin Mallory",
+          "description": "Get a rival guild, the Summerset Shadows, out of the way. Niranye becomes a Guild fence.",
+          "tips": [
+            "Unlocks after five jobs from Vex and Delvin in that city. Upgrades the Ragged Flagon and lets you bribe the hold's guards."
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "thieves_no_stone_unturned",
+          "title": "No Stone Unturned",
+          "en": "Заглянуть под каждый камень",
+          "type": "quest",
+          "giver": "Vex",
+          "description": "Collect all 24 Stones of Barenziah across Skyrim and restore the Crown of Barenziah.",
+          "tips": [
+            "You can collect the stones in advance; Vex gives the quest."
+          ]
+        },
+        {
+          "id": "thieves_reparations",
+          "title": "Reparations",
+          "en": "Отработка",
+          "type": "quest",
+          "description": "Kill a Guild member and you are expelled. To return, you have to pay off the debt.",
+          "missable": "Until the debt is paid, all Guild quests are unavailable."
+        },
+        {
+          "type": "quest",
+          "id": "thieves_litany_of_larceny",
+          "title": "The Litany of Larceny",
+          "en": "Воровские приключения",
+          "location": "During the Guild main questline",
+          "giver": "Delvin Mallory",
+          "description": "Delvin asks you to grab special items that turn up during Guild quests. Each one pays gold."
+        },
+        {
+          "type": "quest",
+          "id": "thieves_valds_debt",
+          "title": "Vald's Debt",
+          "en": "Долг Вальда",
+          "location": "Riften",
+          "giver": "Vald or Vex",
+          "description": "You need Vald's key to get into Riftweald Manor. Find the quill for Maven Black-Briar to clear Vald's debt, and he hands over the key.",
+          "related": [
+            "thieves_the_pursuit"
+          ],
+          "map": "Riften"
+        }
+      ]
+    },
+    {
+      "title": "Repeatable Jobs",
+      "items": [
+        {
+          "type": "quest",
+          "id": "thieves_burglary_job",
+          "title": "The Burglary Job",
+          "en": "Кража",
+          "location": "Riften, the Ragged Flagon",
+          "giver": "Vex",
+          "description": "Steal a specific item from a wealthy home.",
+          "repeatable": true,
+          "map": "Riften"
+        },
+        {
+          "type": "quest",
+          "id": "thieves_shill_job",
+          "title": "The Shill Job",
+          "en": "Подброс",
+          "location": "Riften, the Ragged Flagon",
+          "giver": "Vex",
+          "description": "Plant \"evidence\" in a wealthy home.",
+          "repeatable": true,
+          "map": "Riften"
+        },
+        {
+          "type": "quest",
+          "id": "thieves_sweep_job",
+          "title": "The Sweep Job",
+          "en": "Уборка",
+          "location": "Riften, the Ragged Flagon",
+          "giver": "Vex",
+          "description": "Steal three specific valuables from a wealthy home.",
+          "repeatable": true,
+          "map": "Riften"
+        },
+        {
+          "type": "quest",
+          "id": "thieves_heist_job",
+          "title": "The Heist Job",
+          "en": "Грабёж",
+          "location": "Riften, the Ragged Flagon",
+          "giver": "Vex",
+          "description": "Steal a specific item from a shop.",
+          "repeatable": true,
+          "map": "Riften"
+        },
+        {
+          "type": "quest",
+          "id": "thieves_numbers_job",
+          "title": "The Numbers Job",
+          "en": "Цифры",
+          "location": "Riften, the Ragged Flagon",
+          "giver": "Delvin Mallory",
+          "description": "Doctor a shop's ledger.",
+          "repeatable": true,
+          "map": "Riften"
+        },
+        {
+          "type": "quest",
+          "id": "thieves_fishing_job",
+          "title": "The Fishing Job",
+          "en": "Рыбалка",
+          "location": "Riften, the Ragged Flagon",
+          "giver": "Delvin Mallory",
+          "description": "Pickpocket an item from a specific person.",
+          "repeatable": true,
+          "map": "Riften"
+        },
+        {
+          "type": "quest",
+          "id": "thieves_bedlam_job",
+          "title": "The Bedlam Job",
+          "en": "Чёс",
+          "location": "Riften, the Ragged Flagon",
+          "giver": "Delvin Mallory",
+          "description": "Steal a set amount of goods in a city.",
+          "tips": [
+            "On Solstheim (Raven Rock) this job is bugged and never completes."
+          ],
+          "repeatable": true,
+          "map": "Riften"
+        }
+      ]
+    }
+  ]
+}

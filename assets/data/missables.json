@@ -1,0 +1,406 @@
+{
+  "id": "missables",
+  "title": "Можно упустить",
+  "icon": "warning",
+  "description": "Предметы, задания и персонажи, которые пропадают навсегда после определённых решений, — проверяйте перед ключевыми выборами.",
+  "groups": [
+    {
+      "title": "Главный сюжет и гражданская война",
+      "items": [
+        {
+          "id": "missables_paarthurnax",
+          "title": "Партурнакс",
+          "en": "Paarthurnax",
+          "type": "missable",
+          "location": "Глотка Мира",
+          "description": "После «Драконоборца» Клинки требуют убить Партурнакса. Убийство необратимо, а отказ закрывает сотрудничество с Клинками.",
+          "missable": "Если убить Партурнакса — дракон, его диалоги и наставления пропадают навсегда, Седобородые отвернутся до извинений. Если пощадить — Дельфина и Эсберн откажутся помогать (вербовка Клинков, задания «Изучение драконов» и т.п.), пока Партурнакс жив.",
+          "related": [
+            "main_paarthurnax",
+            "main_dragonslayer"
+          ],
+          "map": "Throat of the World"
+        },
+        {
+          "id": "missables_civil_war_side",
+          "title": "Сторона в гражданской войне",
+          "en": "Civil War faction",
+          "type": "missable",
+          "location": "Солитьюд / Виндхельм",
+          "description": "Вступив в Имперский легион или к Братьям Бури, вы не сможете перейти на другую сторону.",
+          "missable": "Цепочка квестов противоположной стороны («Вступление в ряды Братьев Бури» / «Вступление в Легион» и последующие) закрывается навсегда после принесения присяги.",
+          "related": [
+            "civil_war_choose_side",
+            "civil_war_joining_the_legion",
+            "civil_war_joining_the_stormcloaks"
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "missables_season_unending",
+          "title": "Бесконечная пора",
+          "en": "Season Unending",
+          "type": "missable",
+          "location": "Монастырь Высокий Хротгар",
+          "description": "Мирные переговоры между Легионом и Братьями Бури, на которых делят владения.",
+          "missable": "Если закончить гражданскую войну до этого квеста, переговоры пропускаются. А уступки на переговорах (например, Маркарт Братьям Бури) навсегда меняют ярлов и их задания.",
+          "related": [
+            "side_jarl_kill_forsworn_leader",
+            "side_jarl_dungeon_delving_hagravens",
+            "side_for_the_good_of_morthal",
+            "side_delivery_idgrod_the_younger",
+            "side_no_news_is_good_news",
+            "side_delivery_skald",
+            "side_bring_it",
+            "side_jarl_dungeon_delving_caves",
+            "side_kill_the_bandit_leader_brunwulf",
+            "side_some_light_theft_dengeir",
+            "main_season_unending"
+          ],
+          "map": "High Hrothgar"
+        },
+        {
+          "id": "missables_jarl_quests",
+          "title": "Задания смещённых ярлов",
+          "en": "Jarl-specific quests",
+          "type": "missable",
+          "location": "Столицы владений",
+          "description": "Захваченное владение получает нового ярла, а старый вместе с семьёй и хускарлом уезжает в Солитьюд (имперцы) или Виндхельм (Братья Бури). Их поручения пропадают. Список ниже — по данным UESP.",
+          "missable": "Если идёте за Легион, заранее закройте доставку Эйри для Скальда, задания Харальда, Корира и Брунвульфа. Если за Братьев Бури — Игмунда, Горма, Идгрод Младшей, Денгейра и Анжелины Моррар. Уступки на «Бесконечной поре» меняют ярлов так же.",
+          "tips": [
+            "Титул тана при смене ярла теряется, но новый ярл обычно сразу предлагает его снова.",
+            "Стражи в захваченном владении забывают ваш штраф.",
+            "Элисиф в Солитьюде — единственный ярл, которого никогда не меняют."
+          ],
+          "related": [
+            "side_jarl_kill_forsworn_leader",
+            "side_jarl_dungeon_delving_hagravens",
+            "side_for_the_good_of_morthal",
+            "side_delivery_idgrod_the_younger",
+            "side_no_news_is_good_news",
+            "side_delivery_skald",
+            "side_bring_it",
+            "side_jarl_dungeon_delving_caves",
+            "side_kill_the_bandit_leader_brunwulf",
+            "side_some_light_theft_dengeir",
+            "civil_war_choose_side",
+            "main_season_unending"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Фракции",
+      "items": [
+        {
+          "id": "missables_dark_brotherhood",
+          "title": "Тёмное Братство",
+          "en": "Destroy the Dark Brotherhood!",
+          "type": "missable",
+          "location": "Владение Фолкрит",
+          "description": "В квесте «С такими друзьями…» можно убить Астрид вместо пленников и сдать Братство страже.",
+          "missable": "Выбрав «Прощай, Тёмное Братство», вы навсегда теряете всю сюжетную линию Братства, Тенегрива и награды убежища.",
+          "related": [
+            "dark_brotherhood_with_friends_like_these",
+            "dark_brotherhood_destroy"
+          ],
+          "map": "Falkreath"
+        },
+        {
+          "id": "missables_cicero",
+          "title": "Цицерон",
+          "en": "Cicero",
+          "type": "missable",
+          "location": "Данстарское убежище",
+          "description": "В квесте «Лекарство от безумия» Цицерона можно убить или отпустить.",
+          "missable": "Если убить Цицерона, вы навсегда теряете его как спутника. Отпущенного Цицерона потом можно найти в Данстарском убежище и нанять.",
+          "related": [
+            "dark_brotherhood_cure_for_madness"
+          ],
+          "map": "Dawnstar Sanctuary"
+        },
+        {
+          "id": "missables_skeleton_key",
+          "title": "Скелетный Ключ",
+          "en": "Skeleton Key",
+          "type": "missable",
+          "location": "Сумеречная гробница",
+          "description": "Неломающаяся отмычка Ноктюрнал, которую вы получаете в «Возвращении сумерек».",
+          "missable": "После возвращения ключа в Око Ноктюрнал он исчезает навсегда. Пока квест не завершён, ключом можно пользоваться.",
+          "related": [
+            "thieves_darkness_returns",
+            "daedric_darkness_returns"
+          ],
+          "map": "Twilight Sepulcher"
+        },
+        {
+          "id": "missables_dawnguard_side",
+          "title": "Сторона в Dawnguard",
+          "en": "Dawnguard faction choice",
+          "type": "missable",
+          "location": "Замок Волкихар",
+          "description": "В квесте «Линия крови» лорд Харкон предлагает стать вампиром-лордом.",
+          "missable": "Выбор окончателен: задания противоположной стороны (Стражи Рассвета или клана Волкихар) становятся недоступны навсегда.",
+          "related": [
+            "dawnguard_bloodline"
+          ],
+          "map": "Castle Volkihar"
+        },
+        {
+          "id": "missables_dawnguard_members",
+          "title": "Члены Стражи Рассвета",
+          "en": "Destroying the Dawnguard",
+          "type": "missable",
+          "location": "Форт Стражи Рассвета",
+          "description": "После сюжета за вампиров вам поручат уничтожить Стражу Рассвета.",
+          "missable": "Изран, Сорин Журар, Гунмар и другие погибают — торговля улучшенными арбалетами и болтами пропадает навсегда.",
+          "map": "Fort Dawnguard"
+        }
+      ]
+    },
+    {
+      "title": "Даэдрические развилки",
+      "items": [
+        {
+          "id": "missables_azuras_star",
+          "title": "Звезда Азуры / Чёрная звезда",
+          "en": "Azura's Star / The Black Star",
+          "type": "missable",
+          "location": "Святилище Азуры / Винтерхолд",
+          "description": "В «Чёрной звезде» звезду можно отдать Арании или Неласару.",
+          "missable": "Можно получить только одну из двух звёзд; вторая недоступна навсегда.",
+          "related": [
+            "daedric_the_black_star"
+          ],
+          "map": "Shrine of Azura"
+        },
+        {
+          "id": "missables_hircine",
+          "title": "Кольцо Хирсина / Шкура Спасителя",
+          "en": "Ring of Hircine / Savior's Hide",
+          "type": "missable",
+          "location": "Грот Утопленника",
+          "description": "В «Зове луны» нужно решить судьбу оборотня Синдинга.",
+          "missable": "Убив Синдинга, вы получаете Шкуру Спасителя; пощадив — очищенное Кольцо Хирсина. Второй артефакт будет упущен.",
+          "related": [
+            "daedric_ill_met_by_moonlight"
+          ],
+          "map": "Bloated Man's Grotto"
+        },
+        {
+          "id": "missables_clavicus",
+          "title": "Маска Клавикуса Вайла / Топор Скорби",
+          "en": "Masque of Clavicus Vile / Rueful Axe",
+          "type": "missable",
+          "location": "Пещера Хеймара",
+          "description": "В финале «Собака — друг даэдра» Клавикус Вайл предлагает обмен.",
+          "missable": "Убив Барбаса, вы сохраните Топор Скорби и потеряете Маску; вернув Барбаса — получите Маску, но лишитесь топора.",
+          "related": [
+            "daedric_a_daedras_best_friend"
+          ],
+          "map": "Haemar's Shame"
+        },
+        {
+          "id": "missables_mehrunes_razor",
+          "title": "Бритва Мерунеса",
+          "en": "Mehrunes' Razor",
+          "type": "missable",
+          "location": "Святилище Мерунеса Дагона",
+          "description": "В «Осколках былой славы» Мерунес Дагон требует убить Сила Весула.",
+          "missable": "Если пощадить Сила, Бритва Мерунеса упущена навсегда.",
+          "related": [
+            "daedric_pieces_of_the_past"
+          ],
+          "map": "Shrine of Mehrunes Dagon"
+        },
+        {
+          "id": "missables_skull_of_corruption",
+          "title": "Череп Порчи",
+          "en": "Skull of Corruption",
+          "type": "missable",
+          "location": "Храм Призывателей Ночи",
+          "description": "В «Ходячем кошмаре» Эрандур проводит ритуал уничтожения черепа.",
+          "missable": "Если дать Эрандуру закончить ритуал, Череп Порчи уничтожен навсегда. Если убить Эрандура — теряете его как спутника.",
+          "related": [
+            "daedric_waking_nightmare"
+          ],
+          "map": "Nightcaller Temple"
+        },
+        {
+          "id": "missables_boethiah_follower",
+          "title": "Жертва Боэтии",
+          "en": "Boethiah's Calling",
+          "type": "missable",
+          "location": "Святилище Боэтии",
+          "description": "Чтобы начать «Зов Боэтии», нужно принести в жертву спутника.",
+          "missable": "Принесённый в жертву спутник погибает навсегда. Используйте наёмника, а не супруга или уникального компаньона.",
+          "related": [
+            "daedric_boethiahs_calling"
+          ],
+          "map": "Sacellum of Boethiah"
+        },
+        {
+          "id": "missables_oghma_infinium",
+          "title": "Огма Инфиниум",
+          "en": "Oghma Infinium",
+          "type": "missable",
+          "location": "Башня Мзарк, Чёрный Предел",
+          "description": "Книга Хермеуса Моры повышает навыки выбранного пути.",
+          "missable": "Прочитать её можно только один раз — после этого книга исчезает. Выбор пути (воин, вор, маг) окончателен.",
+          "related": [
+            "daedric_discerning_the_transmundane"
+          ],
+          "map": "Tower of Mzark"
+        },
+        {
+          "id": "missables_namira_ring",
+          "title": "Кольцо Намиры",
+          "en": "Ring of Namira",
+          "type": "missable",
+          "location": "Маркарт, Зал мёртвых",
+          "description": "В «Вкусе смерти» нужно отдать брата Верелия каннибалам Намиры.",
+          "missable": "Если отказаться и перебить культистов, Кольцо Намиры получить нельзя.",
+          "related": [
+            "daedric_the_taste_of_death"
+          ],
+          "map": "Markarth"
+        }
+      ]
+    },
+    {
+      "title": "Побочные задания и DLC",
+      "items": [
+        {
+          "id": "missables_aetherium_forge",
+          "title": "Этериевые предметы",
+          "en": "Aetherial Crown / Shield / Staff",
+          "type": "missable",
+          "location": "Кузница этерия, Бталфт",
+          "description": "В квесте Dawnguard «Затерявшееся в веках» кузница позволяет выковать один предмет.",
+          "missable": "Можно выбрать только одно: Этериевую корону, щит или посох. Два других недоступны навсегда.",
+          "related": [
+            "dawnguard_lost_to_the_ages"
+          ],
+          "map": "Ruins of Bthalft"
+        },
+        {
+          "id": "missables_cidhna_mine",
+          "title": "Доспех Старых богов / кольцо Серебряной Крови",
+          "en": "No One Escapes Cidhna Mine",
+          "type": "missable",
+          "location": "Маркарт, шахта Сидна",
+          "description": "В шахте Сидна вы решаете судьбу Маданаха.",
+          "missable": "Побег с Маданахом даёт Доспех Старых богов, убийство Маданаха — фамильное кольцо Серебряной Крови. Второе вознаграждение будет упущено.",
+          "related": [
+            "side_no_one_escapes_cidhna_mine",
+            "side_the_forsworn_conspiracy"
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "missables_saadia",
+          "title": "Садия или Кемату",
+          "en": "In My Time of Need",
+          "type": "missable",
+          "location": "Вайтран, Логово плута",
+          "description": "В «Времени лишений» вы выбираете, кому помочь.",
+          "missable": "Выдав Садию, вы навсегда теряете её в Вайтране; убив Кемату — теряете алик'рцев. Выбор необратим.",
+          "related": [
+            "side_in_my_time_of_need"
+          ],
+          "map": "Swindler's Den"
+        },
+        {
+          "id": "missables_blood_on_the_ice_wuunferth",
+          "title": "Вунферт Неживой",
+          "en": "Blood on the Ice",
+          "type": "missable",
+          "location": "Виндхельм",
+          "description": "В «Крови на снегу» подозрения падают на придворного мага Вунферта.",
+          "missable": "Если ошибочно обвинить Вунферта, его бросят в тюрьму, а убийства продолжатся. Лучше дождаться засады на настоящего убийцу.",
+          "related": [
+            "side_blood_on_the_ice"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "missables_frost",
+          "title": "Конь Мороз",
+          "en": "Frost",
+          "type": "missable",
+          "location": "Рифтен, резиденция «Чёрный Вереск»",
+          "description": "В квесте «Дал слово — держи» можно отдать Мороза Луи Летрушу или оставить себе.",
+          "missable": "Отдав коня Луи, вы теряете Мороза — одного из самых выносливых коней в игре.",
+          "related": [
+            "side_promises_to_keep"
+          ],
+          "map": "Black-Briar Lodge"
+        },
+        {
+          "id": "missables_thirsk",
+          "title": "Тирск: норды или риклинги",
+          "en": "Retaking Thirsk / The Chief of Thirsk Hall",
+          "type": "missable",
+          "location": "Медовый зал Тирска, Солстейм",
+          "description": "Захватить медовый зал Тирска можно для нордов Буйольд или для риклингов.",
+          "missable": "Квесты «Освобождение Тирска» и «Вождь Тирска» взаимоисключающи: пройдя один, вы теряете другой.",
+          "related": [
+            "dragonborn_retaking_thirsk",
+            "dragonborn_the_chief_of_thirsk_hall"
+          ],
+          "map": "Thirsk Mead Hall",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "missables_ebony_blade",
+          "title": "Сила Эбонитового Клинка",
+          "en": "Ebony Blade",
+          "type": "missable",
+          "location": "Драконий Предел, Вайтран",
+          "description": "Эбонитовый Клинок Мефалы усиливается, когда вы убиваете им дружественных персонажей.",
+          "missable": "Чтобы раскрыть клинок полностью, нужно убить им десять друзей или спутников — они погибают навсегда.",
+          "related": [
+            "daedric_the_whispering_door"
+          ],
+          "map": "Dragonsreach"
+        },
+        {
+          "id": "missables_followers",
+          "title": "Гибель спутников и супругов",
+          "en": "Followers and spouses",
+          "type": "missable",
+          "location": "Весь Скайрим",
+          "description": "Обычные (не «бессмертные») спутники, хускарлы и супруги могут погибнуть в бою.",
+          "missable": "Погибший спутник не воскресает; вместе с ним пропадают его задания, торговля или доход от лавки супруга. Важных компаньонов лучше не водить в опасные бои без необходимости."
+        },
+        {
+          "id": "missables_storn",
+          "title": "Сторн Горный Странник",
+          "en": "Storn Crag-Strider",
+          "type": "missable",
+          "location": "Деревня Скаалов, Солстейм",
+          "description": "Шаман скаалов погибает по сюжету в «Садоводе людей».",
+          "missable": "После этого квеста Сторн больше недоступен — поговорите с ним заранее.",
+          "related": [
+            "dragonborn_the_gardener_of_men"
+          ],
+          "map": "Skaal Village",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "missables_septimus",
+          "title": "Септимий Сегоний",
+          "en": "Septimus Signus",
+          "type": "missable",
+          "location": "Пост Септимия Сегония",
+          "description": "Учёный безумец, ведущий квест «За гранью обыденного».",
+          "missable": "В конце квеста Хермеус Мора убивает Септимия — его пост и диалоги теряются навсегда.",
+          "related": [
+            "daedric_discerning_the_transmundane"
+          ],
+          "map": "Septimus Signus's Outpost"
+        }
+      ]
+    }
+  ]
+}

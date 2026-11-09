@@ -1,0 +1,712 @@
+{
+  "id": "skills",
+  "section": "skills",
+  "icon": "book",
+  "title": "Skills",
+  "description": "All 18 skills: trainers, the Guardian Stone that speeds them up, skill books, quest bonuses and the fastest ways to level. Trainers go up to 90 (max 5 lessons per level); the rest comes from practice. Flat bonuses — challenges, quest rewards, skill books sold by merchants — are worth more once a skill is high and levels slowly.",
+  "groups": [
+    {
+      "title": "Warrior",
+      "items": [
+        {
+          "id": "skills_one_handed",
+          "title": "One-handed",
+          "en": "Одноручное оружие",
+          "type": "skill",
+          "tags": [
+            "warrior"
+          ],
+          "description": "Damage with one-handed swords, war axes, maces and daggers. Perks add damage, bleeding, staggering and dual-wield power attacks.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Chief Burguk — Dushnikh Yal (you must be Blood-Kin)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Athis — Jorrvaskr, Whiterun (Companions only)"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Warrior Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"Fire and Darkness\" — Ratway Warrens (Riften), in Esbern's room"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "Find Amren's family sword (Whiterun) — +1 One-handed and Block; \"The Ghost of Old Hroldan\" — +1 One-handed and Block; \"The Path of Might\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all warrior skills"
+            }
+          ],
+          "tips": [
+            "XP depends on the weapon's base damage and the number of hits, not on perks, enchantments or sharpening — hit fast and often.",
+            "Power attacks give no extra XP per hit, so quick normal swings are better.",
+            "Handy training dummies: your own summons (e.g. from Conjure Flame Atronach) and horkers, which are slow and have lots of health.",
+            "Athis is a follower: after a lesson you can take your gold back from his inventory via the trade menu."
+          ]
+        },
+        {
+          "id": "skills_two_handed",
+          "title": "Two-handed",
+          "en": "Двуручное оружие",
+          "type": "skill",
+          "tags": [
+            "warrior"
+          ],
+          "description": "Damage with greatswords, battleaxes and warhammers. Perks boost damage, bleeding, staggering and sweeping power attacks.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Vilkas — Jorrvaskr, Whiterun (Companions only); also Fura Bloodmouth (Castle Volkihar, Dawnguard) and Wulf Wild-Blood (Skaal Village, Dragonborn)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Torbjorn Shatter-Shield — House of Clan Shatter-Shield, Windhelm"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Warrior Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"Song of Hrormir\" — Jorrvaskr Living Quarters (Whiterun)"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "\"A Few Words with You\" (Octieve San, Solitude) — +1 Two-handed; \"Rjorn's Drum\" (Giraud Gemane, Bards College) — +1 to all warrior skills; \"The Path of Might\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all warrior skills"
+            }
+          ],
+          "tips": [
+            "XP is based on base weapon damage: use the weapon with the best damage per second (battleaxes, later Daedric or Dragonbone).",
+            "Sharpening, perks and enchantments add no XP and even slow you down, since enemies die in fewer hits.",
+            "The Elemental Fury shout speeds up your swings, and with them your skill gains.",
+            "Vilkas is a follower: you can take the training gold back from his inventory."
+          ]
+        },
+        {
+          "id": "skills_archery",
+          "title": "Archery",
+          "en": "Стрельба",
+          "type": "skill",
+          "tags": [
+            "warrior"
+          ],
+          "description": "Damage with bows and crossbows (crossbows come with Dawnguard). Perks add zoom with slowed time, stagger, criticals and faster draw.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Niruin — The Ragged Flagon – Cistern, Riften (Thieves Guild only); also Sorine Jurard (Fort Dawnguard, Dawnguard)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Aela the Huntress — Jorrvaskr, Whiterun (Companions only)"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Thief Stone (+20%) — not the Warrior Stone, even though the skill sits in the Warrior tree"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"The Black Arrow, v2\" — The Drunken Huntsman (Whiterun), under the counter"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "Angi's archery challenges at Angi's Camp near Falkreath — +6 in total; \"Rjorn's Drum\" (Giraud Gemane, Bards College) — +1 to all warrior skills; \"The Path of Might\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all warrior skills"
+            }
+          ],
+          "tips": [
+            "Don't rush to Angi (Angi's Camp, in the mountains southeast of Falkreath): her challenges give a flat +6, and at high skill every point takes the longest to earn. Come when Archery is around 90 and finish it to 100 with the challenges, skill books and quest rewards.",
+            "XP depends on the bow's base damage and on hitting, not on full draw, arrows, perks or sharpening — frequent shots with a fast bow pay off.",
+            "Shoot durable targets that don't run away: your summons, horkers, giants from a safe distance.",
+            "Faendal (Riverwood) and Aela are followers: you can take the training gold back from their inventory."
+          ],
+          "missable": "If you are rude to Angi when you first meet her, she attacks — her challenges and the +6 Archery are lost."
+        },
+        {
+          "id": "skills_block",
+          "title": "Block",
+          "en": "Блокирование",
+          "type": "skill",
+          "tags": [
+            "warrior"
+          ],
+          "description": "Defending with a shield or weapon: less damage taken while blocking, shield bashes, deflecting arrows and spells, staggering counters.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Chief Larak — Mor Khazgur (you must be Blood-Kin)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Njada Stonearm — Jorrvaskr, Whiterun (Companions only)"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Warrior Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"Death Blow of Abernanit\" — Hall of the Dead catacombs, Whiterun"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "Amren's family sword and \"The Ghost of Old Hroldan\" — +1 each; Find Roggi Knot-Beard's ancestral shield (Kynesgrove) — +1; \"Rjorn's Drum\" (Giraud Gemane, Bards College) — +1 to all warrior skills; \"The Path of Might\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all warrior skills"
+            }
+          ],
+          "tips": [
+            "XP comes from damage blocked, so block hits from strong enemies — a shield gives twice as much XP as a weapon.",
+            "A shield bash gives five times the XP of a weapon bash, but costs a lot of stamina.",
+            "Train it together with armor: stand in front of a weak enemy and heal with Healing — Block, Restoration and armor all grow.",
+            "Against mages, the Spellbreaker shield lets you block spells."
+          ]
+        },
+        {
+          "id": "skills_heavy_armor",
+          "title": "Heavy Armor",
+          "en": "Тяжёлая броня",
+          "type": "skill",
+          "tags": [
+            "warrior"
+          ],
+          "description": "Effectiveness of iron, steel, Dwarven, ebony, Daedric and dragonplate armor. Perks remove weight, boost full-set protection and reflect damage.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Farkas — Jorrvaskr, Whiterun (Companions only); also Isran (Fort Dawnguard, Dawnguard) and Kuvar (Thirsk Mead Hall, Dragonborn)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Gharol — Dushnikh Yal (you must be Blood-Kin)"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Warrior Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"Hallgerd's Tale\" — Jorrvaskr (Whiterun), main hall"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "\"Rjorn's Drum\" (Giraud Gemane, Bards College) — +1 to all warrior skills; \"The Path of Might\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all warrior skills"
+            }
+          ],
+          "tips": [
+            "XP comes from the strength of incoming hits, not from your armor rating — good armor does not slow your progress.",
+            "Wear a full set: the more heavy pieces you wear, the more XP per hit. A mixed set only trains one armor skill.",
+            "Let a weak enemy (a mudcrab, say) hit you while you heal — Restoration and Block grow too.",
+            "Farkas is a follower: you can take the training gold back from his inventory."
+          ]
+        },
+        {
+          "id": "skills_smithing",
+          "title": "Smithing",
+          "en": "Кузнечное дело",
+          "type": "skill",
+          "tags": [
+            "warrior"
+          ],
+          "description": "Forging weapons and armor and improving them at grindstones and workbenches. Perks unlock new materials and double improvement bonuses.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Eorlund Gray-Mane — the Skyforge, Whiterun (Companions only); also Gunmar (Fort Dawnguard, Dawnguard)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Balimund — Riften, outside The Scorched Hammer"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Warrior Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"The Armorer's Challenge\" — the Skyforge (Whiterun), on the slab"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "Bring Ghorza gra-Bagol (Markarth) the book \"Last Scabbard of Akrash\" — +1; \"Rjorn's Drum\" (Giraud Gemane, Bards College) — +1 to all warrior skills; \"The Path of Might\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all warrior skills"
+            },
+            {
+              "label": "Good to know",
+              "value": "The quest \"Unfathomable Depths\" (Riften) grants Ancient Knowledge: without unofficial patches it acts as +15% when improving items and +25% armor rating"
+            }
+          ],
+          "tips": [
+            "The classic: iron daggers — one iron ingot and one leather strip each; later you can enchant and sell them for profit.",
+            "Leather bracers give the most XP per piece of leather — hides from hunting are free.",
+            "Improving at a grindstone or workbench also trains the skill (in proportion to the value added), but smelting and tanning do not.",
+            "Activate the Warrior Stone and sleep in a bed before a big crafting session — XP comes noticeably faster."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mage",
+      "items": [
+        {
+          "id": "skills_destruction",
+          "title": "Destruction",
+          "en": "Разрушение",
+          "type": "skill",
+          "tags": [
+            "mage"
+          ],
+          "description": "Offensive fire, frost and shock magic. Perks reduce spell cost, strengthen elements and add dual-cast impact.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Faralda — College of Winterhold (members only)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Sybille Stentor — the Blue Palace, Solitude"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Mage Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"Mystery of Talara, v3\" — Birna's Oddments (Winterhold), upstairs"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "\"Pantea's Flute\" (Pantea Ateia, Bards College) — +1 to all mage skills; \"The Path of Magic\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all mage skills"
+            }
+          ],
+          "tips": [
+            "XP depends on the spell's base cost, not its damage, and only counts when it hits a target that takes damage.",
+            "The only skill where difficulty cuts XP: on Legendary you get 75% less; it peaks at Adept and below.",
+            "Dual casting gives no extra XP — cast one-handed.",
+            "Runes (Fire Rune) give XP for every enemy they hit — place them in the path of a group."
+          ]
+        },
+        {
+          "id": "skills_restoration",
+          "title": "Restoration",
+          "en": "Восстановление",
+          "type": "skill",
+          "tags": [
+            "mage"
+          ],
+          "description": "Healing, wards against magic and anti-undead spells. Perks boost healing, add magicka regeneration and a last-chance heal.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Danica Pure-Spring — Temple of Kynareth, Whiterun (after \"The Blessings of Nature\"); also Florentius Baenius (Fort Dawnguard, Dawnguard)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Colette Marence — College of Winterhold (members only); Keeper Carcette — Hall of the Vigilant"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Mage Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"Withershins\" — Temple of Kynareth (Whiterun)"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "\"Pantea's Flute\" (Pantea Ateia, Bards College) — +1 to all mage skills; \"The Path of Magic\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all mage skills"
+            }
+          ],
+          "tips": [
+            "Healing only trains the skill when it restores health you actually lost: heal while a weak enemy (a mudcrab, a wolf) hits you.",
+            "Higher-level spells give more XP: switch from Healing to Fast Healing as soon as you can.",
+            "Lesser Ward raised in short bursts while fighting mages trains the skill quickly up to 65.",
+            "Heal a wounded follower with Heal Other during fights — they last longer and the skill grows."
+          ],
+          "missable": "With Dawnguard, vampires destroy the Hall of the Vigilant once you reach level 10 — expert trainer Keeper Carcette dies (Colette Marence remains)."
+        },
+        {
+          "id": "skills_alteration",
+          "title": "Alteration",
+          "en": "Изменение",
+          "type": "skill",
+          "tags": [
+            "mage"
+          ],
+          "description": "Magic that changes the world: magical armor, light, paralysis, detect life, ore transmutation. Perks add spell absorption and magic resistance.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Tolfdir — College of Winterhold (members only)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Dravynea the Stoneweaver — Kynesgrove"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Mage Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"Breathing Water\" — Kraldar's House (Winterhold), in a basket by the fireplace"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "\"Dravynea's Frost Salts\" (Kynesgrove) — +1; \"Pantea's Flute\" (Pantea Ateia, Bards College) — +1 to all mage skills; \"The Path of Magic\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all mage skills"
+            }
+          ],
+          "tips": [
+            "Cast Oakflesh, later Stoneflesh, at the start of every fight and keep renewing it — it only gives XP with enemies around.",
+            "Magelight can be cast anywhere while travelling: you get XP as long as the orb hits a surface.",
+            "Transmute Mineral Ore turns iron ore into silver and silver into gold — XP and money at once.",
+            "Higher-level spells give more XP; Fortify Alteration gear reduces their cost."
+          ]
+        },
+        {
+          "id": "skills_conjuration",
+          "title": "Conjuration",
+          "en": "Колдовство",
+          "type": "skill",
+          "tags": [
+            "mage"
+          ],
+          "description": "Summoning atronachs, daedra and bound weapons, raising the dead and soul trapping. Perks allow two summons and make them stronger.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Falion — Morthal, his house; also Talvas Fathryon (Tel Mithryn, Dragonborn)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Phinis Gestor — College of Winterhold (members only)"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Mage Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"The Doors of Oblivion\" — Fellglow Keep, on a podium"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "\"Pantea's Flute\" (Pantea Ateia, Bards College) — +1 to all mage skills; \"The Path of Magic\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all mage skills"
+            }
+          ],
+          "tips": [
+            "Fastest method: near an enemy (a mudcrab is ideal), cast Bound Sword and cancel right after the cast sound — repeat.",
+            "A summon gives XP if it meets an enemy before it expires: cast Conjure Flame Atronach before every fight.",
+            "Cast Soul Trap on every enemy — XP plus filled soul gems for Enchanting.",
+            "Banishing your own summons also gives XP."
+          ]
+        },
+        {
+          "id": "skills_illusion",
+          "title": "Illusion",
+          "en": "Иллюзия",
+          "type": "skill",
+          "tags": [
+            "mage"
+          ],
+          "description": "Mind magic: calm, fear, frenzy, courage, invisibility and silent steps. Perks let it work on stronger enemies.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Drevis Neloren — College of Winterhold (members only)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Atub — Largashbur (after \"The Cursed Tribe\")"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Mage Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"The Black Arts On Trial\" — The White Phial (Windhelm), under the counter"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "\"Kill the Vampire\" (Sybille Stentor, Solitude) — +1; \"Pantea's Flute\" (Pantea Ateia, Bards College) — +1 to all mage skills; \"The Path of Magic\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all mage skills"
+            }
+          ],
+          "tips": [
+            "Muffle can be cast on yourself again and again anywhere — it gives XP even without enemies.",
+            "Courage and Rally on townsfolk are not crimes: cast them in crowded places — every target hit gives XP.",
+            "In combat, use Calm and fear spells on enemies — higher-level spells give more XP."
+          ]
+        },
+        {
+          "id": "skills_enchanting",
+          "title": "Enchanting",
+          "en": "Зачарование",
+          "type": "skill",
+          "tags": [
+            "mage"
+          ],
+          "description": "Learning enchantments by disenchanting items, applying them to weapons and armor, and recharging weapons with soul gems. Perks strengthen enchantments and allow a second effect.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Hamal — Temple of Dibella, Markarth (after \"The Heart of Dibella\"); also Neloth (Tel Mithryn, Dragonborn)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Sergius Turrianus — College of Winterhold (members only)"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Mage Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"Enchanter's Primer\" — Carlotta Valentia's House (Whiterun)"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "\"Pantea's Flute\" (Pantea Ateia, Bards College) — +1 to all mage skills; \"The Path of Magic\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all mage skills"
+            }
+          ],
+          "tips": [
+            "Enchanting gives the same XP regardless of soul gem size or effect — use the cheapest petty soul gems.",
+            "Enchant cheap items — such as iron daggers you forged — and sell them: that also trains Speech.",
+            "Disenchant every item with a new enchantment: it unlocks the effect and gives solid XP (apparel usually more than weapons).",
+            "Fill gems with Soul Trap on small creatures; recharging weapons also gives a little XP."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thief",
+      "items": [
+        {
+          "id": "skills_light_armor",
+          "title": "Light Armor",
+          "en": "Лёгкая броня",
+          "type": "skill",
+          "tags": [
+            "thief"
+          ],
+          "description": "Effectiveness of hide, leather, Elven, glass and dragonscale armor. Perks remove weight, boost full-set protection and add a dodge chance.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Nazir — Dark Brotherhood Sanctuary (members only)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Grelka — Riften market by day, stays at Haelga's Bunkhouse at night"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Thief Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"The Refugees\" — Solitude Blacksmith, on an upstairs shelf"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "Find Shahvee's Amulet of Zenithar (Windhelm) — +1 Light Armor and Lockpicking; \"Finn's Lute\" (Inge Six Fingers, Bards College) — +1 to all thief skills; \"The Path of Shadow\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all thief skills"
+            }
+          ],
+          "tips": [
+            "XP comes from the strength of incoming hits, and the more light armor pieces you wear, the more you get — wear a full set.",
+            "A high armor rating does not slow progress: improve your armor freely.",
+            "Stand in front of a weak enemy and heal yourself — Restoration and Block grow at the same time.",
+            "Light armor builds take fewer hits, so the skill grows slower than Heavy Armor — top it up with trainers and books."
+          ]
+        },
+        {
+          "id": "skills_sneak",
+          "title": "Sneak",
+          "en": "Скрытность",
+          "type": "skill",
+          "tags": [
+            "thief"
+          ],
+          "description": "Staying unseen and landing sneak attacks with damage multipliers. Perks add silent steps, a silent roll and huge dagger sneak damage.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Delvin Mallory — The Ragged Flagon, Riften"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Garvey — Markarth, the Warrens"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Thief Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"The Red Kitchen Reader\" — New Gnisis Cornerclub (Windhelm), under the stairs"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "\"Finn's Lute\" (Inge Six Fingers, Bards College) — +1 to all thief skills; \"The Path of Shadow\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all thief skills"
+            }
+          ],
+          "tips": [
+            "Successful sneak attacks give the most XP — melee ones 12 times more than ranged; damage doesn't matter.",
+            "A well-known trick: sneak attack your own horse with an iron dagger and heal it with Heal Other.",
+            "Good dummies: a summoned Dremora Lord (appears facing away from you) and sleeping enemies.",
+            "Simply moving in sneak mode near NPCs slowly trains the skill too — especially near enemies and shopkeepers."
+          ]
+        },
+        {
+          "id": "skills_lockpicking",
+          "title": "Lockpicking",
+          "en": "Взлом",
+          "type": "skill",
+          "tags": [
+            "thief"
+          ],
+          "description": "Picking locks from Novice to Master. Perks widen the sweet spot, find more gold and grant unbreakable lockpicks.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Vex — The Ragged Flagon, Riften (Thieves Guild membership not required)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Ma'jhad — Ma'dran's Khajiit caravan (travels between Solitude and Windhelm)"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Thief Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"Advances in Lockpicking\" — The Ragged Flagon – Cistern, training room"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "Find Shahvee's Amulet of Zenithar (Windhelm) — +1 Lockpicking and Light Armor; \"Finn's Lute\" (Inge Six Fingers, Bards College) — +1 to all thief skills; \"The Path of Shadow\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all thief skills"
+            }
+          ],
+          "tips": [
+            "Pick every lock instead of looking for keys: harder locks give more XP.",
+            "Each lock gives XP only once — re-picking the chests in the Thieves Guild training room gives nothing.",
+            "A broken lockpick also gives a little XP, so stock up on lockpicks from merchants."
+          ]
+        },
+        {
+          "id": "skills_pickpocket",
+          "title": "Pickpocket",
+          "en": "Карманные кражи",
+          "type": "skill",
+          "tags": [
+            "thief"
+          ],
+          "description": "Stealing from pockets and planting items. Chance depends on the item's weight, XP on its value. Perks let you steal equipped gear.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Vipir the Fleet — Thieves Guild, The Ragged Flagon (members only)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Silda the Unseen — Windhelm, outside Candlehearth Hall or the blacksmith"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Thief Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"Beggar\" — Haelga's Bunkhouse (Riften), upstairs"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "\"Finn's Lute\" (Inge Six Fingers, Bards College) — +1 to all thief skills; \"The Path of Shadow\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all thief skills"
+            }
+          ],
+          "tips": [
+            "Steal light, valuable things — gems and jewelry: high success chance and lots of XP.",
+            "Reverse pickpocketing: plant gold or an item on an NPC and steal it back — XP at no real cost.",
+            "Pay a trainer for a lesson in any skill, then steal the gold back — free training plus Pickpocket XP.",
+            "The skill rises very fast and drives your character level up — don't overdo it at low levels."
+          ]
+        },
+        {
+          "id": "skills_speech",
+          "title": "Speech",
+          "en": "Красноречие",
+          "type": "skill",
+          "tags": [
+            "thief"
+          ],
+          "description": "Merchant prices plus persuasion, intimidation and bribe checks in dialogue. Perks let you sell anything to any merchant and invest in shops.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Giraud Gemane — Bards College, Solitude"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Ogmund the Skald — Markarth; also Ronthil (Castle Volkihar, Dawnguard)"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Thief Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"The Buying Game\" — Bards College (Solitude), classroom"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "Bring Ysolda (Whiterun) a mammoth tusk — +1; Jump off Bard's Leap Summit (the Reach) — the ghost Azzadal gives +2; \"The Path of Shadow\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all thief skills"
+            }
+          ],
+          "tips": [
+            "XP comes from the value of the item traded, not the price — sell expensive things.",
+            "Sell items one at a time: a stack of identical items gives XP as if it were one.",
+            "Sell everything you craft: forged gear, enchanted items, potions.",
+            "Use the Persuade, Intimidate and Bribe options in dialogue — successful checks also train the skill."
+          ]
+        },
+        {
+          "id": "skills_alchemy",
+          "title": "Alchemy",
+          "en": "Алхимия",
+          "type": "skill",
+          "tags": [
+            "thief"
+          ],
+          "description": "Brewing potions and poisons from ingredients at an alchemy lab. Perks make them stronger and reveal ingredient effects when eaten.",
+          "facts": [
+            {
+              "label": "Master trainer",
+              "value": "Babette — Dark Brotherhood Sanctuary (members only)"
+            },
+            {
+              "label": "Expert trainer",
+              "value": "Arcadia — Arcadia's Cauldron, Whiterun; also Milore Ienth (Raven Rock, Dragonborn)"
+            },
+            {
+              "label": "Guardian Stone",
+              "value": "The Thief Stone (+20% skill gain)"
+            },
+            {
+              "label": "Skill books",
+              "value": "5 books; e.g. \"Herbalist's Guide to Skyrim\" — Arcadia's Cauldron (Whiterun), back room"
+            },
+            {
+              "label": "Quest bonus",
+              "value": "Bring Lami (Morthal) the book \"Song of the Alchemists\" — +1; Find the Ring of Pure Mixtures for Frida (Dawnstar) — +1; \"Finn's Lute\" (Inge Six Fingers, Bards College) — +1 to all thief skills; \"The Path of Shadow\" in the Oghma Infinium (quest \"Discerning the Transmundane\") — +5 to all thief skills"
+            }
+          ],
+          "tips": [
+            "XP is proportional to the potion's value — brew the most expensive ones you can.",
+            "Blue Mountain Flower + Wheat make a potion with two health effects; adding Giant's Toe makes one of the most valuable potions in the game.",
+            "Buy every cheap ingredient from apothecaries and mix whatever combines — new combinations give XP even when they fail.",
+            "Sell potions one at a time — Speech grows too."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "id": "missables",
+  "title": "Missables",
+  "icon": "warning",
+  "description": "Items, quests and characters that are lost for good after certain decisions — check here before key choices.",
+  "groups": [
+    {
+      "title": "Main Quest and Civil War",
+      "items": [
+        {
+          "id": "missables_paarthurnax",
+          "title": "Paarthurnax",
+          "en": "Партурнакс",
+          "type": "missable",
+          "location": "Throat of the World",
+          "description": "After \"Dragonslayer\", the Blades demand that you kill Paarthurnax. Killing him can't be undone, and refusing ends your cooperation with the Blades.",
+          "missable": "Kill Paarthurnax and the dragon, his dialogue and his teachings are gone for good; the Greybeards turn their backs on you until you apologize. Spare him and Delphine and Esbern refuse to help (Blades recruiting, \"Dragon Research\" and the like) while he lives.",
+          "related": [
+            "main_paarthurnax",
+            "main_dragonslayer"
+          ],
+          "map": "Throat of the World"
+        },
+        {
+          "id": "missables_civil_war_side",
+          "title": "Civil War Faction",
+          "en": "Сторона в гражданской войне",
+          "type": "missable",
+          "location": "Solitude / Windhelm",
+          "description": "Once you join the Imperial Legion or the Stormcloaks, you can't switch sides.",
+          "missable": "The other side's questline (\"Joining the Stormcloaks\" / \"Joining the Legion\" and everything after) is closed for good once you take the oath.",
+          "related": [
+            "civil_war_choose_side",
+            "civil_war_joining_the_legion",
+            "civil_war_joining_the_stormcloaks"
+          ],
+          "map": "Solitude"
+        },
+        {
+          "id": "missables_season_unending",
+          "title": "Season Unending",
+          "en": "Бесконечная пора",
+          "type": "missable",
+          "location": "High Hrothgar",
+          "description": "Peace talks between the Legion and the Stormcloaks where the holds are divided up.",
+          "missable": "Finish the Civil War before this quest and the talks are skipped. Concessions made at the table (e.g. Markarth to the Stormcloaks) permanently change jarls and their quests.",
+          "related": [
+            "side_jarl_kill_forsworn_leader",
+            "side_jarl_dungeon_delving_hagravens",
+            "side_for_the_good_of_morthal",
+            "side_delivery_idgrod_the_younger",
+            "side_no_news_is_good_news",
+            "side_delivery_skald",
+            "side_bring_it",
+            "side_jarl_dungeon_delving_caves",
+            "side_kill_the_bandit_leader_brunwulf",
+            "side_some_light_theft_dengeir",
+            "main_season_unending"
+          ],
+          "map": "High Hrothgar"
+        },
+        {
+          "id": "missables_jarl_quests",
+          "title": "Deposed Jarls' Quests",
+          "en": "Задания смещённых ярлов",
+          "type": "missable",
+          "location": "Hold capitals",
+          "description": "A conquered hold gets a new jarl, and the old one leaves with family and housecarl for Solitude (Imperials) or Windhelm (Stormcloaks). Their quests vanish. The list below is based on UESP.",
+          "missable": "Siding with the Legion? Finish Aeri's delivery to Skald and the quests from Harrald, Korir and Brunwulf first. Siding with the Stormcloaks? Finish those from Igmund, Gorm, Idgrod the Younger, Dengeir and Angeline Morrard. Concessions at \"Season Unending\" change jarls the same way.",
+          "tips": [
+            "You lose your Thane title when the jarl changes, but the new jarl usually offers it again right away.",
+            "Guards in a conquered hold forget your bounty.",
+            "Elisif in Solitude is the only jarl who is never replaced."
+          ],
+          "related": [
+            "side_jarl_kill_forsworn_leader",
+            "side_jarl_dungeon_delving_hagravens",
+            "side_for_the_good_of_morthal",
+            "side_delivery_idgrod_the_younger",
+            "side_no_news_is_good_news",
+            "side_delivery_skald",
+            "side_bring_it",
+            "side_jarl_dungeon_delving_caves",
+            "side_kill_the_bandit_leader_brunwulf",
+            "side_some_light_theft_dengeir",
+            "civil_war_choose_side",
+            "main_season_unending"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Factions",
+      "items": [
+        {
+          "id": "missables_dark_brotherhood",
+          "title": "Destroy the Dark Brotherhood!",
+          "en": "Тёмное Братство",
+          "type": "missable",
+          "location": "Falkreath Hold",
+          "description": "In \"With Friends Like These...\" you can kill Astrid instead of the captives and turn the Brotherhood in to the guards.",
+          "missable": "Choose \"Destroy the Dark Brotherhood!\" and you lose the entire Brotherhood questline, Shadowmere and the Sanctuary rewards for good.",
+          "related": [
+            "dark_brotherhood_with_friends_like_these",
+            "dark_brotherhood_destroy"
+          ],
+          "map": "Falkreath"
+        },
+        {
+          "id": "missables_cicero",
+          "title": "Cicero",
+          "en": "Цицерон",
+          "type": "missable",
+          "location": "Dawnstar Sanctuary",
+          "description": "In \"The Cure for Madness\" you can kill Cicero or let him go.",
+          "missable": "Kill Cicero and you lose him as a follower forever. If you spare him, you can later find him in the Dawnstar Sanctuary and recruit him.",
+          "related": [
+            "dark_brotherhood_cure_for_madness"
+          ],
+          "map": "Dawnstar Sanctuary"
+        },
+        {
+          "id": "missables_skeleton_key",
+          "title": "Skeleton Key",
+          "en": "Скелетный Ключ",
+          "type": "missable",
+          "location": "Twilight Sepulcher",
+          "description": "Nocturnal's unbreakable lockpick, received in \"Darkness Returns\".",
+          "missable": "Once you return the key to the Ebonmere, it's gone for good. Until the quest is done, you can keep using it.",
+          "related": [
+            "thieves_darkness_returns",
+            "daedric_darkness_returns"
+          ],
+          "map": "Twilight Sepulcher"
+        },
+        {
+          "id": "missables_dawnguard_side",
+          "title": "Dawnguard Faction Choice",
+          "en": "Сторона в Dawnguard",
+          "type": "missable",
+          "location": "Castle Volkihar",
+          "description": "In \"Bloodline\", Lord Harkon offers to make you a Vampire Lord.",
+          "missable": "The choice is final: the other side's quests (Dawnguard or the Volkihar Vampire Clan) are closed for good.",
+          "related": [
+            "dawnguard_bloodline"
+          ],
+          "map": "Castle Volkihar"
+        },
+        {
+          "id": "missables_dawnguard_members",
+          "title": "Destroying the Dawnguard",
+          "en": "Члены Стражи Рассвета",
+          "type": "missable",
+          "location": "Fort Dawnguard",
+          "description": "After the vampire storyline, you're sent to destroy the Dawnguard.",
+          "missable": "Isran, Sorine Jurard, Gunmar and others die — the improved crossbows and bolts are gone from the shops forever.",
+          "map": "Fort Dawnguard"
+        }
+      ]
+    },
+    {
+      "title": "Daedric Choices",
+      "items": [
+        {
+          "id": "missables_azuras_star",
+          "title": "Azura's Star / The Black Star",
+          "en": "Звезда Азуры / Чёрная звезда",
+          "type": "missable",
+          "location": "Shrine of Azura / Winterhold",
+          "description": "In \"The Black Star\" you can give the star to Aranea or to Nelacar.",
+          "missable": "You can only get one of the two stars; the other is lost for good.",
+          "related": [
+            "daedric_the_black_star"
+          ],
+          "map": "Shrine of Azura"
+        },
+        {
+          "id": "missables_hircine",
+          "title": "Ring of Hircine / Savior's Hide",
+          "en": "Кольцо Хирсина / Шкура Спасителя",
+          "type": "missable",
+          "location": "Bloated Man's Grotto",
+          "description": "In \"Ill Met by Moonlight\" you decide the fate of the werewolf Sinding.",
+          "missable": "Kill Sinding to get the Savior's Hide; spare him to get the cleansed Ring of Hircine. The other artifact is lost.",
+          "related": [
+            "daedric_ill_met_by_moonlight"
+          ],
+          "map": "Bloated Man's Grotto"
+        },
+        {
+          "id": "missables_clavicus",
+          "title": "Masque of Clavicus Vile / The Rueful Axe",
+          "en": "Маска Клавикуса Вайла / Топор Скорби",
+          "type": "missable",
+          "location": "Haemar's Shame",
+          "description": "At the end of \"A Daedra's Best Friend\", Clavicus Vile offers a trade.",
+          "missable": "Kill Barbas to keep the Rueful Axe and lose the Masque; spare Barbas to get the Masque but lose the axe.",
+          "related": [
+            "daedric_a_daedras_best_friend"
+          ],
+          "map": "Haemar's Shame"
+        },
+        {
+          "id": "missables_mehrunes_razor",
+          "title": "Mehrunes' Razor",
+          "en": "Бритва Мерунеса",
+          "type": "missable",
+          "location": "Shrine of Mehrunes Dagon",
+          "description": "In \"Pieces of the Past\", Mehrunes Dagon demands that you kill Silus Vesuius.",
+          "missable": "Spare Silus and Mehrunes' Razor is lost for good.",
+          "related": [
+            "daedric_pieces_of_the_past"
+          ],
+          "map": "Shrine of Mehrunes Dagon"
+        },
+        {
+          "id": "missables_skull_of_corruption",
+          "title": "Skull of Corruption",
+          "en": "Череп Порчи",
+          "type": "missable",
+          "location": "Nightcaller Temple",
+          "description": "In \"Waking Nightmare\", Erandur performs a ritual to destroy the skull.",
+          "missable": "Let Erandur finish the ritual and the Skull of Corruption is destroyed forever. Kill Erandur and you lose him as a follower.",
+          "related": [
+            "daedric_waking_nightmare"
+          ],
+          "map": "Nightcaller Temple"
+        },
+        {
+          "id": "missables_boethiah_follower",
+          "title": "Boethiah's Calling",
+          "en": "Жертва Боэтии",
+          "type": "missable",
+          "location": "Sacellum of Boethiah",
+          "description": "To start \"Boethiah's Calling\", you must sacrifice a follower.",
+          "missable": "The sacrificed follower dies for good. Use a hired mercenary, not your spouse or a unique companion.",
+          "related": [
+            "daedric_boethiahs_calling"
+          ],
+          "map": "Sacellum of Boethiah"
+        },
+        {
+          "id": "missables_oghma_infinium",
+          "title": "Oghma Infinium",
+          "en": "Огма Инфиниум",
+          "type": "missable",
+          "location": "Tower of Mzark, Blackreach",
+          "description": "Hermaeus Mora's book raises the skills of the path you choose.",
+          "missable": "You can only read it once — then the book disappears. The path you pick (warrior, thief, mage) is final.",
+          "related": [
+            "daedric_discerning_the_transmundane"
+          ],
+          "map": "Tower of Mzark"
+        },
+        {
+          "id": "missables_namira_ring",
+          "title": "Ring of Namira",
+          "en": "Кольцо Намиры",
+          "type": "missable",
+          "location": "Markarth, Hall of the Dead",
+          "description": "In \"The Taste of Death\" you must hand Brother Verulus over to Namira's cannibals.",
+          "missable": "Refuse and kill the cultists, and the Ring of Namira can't be obtained.",
+          "related": [
+            "daedric_the_taste_of_death"
+          ],
+          "map": "Markarth"
+        }
+      ]
+    },
+    {
+      "title": "Side Quests and DLC",
+      "items": [
+        {
+          "id": "missables_aetherium_forge",
+          "title": "Aetherial Crown / Shield / Staff",
+          "en": "Этериевые предметы",
+          "type": "missable",
+          "location": "The Aetherium Forge, Ruins of Bthalft",
+          "description": "In the Dawnguard quest \"Lost to the Ages\", the forge lets you craft one item.",
+          "missable": "You can choose only one: the Aetherial Crown, Shield or Staff. The other two are lost for good.",
+          "related": [
+            "dawnguard_lost_to_the_ages"
+          ],
+          "map": "Ruins of Bthalft"
+        },
+        {
+          "id": "missables_cidhna_mine",
+          "title": "No One Escapes Cidhna Mine",
+          "en": "Доспех Старых богов / кольцо Серебряной Крови",
+          "type": "missable",
+          "location": "Markarth, Cidhna Mine",
+          "description": "In Cidhna Mine you decide Madanach's fate.",
+          "missable": "Escaping with Madanach gets you the Armor of the Old Gods; killing him gets you the Silver-Blood Family Ring. The other reward is lost.",
+          "related": [
+            "side_no_one_escapes_cidhna_mine",
+            "side_the_forsworn_conspiracy"
+          ],
+          "map": "Markarth"
+        },
+        {
+          "id": "missables_saadia",
+          "title": "In My Time of Need",
+          "en": "Садия или Кемату",
+          "type": "missable",
+          "location": "Whiterun, Swindler's Den",
+          "description": "In \"In My Time of Need\" you choose whom to help.",
+          "missable": "Hand Saadia over and she's gone from Whiterun for good; kill Kematu and you lose the Alik'r. The choice is final.",
+          "related": [
+            "side_in_my_time_of_need"
+          ],
+          "map": "Swindler's Den"
+        },
+        {
+          "id": "missables_blood_on_the_ice_wuunferth",
+          "title": "Blood on the Ice",
+          "en": "Вунферт Неживой",
+          "type": "missable",
+          "location": "Windhelm",
+          "description": "In \"Blood on the Ice\", suspicion falls on the court wizard Wuunferth.",
+          "missable": "Wrongly accuse Wuunferth and he's jailed while the killings go on. Better to wait and ambush the real killer.",
+          "related": [
+            "side_blood_on_the_ice"
+          ],
+          "map": "Windhelm"
+        },
+        {
+          "id": "missables_frost",
+          "title": "Frost",
+          "en": "Конь Мороз",
+          "type": "missable",
+          "location": "Black-Briar Lodge, near Riften",
+          "description": "In \"Promises to Keep\" you can give Frost to Louis Letrush or keep him.",
+          "missable": "Hand the horse over to Louis and you lose Frost — one of the toughest horses in the game.",
+          "related": [
+            "side_promises_to_keep"
+          ],
+          "map": "Black-Briar Lodge"
+        },
+        {
+          "id": "missables_thirsk",
+          "title": "Retaking Thirsk / The Chief of Thirsk Hall",
+          "en": "Тирск: норды или риклинги",
+          "type": "missable",
+          "location": "Thirsk Mead Hall, Solstheim",
+          "description": "You can retake Thirsk Mead Hall for Bujold's Nords or for the Rieklings.",
+          "missable": "\"Retaking Thirsk\" and \"The Chief of Thirsk Hall\" are mutually exclusive: finish one and you lose the other.",
+          "related": [
+            "dragonborn_retaking_thirsk",
+            "dragonborn_the_chief_of_thirsk_hall"
+          ],
+          "map": "Thirsk Mead Hall",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "missables_ebony_blade",
+          "title": "Ebony Blade",
+          "en": "Сила Эбонитового Клинка",
+          "type": "missable",
+          "location": "Dragonsreach, Whiterun",
+          "description": "Mephala's Ebony Blade grows stronger when you use it to kill friendly characters.",
+          "missable": "To fully power the blade you must kill ten friends or followers with it — they die for good.",
+          "related": [
+            "daedric_the_whispering_door"
+          ],
+          "map": "Dragonsreach"
+        },
+        {
+          "id": "missables_followers",
+          "title": "Followers and Spouses",
+          "en": "Гибель спутников и супругов",
+          "type": "missable",
+          "location": "All of Skyrim",
+          "description": "Regular (non-essential) followers, housecarls and spouses can die in combat.",
+          "missable": "A dead follower never comes back; their quests, trading or your spouse's shop income go with them. Keep important companions out of dangerous fights when you can."
+        },
+        {
+          "id": "missables_storn",
+          "title": "Storn Crag-Strider",
+          "en": "Сторн Горный Странник",
+          "type": "missable",
+          "location": "Skaal Village, Solstheim",
+          "description": "The Skaal shaman dies as part of the story in \"The Gardener of Men\".",
+          "missable": "After this quest Storn is gone — talk to him beforehand.",
+          "related": [
+            "dragonborn_the_gardener_of_men"
+          ],
+          "map": "Skaal Village",
+          "mapWorld": "solstheim"
+        },
+        {
+          "id": "missables_septimus",
+          "title": "Septimus Signus",
+          "en": "Септимий Сегоний",
+          "type": "missable",
+          "location": "Septimus Signus's Outpost",
+          "description": "The mad scholar who gives you \"Discerning the Transmundane\".",
+          "missable": "At the end of the quest Hermaeus Mora kills Septimus — his outpost and dialogue are lost for good.",
+          "related": [
+            "daedric_discerning_the_transmundane"
+          ],
+          "map": "Septimus Signus's Outpost"
+        }
+      ]
+    }
+  ]
+}

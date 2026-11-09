@@ -1,0 +1,305 @@
+{
+  "id": "companions",
+  "title": "The Companions",
+  "icon": "wolf",
+  "description": "An ancient brotherhood of warriors from Jorrvaskr in Whiterun, and its secret: the curse of lycanthropy.",
+  "groups": [
+    {
+      "title": "Main Questline",
+      "items": [
+        {
+          "id": "companions_introduction",
+          "title": "Speak with the Leader of the Companions",
+          "en": "Поговорить с предводителем Соратников",
+          "type": "quest",
+          "location": "Jorrvaskr, Whiterun",
+          "giver": "Aela the Huntress, Farkas",
+          "description": "Go to Jorrvaskr and ask Kodlak Whitemane to join the Companions.",
+          "tips": [
+            "The quest often starts on its own if you see Aela and Farkas fighting a giant at a farm near Whiterun."
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "companions_take_up_arms",
+          "title": "Take Up Arms",
+          "en": "К оружию",
+          "type": "quest",
+          "location": "Jorrvaskr, Whiterun",
+          "giver": "Kodlak Whitemane",
+          "description": "Prove yourself sparring with Vilkas, then take his sword to Eorlund Gray-Mane at the Skyforge. After that you're a Companions recruit.",
+          "tips": [
+            "Don't use magic or kill Vilkas in the sparring match, or you'll get a bounty."
+          ],
+          "map": "Whiterun"
+        },
+        {
+          "id": "companions_proving_honor",
+          "title": "Proving Honor",
+          "en": "Испытание доблести",
+          "type": "quest",
+          "location": "Dustman's Cairn",
+          "giver": "Skjor",
+          "description": "Retrieve a fragment of Wuuthrad from Dustman's Cairn with Farkas. There you learn the Circle's secret: the Companions are werewolves.",
+          "tips": [
+            "Do a couple of small Companions jobs first, or Skjor won't give you this quest."
+          ],
+          "map": "Dustman's Cairn"
+        },
+        {
+          "id": "companions_the_silver_hand",
+          "title": "The Silver Hand",
+          "en": "Серебряная рука",
+          "type": "quest",
+          "location": "The Underforge, Gallows Rock",
+          "giver": "Skjor",
+          "description": "Undergo the ritual in the Underforge, become a werewolf and strike the Silver Hand werewolf hunters together with Aela.",
+          "tips": [
+            "Lycanthropy cures vampirism and makes you immune to disease.",
+            "While you're a werewolf, sleeping doesn't give the Rested bonus."
+          ],
+          "map": "Gallows Rock"
+        },
+        {
+          "id": "companions_bloods_honor",
+          "title": "Blood's Honor",
+          "en": "Кровь и честь",
+          "type": "quest",
+          "location": "Glenmoril Coven",
+          "giver": "Kodlak Whitemane",
+          "description": "Kodlak wants to be free of the beast blood. Kill the Glenmoril witches and bring back their heads.",
+          "tips": [
+            "Keep the spare Glenmoril Witch Heads — you need them for the cure in \"Purity\"."
+          ],
+          "map": "Glenmoril Coven"
+        },
+        {
+          "id": "companions_purity_of_revenge",
+          "title": "Purity of Revenge",
+          "en": "Очистительная месть",
+          "type": "quest",
+          "location": "Driftshade Refuge",
+          "giver": "Vilkas",
+          "description": "The Silver Hand attacks Jorrvaskr and kills Kodlak. Take revenge at Driftshade Refuge with Vilkas.",
+          "missable": "Kodlak dies as part of the story — his tasks and dialogue are gone.",
+          "map": "Driftshade Refuge"
+        },
+        {
+          "id": "companions_glory_of_the_dead",
+          "title": "Glory of the Dead",
+          "en": "Последний долг",
+          "type": "quest",
+          "location": "Ysgramor's Tomb",
+          "giver": "Vilkas",
+          "description": "Take the restored Wuuthrad and a witch head to Ysgramor's Tomb, cleanse Kodlak's soul and become Harbinger of the Companions.",
+          "tips": [
+            "You keep Wuuthrad — it's especially effective against elves.",
+            "The Shield of Ysgramor lies by his throne.",
+            "You can also cure yourself later: bring another witch head to Ysgramor's Tomb — but finish a companion's \"Purity\" first if you've started it."
+          ],
+          "choices": [
+            {
+              "id": "companions_lycanthropy_cure",
+              "question": "Cure your own lycanthropy?",
+              "options": [
+                {
+                  "id": "cure",
+                  "label": "Get cured",
+                  "result": "Burn a spare Glenmoril Witch Head in the Flame of the Harbinger — now or later. You lose Beast Form and get the Rested bonus back; Aela will no longer offer \"Totems of Hircine\".",
+                  "locks": [
+                    "companions_totems_of_hircine"
+                  ]
+                },
+                {
+                  "id": "stay_werewolf",
+                  "label": "Stay a werewolf",
+                  "result": "You keep Beast Form and disease immunity, and can collect the Totems of Hircine."
+                }
+              ]
+            }
+          ],
+          "missable": "Once cured, you lose Beast Form; in the base game you can't get lycanthropy back from the Companions.",
+          "map": "Ysgramor's Tomb"
+        }
+      ]
+    },
+    {
+      "title": "Recruit Jobs",
+      "items": [
+        {
+          "type": "quest",
+          "id": "companions_animal_extermination",
+          "title": "Animal Extermination",
+          "en": "Борьба с вредителями",
+          "location": "Jorrvaskr, Whiterun",
+          "giver": "Aela the Huntress",
+          "description": "Kill the predators bothering the locals — wolves, bears or sabre cats at the marked location.",
+          "repeatable": true,
+          "map": "Whiterun"
+        },
+        {
+          "type": "quest",
+          "id": "companions_hired_muscle",
+          "title": "Hired Muscle",
+          "en": "Громила по вызову",
+          "location": "Jorrvaskr, Whiterun",
+          "giver": "Farkas",
+          "description": "\"Persuade\" someone who's upset a client: beat them in a fistfight without drawing a weapon.",
+          "tips": [
+            "Don't use weapons or magic, or you'll get a bounty and fail the job."
+          ],
+          "repeatable": true,
+          "map": "Whiterun"
+        },
+        {
+          "type": "quest",
+          "id": "companions_trouble_in_skyrim",
+          "title": "Trouble in Skyrim",
+          "en": "В Скайриме неспокойно",
+          "location": "Jorrvaskr, Whiterun",
+          "giver": "Farkas",
+          "description": "Clear out a lair that's troubling a settlement and kill its leader.",
+          "repeatable": true,
+          "map": "Whiterun"
+        },
+        {
+          "type": "quest",
+          "id": "companions_family_heirloom",
+          "title": "Family Heirloom",
+          "en": "Фамильные ценности",
+          "location": "Jorrvaskr, Whiterun",
+          "giver": "Skjor or Vilkas",
+          "description": "Recover a family heirloom that was carried off into a dungeon.",
+          "repeatable": true,
+          "map": "Whiterun"
+        },
+        {
+          "type": "quest",
+          "id": "companions_escaped_criminal",
+          "title": "Escaped Criminal",
+          "en": "Беглый преступник",
+          "location": "Jorrvaskr, Whiterun",
+          "giver": "Skjor or Vilkas",
+          "description": "Track down and kill an escaped prisoner.",
+          "repeatable": true,
+          "map": "Whiterun"
+        },
+        {
+          "type": "quest",
+          "id": "companions_rescue_mission",
+          "title": "Rescue Mission",
+          "en": "Спасение похищенных",
+          "location": "Jorrvaskr, Whiterun",
+          "giver": "Skjor or Vilkas",
+          "description": "Free a captive from an enemy lair and escort them back to their hometown.",
+          "repeatable": true,
+          "map": "Whiterun"
+        }
+      ]
+    },
+    {
+      "title": "Hunting the Silver Hand",
+      "items": [
+        {
+          "type": "quest",
+          "id": "companions_striking_the_heart",
+          "title": "Striking the Heart",
+          "en": "Удар в сердце",
+          "location": "Jorrvaskr, Whiterun",
+          "giver": "Aela the Huntress",
+          "description": "Find a Silver Hand hideout and kill its leader.",
+          "missable": "Only available between \"The Silver Hand\" and \"Blood's Honor\": once \"Blood's Honor\" starts, these quests are gone for good. You can do at most two of the three per playthrough.",
+          "repeatable": true,
+          "map": "Whiterun"
+        },
+        {
+          "type": "quest",
+          "id": "companions_stealing_plans",
+          "title": "Stealing Plans",
+          "en": "Вражеские планы",
+          "location": "Jorrvaskr, Whiterun",
+          "giver": "Aela the Huntress",
+          "description": "Sneak into a Silver Hand camp and steal their battle plans.",
+          "missable": "Only available between \"The Silver Hand\" and \"Blood's Honor\": once \"Blood's Honor\" starts, these quests are gone for good. You can do at most two of the three per playthrough.",
+          "repeatable": true,
+          "map": "Whiterun"
+        },
+        {
+          "type": "quest",
+          "id": "companions_retrieval",
+          "title": "Retrieval",
+          "en": "Реликвия",
+          "location": "Jorrvaskr, Whiterun",
+          "giver": "Aela the Huntress",
+          "description": "Take a fragment of Wuuthrad back from the Silver Hand.",
+          "missable": "Only available between \"The Silver Hand\" and \"Blood's Honor\": once \"Blood's Honor\" starts, these quests are gone for good. You can do at most two of the three per playthrough.",
+          "repeatable": true,
+          "map": "Whiterun"
+        }
+      ]
+    },
+    {
+      "title": "After \"Glory of the Dead\"",
+      "items": [
+        {
+          "id": "companions_purity",
+          "title": "Purity (Vilkas)",
+          "en": "Очищение (Вилкас)",
+          "type": "quest",
+          "location": "Ysgramor's Tomb",
+          "giver": "Vilkas",
+          "description": "Like Kodlak, Vilkas wants to be rid of the beast blood. Bring a Glenmoril Witch Head to Ysgramor's Tomb, burn it in the Flame and defeat his wolf spirit.",
+          "tips": [
+            "The quest appears if you ask Vilkas for work after \"Glory of the Dead\".",
+            "If you're out of heads, go to Glenmoril Coven — there are five witches."
+          ],
+          "map": "Ysgramor's Tomb"
+        },
+        {
+          "type": "quest",
+          "id": "companions_purity_farkas",
+          "title": "Purity (Farkas)",
+          "en": "Очищение (Фаркас)",
+          "location": "Ysgramor's Tomb",
+          "giver": "Farkas",
+          "description": "Same for Farkas: a Glenmoril Witch Head, the Flame of the Harbinger and a fight with his wolf spirit.",
+          "tips": [
+            "\"Purity\" can only be done twice — once for each brother. Aela stays a werewolf."
+          ],
+          "map": "Ysgramor's Tomb"
+        },
+        {
+          "type": "quest",
+          "id": "companions_dragon_seekers",
+          "title": "Dragon Seekers",
+          "en": "На поиски дракона",
+          "location": "Jorrvaskr, Whiterun",
+          "giver": "Farkas or Vilkas",
+          "description": "Find a dragon lair and slay the dragon.",
+          "tips": [
+            "Requires \"Glory of the Dead\" and \"Dragon Rising\" to be complete."
+          ],
+          "related": [
+            "main_dragon_rising"
+          ],
+          "repeatable": true,
+          "map": "Whiterun"
+        },
+        {
+          "id": "companions_totems_of_hircine",
+          "title": "Totems of Hircine",
+          "en": "Тотемы Хирсина",
+          "type": "quest",
+          "location": "The Underforge",
+          "giver": "Aela the Huntress",
+          "description": "Find the three Totems of Hircine and place them in the Underforge — each unlocks a new Beast Form howl (Totem of the Hunt, Totem of Brotherhood, Totem of Fear).",
+          "tips": [
+            "You can switch the active howl at the totem receptacle in the Underforge.",
+            "The quest is given three times — once per totem."
+          ],
+          "missable": "Werewolves only: once you're cured, Aela won't offer this quest."
+        }
+      ]
+    }
+  ]
+}
